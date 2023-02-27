@@ -80,8 +80,10 @@ export const storageKeys = {
   TNC_UNIPIN: 'tncUnipin',
 };
 // methods for storing and retrieving objects
-export const set = (key, value) =>
-  AsyncStorage.setItem(key, JSON.stringify(value));
+export const set = async (key, value) => {
+  const jsonValue = JSON.stringify(value);
+  await AsyncStorage.setItem(key, jsonValue);
+};
 
 export const get = async key => {
   const jsonValue = await AsyncStorage.getItem(key);
