@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyUpgradeFullBank page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ED1D25",
+        "paddingBottom": 30,
+      }
+    }
+  >
+    <Image
+      source="white-simobi.png"
+      style={
+        Object {
+          "height": 30,
+          "marginLeft": 10,
+          "padding": 20,
+          "paddingVertical": 20,
+          "resizeMode": "contain",
+          "width": 150,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginLeft": 30,
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+            "width": 500,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            }
+          }
+        >
+          Senang mendengarnya jika Anda tertarik
+        </Text>
+      </View>
+      <Image
+        source="white-checked-success.png"
+        style={
+          Object {
+            "height": 40,
+            "marginLeft": 30,
+            "marginTop": 15,
+            "width": 40,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginLeft": 30,
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+            "width": 500,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          Kami senang membantu Anda sampai rekening dapat digunakan
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "paddingHorizontal": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "borderColor": "#ccc",
+            "borderRadius": 50,
+            "height": 15,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "height": 160,
+            "width": 2,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "borderColor": "#ccc",
+            "borderRadius": 50,
+            "height": 15,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+              "paddingHorizontal": 40,
+            }
+          }
+        >
+          <Image
+            source="banksinarmas2x.png"
+            style={
+              Object {
+                "height": 35,
+                "resizeMode": "contain",
+                "width": 100,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              }
+            }
+          >
+            Pergi ke cabang bank sinarmas terdekat atau bertemu customer service / perwakilan kami
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+              "paddingHorizontal": 40,
+            }
+          }
+        >
+          <Image
+            source="user.png"
+            style={
+              Object {
+                "height": 40,
+                "width": 40,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              }
+            }
+          >
+            Minta bantuan customer service/perwakilan kami
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 10,
+        "marginTop": 30,
+        "paddingHorizontal": 68.18181818181819,
+        "paddingVertical": 10,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "textAlign": "center",
+              "width": 250,
+            }
+          }
+        >
+          OK
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

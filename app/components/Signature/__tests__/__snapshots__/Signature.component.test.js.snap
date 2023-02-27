@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Tanda tangan Anda dibawah
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+      }
+    }
+  >
+    <RSSignatureView
+      onChange={[Function]}
+      onDragEvent={[Function]}
+      onSaveEvent={[Function]}
+      saveImageFileInExtStorage={false}
+      showBorder={true}
+      showNativeButtons={false}
+      showTitleLabel={false}
+      style={
+        Object {
+          "height": 667,
+          "width": 600,
+        }
+      }
+      viewMode="portrait"
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#ECECEC",
+          "borderBottomWidth": 1,
+          "marginBottom": 10,
+          "paddingTop": 5,
+          "width": 600,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "color": "#FA3F70",
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#FA3F70",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              },
+            ]
+          }
+          textDecorationLine="underline"
+        >
+          Bersihkan
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 90,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF8E8E",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            LANJUTKAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

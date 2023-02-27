@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile: LoginPreference page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        undefined,
+      ]
+    }
+  >
+    Atur pilihan cara Anda untuk masuk ke SimobiPlus
+  </Text>
+  <View
+    style={
+      Object {
+        "borderTopColor": "#ECECEC",
+        "borderTopWidth": 1,
+        "marginTop": 20,
+        "paddingBottom": 20,
+      }
+    }
+  />
+</View>
+`;

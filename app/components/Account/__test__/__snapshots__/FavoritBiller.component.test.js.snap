@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountMenu component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {},
+    ]
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideOnBack={true}
+    onBackButtonPress={[Function]}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      hideOnBack={true}
+      onBackButtonPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+          "margin": 0,
+          "padding": 0,
+        }
+      }
+      transparent={true}
+    >
+      <View
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        extraHeight={120}
+        keyboardShouldPersistTaps="handled"
+        scrollEnabled={false}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(37, 8, 10, 0.78)",
+                "flex": 1,
+                "justifyContent": "center",
+                "padding": 20,
+              },
+              Object {},
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 20,
+                  "padding": 20,
+                },
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 20,
+                  "padding": 20,
+                },
+              ]
+            }
+          >
+            <RCTScrollView
+              bounces={false}
+              keyboardShouldPersistTaps="handled"
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "width": 670,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      accessible={true}
+                      clickable={true}
+                      isTVSelectable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "flex-start",
+                          "marginVertical": 10,
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000",
+                              "fontSize": 16,
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Bank Akun Baru
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "borderBottomColor": "#ECECEC",
+                          "borderBottomWidth": 1,
+                        }
+                      }
+                    />
+                    <View
+                      accessible={true}
+                      clickable={true}
+                      isTVSelectable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "flex-start",
+                          "marginVertical": 10,
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000",
+                              "fontSize": 16,
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Biller Baru
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <View
+    style={
+      Object {
+        "borderColor": "#949494",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginTop": 15,
+        "paddingHorizontal": 10,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      maxLength={20}
+      onChangeText={[Function]}
+      placeholder="Nomor / Nama / Alias"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "flex": 1,
+          "fontSize": 16,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 20,
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-end",
+        "flexDirection": "row",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 15,
+          },
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "#FA3F70",
+            },
+          ],
+          Object {
+            "fontFamily": "simas",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontWeight": "700",
+          },
+          Object {
+            "alignSelf": "flex-end",
+            "color": "#FA3F70",
+            "marginVertical": 15,
+          },
+        ]
+      }
+    >
+       
+      FAVORIT BARU
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginTop": 30,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</KeyboardAwareScrollView>
+`;

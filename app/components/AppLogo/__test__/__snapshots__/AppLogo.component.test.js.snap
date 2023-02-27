@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountInfoItem component renders correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <Image
+    source="simobiplus.png"
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 51,
+        "width": 136,
+      }
+    }
+  />
+</View>
+`;

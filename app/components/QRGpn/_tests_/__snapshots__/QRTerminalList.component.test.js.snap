@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRTerminalList component QRTerminalList: renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={Object {}}
+/>
+`;

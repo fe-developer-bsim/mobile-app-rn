@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TxTravelDetailList page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ED1D25",
+          "height": 5,
+          "width": 450,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 5,
+          "width": 300,
+        }
+      }
+    />
+  </View>
+  <KeyboardAwareScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomColor": "#ccc",
+            "borderBottomWidth": 0.5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 28,
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          Passenger detail
+        </Text>
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "textAlign": "left",
+              }
+            }
+          >
+            Your Passport must be valid at least 6 months from your departure date, it is required for international travel or transit aboard
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#ECECEC",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+        <View>
+          <View
+            style={
+              Object {
+                "borderTopColor": "#ECECEC",
+                "borderTopWidth": 1,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "height": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomColor": "#ccc",
+            "borderBottomWidth": 0.5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 28,
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          Contact detail
+        </Text>
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "textAlign": "left",
+              }
+            }
+          >
+            We will send booking confirmation, refund, or reschedule purpose
+          </Text>
+        </View>
+        <View>
+          <View
+            onPress={[Function]}
+            style={
+              Object {
+                "marginVertical": 10,
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Contact info
+                </Text>
+                <View>
+                  <View
+                    accessible={true}
+                    clickable={true}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#ED1D25",
+                          "fontSize": 18,
+                        }
+                      }
+                    >
+                      EDIT
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "borderTopColor": "#ECECEC",
+                "borderTopWidth": 1,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#ECECEC",
+              "borderTopWidth": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 80,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF8E8E",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            CONTINUE
+          </Text>
+        </View>
+      </View>
+    </View>
+  </KeyboardAwareScrollView>
+</View>
+`;

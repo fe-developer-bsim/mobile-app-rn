@@ -1,0 +1,106 @@
+{
+  "url": "http://10.32.1.77:8080/EFormCentral/rest/formdata/action/getRegistrationDataGeneric-simobi",
+  "requestBody": {
+    "ipassport": "SMP-3347851487734803235",
+    "ktpId": "1371035311960004", 
+    "email": "test@test.com",
+    "mobileNumber": "081888889999", 
+    "formid": "PGO-SIMOBI-002", 
+    "cifCode": "220223", 
+    "code": "PGO"
+  },
+  "response": {
+      "responseMessage": null,
+      "responseCode": "00",
+      "eventCode": "4~4",
+      "data": {
+        "statusGetData": "01"
+      },
+      "nextPage": {
+        "pageData": 
+        {
+          "code": "4~5",
+          "header": "GENERIC__FORM2_TITLE",
+          "fields": [
+            {
+              "code": "4~5~2",
+              "component": "SinarmasIconInput",
+              "label": "GENERIC__FORM_COUNTRY",
+              "placeholder": "GENERIC__FORM_COUNTRY",
+              "value": "Indonesia",
+              "disabled": true
+            },
+            {
+              "code": "4~5~3",
+              "component": "SinarmasPicker",
+              "placeholder": "GENERIC__FORM_PROVINCE",
+              "itemList": "provinceList",
+              "labelKey": "name",
+              "typeField": "province",
+              "onValChange": "getCityList",
+              "dependentOn": "4~5~4",
+              "dependentOnFunction": "setClear"
+            },
+            {
+              "code": "4~5~4",
+              "component": "SinarmasPicker",
+              "labelKey": "name",
+              "placeholder": "GENERIC__FORM_CITY",
+              "typeField": "city",
+              "itemList": "cityList",
+              "onValChange": "getDistrictList"
+            },
+            {
+              "code": "4~5~5",
+              "component": "SinarmasPicker",
+              "labelKey": "name",
+              "placeholder": "GENERIC__FORM_DISTRICT",
+              "typeField": "district",
+              "itemList": "districtList",
+              "onValChange": "getSubDistrictList"
+            },
+            {
+              "code": "4~5~6",
+              "component": "SinarmasPicker",
+              "labelKey": "name",
+              "placeholder": "GENERIC__FORM_SUBDISTRICT",
+              "typeField": "subdistrict",
+              "itemList": "subDistrictList"
+            },
+            {
+              "code": "4~5~7",
+              "component": "SinarmasIconInput",
+              "label": "GENERIC__FORM_POSTAL_CODE",
+              "placeholder": "GENERIC__FORM_POSTAL_CODE",
+              "typeField": "postal",
+              "maxLength": 5,
+              "keyboardType": "numeric",
+              "dependentOn": "4~5~6",
+              "dependentOnKeyword": "zipCode",
+              "dependentOnFunction": "set"
+            },
+            {
+              "code": "4~5~8",
+              "component": "SinarmasIconInput",
+              "label": "GENERIC__FORM_RT",
+              "placeholder": "GENERIC__FORM_RT",
+              "maxLength": 7,
+              "keyboardType": "numeric"
+            },
+            {
+              "code": "4~5~9",
+              "component": "SinarmasIconInput",
+              "label": "GENERIC__FORM_STREET_ADDRESS",
+              "placeholder": "GENERIC__FORM_STREET_ADDRESS",
+              "typeField": "streetAddress",
+              "maxLength": 80,
+              "format": "formatFieldNote",
+              "normalize": "formatFieldNote"
+            }
+          ]
+        },
+        "responseMessage": "success get nextForm",
+        "responseCode": "0,0"
+      }
+    }
+}

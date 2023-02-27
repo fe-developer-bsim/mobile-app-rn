@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payloan component renders correctly 1`] = `
+<View
+  extraHeight={120}
+  style={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 5,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ED1D25",
+              "borderRadius": 50,
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "height": 135,
+              "width": 2,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "borderRadius": 50,
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingHorizontal": 30,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 40,
+              },
+              Object {
+                "color": "#000000",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "paddingBottom": 30,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 24,
+                  "paddingBottom": 10,
+                }
+              }
+            >
+              Permintaan kasbon berhasil dikirimkan
+            </Text>
+          </View>
+        </View>
+        <View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 40,
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 24,
+                  "paddingBottom": 10,
+                }
+              }
+            >
+              Cek email Anda
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Kami telah mengirimkan link konfirmasi ke
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              email 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Klik link konfirmasi untuk menerima kasbon
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 30,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          TUTUP
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

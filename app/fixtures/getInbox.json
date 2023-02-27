@@ -1,0 +1,32 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/get-inbox",
+
+    "requestBody": {
+        "username": "6289639130355",
+        "loginPassword": "12345678",
+        "pushToken": "123456",
+        "E2EE_RANDOM": "12345678",
+        "clientCheck": "WEB_BROWSER",
+        "sessionCode": "123456"
+      },
+    "response": {
+      "messages": [ 
+          {
+              "inbox_id" : "avde1c792cd",
+              "rt" : "146078676",
+              "send_date" : "1459758676",
+              "order" : "59138176",
+              "title" : "New Rich Media in inbox!",
+              "text" : "Hi! New feature is available right now!",
+              "action_type" : "RichMedia",
+              "action_params": {"rm" : "{ \"url\" : \"https:\/\/richmedia.pushwoosh.com\/C82F7-51FC1.zip\" , \"ts\" : \"1459758676\" , \"tags\" : { \"tagName\" : \"tagValue\" } }"},
+              "status" : 1, 
+              "hash":"1C" 
+          }
+      ],
+      "next":"afarew511",
+      "deleted": ["bbaf85ab", "a41957b"],
+      "new_inbox": 6
+  }
+  }
+  

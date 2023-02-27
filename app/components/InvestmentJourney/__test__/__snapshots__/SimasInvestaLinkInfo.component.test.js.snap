@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDataBeneficiaryPAForm: form page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "elevation": 4,
+      "padding": 5,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 2.5,
+        "width": 2,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "width": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        Alokasi Premi
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "width": 150,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        Nilai Polis
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#ED1D25",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingVertical": 5,
+          }
+        }
+      >
+        *
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        
+         
+        0
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        MTI
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "width": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        Periode MTI
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "width": 150,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        Invalid date - 06 Feb 23
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        Tanggal MTI
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        Invalid date
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 10,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        Status
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingRight": 10,
+            "paddingVertical": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,15 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-saved-billpayment",
+  "method": "POST",
+  "requestBody": {
+    "lang":"en",
+		"ipassport":"SMP-1234354565476",
+		"billerId": 1,
+		"subscriberNo":"7654321"
+  },
+  "response": {
+    "customerName":"Nasabah Penuh Semangat",
+		"responseCode":"00",
+		"responseMessage":"delete saved billpayment success"
+  }
+}

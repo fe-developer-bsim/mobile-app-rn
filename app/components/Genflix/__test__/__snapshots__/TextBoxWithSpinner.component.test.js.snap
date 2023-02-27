@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Box with Spinner (when onBlur) component renders correctly 1`] = `
+<View>
+  <View>
+    <View>
+      <View>
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "fontSize": 14,
+              "left": 0,
+              "position": "absolute",
+              "top": 35,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        onResponderRelease={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="auto"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomColor": "rgba(0, 0, 0, 0.38)",
+              "borderBottomWidth": 0.5,
+              "height": 64,
+              "paddingBottom": 8,
+              "paddingTop": 32,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "position": "absolute",
+                "top": 36,
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Object {
+                  "color": "rgba(0, 0, 0, 0.38)",
+                  "fontSize": 16,
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              anyTouched={false}
+              array={
+                Object {
+                  "insert": [Function],
+                  "move": [Function],
+                  "pop": [Function],
+                  "push": [Function],
+                  "remove": [Function],
+                  "removeAll": [Function],
+                  "shift": [Function],
+                  "splice": [Function],
+                  "swap": [Function],
+                  "unshift": [Function],
+                }
+              }
+              asyncValidate={[Function]}
+              autoCapitalize="none"
+              autofill={[Function]}
+              blur={[Function]}
+              change={[Function]}
+              clearAsyncError={[Function]}
+              clearSubmit={[Function]}
+              clearSubmitErrors={[Function]}
+              destroy={[Function]}
+              disableFullscreenUI={true}
+              editable={true}
+              handleSubmit={[Function]}
+              initialize={[Function]}
+              initialized={false}
+              invalid={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onChangeText={[Function]}
+              onContentSizeChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              pure={true}
+              rejectResponderTermination={true}
+              reset={[Function]}
+              selectionColor="#D72F33"
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                    "margin": 0,
+                    "padding": 0,
+                    "top": 2,
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, .87)",
+                    "fontSize": 16,
+                    "height": 24,
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+              submit={[Function]}
+              submitSucceeded={false}
+              touch={[Function]}
+              underlineColorAndroid="transparent"
+              untouch={[Function]}
+              valid={true}
+              value=""
+              whenBlur={[Function]}
+              whenFocus={[Function]}
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(213, 0, 0)",
+                    "fontSize": 0,
+                    "opacity": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "rgba(0, 0, 0, .38)",
+                    "fontSize": 12,
+                    "opacity": 1,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

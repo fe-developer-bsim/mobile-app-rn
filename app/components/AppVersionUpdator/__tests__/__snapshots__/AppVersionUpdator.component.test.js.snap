@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppVersionUpdator component AppVersionUpdator: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "padding": 20,
+      "paddingTop": 40,
+    }
+  }
+>
+  <Image
+    source="app-update-en.jpg"
+    style={
+      Object {
+        "height": 1334,
+        "left": 0,
+        "position": "absolute",
+        "resizeMode": "contain",
+        "top": 0,
+        "width": 750,
+        "zIndex": -1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Perbarui
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

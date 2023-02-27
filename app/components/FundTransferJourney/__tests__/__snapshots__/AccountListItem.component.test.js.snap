@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountListItem component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingVertical": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "500",
+      }
+    }
+  >
+    12
+  </Text>
+  <Text />
+</View>
+`;

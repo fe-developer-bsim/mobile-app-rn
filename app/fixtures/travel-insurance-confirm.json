@@ -1,0 +1,69 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/travel-insurance-confirm",
+  "requestBody": {
+      "ipassport": "SMP-3347851489053247995",
+      "lang": "EN",
+      "cifCode": "1200073",
+      "CustName": "TUMU VERTIRWA",
+      "product": "simasnetTravel",
+      "destType": "Overseas",
+      "planType": "Family",
+      "InseptionDate": "13/12/2017",
+      "InseptionDateTo": "19/12/2017",
+      "travelData": {
+        "Insured": [
+          {
+            "CustName": "TUMU VERTIRWA",
+            "DateOfBirth": "12/29/1983",
+            "Gender": "L",
+            "Status": "Insured",
+            "IsInsuredFlag": "1",
+            "PhoneNo": "089639130351",
+            "HandPhone": "089639130351",
+            "Email": "rikixxx@banksinarmas.com",
+            "CustAddress": "jakarta",
+            "City": "jakarta",
+            "ZipCode": "16690",
+            "InsuredIdNo": "KTP:3173062912830012"
+          },
+          {
+            "Gender": "L",
+            "Status": "Child",
+            "PhoneNo": "089639130351",
+            "HandPhone": "089639130351",
+            "Email": "rikixxx@banksinarmas.com",
+            "CustAddress": "jakarta",
+            "City": "jakarta",
+            "ZipCode": "16690",
+            "IsInsuredFlag": "0",
+            "CustName": "budi",
+            "DateOfBirth": "12/02/2017",
+            "InsuredIdNo": "KTP:123213123123"
+          }
+        ],
+        "Beneficiary": [
+          {
+            "BeneficiaryRelationship": "Adik",
+            "BeneficiaryPercentage": 100,
+            "BeneficiaryName": "ronaldo"
+          }
+        ],
+        "Package": "BS_SLVR1_F",
+        "TripReason": "wisata",
+        "Amount": "",
+        "OriginatingCity": "Jakarta",
+        "FurthestCity": "Malang",
+        "Note": "jalan jalan men"
+      }
+  },
+  "response": {
+    "travelData": {
+        "SourceID": "20161105BSM",
+        "Duration": "6",
+        "NoRef": "IB-513155623924",
+        "InseptionDate": "12/13/2017"
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

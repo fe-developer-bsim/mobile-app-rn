@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TapGenerateCode component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 1334,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 20,
+                },
+                Object {
+                  "color": "#000000",
+                  "paddingTop": 30,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "marginTop": 130,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "height": 280,
+                    "width": 280,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <RCTWebView
+                    automaticallyAdjustContentInsets={false}
+                    contentInset={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    messagingEnabled={false}
+                    onLoadingError={[Function]}
+                    onLoadingFinish={[Function]}
+                    onLoadingStart={[Function]}
+                    onMessage={[Function]}
+                    onShouldStartLoadWithRequest={[Function]}
+                    scalesPageToFit={false}
+                    scrollEnabled={false}
+                    source={
+                      Object {
+                        "html": "<style>*{margin:0;padding:0;}canvas{transform:translateZ(0);}</style><canvas></canvas><script>var canvas = document.querySelector('canvas');(function renderCanvas(canvas) {
+  var ctx = canvas.getContext('2d');
+  var size = this.size;
+  var fgColor = this.fgColor;
+  var bgColor = this.bgColor;
+  canvas.width = size;
+  canvas.height = size;
+  canvas.style.left = (window.innerWidth - size) / 2 + 'px';
+  if (window.innerHeight > size) canvas.style.top = (window.innerHeight - size) / 2 + 'px';
+  ctx.fillRect(0, 0, size, size);
+  var cells = this.cells;
+  var cellWidth = this.size / cells.length;
+  var cellHeight = this.size / cells.length;
+  var nRoundedWidth = Math.round(cellWidth);
+  var nRoundedHeight = Math.round(cellHeight);
+  cells.forEach(function (row, rowIndex) {
+    row.forEach(function (column, columnIndex) {
+      var nLeft = columnIndex * cellWidth;
+      var nTop = rowIndex * cellHeight;
+      ctx.fillStyle = ctx.strokeStyle = column ? bgColor : fgColor;
+      ctx.lineWidth = 1;
+      ctx.fillRect(nLeft, nTop, cellWidth, cellHeight);
+      ctx.strokeRect(Math.floor(nLeft) + 0.5, Math.floor(nTop) + 0.5, nRoundedWidth, nRoundedHeight);
+      ctx.strokeRect(Math.ceil(nLeft) - 0.5, Math.ceil(nTop) - 0.5, nRoundedWidth, nRoundedHeight);
+    });
+  });
+}).call({\\"size\\":280,\\"value\\":\\"\\",\\"bgColor\\":\\"#000\\",\\"fgColor\\":\\"#fff\\",\\"cells\\":[[true,true,true,true,true,true,true,false,true,true,true,false,false,false,true,true,true,true,true,true,true],[true,false,false,false,false,false,true,false,true,false,false,false,true,false,true,false,false,false,false,false,true],[true,false,true,true,true,false,true,false,false,false,false,true,true,false,true,false,true,true,true,false,true],[true,false,true,true,true,false,true,false,true,false,false,true,true,false,true,false,true,true,true,false,true],[true,false,true,true,true,false,true,false,true,false,true,true,false,false,true,false,true,true,true,false,true],[true,false,false,false,false,false,true,false,true,true,false,true,false,false,true,false,false,false,false,false,true],[true,true,true,true,true,true,true,false,true,false,true,false,true,false,true,true,true,true,true,true,true],[false,false,false,false,false,false,false,false,false,true,false,true,true,false,false,false,false,false,false,false,false],[false,false,false,true,false,false,true,false,false,false,false,false,true,false,false,true,true,true,false,true,true],[false,false,true,true,false,true,false,true,true,false,false,true,false,false,false,true,false,true,false,true,false],[false,true,false,true,true,true,true,true,true,true,true,false,false,true,false,true,true,true,true,false,false],[false,false,false,true,true,true,false,true,true,true,false,false,true,false,false,true,true,false,false,true,false],[true,true,false,true,true,true,true,false,false,false,false,true,true,true,true,true,false,true,true,true,false],[false,false,false,false,false,false,false,false,true,true,false,true,true,false,true,false,true,false,true,false,false],[true,true,true,true,true,true,true,false,false,false,false,true,false,true,false,false,true,true,false,false,false],[true,false,false,false,false,false,true,false,false,true,true,true,false,true,true,false,false,false,true,true,false],[true,false,true,true,true,false,true,false,false,false,true,true,true,false,true,false,false,false,true,true,true],[true,false,true,true,true,false,true,false,true,true,true,true,false,false,false,true,false,false,false,true,true],[true,false,true,true,true,false,true,false,false,false,false,true,true,true,false,true,false,true,true,false,true],[true,false,false,false,false,false,true,false,false,true,true,true,true,false,true,true,false,true,false,false,false],[true,true,true,true,true,true,true,false,false,true,false,false,false,false,false,true,false,false,true,true,false]]}, canvas);</script>",
+                      }
+                    }
+                    style={
+                      Array [
+                        Object {
+                          "flex": 1,
+                        },
+                        Object {
+                          "backgroundColor": "#ffffff",
+                        },
+                        Object {
+                          "height": 280,
+                          "width": 280,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

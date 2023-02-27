@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SinarmasAlert component renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideOnBack={true}
+  onBackButtonPress={[Function]}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideOnBack={true}
+    onBackButtonPress={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    transparent={true}
+  >
+    <View
+      contentContainerStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+      extraHeight={120}
+      keyboardShouldPersistTaps="handled"
+      scrollEnabled={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(37, 8, 10, 0.78)",
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 20,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 20,
+                "padding": 20,
+              },
+              Object {},
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 20,
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          <View>
+            <View>
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 20,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "marginHorizontal": 5,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#FA3F70",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

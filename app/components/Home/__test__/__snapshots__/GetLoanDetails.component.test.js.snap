@@ -1,0 +1,560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetLoanDetails component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "marginBottom": 10,
+          "marginTop": 10,
+        }
+      }
+    >
+      Rincian Pinjaman
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+            ],
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginRight": 20,
+            }
+          }
+        >
+          Cicilan per bulan
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        Rp 
+        --
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+            ],
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginRight": 20,
+            }
+          }
+        >
+          Tanggal bayar berikutnya
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        18 Aug 1989
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+            ],
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginRight": 20,
+            }
+          }
+        >
+          Rekening pembayaran
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        Tunggakan
+      </Text>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+              ],
+              Object {
+                "flex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "300",
+                "marginRight": 20,
+              }
+            }
+          >
+            Tunggakan pokok
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+              "textAlign": "right",
+            }
+          }
+        >
+          Rp 
+          --
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+              ],
+              Object {
+                "flex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "300",
+                "marginRight": 20,
+              }
+            }
+          >
+            Bunga Tunggakan
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+              "textAlign": "right",
+            }
+          }
+        >
+          Rp 
+          --
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+              ],
+              Object {
+                "flex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "300",
+                "marginRight": 20,
+              }
+            }
+          >
+            Tanggal Tunggakan
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+              "textAlign": "right",
+            }
+          }
+        >
+          18 Aug 1989
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                },
+                Object {
+                  "justifyContent": "flex-start",
+                },
+              ],
+              Object {
+                "flex": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "300",
+                "marginRight": 20,
+              }
+            }
+          >
+            Kode transaksi
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+              "textAlign": "right",
+            }
+          }
+        >
+          0 hari
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderTopWidth": 1,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "marginBottom": 10,
+          "marginTop": 10,
+        }
+      }
+    >
+      Detail lain
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+            ],
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginRight": 20,
+            }
+          }
+        >
+          Tanggal pencairan
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        18 Aug 1989
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+                "paddingBottom": 10,
+              },
+              Object {
+                "justifyContent": "flex-start",
+              },
+            ],
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginRight": 20,
+            }
+          }
+        >
+          Status
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        Lancar
+      </Text>
+    </View>
+  </View>
+</View>
+`;

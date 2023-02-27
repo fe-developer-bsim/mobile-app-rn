@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NTB Onboarding: form page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingHorizontal": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Bagus! 
+Tinggal sedikit lagi
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 40,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+          }
+        }
+      >
+        Bantu kami untuk memverifikasi Anda,
+Mohon transfer dengan jumlah
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#ED1D25",
+            "fontSize": 18,
+          }
+        }
+      >
+        IDR 300,000
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 40,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+          }
+        }
+      >
+        Ke Sinarmas Virtual Account
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#ED1D25",
+            "fontSize": 18,
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+          }
+        }
+      >
+        (Kode bank 153)
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 40,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#ED1D25",
+            "fontSize": 18,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 40,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text>
+        Lakukan transfer segera
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 68.18181818181819,
+          "paddingTop": 25,
+          "position": "relative",
+          "width": 750,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "borderColor": "#ED1D25",
+                "borderRadius": 50,
+                "borderWidth": 2,
+                "marginBottom": 15,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+              }
+            }
+          >
+            BAGAIMANA UNTUK TRANSFER
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "marginTop": 5,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+              }
+            }
+          >
+            SAYA TELAH MELAKUKAN PEMBAYARAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

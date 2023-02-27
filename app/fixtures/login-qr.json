@@ -1,0 +1,9 @@
+{
+  "url": "https://sandbox.dimo.co.id/login/auth/connect?userkey=af4a3f866e66337cc07d7ac9e79cb1af0fc35b95&pin=0000",
+  "method": "GET",
+  "response": {
+    "result": "success",
+    "currency": "IDR",
+    "LastAddedUserKey": "af4a3f866e66337cc07d7ac9e79cb1af0fc35b95"
+  }
+}

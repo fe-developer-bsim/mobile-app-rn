@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRInvoiceData component renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 600.3,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "marginTop": -40,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 24,
+              "fontWeight": "500",
+              "paddingVertical": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          You got
+        </Text>
+        <Image
+          source="coupon.png"
+          style={
+            Object {
+              "height": 200,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "center",
+              "left": 0,
+              "paddingTop": 30,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 14,
+                "lineHeight": 20,
+                "marginBottom": -10,
+                "paddingLeft": 110,
+                "paddingRight": 30,
+                "textAlign": "center",
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 400.2,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingTop": 20,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "",
+            }
+          }
+          style={
+            Object {
+              "height": 110,
+              "resizeMode": "contain",
+              "width": 110,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 18,
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 200.1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "marginVertical": 10,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SELESAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

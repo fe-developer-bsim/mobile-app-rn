@@ -1,0 +1,249 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpayment-transaction",
+  "requestBody": {
+    "ipassport": "SMP-2137351488457327083",
+    "lang": "en",
+    "idbillPay": 40,
+    "billerType": "1",
+    "accountFrom": "46456",
+    "subscriberNoInput": "330333333333",
+    "billAmount": "75360",
+    "easyPin": "123456"
+  },
+  "response": {
+    "responseMessage": "No Error",
+    "transRefNum": "BPM-2120546-1491120849854",
+    "responseCode": "00",
+    "result": {
+      "displayString": "04                                                                                                                                                        ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "BPM-2120546-1491120849854",
+      "displayList": [{
+        "key": "PEMBELIAN PLN PRABAYAR"
+      }, {
+        "value": "10077764594",
+        "key": "NO METER"
+      }, {
+        "value": "Mar\"X@X;XXX’X?/*XX^XX",
+        "key": "NAME"
+      }, {
+        "value": "B1  /000001300 VA",
+        "key": "TARIF/DAYA"
+      }, {
+        "value": "0012345WASD1234567A",
+        "key": "NO. REF"
+      }, {
+        "value": "RP 100.000",
+        "key": "RP BAYAR"
+      }, {
+        "value": "RP 0,00",
+        "key": "METERAI"
+      }, {
+        "value": "RP 0,00",
+        "key": "PPN"
+      }, {
+        "value": "RP 2.344,00",
+        "key": "PPJ"
+      }, {
+        "value": "RP 0,00",
+        "key": "ANGSURAN"
+      }, {
+        "value": "RP 97.656,00",
+        "key": "RP STROOM/TOKEN"
+      },{
+        "value": "60,5",
+        "key": "JML KWH"
+      },{
+        "value": "5568 2215 5824 9207 4072",
+        "key": "STROOM/TOKEN"
+      },{
+        "value": "RP. 3.000",
+        "key": "ADMIN BANK"
+      },{
+        "key": ""
+      },{
+        "key": "Informasi Hubungi Call Center 123"
+      },{
+        "key": "Atau Hub. PLN Terdekat : 123"
+      }],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "",
+        "displayString": "04                                                                                                                                                        ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [{
+          "key": "PEMBELIAN PLN PRABAYAR"
+        }, {
+          "value": "10077764594",
+          "key": "NO METER"
+        }, {
+          "value": "Mar\"X@X;XXX’X?/*XX^XX",
+          "key": "NAME"
+        }, {
+          "value": "B1  /000001300 VA",
+          "key": "TARIF/DAYA"
+        }, {
+          "value": "0012345WASD1234567A",
+          "key": "NO. REF"
+        }, {
+          "value": "RP 100.000",
+          "key": "RP BAYAR"
+        }, {
+          "value": "RP 0,00",
+          "key": "METERAI"
+        }, {
+          "value": "RP 0,00",
+          "key": "PPN"
+        }, {
+          "value": "RP 2.344,00",
+          "key": "PPJ"
+        }, {
+          "value": "RP 0,00",
+          "key": "ANGSURAN"
+        }, {
+          "value": "RP 97.656,00",
+          "key": "RP STROOM/TOKEN"
+        },{
+          "value": "60,5",
+          "key": "JML KWH"
+        },{
+          "value": "5568 2215 5824 9207 4072",
+          "key": "STROOM/TOKEN"
+        },{
+          "value": "RP. 3.000",
+          "key": "ADMIN BANK"
+        },{
+          "key": ""
+        },{
+          "key": "Informasi Hubungi Call Center 123"
+        },{
+          "key": "Atau Hub. PLN Terdekat : 123"
+        }],
+        "reserved_private_1": "06PEMBELIAN PLN PRABAYAR                NO METER   : 10077764594              NAME       : Mar\"i@a;GaS'i?/*re^la    TARIF/DAYA : B1  /000001300 VA                                                                                    3014221520077764594        0                   02042017151425         Mar\"i@a;GaS'i?/*re^la00000000000000000000300001531400000000017FD7            520077764594                    0000024663",
+        "amount_transaction": "2300000",
+        "billing_info": "04                                                                                                                                                        "
+      },
+      "errorCode": "No Error",
+      "billing_info": "04                                                                                                                                                        "
+    },
+    "transferStatus": "success",
+    "billPaymentMap": {
+      "displayString": "04                                                                                                                                                        ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "BPM-2120546-1491120849854",
+      "displayList": [{
+        "key": "PEMBELIAN PLN PRABAYAR"
+      }, {
+        "value": "10077764594",
+        "key": "NO METER"
+      }, {
+        "value": "Mar\"X@X;XXX’X?/*XX^XX",
+        "key": "NAME"
+      }, {
+        "value": "B1  /000001300 VA",
+        "key": "TARIF/DAYA"
+      }, {
+        "value": "0012345WASD1234567A",
+        "key": "NO. REF"
+      }, {
+        "value": "RP 100.000",
+        "key": "RP BAYAR"
+      }, {
+        "value": "RP 0,00",
+        "key": "METERAI"
+      }, {
+        "value": "RP 0,00",
+        "key": "PPN"
+      }, {
+        "value": "RP 2.344,00",
+        "key": "PPJ"
+      }, {
+        "value": "RP 0,00",
+        "key": "ANGSURAN"
+      }, {
+        "value": "RP 97.656,00",
+        "key": "RP STROOM/TOKEN"
+      },{
+        "value": "60,5",
+        "key": "JML KWH"
+      },{
+        "value": "5568 2215 5824 9207 4072",
+        "key": "STROOM/TOKEN"
+      },{
+        "value": "RP. 3.000",
+        "key": "ADMIN BANK"
+      },{
+        "key": ""
+      },{
+        "key": "Informasi Hubungi Call Center 123"
+      },{
+        "key": "Atau Hub. PLN Terdekat : 123"
+      }],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "",
+        "displayString": "04                                                                                                                                                        ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [{
+          "key": "PEMBELIAN PLN PRABAYAR"
+        }, {
+          "value": "10077764594",
+          "key": "NO METER"
+        }, {
+          "value": "Mar\"X@X;XXX’X?/*XX^XX",
+          "key": "NAME"
+        }, {
+          "value": "B1  /000001300 VA",
+          "key": "TARIF/DAYA"
+        }, {
+          "value": "0012345WASD1234567A",
+          "key": "NO. REF"
+        }, {
+          "value": "RP 100.000",
+          "key": "RP BAYAR"
+        }, {
+          "value": "RP 0,00",
+          "key": "METERAI"
+        }, {
+          "value": "RP 0,00",
+          "key": "PPN"
+        }, {
+          "value": "RP 2.344,00",
+          "key": "PPJ"
+        }, {
+          "value": "RP 0,00",
+          "key": "ANGSURAN"
+        }, {
+          "value": "RP 97.656,00",
+          "key": "RP STROOM/TOKEN"
+        },{
+          "value": "60,5",
+          "key": "JML KWH"
+        },{
+          "value": "5568 2215 5824 9207 4072",
+          "key": "STROOM/TOKEN"
+        },{
+          "value": "RP. 3.000",
+          "key": "ADMIN BANK"
+        },{
+          "key": ""
+        },{
+          "key": "Informasi Hubungi Call Center 123"
+        },{
+          "key": "Atau Hub. PLN Terdekat : 123"
+        }],
+        "reserved_private_1": "06PEMBELIAN PLN PRABAYAR                NO METER   : 10077764594              NAME       : Mar\"i@a;GaS'i?/*re^la    TARIF/DAYA : B1  /000001300 VA                                                                                    3014221520077764594        0                   02042017151425         Mar\"i@a;GaS'i?/*re^la00000000000000000000300001531400000000017FD7            520077764594                    0000024663",
+        "amount_transaction": "2300000",
+        "billing_info": "04                                                                                                                                                        "
+      },
+      "errorCode": "No Error",
+      "billing_info": "04                                                                                                                                                        "
+    },
+    "billPaymentMode": "plnPrepaid",
+    "transactionDate": 1491120868469
+  }
+}

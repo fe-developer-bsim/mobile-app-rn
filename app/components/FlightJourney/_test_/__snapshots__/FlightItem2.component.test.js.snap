@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightItem2 component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "maxWidth": 750,
+      }
+    }
+  >
+    <View>
+      <View />
+    </View>
+  </View>
+</View>
+`;

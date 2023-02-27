@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackgroundCard page renders correctly 1`] = `
+<View>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flex": 1,
+        "height": null,
+        "resizeMode": "cover",
+        "width": null,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": null,
+            "width": null,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+</View>
+`;

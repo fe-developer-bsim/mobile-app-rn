@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountMenu component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {},
+    ]
+  }
+  extraHeight={120}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": 1334,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 24,
+                  },
+                ],
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "Roboto",
+                },
+              ]
+            }
+          >
+            Pengaturan Akun
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 20,
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 40,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#ADF9FF",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "position": "absolute",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "fontWeight": "700",
+                      },
+                      Object {
+                        "fontSize": 16,
+                      },
+                    ],
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto",
+                    },
+                  ]
+                }
+              >
+                Pilihan bahasa
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "300",
+                    },
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto",
+                    },
+                  ]
+                }
+              >
+                Pengaturan bahasa
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

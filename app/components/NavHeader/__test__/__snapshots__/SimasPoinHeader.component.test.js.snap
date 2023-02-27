@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Component: SimasPoinHeader renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#9E9E9E",
+          "fontFamily": "Roboto",
+          "fontSize": 12,
+        }
+      }
+    >
+      Loading
+       
+    </Text>
+    <View
+      style={
+        Object {
+          "paddingTop": 2,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="small"
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,13 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/checkingMobileNumber-creditCard",
+  "requestBody": {
+    "mobileNumber": "082175668542",
+    "email": "wa@a.com",
+    "captchaInput": "n66r8",
+    "captchaId": "260.4962965220436"
+  },
+  "response": {
+    "responseMessage": "Mobile Number not registered in IB",
+    "responseCode": "00"
+  }
+}

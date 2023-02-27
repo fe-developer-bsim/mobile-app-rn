@@ -1,0 +1,23 @@
+{
+  "url": "http://192.168.1.165:8080/IBORCL/rest/v3/action/Tokopedia/requestVoucherCode",
+  "requestBody": {
+		"TXID":"93a03324-10f8-4a04-ae63-bbf7288154f5",
+		"ipassport":"SMP-21204871549419197484",
+		"lang":"en",
+		"E2EE_RANDOM":"123456",
+		"tokenServer":"01016f54ce802fe330f9553fdb8c2b7fc731d32b5e68ed7c5d1b6a029b035a6c",
+		"tokenClient":"a67a9e24400180fcac2520ddc5bb5c1918334bf010954dfb5fc602ec4588ad63",
+		"accountId":"0000130955",
+		"merchantCode":"002",
+		"transactionType":"0",
+		"maxAmount":"001",
+		"amount":"001",
+		"transRefNum":"MB-201901221548142067558067",
+		"easyPin":"111111"
+	},
+  "response": {
+		"voucherCodeOriginal": "0000130955002001",
+		"responseMessage": "success",
+		"voucherCode": "EBVL1M5OOGJBQ2Z9"
+  }
+}

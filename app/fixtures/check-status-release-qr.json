@@ -1,0 +1,22 @@
+{
+  "url": "http://localhost:8080/IBORCL/rest/v3/action/check-status-release-qr",
+  "requestBody": {
+    "ipassport": "SMP-10907701491565133028",
+    "lang": "EN",
+    "oldPassword": "12345678c",
+    "newPassword": "12345678b",
+    "confirmNewPassword": "12345678b",
+    "E2EE_RANDOM": "123456"
+  },
+  "response": {
+    "checkReleaseQRStatusMap": {
+        "validQRStatus": false,
+        "validOTPStatus": false,
+        "isEligible": true,
+        "userID" : 101,
+        "randomCode" : ""
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

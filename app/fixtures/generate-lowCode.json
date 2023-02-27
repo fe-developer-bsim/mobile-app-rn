@@ -1,0 +1,14 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/logout",
+  "requestBody": {
+    "ipassport": "SMP-3347851491041311642"
+  },
+  "response": {
+    "responseMessage": "Logout success",
+    "responseCode": "00",
+     "timeGenerate":"31-01-2019 11:17:02",
+     "timeExpired":"31-01-2019 11:22:02",
+     "lowCode":"8811374727438468",
+     "message":"success"
+  }
+}

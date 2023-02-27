@@ -1,0 +1,207 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpayment-transaction",
+  "requestBody": {
+    "ipassport": "SMP-3347851487932526384",
+    "lang": "en",
+    "idbillPay": 13,
+    "billerType": "6",
+    "accountFrom": "10322",
+    "subscriberNoInput": "628568278229",
+    "amount": "50000"
+  },
+  "response": {
+    "responseMessage": "No Error",
+    "transRefNum": "BPM-334785-1487932532107",
+    "resultPage": [
+      "<div class='m_content-title-resultbillpay'>Successful Purchase</div>",
+      "<br>",
+      "<div class='m_content-caption'>Transaction date</div>|<div class='m_content-field'>24 Feb 2017</div>",
+      "<div class='m_content-caption'>Transaction time</div>|<div class='m_content-field'>17:35:32</div>",
+      "<div class='m_content-caption'>Purchase Category</div>|<div class='m_content-field'>Indosat Ooredoo</div>",
+      "<div class='m_content-caption'>Merchant</div>|<div class='m_content-field'>Indosat Ooredoo Prepaid</div>",
+      "<div class='m_content-caption-accnumber'>Account Number</div>|<div class='m_content-field-accnumber'>0002838796</div>",
+      "<div class='m_content-caption'>Transaction Reference Number</div>|<div class='m_content-field'>BPM-334785-1487932532107</div>",
+      "<div class='m_content-caption'>Phone Number</div>|<div class='m_content-field'>628568278229</div>",
+      "<div class='m_content-caption-totalamount'>Amount</div>|<div class='m_content-field-totalamount'>IDR</div> <div class='m_content-field-totalamount'>50.000</div>",
+      "<hr>",
+      "PURCHASE|Indosat Ooredoo Prepaid",
+      "MOBILE NO|628568278229",
+      "DENOM|RP. 50.000",
+      "VOUCHER REF|0224011003007027",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "responseCode": "00",
+    "result": {
+      "displayString": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "BPM-334785-1487932532107",
+      "displayList": [
+        {
+    		    "key" : "PURCHASE",
+            "value" : "Indosat Ooredoo Prepaid"
+    		},
+    		{
+    		    "key" : "MOBILE NO",
+            "value" : "628568278229"
+    		},
+    		{
+    		    "key" : "DENOM",
+            "value" : "RP. 50.000"
+    		},
+    		{
+    		    "key" : "VOUCHER REF",
+            "value" : "0224011003007027"
+    		},
+    		{
+    		    "key" : ""
+    		},
+    		{
+    		    "key" : ""
+    		},
+    		{
+    		    "key" : ""
+    		},
+    		{
+    		    "key" : ""
+    		}
+      ],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "",
+        "displayString": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [
+          [
+            "PURCHASE",
+            "Indosat Ooredoo Prepaid"
+          ],
+          [
+            "MOBILE NO",
+            "628568278229"
+          ],
+          [
+            "DENOM",
+            "RP. 50.000"
+          ],
+          [
+            "VOUCHER REF",
+            "0224011003007027"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        "reserved_private_1": "628568278229  ",
+        "amount_transaction": "5000000",
+        "billing_info": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       "
+      },
+      "errorCode": "No Error",
+      "billing_info": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       "
+    },
+    "transferStatus": "success",
+    "billPaymentMap": {
+      "displayString": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "BPM-334785-1487932532107",
+      "displayList": [
+        [
+          "PURCHASE",
+          "Indosat Ooredoo Prepaid"
+        ],
+        [
+          "MOBILE NO",
+          "628568278229"
+        ],
+        [
+          "DENOM",
+          "RP. 50.000"
+        ],
+        [
+          "VOUCHER REF",
+          "0224011003007027"
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "",
+        "displayString": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [
+          [
+            "PURCHASE",
+            "Indosat Ooredoo Prepaid"
+          ],
+          [
+            "MOBILE NO",
+            "628568278229"
+          ],
+          [
+            "DENOM",
+            "RP. 50.000"
+          ],
+          [
+            "VOUCHER REF",
+            "0224011003007027"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        "reserved_private_1": "628568278229  ",
+        "amount_transaction": "5000000",
+        "billing_info": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       "
+      },
+      "errorCode": "No Error",
+      "billing_info": "09PURCHASE   : Indosat Ooredoo Prepaid  MOBILE NO  : 628568278229             DENOM      : RP. 50.000               VOUCHER REF: 0224011003007027                                                                                                                                                                                                       "
+    },
+    "billPaymentMode": "mobileVoucher",
+    "transactionDate": 1487932532458
+  }
+}

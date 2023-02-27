@@ -1,0 +1,59 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/account-statement-creditcard",
+  "method": "POST",
+  "requestBody": {
+    "ipassport":"SMP-21206821495610302837",
+    "lang":"EN",
+    "accountNumber":"4893722000020223",
+    "TXID" : "test123"
+  },
+
+  "response": {
+    "responseMessage": "success",
+    "responseCode": "00",
+    "accountStatement": [{
+      "recordList": [{
+          "trxAmt": "80,000.00",
+          "foreignTrxAmt": "80,000.00",
+          "desc": "KAZOKU SINARMAS LAND P   ",
+          "PANUsed": "4893722000020223   ",
+          "apprCode": "505048",
+          "postDate": "23 May 2017",
+          "trxAmtSign": "D",
+          "trxCurrCode": "360",
+          "ARN": "70048932307000000000014",
+          "Month": "201701",
+          "trxDate": "23 May 2017"
+        },
+        {
+          "trxAmt": "90,000.00",
+          "foreignTrxAmt": "90,000.00",
+          "desc": "KAZOKU SINARMAS LAND P   ",
+          "PANUsed": "4893722000020223   ",
+          "apprCode": "693811",
+          "postDate": "23 May 2017",
+          "trxAmtSign": "D",
+          "trxCurrCode": "360",
+          "ARN": "70048932307000000000015",
+          "Month": "201701",
+          "trxDate": "23 May 2017"
+        },
+        {
+          "trxAmt": "-450,000.00",
+          "foreignTrxAmt": "450,000.00",
+          "desc": "ANNUAL FEE / PRORATE FEE ",
+          "PANUsed": "4893722000020223   ",
+          "apprCode": "      ",
+          "postDate": "22 May 2017",
+          "trxAmtSign": "C",
+          "trxCurrCode": "360",
+          "ARN": "                       ",
+          "Month": "201701",
+          "trxDate": "22 May 2017"
+        }
+      ],
+      "panMasking": "*0223",
+      "pan": "4893722000020223   "
+    }]
+  }
+}

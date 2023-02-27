@@ -1,0 +1,30 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/add-payee",
+  "requestBody": {
+    "ipassport": "SMP-3347851487734803235",
+    "targetBankId": "0",
+    "accountNumber": "0000269085",
+    "targetAccountName":"fariez || not required for inbank or network",
+    "securityTypeCode": "11",
+    "language": "EN",
+    "mPinInputed": "123456"
+  },
+  "response": {
+    "transRefNum": "939706166156",
+    "responseMessage": "Process Success",
+    "responseCode": "00",
+    "targetName": "Ramdhani",
+    "payee":{
+        "id": 369510,
+        "accountNumber": "0003455734",
+        "transferType": "inbank",
+        "name": "Test Payee",
+        "accountType": "Test account",
+        "label": "0003455734/IDR/Test Bank/Test Payee",
+        "targetType": {
+          "code": "inbanktransfer"
+        },
+        "currency": "IDR"
+      }
+  }
+}

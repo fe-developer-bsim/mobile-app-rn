@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyClosingConfirmation page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 300,
+            "padding": 20,
+          }
+        }
+      >
+        <Image
+          source="white-simobi.png"
+          style={
+            Object {
+              "height": 41,
+              "width": 116,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flex": 4,
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+                "paddingBottom": 40,
+                "paddingTop": 40,
+              }
+            }
+          >
+            Kami harap bisa berjumpa lagi
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 40,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "paddingTop": 40,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Roboto",
+              "fontSize": 14,
+            }
+          }
+        >
+          Untuk menutup Simas E-Money, mohon kosongkan dahulu saldo Anda
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+                "paddingBottom": 20,
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            Beberapa hal yang bisa Anda lakukan untuk menghabiskan saldo Anda
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(0,0,0, 0.09)",
+              "height": 375,
+            }
+          }
+        >
+          <Image
+            source="top-up-phone-balance.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 750,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                  "padding": 20,
+                }
+              }
+            >
+              Paket data gak habis-habis, eksis terus di Facebook, Instagram, Youtube dan media sosial favorit Anda
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+                "height": 375,
+              }
+            }
+          >
+            <Image
+              source="pay-at-tokopedia.jpg"
+              style={
+                Object {
+                  "height": 375,
+                  "width": 750,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                  "padding": 20,
+                }
+              }
+            >
+              Bayar belanjaan di situs belanja online favorit Anda jadi lebih mudah
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+                "height": 375,
+              }
+            }
+          >
+            <Image
+              source="gopay.jpg"
+              style={
+                Object {
+                  "height": 375,
+                  "width": 750,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                  "padding": 20,
+                }
+              }
+            >
+              Top up GO-PAY tanpa harus ke minimarket atau ATM
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+                "height": 375,
+              }
+            }
+          >
+            <Image
+              source="pay-by-qr.jpg"
+              style={
+                Object {
+                  "height": 375,
+                  "width": 750,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                  "padding": 20,
+                }
+              }
+            >
+              Pembayaran di cafe favorit Anda jauh lebih praktis menggunakan Bayar dengan QR
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+                "height": 375,
+              }
+            }
+          >
+            <Image
+              source="pay-bills.jpg"
+              style={
+                Object {
+                  "height": 375,
+                  "width": 750,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 50,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                  "padding": 20,
+                }
+              }
+            >
+              Bayar tagihan listrik, tagihan air dan tagihan lainnya di manapun Anda berada
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            OK
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

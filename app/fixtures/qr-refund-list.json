@@ -1,0 +1,61 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-merchant-list",
+  "method": "POST",
+  "requestBody": {
+    "ipassport":"SMP-1120081517806157641",
+    "lang":"EN",
+    "cif":"123434"
+  },
+  "response": {
+    "responseCode" : "00",
+    "responseMessage" : "Pengambilan data sukses",
+    "response_code" : "00",
+    "response_message" : "Display all refund codes!",
+    "merchantList": [
+    {
+      "created_by" : null,
+      "created_date" : null,
+      "modified_by" : null,
+      "modified_date" : null,
+      "rcode_amount" : "14500",
+      "rcode_expiry_date" : null,
+      "rcode_id" : "4E8A2055GAZ0VM433VK1",
+      "rcode_merchant_id" : "333051253234086",
+      "rcode_redeem_flag" : "0"
+    },
+    {
+      "created_by" : null,
+      "created_date" : null,
+      "modified_by" : null,
+      "modified_date" : null,
+      "rcode_amount" : "20000",
+      "rcode_expiry_date" : null,
+      "rcode_id" : "4E8A2055GAZ0VM433VK1",
+      "rcode_merchant_id" : "333051253231111",
+      "rcode_redeem_flag" : "0"
+    },
+    {
+      "created_by" : null,
+      "created_date" : null,
+      "modified_by" : null,
+      "modified_date" : null,
+      "rcode_amount" : "25500",
+      "rcode_expiry_date" : null,
+      "rcode_id" : "4E8A2055GAZ0VM433VK1",
+      "rcode_merchant_id" : "333051253232222",
+      "rcode_redeem_flag" : "0"
+    },
+    {
+      "created_by" : null,
+      "created_date" : null,
+      "modified_by" : null,
+      "modified_date" : null,
+      "rcode_amount" : "25500",
+      "rcode_expiry_date" : null,
+      "rcode_id" : "4E8A2055GAZ0VM433VK1",
+      "rcode_merchant_id" : "333051253233333",
+      "rcode_redeem_flag" : "1"
+    }
+    ]
+  }
+}

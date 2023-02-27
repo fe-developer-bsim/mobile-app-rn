@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View />
+</RCTScrollView>
+`;

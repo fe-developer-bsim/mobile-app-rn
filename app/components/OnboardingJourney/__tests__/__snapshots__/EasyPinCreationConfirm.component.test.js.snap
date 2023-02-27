@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney Component: EasyPinConfirmView renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FA3F70",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 30,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Roboto",
+              "fontSize": 24,
+              "fontWeight": "700",
+              "paddingBottom": 10,
+            }
+          }
+        >
+          Konfirmasi EasyPIN
+        </Text>
+      </View>
+      <View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 50,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "#FFFFFF",
+                "paddingLeft": 15,
+                "paddingTop": 5,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "padding": 30,
+        }
+      }
+    >
+      Masukkan 6 digit kode keamanan Anda
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderBottomColor": "#FFFFFF",
+            "borderBottomWidth": 1,
+            "justifyContent": "center",
+            "paddingHorizontal": 30,
+            "width": 265,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          input={
+            Object {
+              "name": "easyPinConfirm",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          keyboardType="numeric"
+          maxLength={6}
+          meta={
+            Object {
+              "active": false,
+              "asyncValidating": false,
+              "autofilled": false,
+              "dirty": false,
+              "dispatch": [Function],
+              "error": undefined,
+              "form": "testForm",
+              "initial": undefined,
+              "invalid": false,
+              "pristine": true,
+              "submitFailed": false,
+              "submitting": false,
+              "touched": false,
+              "valid": true,
+              "visited": false,
+              "warning": undefined,
+            }
+          }
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+              "height": 60,
+              "paddingVertical": 5,
+              "textAlign": "center",
+            }
+          }
+          submitHandler={[Function]}
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "paddingVertical": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

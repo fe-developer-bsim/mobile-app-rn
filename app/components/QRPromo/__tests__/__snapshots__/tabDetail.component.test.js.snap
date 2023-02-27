@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabDetail component TabDetail: renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#FA3F70",
+                "justifyContent": "center",
+                "padding": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              DISCOUNT
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              undefined%
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#00C4C1",
+                  "fontStyle": "italic",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Pay by QR
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontSize": 14,
+            }
+          }
+        >
+          Keterangan:
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 5,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+            }
+          }
+        >
+          Dapatkan potongan harga sebesar
+           
+          % 
+          untuk setiap transaksi menggunakan Pay by QR
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontSize": 14,
+            }
+          }
+        >
+          Diskon Berlaku:
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 2,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Setiap Jumat
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontSize": 14,
+            }
+          }
+        >
+          Minimum Transaksi:
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 2,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Rp 
+          --
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontSize": 14,
+            }
+          }
+        >
+          Maksimum Diskon:
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 2,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Rp 
+          --
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 10,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontSize": 14,
+            }
+          }
+        >
+          Maksimum Redeem:
+        </Text>
+        <View
+          style={
+            Object {
+              "padding": 2,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Tidak terbatas
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,36 @@
+{
+  "accounts": [{
+    "accountMode": null,
+    "accountNumber": "0002838796",
+    "accountType": "SavingAccount",
+    "accountTypeCode": "6003",
+    "allowFlag": "ft|bp|oa",
+    "bank": "PT BANK SINARMAS",
+    "currency": "IDR",
+    "id": 10322,
+    "label": "0002838796/IDR/SavingAccount/M FERDIANSYAH",
+    "name": "M FERDIANSYAH"
+  }, {
+    "accountMode": null,
+    "accountNumber": "0008370788",
+    "accountType": "SavingAccount",
+    "accountTypeCode": "6003",
+    "allowFlag": "ft|bp|oa",
+    "bank": "PT BANK SINARMAS",
+    "currency": "IDR",
+    "id": 123045,
+    "label": "0008370788/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+    "name": "PAFKIPIG HOTGUIQVBIK"
+  }, {
+    "accountMode": null,
+    "accountNumber": "0008370790",
+    "accountType": "SavingAccount",
+    "accountTypeCode": "6010",
+    "allowFlag": "ft|bp|oa",
+    "bank": "PT BANK SINARMAS",
+    "currency": "IDR",
+    "id": 121106,
+    "label": "0008370790/IDR/SavingAccount/M FERDIANSYAH",
+    "name": "M FERDIANSYAH"
+  }]
+}

@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundTransferRevamp component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FA3F70",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Transfer
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderTopLeftRadius": 30,
+        "borderTopRightRadius": 30,
+        "flex": 1,
+        "height": 1334,
+        "marginTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#2F476D",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Tipe Transfer
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#727691",
+              "fontSize": 14,
+            }
+          }
+        >
+          Silahkan memilih tipe transfer
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "borderColor": "#ccc",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <Image
+            source="Trf_domestik.png"
+            style={
+              Object {
+                "height": 83.52941176470588,
+                "width": 88.75,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "column",
+                "paddingLeft": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#2F476D",
+                    "fontFamily": "Roboto",
+                  }
+                }
+              >
+                Transfer Domestik
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "Roboto",
+                    },
+                    Object {
+                      "color": "#727691",
+                    },
+                  ]
+                }
+              >
+                Transfer ke Rek Bank Lain Dalam Negeri
+              </Text>
+            </View>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#2F476D",
+                  "marginLeft": 5,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "borderColor": "#ccc",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <Image
+            source="remittance.png"
+            style={
+              Object {
+                "height": 83.52941176470588,
+                "width": 88.75,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "bottom": 10,
+                "flex": 1,
+                "flexDirection": "column",
+                "paddingLeft": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              Remittance
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#727691",
+                    "fontFamily": "Roboto",
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                Transfer Valas ke Rek Bank Lain
+              </Text>
+            </View>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#2F476D",
+                  "marginLeft": 5,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

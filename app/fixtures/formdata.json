@@ -1,0 +1,26 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/formdata",
+  "method": "POST",
+  "requestBody" : {
+    "formData":
+    {	"formid":"SIMOBIPLUS-ORI-001",
+      "lang":"ID",
+      "birthDate":"dd/MM/yyyy",
+      "mobilePhoneNumberId":"mobile number must numeric value",
+      "email":"email@email.com",
+      "fullName":"fullName",
+      "benefitProgram":"Reguler || Secure Credit Card || Deposito Online",
+      "idCardNumber":"{ID KTP}",
+      "postalCodeId":"{postalCode}",
+      "checkbox-toc":"true",
+      "captchaId":"halogan123 or{depend on captcha type}",
+      "captchaInput":"4kxmcp or {depend on captcha type}"
+    }
+  }
+  ,
+    "response":{
+        "responseMessage": "NOMOR APLIKASI ANDA 219002 TERIMA KASIH TELAH MELAKUKAN PEMBUKAAN REKENING ONLINE DI BANK SINARMAS.<br>SEGERA LAKUKAN TRANSFER SETORAN AWAL UNTUK PEMBUKAAN REKENING TABUNGAN KE NOMOR REKENING BANK SINARMAS YANG TELAH KAMI KIRIMKAN MELALUI EMAIL",
+        "responseCode": "00",
+        "vaNumber": "8153219002",
+        "referenceCode": "219002" }
+        }

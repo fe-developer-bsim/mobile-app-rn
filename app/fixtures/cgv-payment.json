@@ -1,0 +1,48 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/do-payment-cinema",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "{{ipassport}}",
+	  "TXID":"123456",
+	  "E2EE_RANDOM": "12345678",
+	  "accountFrom": "123817",
+	  "amount": "70000",
+	  "easyPin": "123456",
+	  "mPinInputed": "",
+	  "tokenInputed": "",
+	  "transRefNum": "{{transRefNum}}",
+	  "lang":"en",
+	  "cinemaCode":"020",
+	  "bookingCode": "020555584650",
+	  "scheduleCode": 794354,
+	  "paymentSeatInfoList":[
+      {
+        "seatGradeCode":"01",
+        "seatLocationNumber":"01201901",
+        "standardPrice":"35000",
+        "salesPrice":"35000",
+        "ticketIssueAmount":"35000",
+        "showingAmount":"35000",
+        "serviceAmount":"35000"
+      },
+      {
+        "seatGradeCode":"01",
+        "seatLocationNumber":"01201801",
+        "standardPrice":"35000",
+        "salesPrice":"35000",
+        "ticketIssueAmount":"35000",
+        "showingAmount":"35000",
+        "serviceAmount":"35000"
+      }
+    ]	
+  },
+  "response": { 
+    "responseMessage": "success",
+    "responseCode": "00",
+    "paymentResult":{
+			"saleNumber":"0201807230885521",
+			"bookingCode":"020555584650",
+			"passKey":"436088"
+    }
+  }
+}

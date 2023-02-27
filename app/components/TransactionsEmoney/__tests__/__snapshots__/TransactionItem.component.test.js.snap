@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionItem component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Array [
+        Object {
+          "flex": 1,
+          "paddingVertical": 7.5,
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ],
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flex": 0.7,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#FF8E8E",
+          },
+          Object {
+            "fontFamily": "simas",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 3,
+        "justifyContent": "center",
+        "paddingRight": 5,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "paddingBottom": 5,
+            },
+            undefined,
+            Object {
+              "fontWeight": "700",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#666",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 2,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          undefined,
+          Object {
+            "color": "#FF8E8E",
+          },
+        ]
+      }
+    >
+      - 
+      Rp
+       
+    </Text>
+  </View>
+</View>
+`;

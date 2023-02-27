@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRConfirmation page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 40,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 10,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "paddingVertical": 10,
+          },
+          Object {
+            "fontWeight": "700",
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Pay by QR ke 
+      
+    </Text>
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#000000",
+                },
+              ]
+            }
+          >
+            Harga
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-end",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "color": "#000000",
+                    },
+                  ]
+                }
+              >
+                Rp 0
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#666",
+            "height": 1,
+            "width": 710,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#000000",
+                },
+              ]
+            }
+          >
+            Total harga
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-end",
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#FA3F70",
+                    },
+                  ]
+                }
+              >
+                Rp 0
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 5,
+        "marginVertical": 15,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#000000",
+              },
+            ]
+          }
+        >
+          Pembayaran Dari
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#000000",
+                },
+              ]
+            }
+          >
+            NIL
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#000000",
+                },
+              ]
+            }
+          >
+            NIL
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 5,
+        "marginVertical": 15,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#949494",
+            "fontSize": 12,
+          }
+        }
+      >
+        Transaksi yang sudah berjalan tidak dapat dibatalkan
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BAYAR
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

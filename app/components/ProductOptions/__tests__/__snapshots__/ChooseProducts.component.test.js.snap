@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseProducts component renders correctly 1`] = `
+<RCTScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "flex": 1,
+            "justifyContent": "space-between",
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Pilih produk yang Anda inginkan
+        </Text>
+      </View>
+      <Modal
+        hardwareAccelerated={false}
+        onRequestClose={[Function]}
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        transparent={true}
+        visible={false}
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 500,
+              },
+              Array [
+                false,
+                false,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  undefined,
+                  Object {
+                    "backgroundColor": "rgba(0,0,0,0.5)",
+                    "paddingBottom": 80,
+                    "paddingLeft": 80,
+                    "paddingRight": 80,
+                    "paddingTop": 60,
+                  },
+                ],
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "position": "absolute",
+                    "shadowColor": "black",
+                    "shadowOffset": Object {
+                      "height": 2,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.8,
+                    "shadowRadius": 2,
+                  },
+                  Object {
+                    "left": 0,
+                    "paddingTop": 8,
+                    "top": -8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderBottomColor": "transparent",
+                      "borderLeftColor": "transparent",
+                      "borderRightColor": "transparent",
+                      "borderTopColor": "transparent",
+                      "position": "absolute",
+                    },
+                    Object {
+                      "borderBottomWidth": 9,
+                      "borderLeftWidth": 9,
+                      "borderRightWidth": 9,
+                      "borderTopWidth": 9,
+                      "height": 18,
+                      "left": -9,
+                      "top": -1,
+                      "width": 18,
+                    },
+                    Object {
+                      "borderTopColor": "#fff",
+                    },
+                    undefined,
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "rotate": "180deg",
+                        },
+                      ],
+                    },
+                  ]
+                }
+              />
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderRadius": 4,
+                      "overflow": "hidden",
+                      "padding": 8,
+                    },
+                    false,
+                    false,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "flex": 1,
+                      "paddingHorizontal": 10,
+                      "paddingVertical": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "roboto",
+                        "fontSize": 14,
+                        "lineHeight": 20,
+                      }
+                    }
+                  >
+                    Tapi jika anda tertarik untuk membuka produk, kau juga tentunya bisa
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View />
+                    <View
+                      accessible={true}
+                      isTVSelectable={true}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#ED1D25",
+                            "fontFamily": "roboto",
+                            "fontWeight": "700",
+                            "marginTop": 5,
+                          }
+                        }
+                      >
+                        OK
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onTouchEnd={[Function]}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ffffff",
+                  "borderColor": "#cac6c6",
+                  "borderRadius": 10,
+                  "elevation": 4,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15,
+                  "opacity": 1,
+                  "shadowColor": "grey",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.4,
+                  "shadowRadius": 2,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "backgroundColor": "#FFFFFF",
+                    "flexDirection": "row",
+                    "marginHorizontal": 20,
+                    "marginVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "aspectRatio": 1,
+                      "flex": 4,
+                    }
+                  }
+                >
+                  <Image
+                    source="saving.png"
+                    style={
+                      Object {
+                        "flex": 1,
+                        "resizeMode": "contain",
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 10,
+                      "paddingLeft": 15,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "roboto",
+                        "fontSize": 16,
+                        "fontWeight": "700",
+                        "marginTop": -5,
+                      }
+                    }
+                  >
+                    Rekening Tabungan
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "roboto",
+                        "fontSize": 14,
+                        "fontWeight": "300",
+                        "paddingTop": 5,
+                      }
+                    }
+                  >
+                    Dapatkan cashback, bunga tabungan yang tinggi, dan kirim/transfer uang ke siapa saja GRATIS
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </Modal>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderColor": "#cac6c6",
+              "borderRadius": 10,
+              "elevation": 4,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+              "opacity": 1,
+              "shadowColor": "grey",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 2,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "#FFFFFF",
+                "flexDirection": "row",
+                "marginHorizontal": 20,
+                "marginVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "flex": 4,
+                }
+              }
+            >
+              <Image
+                source="saving.png"
+                style={
+                  Object {
+                    "flex": 1,
+                    "resizeMode": "contain",
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 10,
+                  "paddingLeft": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontSize": 16,
+                    "fontWeight": "700",
+                    "marginTop": -5,
+                  }
+                }
+              >
+                Rekening Tabungan
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontSize": 14,
+                    "fontWeight": "300",
+                    "paddingTop": 5,
+                  }
+                }
+              >
+                Dapatkan cashback, bunga tabungan yang tinggi, dan kirim/transfer uang ke siapa saja GRATIS
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cac6c6",
+            "borderRadius": 10,
+            "elevation": 4,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 15,
+            "opacity": 1,
+            "shadowColor": "grey",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.4,
+            "shadowRadius": 2,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "marginHorizontal": 20,
+              "marginVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "flex": 4,
+              }
+            }
+          >
+            <Image
+              source="vcc.png"
+              style={
+                Object {
+                  "flex": 1,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 10,
+                "paddingLeft": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "marginTop": -5,
+                }
+              }
+            >
+              Kartu Kredit Virtual
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "fontWeight": "300",
+                  "paddingTop": 5,
+                }
+              }
+            >
+              Ajukan Kartu kredit virtual untuk transaksi yang lebih aman
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

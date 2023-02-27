@@ -1,0 +1,63 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/listLocation",
+  "requestBody": {
+ "mode":"district",
+ "code":"367103"
+},
+  "response": {
+  "responseMessage": "success get data",
+  "responseCode": "00",
+  "data": {
+    "district": [
+      {
+        "name": "WATES",
+        "code": "340102"
+      },
+      {
+        "name": "NANGGULAN",
+        "code": "340110"
+      },
+      {
+        "name": "SENTOLO",
+        "code": "340106"
+      },
+      {
+        "name": "PENGASIH",
+        "code": "340107"
+      },
+      {
+        "name": "KALIBAWANG",
+        "code": "340112"
+      },
+      {
+        "name": "SAMIGALUH",
+        "code": "340111"
+      },
+      {
+        "name": "TEMON",
+        "code": "340101"
+      },
+      {
+        "name": "GALUR",
+        "code": "340104"
+      },
+      {
+        "name": "LENDAH",
+        "code": "340105"
+      },
+      {
+        "name": "GIRIMULYO",
+        "code": "340109"
+      },
+      {
+        "name": "PANJATAN",
+        "code": "340103"
+      },
+      {
+        "name": "KOKAP",
+        "code": "340108"
+      }
+    ]
+  }
+}
+}

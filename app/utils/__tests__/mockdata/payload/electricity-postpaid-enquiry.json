@@ -1,0 +1,14 @@
+{
+  "meterNo": "",
+  "selectedBiller": {
+    "id": "",
+    "billerPreferences": "",
+    "billerType": ""
+  },
+  "ipassport": "SMP-2137351488457327083",
+  "selectedAccount": {
+    "id": ""
+  },
+  "amount": "",
+  "easyPin": "12"
+}

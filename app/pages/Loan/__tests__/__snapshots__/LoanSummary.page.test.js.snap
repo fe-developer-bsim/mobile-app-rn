@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney: CompletedOnboarding page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+      "paddingTop": 40,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#ED1D25",
+              "paddingLeft": 15,
+              "paddingTop": 10,
+              "transform": Array [
+                Object {
+                  "rotate": "180deg",
+                },
+              ],
+              "width": 40,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderRadius": 15,
+            "height": 120,
+            "marginTop": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+            "width": 667.5,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          accessibilityIgnoresInvertColors={true}
+          style={
+            Object {
+              "flex": 1,
+              "height": null,
+              "justifyContent": "center",
+              "resizeMode": "cover",
+              "width": null,
+            }
+          }
+        >
+          <Image
+            borderRadius={7}
+            source="loan-amount.png"
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "height": null,
+                  "width": null,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-end",
+                "backgroundColor": "green",
+                "borderRadius": 20,
+                "height": 17,
+                "marginRight": 10,
+                "marginTop": 20,
+                "width": 80,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "textAlign": "center",
+                }
+              }
+            >
+              APPROVED
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "paddingTop": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Loan Amount
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "roboto",
+                "fontSize": 24,
+                "fontWeight": "700",
+                "paddingBottom": 30,
+                "paddingTop": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            Rp 
+            --
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 15,
+            "height": 100,
+            "marginTop": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+            "width": 667.5,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          accessibilityIgnoresInvertColors={true}
+          style={
+            Object {
+              "flex": 1,
+              "height": null,
+              "justifyContent": "center",
+              "resizeMode": "cover",
+              "width": null,
+            }
+          }
+        >
+          <Image
+            borderRadius={7}
+            source="loan-detail.png"
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "height": null,
+                  "width": null,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                Tanggal pengajuan
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                1 Jan 1970
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                Rekening tujuan
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                Periode
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                
+                 
+                hari
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 15,
+            "height": 110,
+            "marginTop": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+            "width": 667.5,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          accessibilityIgnoresInvertColors={true}
+          style={
+            Object {
+              "flex": 1,
+              "height": null,
+              "justifyContent": "center",
+              "resizeMode": "cover",
+              "width": null,
+            }
+          }
+        >
+          <Image
+            borderRadius={7}
+            source="loan-repayment.png"
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "height": null,
+                  "width": null,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Total yang akan diterima
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Rp 
+                0
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Estimasi total bunga
+                 
+                at 0.7% per day
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Rp 
+                --
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderColor": "#ECECEC",
+                  "borderTopWidth": 1,
+                  "marginTop": 10,
+                  "opacity": 0.5,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Yang harus Anda bayar
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 16,
+                    "fontWeight": "700",
+                    "paddingBottom": 10,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                Rp 
+                --
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

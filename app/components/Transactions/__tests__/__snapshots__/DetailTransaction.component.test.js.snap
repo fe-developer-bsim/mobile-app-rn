@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailTransaction component renders correctly 1`] = `
+<View
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        Object {
+          "paddingHorizontal": 30,
+          "paddingTop": 15,
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        Object {
+          "paddingHorizontal": 30,
+          "paddingTop": 15,
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                undefined,
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            ID Transaksi
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#2F476D",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                undefined,
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Waktu
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#2F476D",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                undefined,
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Jumlah
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#2F476D",
+                },
+              ]
+            }
+          >
+             
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View>
+          <View>
+            <Text
+              style={
+                Array [
+                  undefined,
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              Dari
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "#2F476D",
+                  },
+                ]
+              }
+            >
+              -
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                undefined,
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Keterangan
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#2F476D",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

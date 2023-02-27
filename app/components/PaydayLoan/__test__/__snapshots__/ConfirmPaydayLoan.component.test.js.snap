@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payloan component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Konfirmasi detail transaksi Anda
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+            }
+          }
+        >
+          Kasbon
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 20,
+            }
+          }
+        >
+          Rp 
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+            }
+          }
+        >
+          Biaya Admin (2%)
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 20,
+            }
+          }
+        >
+          - Rp 
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+            }
+          }
+        >
+          Bunga
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 20,
+            }
+          }
+        >
+          Rp 
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+            }
+          }
+        >
+          Uang yang diterima
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 20,
+            }
+          }
+        >
+          Rp 
+          0
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ccc",
+        "height": 4,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Pencairan dan pelunasan
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 5,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "borderRadius": 50,
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "height": 110,
+              "width": 2,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "borderRadius": 50,
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingHorizontal": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingBottom": 30,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Friday, 18 Aug 1989
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#4ed07d",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Uang diterima
+               + Rp 
+              0
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Di rekening
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Saturday, 26 Aug 1989
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Uang dipotong
+               - Rp 
+              
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Dari rekening
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 40,
+            }
+          }
+        >
+          <Text>
+            Denda keterlambatan adalah 4% per bulan dari jumlah pinjaman
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingBottom": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginBottom": 5,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source="checkbox-unchecked.png"
+              style={
+                Array [
+                  Object {
+                    "height": 26,
+                    "width": 26,
+                  },
+                  Object {
+                    "borderColor": "#ED1D25",
+                    "height": 20,
+                    "width": 20,
+                  },
+                ]
+              }
+            />
+            <View />
+          </View>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#000000",
+                "paddingHorizontal": 20,
+              },
+            ]
+          }
+        >
+           
+          Saya memberikan ijin kepada Bank Sinarmas untuk melakukan pemotongan dana dari rekening saya untuk melunasi kasbon pada tanggal gajian
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingTop": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF8E8E",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            DAPATKAN KASBON
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

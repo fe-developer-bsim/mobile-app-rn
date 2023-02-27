@@ -1,0 +1,648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyTopUpBankBranch page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "flex": 1,
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontSize": 24,
+                  "fontWeight": "400",
+                },
+                Object {
+                  "fontFamily": "roboto",
+                },
+              ]
+            }
+          >
+            Choose bank
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "roboto",
+                },
+              ]
+            }
+          >
+            BCA
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 13,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "90deg",
+                    },
+                  ],
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "height": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            style={Object {}}
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FAFAFA",
+                  "marginVertical": 20,
+                  "paddingVertical": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Account Number
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View>
+                  <View
+                    accessible={true}
+                    clickable={true}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FA3F70",
+                          },
+                          Object {
+                            "fontFamily": "roboto",
+                          },
+                        ]
+                      }
+                    >
+                      COPY
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderColor": "#ECECEC",
+                    "borderWidth": 1,
+                    "marginHorizontal": 20,
+                    "marginVertical": 20,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "marginBottom": 15,
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontWeight": "700",
+                    }
+                  }
+                >
+                  Instruction
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontFamily": "roboto",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    1
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                        "fontWeight": "700",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    2
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                        "fontWeight": "700",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    3
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                        "fontWeight": "700",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    4
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                        "fontWeight": "700",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    5
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 10,
+                      "height": 18,
+                      "marginBottom": 10,
+                      "marginRight": 10,
+                      "width": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                        "fontWeight": "700",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    6
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    Login to 
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "fontFamily": "roboto",
+                        },
+                      ]
+                    }
+                  >
+                    m-BCA
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

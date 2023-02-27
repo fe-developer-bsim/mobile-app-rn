@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FundTransferConfirmationSetLimit page renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={Object {}}
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "minHeight": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "padding": 20,
+                },
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 22,
+              }
+            }
+          >
+            Konfirmasi pengiriman uang
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingVertical": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderColor": "#ccc",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                style={Object {}}
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#4ed07d",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontWeight": "700",
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto",
+                      },
+                    ]
+                  }
+                >
+                  Rp 
+                  0
+                </Text>
+              </View>
+              <View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 20,
+                      },
+                      Array [
+                        Object {
+                          "color": "#000000",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View>
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "height": 0,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View
+                  onLayout={[Function]}
+                  style={Object {}}
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#ECECEC",
+                        "height": 1,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginVertical": 4,
+                      }
+                    }
+                  >
+                    <Text>
+                      Jumlah
+                    </Text>
+                    <Text>
+                      Rp 
+                      0
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginVertical": 4,
+                      }
+                    }
+                  >
+                    <Text>
+                      Biaya
+                       (
+                      
+                      )
+                    </Text>
+                    <Text>
+                      Rp 
+                      0
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingTop": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              On 
+              Jumat, 18 Aug 1989
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingVertical": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 30,
+                  },
+                  Object {
+                    "color": "#c38a05",
+                    "paddingRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={Object {}}
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 25,
+                },
+                Object {
+                  "color": undefined,
+                  "marginBottom": 5,
+                  "marginLeft": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "paddingBottom": 20,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 30,
+                  },
+                  Object {
+                    "color": "#0787e3",
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={Object {}}
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                NA
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  }
+                }
+              >
+                NA
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingTop": 3,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#949494",
+                    "fontFamily": "Roboto",
+                  },
+                ]
+              }
+            >
+              Transfer terjadwal pada hari libur atau akhir pekan akan dilaksanakan pada hari kerja berikutnya
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "height": 1,
+            }
+          }
+        />
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "padding": 20,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 20,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto",
+                      "marginBottom": 2,
+                    },
+                  ]
+                }
+              >
+                Berita
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  }
+                }
+              >
+                -
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#ccc",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "marginBottom": 20,
+                  "marginTop": 10,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 15,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <View
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Roboto",
+                    "fontSize": 12,
+                    "marginLeft": 10,
+                    "width": 650,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#949494",
+                      "fontSize": 12,
+                    }
+                  }
+                >
+                  Transaksi yang sudah berjalan tidak dapat dibatalkan
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FA3F70",
+                      "borderRadius": 30,
+                      "flexDirection": "row",
+                      "height": 47,
+                      "justifyContent": "center",
+                      "paddingHorizontal": 15,
+                    },
+                    undefined,
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 16,
+                    }
+                  }
+                >
+                  PEMINDAHAN DANA
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

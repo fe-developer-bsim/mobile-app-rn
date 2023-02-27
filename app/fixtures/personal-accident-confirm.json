@@ -1,0 +1,37 @@
+{
+  "url": "http://simigi.banksinarmas.com/PersonalBanking/rest/v3/action/personal-accident-confirm",
+  "requestBody": {
+  "ipassport": "SMP-1120081515468510513",
+  "lang": "en",
+  "payload": {
+    "benef_dob": "1199/12/12",
+    "benef_name": "bere",
+    "benef_relation": "7",
+    "benef_sex": "1",
+    "client_id": "1",
+    "client_name": "BSIM",
+    "cust_account": "0000270423",
+    "cust_address": "poris",
+    "cust_cif": "112008",
+    "cust_city": "tangerang",
+    "cust_dob": "1984/01/22",
+    "cust_email": "bram.riada@gmail.com",
+    "cust_identity_number": "1273022201840001",
+    "cust_mobile": "087882121822",
+    "cust_name": "HERMAN",
+    "cust_phone": "021433434343",
+    "cust_postal_code": "18123",
+    "cust_sex": "1",
+    "premium": "75000",
+    "request": "PA BSIM",
+    "request_type": "1",
+    "signature": "b55586a3166237d392e6bae74fee55bc5bdf5eab"
+  }
+},
+  "response": {
+    "responseMessage": "success",
+    "responseCode": "00",
+    "transactionTime": "10:31:27",
+    "transactionDate": "09 Jan 2018"
+}
+}

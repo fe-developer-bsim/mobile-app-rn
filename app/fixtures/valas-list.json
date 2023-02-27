@@ -1,0 +1,85 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-currencyt",
+  "method": "POST",
+  "requestBody": {
+    "ipassport":"SMP-1120081517806157641",
+    "lang":"EN"
+  },
+  "response": {
+    "ipassport": "SMP-22103191553826911312",
+    "currencyRateList": [
+      {
+          "id": 1589,
+          "currency": "USD",
+          "name": "US Dollar",
+          "currencyMarket": "E-RATE",
+          "buyRate": 15400,
+          "midRevalRate": 15425,
+          "sellRate": 15450,
+          "setupDate": 1541648565000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      },
+      {
+          "id": 1586,
+          "currency": "JPY",
+          "name": "Japanese Yen",
+          "currencyMarket": "E-RATE",
+          "buyRate": 130.34,
+          "midRevalRate": 131.34,
+          "sellRate": 132.34,
+          "setupDate": 1541648565000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      },
+      {
+          "id": 1582,
+          "currency": "CNY",
+          "name": "China Yuan",
+          "currencyMarket": "E-RATE",
+          "buyRate": 2310,
+          "midRevalRate": 2345,
+          "sellRate": 2380,
+          "setupDate": 1541648565000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      },
+      {
+          "id": 1583,
+          "currency": "EUR",
+          "name": "EURO",
+          "currencyMarket": "E-RATE",
+          "buyRate": 16759,
+          "midRevalRate": 16845.5,
+          "sellRate": 16932,
+          "setupDate": 1541648565000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      },
+      {
+          "id": 1581,
+          "currency": "AUD",
+          "name": "Australian Dollars",
+          "currencyMarket": "E-RATE",
+          "buyRate": 11230,
+          "midRevalRate": 11265,
+          "sellRate": 11300,
+          "setupDate": 1541648564000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      },
+      {
+          "id": 1588,
+          "currency": "SGD",
+          "name": "Singapore Dollars",
+          "currencyMarket": "E-RATE",
+          "buyRate": 10510,
+          "midRevalRate": 10515,
+          "sellRate": 10520,
+          "setupDate": 1541648565000,
+          "lastUpdatedDate": 1541648526000,
+          "lastUpdatedBy": "system"
+      }
+      ]
+  }
+}

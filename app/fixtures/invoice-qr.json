@@ -1,0 +1,74 @@
+{
+  "url": "https://sandbox.dimo.co.id/banking/v1/mobile/invoice/get?userkey=af4a3f866e66337cc07d7ac9e79cb1af0fc35b95&invoiceId=FAzdlWTmmlOL&version=2",
+  "method": "GET",
+  "response": {
+    "result": "success",
+    "content": {
+        "amount": 100000,
+        "couponList": [
+            {
+                "loyaltyProgramId": 138,
+                "amount": 1000,
+                "loyaltyCardId": 43569,
+                "couponType": "CASH",
+                "loyaltyId": 10741,
+                "couponId": 4471,
+                "validityEndDate": 1525453200000,
+                "currency": "IDR"
+            }
+        ],
+        "merchantApikey": "7a5d03ff2c7f38c22e304899476035b42252d707",
+        "receiver": "Payment Plain",
+        "correctedInvoiceAmountWithPercentage": 0,
+        "hasLoyaltyCard": true,
+        "status": "AVAILABLE_FOR_PAYMENT",
+        "invoiceId": "ocBky6ZfjxJF",
+        "permanentPercentageDiscount": 0,
+        "currentLoyaltyProgram": {
+            "result": "success",
+            "loyaltyProgram": {
+                "startDate": 1506556800000,
+                "minTransAmountForDiscount": null,
+                "borderColor": "FFFFFF",
+                "backgroundColor": "FFFFFF",
+                "hasLoyaltyCard": false,
+                "permanentPercentageDiscount": null,
+                "affiliationId": 272,
+                "individualId": null,
+                "endDate": 1542412800000,
+                "loyaltyProgramType": "POINTS",
+                "discountAmount": 1000,
+                "currency": "IDR",
+                "monthNumberValidity": 5,
+                "amountPerPoint": 10000,
+                "maxRedeem": null,
+                "isPrivate": false,
+                "pointPerExpense": 1,
+                "pointAmountForCoupon": 5,
+                "loyaltyProgramId": 138,
+                "logo": null,
+                "imageName": null,
+                "loyaltyProgramOwnerBrand": "DIMO",
+                "label": "Kupon",
+                "rewardType": "CASH",
+                "imageNameThumbnail": null,
+                "loyaltyProgramOwnerCompanyName": "PT Digital Money ",
+                "maxDiscountAmount": null,
+                "expenseType": "MONEY",
+                "loyaltyId": 9,
+                "loyaltyProgramOwnerId": 9,
+                "loyaltyProgramOwnerEmail": "help@dimo.co.id"
+            }
+        },
+        "loyaltyId": 10741,
+        "tipEnabled": true,
+        "comment": "No comment",
+        "tip": {
+            "firstProposition": 500,
+            "suggestedAmount": 10000,
+            "secondProposition": 500
+        },
+        "currency": "IDR"
+    }
+}
+}

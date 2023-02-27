@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyCard component EmoneyCard: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 15,
+      "marginBottom": 0,
+      "marginTop": 10,
+      "paddingHorizontal": 10,
+      "paddingVertical": 10,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1.5,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 15,
+          "borderTopLeftRadius": 15,
+          "elevation": 3,
+          "flex": 4,
+          "height": 100,
+          "paddingHorizontal": 5,
+          "paddingVertical": 10,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+        }
+      }
+    >
+      <View>
+        <View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View>
+              <View>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "color": "#ED1D25",
+                        "paddingBottom": 2,
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 9,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontSize": 16,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Rp 
+                0
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Account
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "roboto",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                     
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomRightRadius": 15,
+          "borderTopRightRadius": 15,
+          "elevation": 3,
+          "flex": 2,
+          "height": 100,
+          "justifyContent": "center",
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+        }
+      }
+    >
+      <View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "#ccc",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+                "fontWeight": "500",
+                "textAlign": "center",
+              }
+            }
+          >
+            Default Account
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 15,
+          "elevation": 3,
+          "flex": 2,
+          "height": 100,
+          "marginLeft": 5,
+          "paddingHorizontal": 5,
+          "paddingVertical": 10,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+        }
+      }
+    >
+      <View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "#ED1D25",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "textAlign": "center",
+              }
+            }
+          >
+            Top up
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "textAlign": "center",
+              }
+            }
+          >
+            E-Money
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 15,
+          "elevation": 3,
+          "flex": 2,
+          "height": 100,
+          "marginLeft": 5,
+          "paddingHorizontal": 5,
+          "paddingVertical": 10,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+        }
+      }
+    >
+      <View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "#ED1D25",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "textAlign": "center",
+              }
+            }
+          >
+            Scan To Pay
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

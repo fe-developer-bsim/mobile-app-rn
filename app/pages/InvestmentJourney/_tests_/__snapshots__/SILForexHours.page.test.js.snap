@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SILForexHours renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View>
+      <Image
+        source="warn.png"
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 375,
+            "marginBottom": 50,
+            "marginTop": 20,
+            "width": 375,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "Roboto",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          Layanan Tidak Tersedia
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Jam Operasional pembelian Polis adalah Pukul 00.01 WIB hingga 21.00 WIB
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "Roboto",
+              },
+            ]
+          }
+        >
+          Silakan kembali lagi nanti
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          KEMBALI
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

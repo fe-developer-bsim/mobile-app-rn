@@ -1,0 +1,464 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/balances",
+  "requestBody": {
+    "ipassport": "SMP-3347851486990939101"
+  },
+  "response": {
+    "accounts": [{
+        "WorkingBalance": 50944201115.63,
+        "AvailableBalance": 50889151114.63,
+        "CurrentBalance": 50889151114.63,
+        "AccountNumber": "0002751704",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 739418625.48,
+        "AvailableBalance": 738898625.48,
+        "CurrentBalance": 738898625.48,
+        "AccountNumber": "0005373271",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 914492426.09,
+        "AvailableBalance": 914442426.09,
+        "CurrentBalance": 914442426.09,
+        "AccountNumber": "0008345198",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 1030036776.22,
+        "AvailableBalance": 1029036776.22,
+        "CurrentBalance": 1029036776.22,
+        "AccountNumber": "0008345201",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345217",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -1000000,
+        "CurrentBalance": -1000000,
+        "AccountNumber": "0008345228",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345309",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 660000,
+        "AvailableBalance": -340000,
+        "CurrentBalance": -340000,
+        "AccountNumber": "0008345317",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 1118.82,
+        "AvailableBalance": 1018.82,
+        "CurrentBalance": 1018.82,
+        "AccountNumber": "0008345325",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345414",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 1031452624.85,
+        "AvailableBalance": 1030452624.85,
+        "CurrentBalance": 1030452624.85,
+        "AccountNumber": "0008345422",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -100,
+        "CurrentBalance": -100,
+        "AccountNumber": "0008345438",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345527",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 680000,
+        "AvailableBalance": -320000,
+        "CurrentBalance": -320000,
+        "AccountNumber": "0008345538",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 106.61,
+        "AvailableBalance": 6.61,
+        "CurrentBalance": 6.61,
+        "AccountNumber": "0008345546",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345708",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 680000,
+        "AvailableBalance": -320000,
+        "CurrentBalance": -320000,
+        "AccountNumber": "0008345716",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -100,
+        "CurrentBalance": -100,
+        "AccountNumber": "0008345724",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0008345961",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 680000,
+        "AvailableBalance": -320000,
+        "CurrentBalance": -320000,
+        "AccountNumber": "0008345977",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -100,
+        "CurrentBalance": -100,
+        "AccountNumber": "0008345988",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 54000,
+        "AvailableBalance": 4000,
+        "CurrentBalance": 4000,
+        "AccountNumber": "0008346402",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 54000,
+        "AvailableBalance": 4000,
+        "CurrentBalance": 4000,
+        "AccountNumber": "0008346418",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 73200,
+        "AvailableBalance": 23200,
+        "CurrentBalance": 23200,
+        "AccountNumber": "0008351651",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 740005,
+        "AvailableBalance": -259995,
+        "CurrentBalance": -259995,
+        "AccountNumber": "0008351686",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 11100469.7,
+        "AvailableBalance": 1100469.7,
+        "CurrentBalance": 1100469.7,
+        "AccountNumber": "0008370982",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 265923415.41,
+        "AvailableBalance": 255923415.41,
+        "CurrentBalance": 255923415.41,
+        "AccountNumber": "0008370998",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -10000000,
+        "CurrentBalance": -10000000,
+        "AccountNumber": "0008371725",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 972009,
+        "AvailableBalance": 922009,
+        "CurrentBalance": 922009,
+        "AccountNumber": "0008378274",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 223.79,
+        "AvailableBalance": 123.79,
+        "CurrentBalance": 123.79,
+        "AccountNumber": "0008378328",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 569.37,
+        "AvailableBalance": 469.37,
+        "CurrentBalance": 469.37,
+        "AccountNumber": "0008378339",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 8540.8,
+        "AvailableBalance": 3540.8,
+        "CurrentBalance": 3540.8,
+        "AccountNumber": "0008378347",
+        "Currency": "CNY"
+      },
+      {
+        "WorkingBalance": 192.15,
+        "AvailableBalance": 92.15,
+        "CurrentBalance": 92.15,
+        "AccountNumber": "0008378355",
+        "Currency": "EUR"
+      },
+      {
+        "WorkingBalance": 1258.03,
+        "AvailableBalance": 1108.03,
+        "CurrentBalance": 1108.03,
+        "AccountNumber": "0008378371",
+        "Currency": "SGD"
+      },
+      {
+        "WorkingBalance": 106.13,
+        "AvailableBalance": 6.13,
+        "CurrentBalance": 6.13,
+        "AccountNumber": "0008381097",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 5003.12,
+        "AvailableBalance": 3.12,
+        "CurrentBalance": 3.12,
+        "AccountNumber": "0008381135",
+        "Currency": "CNY"
+      },
+      {
+        "WorkingBalance": 5003.12,
+        "AvailableBalance": 3.12,
+        "CurrentBalance": 3.12,
+        "AccountNumber": "0008381143",
+        "Currency": "CNY"
+      },
+      {
+        "WorkingBalance": 137.09,
+        "AvailableBalance": -12.91,
+        "CurrentBalance": -12.91,
+        "AccountNumber": "0008381151",
+        "Currency": "SGD"
+      },
+      {
+        "WorkingBalance": 5003.12,
+        "AvailableBalance": 3.12,
+        "CurrentBalance": 3.12,
+        "AccountNumber": "0008381259",
+        "Currency": "CNY"
+      },
+      {
+        "WorkingBalance": 386.39,
+        "AvailableBalance": 186.39,
+        "CurrentBalance": 186.39,
+        "AccountNumber": "0008381267",
+        "Currency": "AUD"
+      },
+      {
+        "WorkingBalance": 94.12,
+        "AvailableBalance": -5.88,
+        "CurrentBalance": -5.88,
+        "AccountNumber": "0008381275",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 81000,
+        "AvailableBalance": 31000,
+        "CurrentBalance": 31000,
+        "AccountNumber": "0008381283",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 1004778510.97,
+        "AvailableBalance": 1003778510.97,
+        "CurrentBalance": 1003778510.97,
+        "AccountNumber": "0008381321",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 88.08,
+        "AvailableBalance": -11.92,
+        "CurrentBalance": -11.92,
+        "AccountNumber": "0008382263",
+        "Currency": "USD"
+      },
+      {
+        "WorkingBalance": 101068178.09,
+        "AvailableBalance": 100068178.09,
+        "CurrentBalance": 100068178.09,
+        "AccountNumber": "0008382627",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 109012628.37,
+        "AvailableBalance": 108012628.37,
+        "CurrentBalance": 108012628.37,
+        "AccountNumber": "0008383898",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 14001000,
+        "AvailableBalance": 4001000,
+        "CurrentBalance": 4001000,
+        "AccountNumber": "0008385203",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 16005000,
+        "AvailableBalance": 6005000,
+        "CurrentBalance": 6005000,
+        "AccountNumber": "0008385211",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 356500,
+        "AvailableBalance": 306500,
+        "CurrentBalance": 306500,
+        "AccountNumber": "0030670922",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 0,
+        "AvailableBalance": -50000,
+        "CurrentBalance": -50000,
+        "AccountNumber": "0050006708",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 426768436.45,
+        "AvailableBalance": 425718436.45,
+        "CurrentBalance": 425718436.45,
+        "AccountNumber": "0900690754",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 10000001,
+        "AvailableBalance": 10000001,
+        "CurrentBalance": 10000001,
+        "AccountNumber": "0900000000022789",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000000,
+        "AvailableBalance": 8000000,
+        "CurrentBalance": 8000000,
+        "AccountNumber": "0900000000022816",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000000,
+        "AvailableBalance": 8000000,
+        "CurrentBalance": 8000000,
+        "AccountNumber": "0900000000022822",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000000,
+        "AvailableBalance": 8000000,
+        "CurrentBalance": 8000000,
+        "AccountNumber": "0900000000022959",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000000,
+        "AvailableBalance": 8000000,
+        "CurrentBalance": 8000000,
+        "AccountNumber": "0900000000022985",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8500000,
+        "AvailableBalance": 8500000,
+        "CurrentBalance": 8500000,
+        "AccountNumber": "0900000000023016",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8100000,
+        "AvailableBalance": 8100000,
+        "CurrentBalance": 8100000,
+        "AccountNumber": "0900000000023035",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000100,
+        "AvailableBalance": 8000100,
+        "CurrentBalance": 8000100,
+        "AccountNumber": "0900000000023046",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 12500000,
+        "AvailableBalance": 12500000,
+        "CurrentBalance": 12500000,
+        "AccountNumber": "0900000000023047",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000123,
+        "AvailableBalance": 8000123,
+        "CurrentBalance": 8000123,
+        "AccountNumber": "0900000000023049",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8000078,
+        "AvailableBalance": 8000078,
+        "CurrentBalance": 8000078,
+        "AccountNumber": "0900000000023203",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 9000001,
+        "AvailableBalance": 9000001,
+        "CurrentBalance": 9000001,
+        "AccountNumber": "0900000000023205",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 8001001,
+        "AvailableBalance": 8001001,
+        "CurrentBalance": 8001001,
+        "AccountNumber": "0900000000023210",
+        "Currency": "IDR"
+      },
+      {
+        "WorkingBalance": 127007001,
+        "AvailableBalance": 126957001,
+        "CurrentBalance": 126957001,
+        "AccountNumber": "9900977635",
+        "Currency": "IDR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRInputAmount page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <View>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 14,
+                "left": 0,
+                "position": "absolute",
+                "top": 35,
+              }
+            }
+          >
+            Masukkan nominal pembayaran
+          </Text>
+        </View>
+        <View
+          onResponderRelease={[Function]}
+          onStartShouldSetResponder={[Function]}
+          pointerEvents="auto"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "rgba(0, 0, 0, 0.38)",
+                "borderBottomWidth": 0.5,
+                "height": 64,
+                "paddingBottom": 8,
+                "paddingTop": 32,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "position": "absolute",
+                  "top": 36,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.38)",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                disableFullscreenUI={true}
+                editable={true}
+                keyboardType="phone-pad"
+                maxLength={13}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onChangeText={[Function]}
+                onContentSizeChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                rejectResponderTermination={true}
+                selectionColor="#D72F33"
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "margin": 0,
+                      "padding": 0,
+                      "top": 2,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, .87)",
+                      "fontSize": 16,
+                      "height": 24,
+                    },
+                    Object {
+                      "color": "#000",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+                underlineColorAndroid="transparent"
+                value=""
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 8,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "paddingVertical": 4,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "rgb(213, 0, 0)",
+                      "fontSize": 0,
+                      "opacity": 0,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "paddingVertical": 4,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "rgba(0, 0, 0, .38)",
+                      "fontSize": 12,
+                      "opacity": 1,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BERIKUTNYA
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

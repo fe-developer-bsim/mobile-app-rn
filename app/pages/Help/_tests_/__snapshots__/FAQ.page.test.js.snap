@@ -1,0 +1,1335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help: FAQ page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            1
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apa yang dimaksud dengan SimobiPlus?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Layanan internet banking versi mobile Bank Sinarmas yang dapat diakses dengan mudah melalui Smartphone berbasis Android dan iOS.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            2
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Siapa yang dapat menggunakan SimobiPlus?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Simobi+ dapat digunakan oleh seluruh nasabah perorangan Bank Sinarmas yang memiliki rekening tabungan atau rekening koran.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            3
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apakah menggunakan SimobiPlus aman?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Sangat aman karena terdapat fitur otentikasi ganda untuk memastikan bahwa pengakses Simobi+ adalah nasabah yang sah
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            4
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apa manfaat yang didapat dari menggunakan SimobiPlus?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Anda dapat melakukan berbagai transaksi mulai dari cek saldo, melakukan transfer antar bank dan pembayaran tagihan, hingga pembukaan deposito online. Semua dalam 1 aplikasi di genggaman Anda.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            5
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apa manfaat dari bertransaksi melalui Simobi+?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Dengan bertransaksi melalui Simobi+, Anda tidak perlu datang ke bank atau mencari ATM terdekat, semua dapat dilakukan dengan praktis dan mudah dalam 1 aplikasi
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            6
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apa yang dimaksud EasyPIN?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            EasyPIN adalah PIN 6 digit yang Anda buat sendiri, digunakan untuk mengakses (login) aplikasi Simobi+ dan untuk otentikasi transaksi.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            7
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apakah menerima SMS OTP (one-time-password) mengurangi pulsa?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Atas setiap SMS one-time-password yang diterima, provider dapat melakukan pemotongan pulsa. Besarnya pemotongan pulsa bergantung pada provider yang digunakan.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            8
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Fitur apa saja yang tersedia di Simobi+?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Cek saldo, transfer sesama bank, antar bank, pembayaran tagihan dan pembelian, Pay by QR, hingga pembukaan deposito online. Fitur-fitur menarik lainnya akan terus kami kembangkan.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            9
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Bagaimana cara saya mulai menggunakan Simobi+?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Pastikan layanan internet tersedia, lalu unduh Simobi+ dari Play Store atau AppStore. Apabila belum memiliki akun Simobi+ atau Internet Banking Bank Sinarmas, daftarkan diri Anda dalam 5 langkah mudah menggunakan nomor kartu ATM dan pin ATM Anda.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            10
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apakah perlu Hard Token untuk melakukan transaksi di Simobi+?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Tidak. Cukup hanya dengan EasyPIN dan/atau SMS OTP Anda sudah dapat melakukan transaksi di Simobi+.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            11
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Saya melakukan kesalahan dalam transfer. Apakah saya bisa membatalkan proses transfer tersebut?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Proses transfer tidak bisa dibatalkan. Pada halaman konfirmasi, pastikan data yang Anda masukan sudah benar.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            12
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Apakah saya bisa mendapatkan rekening koran per bulan?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Bisa, melalui menu Riwayat Transaksi. Aplikasi ini dapat mengirimkan e-mail berisi riwayat transaksi Anda untuk 30 hari terakhir, 2 bulan terakhir, dan 3 bulan terakhir.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            13
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Bagaimana saya dapat mengetahui catatan transaksi saya dari Simobi+?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Dari halaman utama/dashboard, tekan kartu rekening yang Anda kehendaki. Anda dapat melihat riwayat transaksi hingga 30 hari ke belakang.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            14
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Dapatkah saya mengakses Simobi+ dari banyak perangkat?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Saat ini aplikasi Simobi+ hanya bisa digunakan dalam satu perangkat pada satu waktu. Namun Anda dapat melakukan pertukaran akses di berbagai perangkat.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            15
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Smartphone yang terhubung dengan Simobi+ saya hilang. Apa yang harus saya lakukan?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Tidak perlu khawatir karena EasyPIN Anda tidak tersimpan di smartphone Anda. Selama hanya Anda yang mengetahui EasyPIN Anda, orang lain tidak bisa mengakses akun Simobi+ Anda.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            16
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Saya lupa EasyPIN saya. Apa yang harus saya lakukan?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Anda dapat melakukan:
+Opsi 1. Reset EasyPIN dengan cara klik tombol “Reset EasyPIN” yang terdapat pada halaman login dengan EasyPIN, atau
+Opsi 2. Login dengan username dengan cara klik tombol “Login dengan Username” pada bagian pojok kanan atas halaman login.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            17
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Dapatkah saya mengganti username dan password saya?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Anda tidak dapat mengganti username, tapi Anda dapat mengganti Password Anda.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            18
+            .
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            Saya salah memasukan EasyPIN 3 kali dan sekarang saya diblokir, apa yang harus saya lakukan?
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "marginBottom": 20,
+                },
+              ]
+            }
+          >
+            Anda dapat melakukan:
+Opsi 1. Reset Password dengan cara pilih “login dengan username”, kemudian klik tombol “Reset Password”, atau
+Opsi 2. Reset SimobiPlus Data dengan cara klik tombol “Bersihkan Data Simobi” pada bagian bawah halaman utama dan setelahnya lakukan registrasi ulang.
+Untuk kedua langkah di atas, Anda akan diminta untuk memasukkan no kartu ATM dan PIN ATM Anda.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

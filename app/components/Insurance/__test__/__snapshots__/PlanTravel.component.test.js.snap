@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanTravel component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 7,
+            "width": 321.42857142857144,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "height": 7,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingBottom": 15,
+            "paddingHorizontal": 20,
+          },
+          Object {
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 18,
+            },
+            Object {
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        Pilih plan untuk
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 18,
+            },
+            Object {
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

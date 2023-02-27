@@ -1,0 +1,18 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/register-easypin",
+  "requestBody": {
+    "tokenClient":"XXXtokenClientXXXX",
+    "easyPin":"123456",
+    "deviceParam":"XXXdeviceParamHereXXXX",
+    "deviceInfo": {
+      "name":"RedmiNote3"
+    },
+    "lang":"en",
+    "ipassport":"SMP-1120081488971269921"
+  },
+  "response": {
+    "responseMessage": "Your Register Device Lockdown Success, Your Mobile Pin Has Been Set",
+    "responseCode": "00",
+    "tokenServer": "0cbf55b7236bdeb09d6f0559f453909e667c9eb549902320274d506eea215c6c"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpay-inquiry",
+  "requestBody": {
+    "ipassport": "SMP-3347851488784564108",
+    "subscriberNoInput": "11123434",
+    "idbillPay": 1157,
+    "billerType": "10",
+    "areaCode": "2005",
+    "lang": "en"
+  },
+  "response": {
+    "displayString": "05PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     ADMIN CHARGE:  RP. 7.500              BILLING AMT:  RP. 182.000             11123434       20170306141623000000000000000946PLGN GOWA 0011123434          032016120000000255002017010000000320002017020000001245002005",
+    "customerName": "PLGN GOWA 0011123434",
+    "responseCode": "00",
+    "paymentInfo": null,
+    "billPeriod": null,
+    "displayList": [
+      {
+      "value": "PAM Aetra",
+      "key": "NAMA BILLER"
+    },
+    {
+      "value": "60033301",
+      "key": "ID PELANGGAN"
+    },
+    {
+      "value": "FAJAR HANTONO",
+      "key": "NAMA PELANGGAN"
+    },
+    {
+      "value": "201303",
+      "key": "TGL JTH TEMPO"
+    },
+    {
+      "value": "RP. 300.000",
+      "key": "TAGIHAN"
+    },
+    {
+      "value": "RP. 0",
+      "key": "DENDA"
+    },
+    {
+      "value": "RP. 2.500",
+      "key": "ADMIN BANK"
+    },
+    {
+      "value": "RP. 302.500",
+      "key": "TOTAL TAGIHAN"
+    }
+    ],
+    "billAmount": 182000,
+    "billingInfo": "05PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     ADMIN CHARGE:  RP. 7.500              BILLING AMT:  RP. 182.000             11123434       20170306141623000000000000000946PLGN GOWA 0011123434          032016120000000255002017010000000320002017020000001245002005",
+    "vaInputMode": null,
+    "additionalDataPrivate": null
+  }
+}

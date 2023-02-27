@@ -1,0 +1,97 @@
+{
+    "url": "http://10.32.1.83/PersonalBanking/rest/v3/action/configDataSavingGeneric",
+    "method": "POST",
+    "requestBody": {
+    	"ipassport": "SMP-22096001557220378003"
+    },
+    "response": {
+      "responseMessage": "success get data",
+      "responseCode": "00",
+      "config": [
+        {
+          "productDeposit": "0",
+          "productNameID": "Tabungan Alfamart",
+          "productTnCEN": "http://10.32.1.83/PersonalBanking/externalContent/TermandconditionSavingAlfamartEN.html",
+          "productTnCID": "http://10.32.1.83/PersonalBanking/externalContent/TermandconditionSavingAlfamartID.html",
+          "productCode": "SAA",
+          "productDescID": "Rekening tabungan kerjasama Bank Sinarmas dan Alfamart",
+          "productEnabledETB": "false",
+          "productImage": "http://10.32.1.83/PersonalBanking/images/saving-alfamart-card.png",
+          "productDescEN": "Saving account co-branding Bank Sinarmas and Alfamart",
+          "productNameEN": "Alfamart Saving Account",
+          "productEnabledNTB": "true",
+          "productType": "savingGold"
+        },
+        {
+          "productDeposit": "500000",
+          "productNameID": "Tabungan Simas Gold",
+          "productTnCEN": "http://10.32.1.83/PersonalBanking/externalContent/TermandconditionSavingGoldEN.html",
+          "productTnCID": "http://10.32.1.83/PersonalBanking/externalContent/TermandconditionSavingGoldID.html",
+          "productCode": "SAG",
+          "productDescID": "Tabungan yang fleksibel untuk transaksi Anda!",
+          "productEnabledETB": "true",
+          "productImage": "http://10.32.1.83/PersonalBanking/images/saving-gold-card.png",
+          "productDescEN": "Flexible savings for your transactions!",
+          "productNameEN": "Simas Gold Savings",
+          "productEnabledNTB": "true",
+          "productType": "savingGold"
+        },
+        {
+          "productDeposit": "25000000",
+          "productNameID": "Tabungan Sinarmas Diamond",
+          "productTnCEN": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingDiamondEN.html",
+          "productTnCID": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingDiamondID.html",
+          "productCode": "SAD",
+          "productDescID": "Tabungan premium yang memberikan manfaat lebih!",
+          "productEnabledETB": "false",
+          "productImage": "https://www.banksinarmas.com/PersonalBanking/images/saving-diamond-card.png",
+          "productDescEN": "Premium savings with more benefits!",
+          "productNameEN": "Sinarmas Diamond Saving",
+          "productEnabledNTB": "false",
+          "productType": "savingDiamond"
+        },
+        {
+          "productDeposit": "500000",
+          "productNameID": "Tabungan Orami",
+          "productTnCEN": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingOramiEN.html",
+          "productTnCID": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingOramiID.html",
+          "productCode": "SAO",
+          "productDescID": "Rekening tabungan kerjasama Bank Sinarmas dan Orami",
+          "productEnabledETB": "true",
+          "productImage": "https://www.banksinarmas.com/PersonalBanking/images/saving-orami-card.png",
+          "productDescEN": "Saving account co-branding Bank Sinarmas and Orami",
+          "productNameEN": "Orami Savings",
+          "productEnabledNTB": "true",
+          "productType": "savingAlfamartOrami"
+        },
+        {
+          "productDeposit": "100000",
+          "productNameID": "Simas TARA",
+          "productTnCEN": "http://10.32.1.83/PersonalBanking/externalContent/TermsandconditionSimasTaraEn.html",
+          "productTnCID": "http://10.32.1.83/PersonalBanking/externalContent/TermsandconditionSimasTaraIn.html",
+          "productCode": "SA-T",
+          "productDescID": "Wujudkan impian dengan rencana keuangan yang fleksibel",
+          "productEnabledETB": "true",
+          "productImage": "http://10.32.1.83/PersonalBanking/images/saving-tara-card.png",
+          "productDescEN": "Make your dreams come true with flexible financial plans",
+          "productNameEN": "Simas TARA",
+          "productEnabledNTB": "false",
+          "productType": "savingTara"
+        },
+        {
+          "productDeposit": "0",
+          "productNameID": "Tabungan Sinarmas Alfamart",
+          "productTnCEN": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingAlfamartEN.html",
+          "productTnCID": "https://www.banksinarmas.com/PersonalBanking/externalContent/TermandconditionSavingAlfamartID.html",
+          "productCode": "SA-A",
+          "productDescID": "Buka tabungannya dan dapatkan keuntungannya!",
+          "productEnabledETB": "true",
+          "productImage": "https://www.banksinarmas.com/PersonalBanking/images/saving-alfamart-card.png",
+          "productDescEN": "Open savings account now, and get the benefits!",
+          "productNameEN": "Sinarmas Alfamart Saving",
+          "productEnabledNTB": "false",
+          "productType": "savingAlfamart"
+        }
+      ]
+    }
+  }

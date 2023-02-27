@@ -1,0 +1,618 @@
+{
+  "url": "http://simigi.banksinarmas.com/PersonalBanking/rest/v3/action/personal-accident-config",
+  "requestBody": {
+    "ipassport": "SMP-3347851491041311642",
+    "lang":"en"
+  },
+  "response": {
+  "responseMessage": "success",
+    "dropDownLists": {
+        "tripReasonJson": [
+            {
+                "id": 2680,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "wisata",
+                "name": "Wisata",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2681,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "bisnis",
+                "name": "Bisnis",
+                "priority": 2,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2682,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "kunjunganKeluarga",
+                "name": "Kunjungan Keluarga",
+                "priority": 3,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2683,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "seminar",
+                "name": "Seminar",
+                "priority": 4,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2684,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "training",
+                "name": "Training",
+                "priority": 5,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2685,
+                "type": "bancassSimasnetTravelTripReason",
+                "code": "tugasKantor",
+                "name": "Tugas Kantor",
+                "priority": 6,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "personalAccidentPremiJson": [
+            {
+                "id": 2861,
+                "type": "bancassPersonalAccidentPremi",
+                "code": "150000",
+                "name": "IDR 150.000",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2862,
+                "type": "bancassPersonalAccidentPremi",
+                "code": "75000",
+                "name": "IDR 75.000",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "personalAccidentBenRelationJson": [
+            {
+                "id": 2863,
+                "type": "bancassPersonalAccidentBenRelation",
+                "code": "7",
+                "name": "Adik / Kakak Kandung",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2864,
+                "type": "bancassPersonalAccidentBenRelation",
+                "code": "5",
+                "name": "Suami / Istri",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2865,
+                "type": "bancassPersonalAccidentBenRelation",
+                "code": "4",
+                "name": "Anak Kandung",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2866,
+                "type": "bancassPersonalAccidentBenRelation",
+                "code": "2",
+                "name": "Orang Tua",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "relationshipHeirJson": [
+            {
+                "id": 2692,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Adik",
+                "name": "Adik",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2693,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Anak",
+                "name": "Anak",
+                "priority": 2,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2694,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Ayah",
+                "name": "Ayah",
+                "priority": 3,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2695,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Cucu",
+                "name": "Cucu",
+                "priority": 4,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2696,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Dealer",
+                "name": "Dealer",
+                "priority": 5,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2697,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Ibu",
+                "name": "Ibu",
+                "priority": 6,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2698,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Istri",
+                "name": "Istri",
+                "priority": 7,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2699,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Kakak",
+                "name": "Kakak",
+                "priority": 8,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2700,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Kakek",
+                "name": "Kakek",
+                "priority": 9,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2701,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Keponakan",
+                "name": "Keponakan",
+                "priority": 10,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2702,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Kerabat",
+                "name": "Kerabat",
+                "priority": 11,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2703,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Kreditur",
+                "name": "Kreditur",
+                "priority": 12,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2704,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Lembaga Pendidikan",
+                "name": "Lembaga Pendidikan",
+                "priority": 13,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2705,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Majikan",
+                "name": "Majikan",
+                "priority": 14,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2706,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Nenek",
+                "name": "Nenek",
+                "priority": 15,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2707,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Orang Tua",
+                "name": "Orang Tua",
+                "priority": 16,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2708,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Perusahaan",
+                "name": "Perusahaan",
+                "priority": 17,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2709,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Pimpinan",
+                "name": "Pimpinan",
+                "priority": 18,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2710,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Saudara",
+                "name": "Saudara",
+                "priority": 19,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2711,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Sepupu",
+                "name": "Sepupu",
+                "priority": 20,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2712,
+                "type": "bancassSimasnetTravelRelationshipHeir",
+                "code": "Suami",
+                "name": "Suami",
+                "priority": 21,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "bancassPlanListJson": [
+            {
+                "id": 2670,
+                "type": "bancassPlan",
+                "code": "simasnetPersonalAccident",
+                "name": "Personal Accident",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2671,
+                "type": "bancassPlan",
+                "code": "simasnetTravel",
+                "name": "Asuransi Travel",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "planListJson": [
+            {
+                "id": 2716,
+                "jenisPlan": "Individu",
+                "name": "DOMESTIC PLAN A",
+                "jenisPerjalanan": "Domestic",
+                "code": "PLAN A"
+            },
+            {
+                "id": 2717,
+                "jenisPlan": "Individu",
+                "name": "DOMESTIC PLAN B",
+                "jenisPerjalanan": "Domestic",
+                "code": "PLAN B"
+            },
+            {
+                "id": 2718,
+                "jenisPlan": "Individu",
+                "name": "DOMESTIC PLAN C",
+                "jenisPerjalanan": "Domestic",
+                "code": "PLAN C"
+            },
+            {
+                "id": 2719,
+                "jenisPlan": "Individu",
+                "name": "DOMESTIC PLAN D",
+                "jenisPerjalanan": "Domestic",
+                "code": "PLAN D"
+            },
+            {
+                "id": 2720,
+                "jenisPlan": "Individu",
+                "name": "OVERSEAS PLAN SILVER 1 INDIVIDU",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR1_I"
+            },
+            {
+                "id": 2721,
+                "jenisPlan": "Individu",
+                "name": "OVERSEAS PLAN SILVER 2 INDIVIDU",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR2_I"
+            },
+            {
+                "id": 2722,
+                "jenisPlan": "Individu",
+                "name": "OVERSEAS PLAN SILVER 3 INDIVIDU",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR3_I"
+            },
+            {
+                "id": 2723,
+                "jenisPlan": "Family",
+                "name": "OVERSEAS PLAN SILVER 1 FAMILY",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR1_F"
+            },
+            {
+                "id": 2724,
+                "jenisPlan": "Family",
+                "name": "OVERSEAS PLAN SILVER 2 FAMILY",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR2_F"
+            },
+            {
+                "id": 2725,
+                "jenisPlan": "Family",
+                "name": "OVERSEAS PLAN SILVER 3 FAMILY",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_SLVR3_F"
+            },
+            {
+                "id": 2726,
+                "jenisPlan": "Individu",
+                "name": "OVERSEAS PLAN GOLD INDIVIDU",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_GOLD_I"
+            },
+            {
+                "id": 2727,
+                "jenisPlan": "Family",
+                "name": "OVERSEAS PLAN GOLD FAMILY",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_GOLD_F"
+            },
+            {
+                "id": 2728,
+                "jenisPlan": "Individu",
+                "name": "OVERSEAS PLAN PLATINUM INDIVIDU",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_PLT_I"
+            },
+            {
+                "id": 2729,
+                "jenisPlan": "Family",
+                "name": "OVERSEAS PLAN PLATINUM FAMILY",
+                "jenisPerjalanan": "Overseas",
+                "code": "BS_PLT_F"
+            }
+        ],
+        "genderJson": [
+            {
+                "id": 2799,
+                "type": "bancassSimasnetTravelGender",
+                "code": "L",
+                "name": "Laki-Laki",
+                "priority": 2,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2800,
+                "type": "bancassSimasnetTravelGender",
+                "code": "P",
+                "name": "Perempuan",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "statusInsuredJson": [
+            {
+                "name": "Insured",
+                "IsInsuredFlag": "1",
+                "code": "Insured"
+            },
+            {
+                "name": "Spouse",
+                "IsInsuredFlag": "0",
+                "code": "Spouse"
+            },
+            {
+                "name": "Child",
+                "IsInsuredFlag": "0",
+                "code": "Child"
+            }
+        ],
+        "personalAccidentSexJson": [
+            {
+                "id": 2859,
+                "type": "bancassPersonalAccidentSex",
+                "code": "1",
+                "name": "Male",
+                "priority": 2,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2860,
+                "type": "bancassPersonalAccidentSex",
+                "code": "0",
+                "name": "Female",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ],
+        "idTypeJson": [
+            {
+                "id": 2689,
+                "type": "bancassSimasnetTravelIdType",
+                "code": "KTP",
+                "name": "KTP",
+                "priority": 1,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2690,
+                "type": "bancassSimasnetTravelIdType",
+                "code": "SIM",
+                "name": "SIM",
+                "priority": 2,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            },
+            {
+                "id": 2691,
+                "type": "bancassSimasnetTravelIdType",
+                "code": "PASSPORT",
+                "name": "PASSPORT",
+                "priority": 3,
+                "description": null,
+                "shortname": null,
+                "status": null,
+                "filter": null
+            }
+        ]
+    },
+    "responseCode": "00",
+    "customer": {
+        "ktpId": "3273052101660002",
+        "mobilenumber": "085779583450",
+        "email": "chlaudia.m.pesik@banksinarmas.com",
+        "no": "106245",
+        "name": "RKIQ LEQJ VOQJ",
+        "dob": "01/21/1966",
+        "gender": "M",
+        "cifCode": "106245"
+    }
+  }
+}

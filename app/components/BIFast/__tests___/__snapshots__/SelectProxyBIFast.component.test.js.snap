@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectProxyBIFast component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FA3F70",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "justifyContent": "space-between",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 25,
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "paddingLeft": 50,
+                    "transform": Array [
+                      Object {
+                        "rotate": "180deg",
+                      },
+                    ],
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "paddingRight": 70,
+              }
+            }
+          >
+            Akun Proxy
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flex": 1,
+          "marginTop": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 30,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Pilih Akun Proxy
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

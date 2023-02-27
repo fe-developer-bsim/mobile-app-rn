@@ -1,0 +1,16 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/balance-emoney",
+  "requestBody": {
+    "ipassport": "SMP-1120081523007448887"
+  },
+  "response": {
+   "accounts": {
+      "availableBalance": "100000",
+      "Currency": "IDR",
+      "CurrentBalance": "0",
+      "WorkingBalance": "0",
+      "AccountNumber": "38081212341234"
+   },
+   "responseCode": "00"
+ }
+}

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FailActivation component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "paddingBottom": 25,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Image
+            source="simobiplus.png"
+            style={
+              Object {
+                "height": 30,
+                "marginTop": 30,
+                "paddingVertical": 20,
+                "resizeMode": "contain",
+                "width": 150,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontFamily": "roboto",
+                "fontSize": 12,
+                "marginRight": 20,
+                "marginTop": 30,
+              }
+            }
+          >
+            18 Aug 1989, 12:00 am
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "padding": 25,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "maxWidth": 487.2,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "roboto",
+                  "fontSize": 24,
+                }
+              }
+            >
+              Anda telah memiliki Akun SimobiPlus
+            </Text>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 50,
+                },
+                Object {
+                  "color": "#666",
+                  "paddingTop": 30,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 20,
+              "marginTop": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "fontFamily": "roboto",
+                "fontSize": 16,
+              }
+            }
+          >
+            Untuk bantuan lebih lanjut, Anda dapat mengirimkan email ke 
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              care@banksinarmas.com 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#9E9E9E",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              atau telpon ke Bank Sinarmas Care 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              1500153/(021) 5018 8888
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "paddingBottom": 20,
+          "paddingHorizontal": 10,
+          "paddingTop": 70,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              SELESAI
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

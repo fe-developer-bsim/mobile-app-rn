@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingOffers component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "marginBottom": 80,
+      "padding": 5,
+    }
+  }
+>
+  <View />
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text>
+          No Offers for this Category
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,110 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/billpay-confirmation",
+  "requestBody": {
+    "ipassport": "SMP-2137351488457327083",
+    "subscriberNoInput": "12341234",
+    "idbillPay": 46,
+    "billerType": "6",
+    "lang": "en"
+  },
+  "response": {
+    "result": {
+      "displayList": [
+        {
+          "value": "PAM Aetra",
+          "key": "NAMA BILLER"
+        },
+        {
+          "value": "400099899",
+          "key": "ID PELANGGAN"
+        },
+        {
+          "value": "FEBUARY RIBKA",
+          "key": "NAMA PELANGGAN"
+        },
+        {
+          "value": "201806",
+          "key": "TGL JTH TEMPO"
+        },
+        {
+          "value": "RP. 25.000",
+          "key": "TAGIHAN"
+        },
+        {
+          "value": "RP. 0",
+          "key": "DENDA"
+        },
+        {
+          "value": "RP. 2.500",
+          "key": "ADMIN BANK"
+        },
+        {
+          "value": "RP. 27.500",
+          "key": "TOTAL TAGIHAN"
+        }
+      ]
+    },
+    "displayList": [
+      [
+        "NAMA BILLER",
+        "PAM Aetra"
+      ],
+      [
+        "ID PELANGGAN",
+        "400099899"
+      ],
+      [
+        "NAMA PELANGGAN",
+        "FEBUARY RIBKA"
+      ],
+      [
+        "TGL JTH TEMPO",
+        "201806"
+      ],
+      [
+        "TAGIHAN",
+        "RP. 25.000"
+      ],
+      [
+        "DENDA",
+        "RP. 0"
+      ],
+      [
+        "ADMIN BANK",
+        "RP. 2.500"
+      ],
+      [
+        "TOTAL TAGIHAN",
+        "RP. 27.500"
+      ]
+    ],
+    "billAmount": "25000",
+    "targetAccount": "PAM Aetra",
+    "lang": "en",
+    "amount": 27500,
+    "totalAmountDebited": 27500,
+    "subscriberNoInput": "400099899",
+    "totalBankCharge": 2500,
+    "merchantCurrency": "IDR",
+    "bankCharge": 2500,
+    "amountNumber": 25000,
+    "customerName": "",
+    "responseCode": "00",
+    "billerType": "1",
+    "billerTraceNumber": null,
+    "areaCode": null,
+    "idbillPay": 1073,
+    "accSelectInput": "0500013966",
+    "billingInfo": "08NAMA BILLER   : PAM Aetra             ID PELANGGAN  : 400099899             NAMA PELANGGAN: FEBUARY RIBKA         TGL JTH TEMPO : 201806                TAGIHAN       : RP. 25.000            DENDA         : RP. 0                 ADMIN BANK    : RP. 2.500             TOTAL TAGIHAN : RP. 27.500                  400099899FEBUARY RIBKA                 012018060000000250000000000000001000-00001500",
+    "transactionDate": 1544142631297,
+    "vaTypeInput": null,
+    "systemsTraceAuditNumber": null,
+    "tax": 0,
+    "BillPeriod": null,
+    "descInput": "yoi",
+    "securityTypeCode": "",
+    "setInvoiceNo": "",
+    "primaryAccountNumber": "6396879967460053",
+    "bpmTransRefNum": "MB-BP-21267784142631297"
+  }
+}

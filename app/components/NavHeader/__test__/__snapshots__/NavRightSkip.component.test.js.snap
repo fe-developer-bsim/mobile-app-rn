@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Componenent: NavRightSkip renders correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Modal
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      transparent={true}
+      visible={false}
+    >
+      <View
+        accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "bottom": 0,
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 500,
+            },
+            Array [
+              false,
+              false,
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                undefined,
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0.5)",
+                  "paddingBottom": 24,
+                  "paddingLeft": 24,
+                  "paddingRight": 24,
+                  "paddingTop": 24,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "position": "absolute",
+                  "shadowColor": "black",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.8,
+                  "shadowRadius": 2,
+                },
+                Object {
+                  "left": 0,
+                  "paddingTop": 8,
+                  "top": -8,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomColor": "transparent",
+                    "borderLeftColor": "transparent",
+                    "borderRightColor": "transparent",
+                    "borderTopColor": "transparent",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "borderBottomWidth": 9,
+                    "borderLeftWidth": 9,
+                    "borderRightWidth": 9,
+                    "borderTopWidth": 9,
+                    "height": 18,
+                    "left": -9,
+                    "top": -1,
+                    "width": 18,
+                  },
+                  Object {
+                    "borderTopColor": "#fff",
+                  },
+                  undefined,
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "rotate": "180deg",
+                      },
+                    ],
+                  },
+                ]
+              }
+            />
+            <View
+              onLayout={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#fff",
+                    "borderRadius": 4,
+                    "overflow": "hidden",
+                    "padding": 8,
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "flex": 1,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Klik di sini untuk melanjutkan ke registrasi SimobiPlus dan menuju Simas E-Money
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                >
+                  <View />
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#ED1D25",
+                          "fontFamily": "roboto",
+                          "fontWeight": "700",
+                          "marginTop": 5,
+                        }
+                      }
+                    >
+                      OK
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onTouchEnd={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 0,
+              "justifyContent": "center",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": 0,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#ED1D25",
+                  "fontWeight": "500",
+                }
+              }
+            >
+              SKIP
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Modal>
+    <View
+      onLayout={[Function]}
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontWeight": "500",
+            }
+          }
+        >
+          SKIP
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

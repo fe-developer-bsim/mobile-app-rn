@@ -1,0 +1,3414 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/login",
+  "requestBody": {
+    "username": "6289639130355",
+    "loginPassword": "12345678",
+    "pushToken": "123456",
+    "E2EE_RANDOM": "12345678",
+    "clientCheck": "WEB_BROWSER",
+    "sessionCode": "123456"
+  },
+  "response": {
+    "responseMessage": "Login Success",
+    "responseCode": "00",
+    "ipassport": "SMP-2137351496910400765",
+    "SMP-2137351496910400765": "RANDOMNUMXXXXXX",
+    "digitalTransactionService": {
+       "accountOffline":[
+          {
+             "accNumber":"38085939937920",
+             "accName":"aditya saxena",
+             "accId":127761
+          }
+       ],
+       "merchList":[
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 1",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 2",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 3",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 4",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 5",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 6",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 7",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 8",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              0, 1
+            ]
+          },
+          {
+             "limitMerchant":2000000,
+             "merchName":"Asuransi Sinarmas",
+             "merchIcon":"icon/1215168804328-logoSimas2.gif",
+            "merchId":2,
+            "transactionAllowType":[
+              1, 2
+            ]
+          },
+          {
+             "limitMerchant":3000000,
+             "merchName":"Asuransi Jiwa Sinarmas",
+             "merchIcon":"icon/1215168830640-logoSimas2.gif",
+            "merchId":2,
+            "transactionAllowType":[
+              2, 3
+            ]
+          },
+          {
+             "limitMerchant":4000000,
+             "merchName":"Firstmedia",
+             "merchIcon":"icon/1244446520554-1stmedia.jpg",
+            "merchId":2,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 4",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 5",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 6",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 7",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+            "limitMerchant":1000000,
+            "merchName":"Smart Telecom 8",
+            "merchIcon":"icon/logo-smart.gif",
+            "merchId":1,
+            "transactionAllowType":[
+              3, 4
+            ]
+          },
+          {
+             "limitMerchant":5000000,
+             "merchName":"Smartfren Postpaid",
+             "merchIcon":"icon/1280483040145-smart.jpg",
+            "merchId":2,
+            "transactionAllowType":[
+              4, 5
+            ]
+          }
+       ]
+    },
+    "isFaceRegistered": false,
+    "ipassportData": {
+      "ipassDataClient": {
+        "loginTime": 1496910400824,
+        "lastAccess": 1496826997000,
+        "profileScope": {
+          "inbankTransferList": [{
+              "id": 370052,
+              "accountNumber": "850811847775",
+              "transferType": "inbank",
+              "name": "CARDLESS WITHDRAWAL",
+              "accountType": "UnknownAccount",
+              "label": "850811847775/IDR/UnknownAccount/CARDLESS WITHDRAWAL",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370131,
+              "accountNumber": "0008383898",
+              "transferType": "inbank",
+              "name": "GAQQU IQGUMI",
+              "accountType": "Giro Sinarmas IDR - Personal",
+              "label": "0008383898/IDR/Giro Sinarmas IDR - Personal/GAQQU IQGUMI",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369734,
+              "accountNumber": "0008383499",
+              "transferType": "inbank",
+              "name": "HERRYZON",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008383499/IDR/Tabungan Sinarmas-Statement/HERRYZON",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369954,
+              "accountNumber": "0008382891",
+              "transferType": "inbank",
+              "name": "HERU SLIMADA",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382891/IDR/Tabungan Sinarmas-Statement/HERU SLIMADA",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369785,
+              "accountNumber": "0025677099",
+              "transferType": "inbank",
+              "name": "HOGTU ITUIQWA",
+              "accountType": "Tabungan Smart Dompet",
+              "label": "0025677099/IDR/Tabungan Smart Dompet/HOGTU ITUIQWA",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369752,
+              "accountNumber": "0008383936",
+              "transferType": "inbank",
+              "name": "HUTPIQ HELUIQVBIK T",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008383936/IDR/Tabungan Sinarmas-Statement/HUTPIQ HELUIQVBIK T",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369855,
+              "accountNumber": "8384468",
+              "transferType": "inbank",
+              "name": "MCKINSEY ACQ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "8384468/IDR/Tabungan Sinarmas-Statement/MCKINSEY ACQ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369692,
+              "accountNumber": "0008382875",
+              "transferType": "inbank",
+              "name": "MCKINSEY BV",
+              "accountType": "SIMAS Valas USD",
+              "label": "0008382875/USD/SIMAS Valas USD/MCKINSEY BV",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 369693,
+              "accountNumber": "0008382832",
+              "transferType": "inbank",
+              "name": "MCKINSEY BV",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382832/IDR/Tabungan Sinarmas-Statement/MCKINSEY BV",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369732,
+              "accountNumber": "0008382816",
+              "transferType": "inbank",
+              "name": "MCKINSEY BX",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382816/IDR/Tabungan Sinarmas-Statement/MCKINSEY BX",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369953,
+              "accountNumber": "0008382808",
+              "transferType": "inbank",
+              "name": "MCKINSEY BY",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382808/IDR/Tabungan Sinarmas-Statement/MCKINSEY BY",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370060,
+              "accountNumber": "0031551773",
+              "transferType": "inbank",
+              "name": "POU HUWTUBIQU RIVWUEWIPU",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0031551773/IDR/Tabungan Sinarmas-Statement/POU HUWTUBIQU RIVWUEWIPU",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369972,
+              "accountNumber": "0008384479",
+              "transferType": "inbank",
+              "name": "SIMAS D",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008384479/IDR/Tabungan Sinarmas-Statement/SIMAS D",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370051,
+              "accountNumber": "8001926061000248",
+              "transferType": "inbank",
+              "name": "SMMF QQ AMRIK KURNIA LESTARI",
+              "accountType": "Virtual Account",
+              "label": "8001926061000248/IDR/Virtual Account/SMMF QQ AMRIK KURNIA LESTARI",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369951,
+              "accountNumber": "0008385017",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008385017/IDR/Tabungan Sinarmas-Statement/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369952,
+              "accountNumber": "0008385009",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008385009/IDR/Tabungan Sinarmas-Statement/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370006,
+              "accountNumber": "9900187987",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tab Simas Stmt iB Mudharabah",
+              "label": "9900187987/IDR/Tab Simas Stmt iB Mudharabah/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370050,
+              "accountNumber": "888108811218888",
+              "transferType": "inbank",
+              "name": "UANG QQ STEVEN SHIH",
+              "accountType": "Virtual Account",
+              "label": "888108811218888/IDR/Virtual Account/UANG QQ STEVEN SHIH",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370130,
+              "accountNumber": "0000269085",
+              "transferType": "inbank",
+              "name": "XUXU",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0000269085/IDR/Tabungan Sinarmas-Statement/XUXU",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369691,
+              "accountNumber": "9900001212",
+              "transferType": "inbank",
+              "name": "YENIQ ITUIQUQJTEP",
+              "accountType": "Tab Simas Psbk iB Mudharabah",
+              "label": "9900001212/IDR/Tab Simas Psbk iB Mudharabah/YENIQ ITUIQUQJTEP",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123339,
+              "accountNumber": "0008383898",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008383898/IDR/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123252,
+              "accountNumber": "0002751704",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0002751704/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123253,
+              "accountNumber": "0005373271",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0005373271/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123254,
+              "accountNumber": "0008345198",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345198/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123255,
+              "accountNumber": "0008345201",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345201/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123256,
+              "accountNumber": "0008345217",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345217/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123257,
+              "accountNumber": "0008345228",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345228/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123258,
+              "accountNumber": "0008345309",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345309/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123259,
+              "accountNumber": "0008345317",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345317/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123260,
+              "accountNumber": "0008345325",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345325/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123261,
+              "accountNumber": "0008345414",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345414/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123262,
+              "accountNumber": "0008345422",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345422/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123263,
+              "accountNumber": "0008345438",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345438/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123264,
+              "accountNumber": "0008345527",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345527/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123265,
+              "accountNumber": "0008345538",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345538/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123266,
+              "accountNumber": "0008345546",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345546/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123267,
+              "accountNumber": "0008345708",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345708/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123268,
+              "accountNumber": "0008345716",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345716/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123269,
+              "accountNumber": "0008345724",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345724/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123270,
+              "accountNumber": "0008345961",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345961/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123271,
+              "accountNumber": "0008345977",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345977/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123272,
+              "accountNumber": "0008345988",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345988/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123273,
+              "accountNumber": "0008346402",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008346402/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123274,
+              "accountNumber": "0008346418",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008346418/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123275,
+              "accountNumber": "0008351651",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008351651/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123276,
+              "accountNumber": "0008351686",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008351686/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123277,
+              "accountNumber": "0008370982",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008370982/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123278,
+              "accountNumber": "0008370998",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008370998/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123279,
+              "accountNumber": "0008371725",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008371725/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123280,
+              "accountNumber": "0008378274",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008378274/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123281,
+              "accountNumber": "0008378328",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378328/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123282,
+              "accountNumber": "0008378339",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378339/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123283,
+              "accountNumber": "0008378347",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378347/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123284,
+              "accountNumber": "0008378355",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378355/EUR/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "EUR"
+            },
+            {
+              "id": 123285,
+              "accountNumber": "0008378371",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378371/SGD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "SGD"
+            },
+            {
+              "id": 123286,
+              "accountNumber": "0008381097",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381097/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123287,
+              "accountNumber": "0008381135",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381135/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123288,
+              "accountNumber": "0008381143",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381143/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123289,
+              "accountNumber": "0008381151",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381151/SGD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "SGD"
+            },
+            {
+              "id": 123290,
+              "accountNumber": "0008381259",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381259/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123291,
+              "accountNumber": "0008381267",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381267/AUD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "AUD"
+            },
+            {
+              "id": 123292,
+              "accountNumber": "0008381275",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381275/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123293,
+              "accountNumber": "0008381283",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008381283/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123294,
+              "accountNumber": "0008381321",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008381321/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123295,
+              "accountNumber": "0008382263",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008382263/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123296,
+              "accountNumber": "0008382627",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008382627/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123299,
+              "accountNumber": "0900690754",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0900690754/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123297,
+              "accountNumber": "0030670922",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0030670922/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123298,
+              "accountNumber": "0050006708",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0050006708/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125041,
+              "accountNumber": "0008385203",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008385203/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125042,
+              "accountNumber": "0008385211",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008385211/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125158,
+              "accountNumber": "9900977635",
+              "transferType": "own",
+              "name": "DONNI SYAH UPGRADE",
+              "accountType": "SavingAccount",
+              "label": "9900977635/IDR/SavingAccount/DONNI SYAH UPGRADE",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            }
+          ],
+          "savedMerchantList": [],
+          "accountList": [
+              {
+                "id": 123310,
+                "accountNumber": "38081212341234",
+                "accountMode": null,
+                "allowFlag": "ft|bp|oa|td",
+                "expiryDate": null,
+                "name": "GAQQU IQGUMI",
+                "accountType": "emoneyAccount",
+                "accountTypeCode": "1001",
+                "bank": "PT BANK SINARMAS",
+                "label": "0008383898/IDR/CurrentAccount/GAQQU IQGUMI",
+                "bankBranch": {
+                  "id": 6,
+                  "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                  "name": "KC Mangga Dua",
+                  "code": "ID0010006"
+                },
+                "currency": "IDR",
+                "productType": "Emoney Account",
+                "balances": {
+                  "availableBalance" : 1000000
+                }
+              },{
+              "id": 123339,
+              "accountNumber": "0008383898",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1001",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008383898/IDR/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125039,
+              "accountNumber": "0900000000023205",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023205/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 125078,
+              "accountNumber": "4893722000093063",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": "202008",
+              "name": "ANDIKA",
+              "accountType": "CreditCardAccount",
+              "accountTypeCode": "30",
+              "bank": "PT BANK SINARMAS",
+              "label": "4893722000093063/IDR/CreditCardAccount/ANDIKA",
+              "currency": "IDR"
+            },
+            {
+              "id": 125078,
+              "accountNumber": "4893742000093063",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": "202008",
+              "name": "ANDIKA",
+              "accountType": "CreditCardAccount",
+              "accountTypeCode": "30",
+              "bank": "PT BANK SINARMAS",
+              "label": "4893722000093063/IDR/CreditCardAccount/ANDIKA",
+              "currency": "IDR"
+            },
+            {
+              "id": 123252,
+              "accountNumber": "0002751704",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|tds",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "1070",
+              "bank": "PT BANK SINARMAS",
+              "label": "0002751704/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR",
+              "isDefaultAccount": "yes",
+              "balances": {
+                "availableBalance" : 100000
+              }
+            },
+            {
+              "id": 123253,
+              "accountNumber": "0005373271",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6010",
+              "bank": "PT BANK SINARMAS",
+              "label": "0005373271/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123254,
+              "accountNumber": "0008345198",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345198/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123255,
+              "accountNumber": "0008345201",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345201/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123256,
+              "accountNumber": "0008345217",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345217/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123257,
+              "accountNumber": "0008345228",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345228/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123258,
+              "accountNumber": "0008345309",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345309/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 9,
+                "address": "Roxy Mas Blok B1 No. 3 Jakarta Tlp|",
+                "name": "KCP Roxy Mas",
+                "code": "ID0010009"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123259,
+              "accountNumber": "0008345317",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345317/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 10,
+                "address": "Kelapa Gading Permai LA1 No.30-31 |",
+                "name": "KCP Kelapa Gading",
+                "code": "ID0010010"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123260,
+              "accountNumber": "0008345325",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345325/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 7,
+                "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+                "name": "KC Tanah Abang",
+                "code": "ID0010007"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123261,
+              "accountNumber": "0008345414",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345414/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 4,
+                "address": "Jl. K.H. Hasyim Ashari No. 38 Jaka|",
+                "name": "KC Hasyim Ashari",
+                "code": "ID0010004"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123262,
+              "accountNumber": "0008345422",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345422/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 2,
+                "address": "Jl. MH. Thamrin No. 51 Jakarta Tlp|",
+                "name": "KCU Thamrin",
+                "code": "ID0010002"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123263,
+              "accountNumber": "0008345438",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345438/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123264,
+              "accountNumber": "0008345527",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345527/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 4,
+                "address": "Jl. K.H. Hasyim Ashari No. 38 Jaka|",
+                "name": "KC Hasyim Ashari",
+                "code": "ID0010004"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123265,
+              "accountNumber": "0008345538",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345538/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 2,
+                "address": "Jl. MH. Thamrin No. 51 Jakarta Tlp|",
+                "name": "KCU Thamrin",
+                "code": "ID0010002"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123266,
+              "accountNumber": "0008345546",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345546/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123267,
+              "accountNumber": "0008345708",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345708/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 4,
+                "address": "Jl. K.H. Hasyim Ashari No. 38 Jaka|",
+                "name": "KC Hasyim Ashari",
+                "code": "ID0010004"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123268,
+              "accountNumber": "0008345716",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345716/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 2,
+                "address": "Jl. MH. Thamrin No. 51 Jakarta Tlp|",
+                "name": "KCU Thamrin",
+                "code": "ID0010002"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123269,
+              "accountNumber": "0008345724",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345724/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123270,
+              "accountNumber": "0008345961",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345961/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 4,
+                "address": "Jl. K.H. Hasyim Ashari No. 38 Jaka|",
+                "name": "KC Hasyim Ashari",
+                "code": "ID0010004"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123271,
+              "accountNumber": "0008345977",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345977/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 2,
+                "address": "Jl. MH. Thamrin No. 51 Jakarta Tlp|",
+                "name": "KCU Thamrin",
+                "code": "ID0010002"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123272,
+              "accountNumber": "0008345988",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008345988/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123273,
+              "accountNumber": "0008346402",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008346402/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 228,
+                "address": "Plaza BII Tower 3 Lt 1 Jl M.H.Tham|",
+                "name": "KF Operasional Thamrin",
+                "code": "ID0010204"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123274,
+              "accountNumber": "0008346418",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008346418/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 228,
+                "address": "Plaza BII Tower 3 Lt 1 Jl M.H.Tham|",
+                "name": "KF Operasional Thamrin",
+                "code": "ID0010204"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123275,
+              "accountNumber": "0008351651",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008351651/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123276,
+              "accountNumber": "0008351686",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008351686/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 10,
+                "address": "Kelapa Gading Permai LA1 No.30-31 |",
+                "name": "KCP Kelapa Gading",
+                "code": "ID0010010"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123277,
+              "accountNumber": "0008370982",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6017",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008370982/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123278,
+              "accountNumber": "0008370998",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6018",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008370998/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123279,
+              "accountNumber": "0008371725",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6017",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008371725/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123280,
+              "accountNumber": "0008378274",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378274/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123281,
+              "accountNumber": "0008378328",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378328/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123282,
+              "accountNumber": "0008378339",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378339/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123283,
+              "accountNumber": "0008378347",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1020",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378347/CNY/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123284,
+              "accountNumber": "0008378355",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1022",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378355/EUR/CurrentAccount/GAQQU IQGUMI",
+              "currency": "EUR"
+            },
+            {
+              "id": 123285,
+              "accountNumber": "0008378371",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1007",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008378371/SGD/CurrentAccount/GAQQU IQGUMI",
+              "currency": "SGD"
+            },
+            {
+              "id": 123286,
+              "accountNumber": "0008381097",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381097/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123287,
+              "accountNumber": "0008381135",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1020",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381135/CNY/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123288,
+              "accountNumber": "0008381143",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1020",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381143/CNY/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123289,
+              "accountNumber": "0008381151",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1007",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381151/SGD/CurrentAccount/GAQQU IQGUMI",
+              "currency": "SGD"
+            },
+            {
+              "id": 123290,
+              "accountNumber": "0008381259",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1020",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381259/CNY/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123291,
+              "accountNumber": "0008381267",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1021",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381267/AUD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "AUD"
+            },
+            {
+              "id": 123292,
+              "accountNumber": "0008381275",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381275/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123293,
+              "accountNumber": "0008381283",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381283/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123294,
+              "accountNumber": "0008381321",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6008",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008381321/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123295,
+              "accountNumber": "0008382263",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "accountTypeCode": "1012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008382263/USD/CurrentAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123296,
+              "accountNumber": "0008382627",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6001",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008382627/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 1,
+                "address": "Jl MH. Thamrin No.51 Jakarta Tlp. |",
+                "name": "Head Office PRD",
+                "code": "ID0010001"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123299,
+              "accountNumber": "0900690754",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6012",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900690754/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 127,
+                "address": "Roxy Square, Jl. Kyai Tapa No.1 Ja|",
+                "name": "KCP Jkt Roxy Square",
+                "code": "ID0010121"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123300,
+              "accountNumber": "0900000000022789",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000022789/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123301,
+              "accountNumber": "0900000000022816",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000022816/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123297,
+              "accountNumber": "0030670922",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0030670922/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 7,
+                "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+                "name": "KC Tanah Abang",
+                "code": "ID0010007"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123298,
+              "accountNumber": "0050006708",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6000",
+              "bank": "PT BANK SINARMAS",
+              "label": "0050006708/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 7,
+                "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+                "name": "KC Tanah Abang",
+                "code": "ID0010007"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123302,
+              "accountNumber": "0900000000022822",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000022822/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123303,
+              "accountNumber": "0900000000022959",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000022959/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123304,
+              "accountNumber": "0900000000022985",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000022985/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123305,
+              "accountNumber": "0900000000023016",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023016/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123306,
+              "accountNumber": "0900000000023035",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023035/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123307,
+              "accountNumber": "0900000000023046",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023046/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123308,
+              "accountNumber": "0900000000023047",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023047/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 123309,
+              "accountNumber": "0900000000023049",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023049/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 125041,
+              "accountNumber": "0008385203",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6017",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008385203/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125042,
+              "accountNumber": "0008385211",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|td",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6018",
+              "bank": "PT BANK SINARMAS",
+              "label": "0008385211/IDR/SavingAccount/GAQQU IQGUMI",
+              "bankBranch": {
+                "id": 6,
+                "address": "Wisma Eka Jiwa lt dasar Ruko 01-02|",
+                "name": "KC Mangga Dua",
+                "code": "ID0010006"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125081,
+              "accountNumber": "0900000000023210",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023210/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            },
+            {
+              "id": 125158,
+              "accountNumber": "9900977635",
+              "accountMode": null,
+              "allowFlag": "ft|bp|oa|tds",
+              "expiryDate": null,
+              "name": "DONNI SYAH UPGRADE",
+              "accountType": "SavingAccount",
+              "accountTypeCode": "6999",
+              "bank": "PT Bank Sinarmas Syariah",
+              "label": "9900977635/IDR/SavingAccount/DONNI SYAH UPGRADE",
+              "bankBranch": {
+                "id": 202,
+                "address": "Jl.Tuparev No.409 , Johar Karawang -Wetan , Jawa Barat",
+                "name": "KCS Karawang Wetan -T",
+                "code": "ID0020003"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125019,
+              "accountNumber": "0900000000023203",
+              "accountMode": null,
+              "allowFlag": "",
+              "expiryDate": null,
+              "name": "GAQQU IQGUMI",
+              "accountType": "TimeDepositAccount",
+              "accountTypeCode": "1190",
+              "bank": "PT BANK SINARMAS",
+              "label": "0900000000023203/IDR/TimeDepositAccount/GAQQU IQGUMI",
+              "currency": "IDR"
+            }
+          ],
+          "rtgsTransferList": [],
+          "uangkuTransferList": [],
+          "listOfAllTransferList": [{
+              "id": 369776,
+              "accountNumber": "12345679",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "12345679/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 369973,
+              "accountNumber": "147258369",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "147258369/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 369994,
+              "accountNumber": "15975325",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "15975325/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 370056,
+              "accountNumber": "12345678",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "12345678/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 370090,
+              "accountNumber": "987654322",
+              "name": "Ramdhani",
+              "modeFlag": "100",
+              "bank": "PT. BANK CENTRAL ASIA, TBK.",
+              "label": "987654322/Ramdhani/PT. BANK CENTRAL ASIA, TBK./SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "014",
+              "currency": "IDR"
+            },
+            {
+              "id": 369790,
+              "accountNumber": "123456987",
+              "name": "danamon uus",
+              "modeFlag": "100",
+              "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+              "label": "123456987/danamon uus/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "011",
+              "currency": "IDR"
+            },
+            {
+              "id": 370058,
+              "accountNumber": "123456786",
+              "name": "gol",
+              "modeFlag": "100",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "123456786/gol/PT. BANK MANDIRI, TBK./SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 370059,
+              "accountNumber": "123456667",
+              "name": "gol2",
+              "modeFlag": "100",
+              "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+              "label": "123456667/gol2/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "011",
+              "currency": "IDR"
+            },
+            {
+              "id": 369786,
+              "accountNumber": "963852741",
+              "name": "jawa1",
+              "modeFlag": "100",
+              "bank": "PT. BPD JAWA TIMUR",
+              "label": "963852741/jawa1/PT. BPD JAWA TIMUR/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "114",
+              "currency": "IDR"
+            },
+            {
+              "id": 370052,
+              "accountNumber": "850811847775",
+              "transferType": "inbank",
+              "name": "CARDLESS WITHDRAWAL",
+              "accountType": "UnknownAccount",
+              "label": "850811847775/IDR/UnknownAccount/CARDLESS WITHDRAWAL",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370131,
+              "accountNumber": "0008383898",
+              "transferType": "inbank",
+              "name": "GAQQU IQGUMI",
+              "accountType": "Giro Sinarmas IDR - Personal",
+              "label": "0008383898/IDR/Giro Sinarmas IDR - Personal/GAQQU IQGUMI",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369734,
+              "accountNumber": "0008383499",
+              "transferType": "inbank",
+              "name": "HERRYZON",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008383499/IDR/Tabungan Sinarmas-Statement/HERRYZON",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369954,
+              "accountNumber": "0008382891",
+              "transferType": "inbank",
+              "name": "HERU SLIMADA",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382891/IDR/Tabungan Sinarmas-Statement/HERU SLIMADA",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369785,
+              "accountNumber": "0025677099",
+              "transferType": "inbank",
+              "name": "HOGTU ITUIQWA",
+              "accountType": "Tabungan Smart Dompet",
+              "label": "0025677099/IDR/Tabungan Smart Dompet/HOGTU ITUIQWA",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369752,
+              "accountNumber": "0008383936",
+              "transferType": "inbank",
+              "name": "HUTPIQ HELUIQVBIK T",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008383936/IDR/Tabungan Sinarmas-Statement/HUTPIQ HELUIQVBIK T",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369855,
+              "accountNumber": "8384468",
+              "transferType": "inbank",
+              "name": "MCKINSEY ACQ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "8384468/IDR/Tabungan Sinarmas-Statement/MCKINSEY ACQ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369692,
+              "accountNumber": "0008382875",
+              "transferType": "inbank",
+              "name": "MCKINSEY BV",
+              "accountType": "SIMAS Valas USD",
+              "label": "0008382875/USD/SIMAS Valas USD/MCKINSEY BV",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 369693,
+              "accountNumber": "0008382832",
+              "transferType": "inbank",
+              "name": "MCKINSEY BV",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382832/IDR/Tabungan Sinarmas-Statement/MCKINSEY BV",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369732,
+              "accountNumber": "0008382816",
+              "transferType": "inbank",
+              "name": "MCKINSEY BX",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382816/IDR/Tabungan Sinarmas-Statement/MCKINSEY BX",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369953,
+              "accountNumber": "0008382808",
+              "transferType": "inbank",
+              "name": "MCKINSEY BY",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008382808/IDR/Tabungan Sinarmas-Statement/MCKINSEY BY",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370060,
+              "accountNumber": "0031551773",
+              "transferType": "inbank",
+              "name": "POU HUWTUBIQU RIVWUEWIPU",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0031551773/IDR/Tabungan Sinarmas-Statement/POU HUWTUBIQU RIVWUEWIPU",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369972,
+              "accountNumber": "0008384479",
+              "transferType": "inbank",
+              "name": "SIMAS D",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008384479/IDR/Tabungan Sinarmas-Statement/SIMAS D",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370051,
+              "accountNumber": "8001926061000248",
+              "transferType": "inbank",
+              "name": "SMMF QQ AMRIK KURNIA LESTARI",
+              "accountType": "Virtual Account",
+              "label": "8001926061000248/IDR/Virtual Account/SMMF QQ AMRIK KURNIA LESTARI",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369951,
+              "accountNumber": "0008385017",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008385017/IDR/Tabungan Sinarmas-Statement/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369952,
+              "accountNumber": "0008385009",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0008385009/IDR/Tabungan Sinarmas-Statement/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370006,
+              "accountNumber": "9900187987",
+              "transferType": "inbank",
+              "name": "SWARAJ",
+              "accountType": "Tab Simas Stmt iB Mudharabah",
+              "label": "9900187987/IDR/Tab Simas Stmt iB Mudharabah/SWARAJ",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370050,
+              "accountNumber": "888108811218888",
+              "transferType": "inbank",
+              "name": "UANG QQ STEVEN SHIH",
+              "accountType": "Virtual Account",
+              "label": "888108811218888/IDR/Virtual Account/UANG QQ STEVEN SHIH",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 370130,
+              "accountNumber": "0000269085",
+              "transferType": "inbank",
+              "name": "XUXU",
+              "accountType": "Tabungan Sinarmas-Statement",
+              "label": "0000269085/IDR/Tabungan Sinarmas-Statement/XUXU",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 369691,
+              "accountNumber": "9900001212",
+              "transferType": "inbank",
+              "name": "YENIQ ITUIQUQJTEP",
+              "accountType": "Tab Simas Psbk iB Mudharabah",
+              "label": "9900001212/IDR/Tab Simas Psbk iB Mudharabah/YENIQ ITUIQUQJTEP",
+              "targetType": {
+                "code": "inbanktransfer"
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123252,
+              "accountNumber": "0002751704",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0002751704/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123253,
+              "accountNumber": "0005373271",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0005373271/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123254,
+              "accountNumber": "0008345198",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345198/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123255,
+              "accountNumber": "0008345201",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345201/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123256,
+              "accountNumber": "0008345217",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345217/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123257,
+              "accountNumber": "0008345228",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345228/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123258,
+              "accountNumber": "0008345309",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345309/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123259,
+              "accountNumber": "0008345317",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345317/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123260,
+              "accountNumber": "0008345325",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345325/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123261,
+              "accountNumber": "0008345414",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345414/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123262,
+              "accountNumber": "0008345422",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345422/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123263,
+              "accountNumber": "0008345438",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345438/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123264,
+              "accountNumber": "0008345527",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345527/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123265,
+              "accountNumber": "0008345538",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345538/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123266,
+              "accountNumber": "0008345546",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345546/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123267,
+              "accountNumber": "0008345708",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345708/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123268,
+              "accountNumber": "0008345716",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345716/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123269,
+              "accountNumber": "0008345724",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345724/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123270,
+              "accountNumber": "0008345961",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345961/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123271,
+              "accountNumber": "0008345977",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008345977/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123272,
+              "accountNumber": "0008345988",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008345988/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123273,
+              "accountNumber": "0008346402",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008346402/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123274,
+              "accountNumber": "0008346418",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008346418/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123275,
+              "accountNumber": "0008351651",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008351651/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123276,
+              "accountNumber": "0008351686",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008351686/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123277,
+              "accountNumber": "0008370982",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008370982/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123278,
+              "accountNumber": "0008370998",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008370998/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123279,
+              "accountNumber": "0008371725",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008371725/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123280,
+              "accountNumber": "0008378274",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008378274/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123281,
+              "accountNumber": "0008378328",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378328/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123282,
+              "accountNumber": "0008378339",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378339/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123283,
+              "accountNumber": "0008378347",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378347/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123284,
+              "accountNumber": "0008378355",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378355/EUR/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "EUR"
+            },
+            {
+              "id": 123285,
+              "accountNumber": "0008378371",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008378371/SGD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "SGD"
+            },
+            {
+              "id": 123286,
+              "accountNumber": "0008381097",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381097/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123287,
+              "accountNumber": "0008381135",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381135/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123288,
+              "accountNumber": "0008381143",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381143/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123289,
+              "accountNumber": "0008381151",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381151/SGD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "SGD"
+            },
+            {
+              "id": 123290,
+              "accountNumber": "0008381259",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381259/CNY/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "CNY"
+            },
+            {
+              "id": 123291,
+              "accountNumber": "0008381267",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381267/AUD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "AUD"
+            },
+            {
+              "id": 123292,
+              "accountNumber": "0008381275",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008381275/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123293,
+              "accountNumber": "0008381283",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008381283/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123294,
+              "accountNumber": "0008381321",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008381321/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123295,
+              "accountNumber": "0008382263",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "CurrentAccount",
+              "label": "0008382263/USD/CurrentAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "USD"
+            },
+            {
+              "id": 123296,
+              "accountNumber": "0008382627",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008382627/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123299,
+              "accountNumber": "0900690754",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0900690754/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123297,
+              "accountNumber": "0030670922",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0030670922/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 123298,
+              "accountNumber": "0050006708",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0050006708/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125041,
+              "accountNumber": "0008385203",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008385203/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125042,
+              "accountNumber": "0008385211",
+              "transferType": "own",
+              "name": "GAQQU IQGUMI",
+              "accountType": "SavingAccount",
+              "label": "0008385211/IDR/SavingAccount/GAQQU IQGUMI",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            },
+            {
+              "id": 125158,
+              "accountNumber": "9900977635",
+              "transferType": "own",
+              "name": "DONNI SYAH UPGRADE",
+              "accountType": "SavingAccount",
+              "label": "9900977635/IDR/SavingAccount/DONNI SYAH UPGRADE",
+              "targetType": {
+                "code": null
+              },
+              "currency": "IDR"
+            }
+          ],
+          "networkTransferList": [{
+              "id": 369776,
+              "accountNumber": "12345679",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "12345679/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 369973,
+              "accountNumber": "147258369",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "147258369/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 369994,
+              "accountNumber": "15975325",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "15975325/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 370056,
+              "accountNumber": "12345678",
+              "name": "Ramdhani",
+              "modeFlag": "001",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "12345678/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+              "targetType": {
+                "code": "networkTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            }
+          ],
+          "sknTransferList": [{
+              "id": 370090,
+              "accountNumber": "987654322",
+              "name": "Ramdhani",
+              "modeFlag": "100",
+              "bank": "PT. BANK CENTRAL ASIA, TBK.",
+              "label": "987654322/Ramdhani/PT. BANK CENTRAL ASIA, TBK./SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "014",
+              "currency": "IDR"
+            },
+            {
+              "id": 369790,
+              "accountNumber": "123456987",
+              "name": "danamon uus",
+              "modeFlag": "100",
+              "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+              "label": "123456987/danamon uus/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "011",
+              "currency": "IDR"
+            },
+            {
+              "id": 370058,
+              "accountNumber": "123456786",
+              "name": "gol",
+              "modeFlag": "100",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "123456786/gol/PT. BANK MANDIRI, TBK./SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            },
+            {
+              "id": 370059,
+              "accountNumber": "123456667",
+              "name": "gol2",
+              "modeFlag": "100",
+              "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+              "label": "123456667/gol2/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "011",
+              "currency": "IDR"
+            },
+            {
+              "id": 369786,
+              "accountNumber": "963852741",
+              "name": "jawa1",
+              "modeFlag": "100",
+              "bank": "PT. BPD JAWA TIMUR",
+              "label": "963852741/jawa1/PT. BPD JAWA TIMUR/SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "114",
+              "currency": "IDR"
+            },
+            {
+              "id": 370132,
+              "accountNumber": "12345678",
+              "name": "oy",
+              "modeFlag": "100",
+              "bank": "PT. BANK MANDIRI, TBK.",
+              "label": "12345678/oy/PT. BANK MANDIRI, TBK./SKN",
+              "targetType": {
+                "code": "sknTransfer"
+              },
+              "bankId": "008",
+              "currency": "IDR"
+            }
+          ],
+          "userLogin": {
+            "merchantId": [
+              "43897MieAyam748",
+              "REFF55555BaksoPagi555",
+              "84673EsPodeng633",
+              "REFF53266AyamGepuk989"
+            ],
+            "id": 77317,
+            "title": "MS",
+            "userPreference": "0",
+            "userToken": [
+              "0"
+            ],
+            "email": "donni.andika@banksinarmas.com",
+            "name": "VIVI JIANG",
+            "customer": {
+              "id": 77002,
+              "profileVersion": 0,
+              "cifCode": "123735",
+              "employersCode": null
+            },
+            "mobileNumberMasking": "******8407",
+            "loginName": "donniand2502"
+          },
+          "creditCardList": [{
+            "id": 125078,
+            "accountNumber": "4893722000093063",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": "202008",
+            "name": "ANDIKA",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*3063/IDR/CreditCardAccount/ANDIKA",
+            "cardType": "VSPLKR",
+            "currency": "IDR"
+          },
+          {
+            "id": 125078,
+            "accountNumber": "4893722000093063",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": "202008",
+            "name": "ANDIKA",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*3063/IDR/CreditCardAccount/ANDIKA",
+            "cardType": "VSPLKR",
+            "currency": "IDR"
+          }]
+        }
+      }
+    },
+    "reconstructIPassportData": "yes",
+    "isEasyPinSet": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "data": {
+      "email": "testing123@testing2.com",
+      "order_id": "190510155450193897"
+    },
+    "message": "SUCCESS",
+    "responseMessage": "Success Registration to genflix",
+    "status": 1,
+    "resRegist": {
+      "date": "05 Oct 2019",
+      "response_code": "00",
+      "response_message": "Customer Register Success",
+      "customer_code": "GENFLX190510155450193897"
+    },
+    "responseCode": "00"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "date": "Fri, 10 May 2019 08:54:53 GMT",
+    "server": "Apache-Coyote/1.1",
+    "transfer-encoding": "chunked",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 60000,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json;charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "method": "post",
+    "baseURL": "http://192.168.1.92:8080/IBORCL/rest/v3/action",
+    "params": {},
+    "withCredentials": true,
+    "cancelToken": null,
+    "additional": [
+      "ipassport"
+    ],
+    "endpoint": "GENFLIX_REGISTRATION",
+    "url": "http://192.168.1.92:8080/IBORCL/rest/v3/action/genflix-registration",
+    "data": "{\"ipassport\":\"SMP-21242541557478085152\",\"email\":\"testing123@testing2.com\",\"password\":\"12345678\",\"accountNumber\":\"0008394903\"}"
+  },
+  "request": {}
+}

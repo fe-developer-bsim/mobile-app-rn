@@ -1,0 +1,13 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/set-default-account",
+    "method": "POST",
+    "requestBody": {
+    	"ipassport": "SMP-22096001557220378003",
+    	"accountNumber":"0008540225",
+    	"isDefault" : "YES"
+    },
+    "response": {
+      "response_code": "00",
+      "response_message": "Success"
+    }
+  }

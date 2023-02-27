@@ -1,0 +1,31 @@
+{
+    "url": "http://localhost:8080/IBORCL/rest/v3/action/pushBilling/getPartnerList",
+    "requestBody": {
+      "ipassport": "SMP-3347851491041311642"
+    },
+    "response": {
+        "dataStatus": {
+            "responseCode": "00",
+            "responseMessage": "Success executing get partner list",
+            "partnerList": [
+                {
+                    "partnerName": "MySmartfren",
+                    "accToken": "abcdefgabc123456789011111111asdsddccsdasdadkkjrebrh",
+                    "dateConnected": "20 May 2020, 14:59 WIB"
+                },
+                {
+                    "partnerName": "Foree Cofee",
+                    "accToken": "0722f92aeec709e77b09a59ee66449dacb7fa997b6l3wytbgn",
+                    "dateConnected": "20 May 2020, 14:59 WIB"
+                },
+                {
+                    "partnerName": "TokoPedia",
+                    "accToken": "10298182832ajshdkajsdbasndjsadwyakjwjd213123123123",
+                    "dateConnected": "20 May 2020, 14:59 WIB"
+                }
+            ]
+        },
+        "responseMessage": "success",
+        "responseCode": "00"
+    }
+  }

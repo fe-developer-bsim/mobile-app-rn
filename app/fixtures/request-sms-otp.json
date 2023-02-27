@@ -1,0 +1,12 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/request-sms-otp",
+  "requestBody": {
+    "ipassport": "SMP-3347851491026673619",
+    "transactionType": "billpay"
+  },
+  "response": {
+    "responseMessage": "Send SMS Success",
+    "transRefNum": "BPM-334785-1491026694827",
+    "responseCode": "00"
+  }
+}

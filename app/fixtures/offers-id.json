@@ -1,0 +1,22 @@
+{
+  "url": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/offers-list/id.json",
+  "response": [{
+    "label": "SKN Fee Waiver: Bebas  Biaya Transfer via SKN hanya di New Simobi+",
+    "subtitle": "",
+    "footer": "30 / 07 / 2017 ",
+    "navigateTo": ["Send"],
+    "offerID": "SKN"
+  }, {
+    "label": "Sekarang dapatkan pengembalian 7% untuk semua TD Anda yang dibuat dari New Simobi+",
+    "subtitle": "",
+    "footer": "17 / 07 / 2017 ",
+    "navigateTo": ["TdForm"],
+    "offerID": "TD"
+  }, {
+    "label": "Sekarang Bayar semua tagihan Kartu Kredit Anda melalui Simobi +",
+    "subtitle": "",
+    "footer": "05 / 07 / 2017 ",
+    "navigateTo": ["Pay","CreditCard"],
+    "offerID": "CC"
+  }]
+}

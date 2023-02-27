@@ -1,0 +1,647 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TdSummary should render renders correctly 1`] = `
+<RCTScrollView
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontWeight": "700",
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Ringkasan
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#666",
+          },
+          Object {
+            "paddingBottom": 10,
+          },
+        ]
+      }
+    >
+      Berikut ringkasan deposito berjangka Anda
+    </Text>
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Rekening sumber
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#666",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Jenis
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Suku bunga
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            NaN
+            % 
+            p.a
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#666",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Perkiraan jumlah bunga
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "#ED1D25",
+                    "paddingRight": 5,
+                  },
+                ]
+              }
+            >
+              *
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Rp
+               
+              --
+               
+              / 30 hari
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Jangka waktu
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            1
+             
+            bulan
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#666",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Tanggal jatuh tempo
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            10 Apr 2017
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "rgba(0,0,0, 0.09)",
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Nominal penempatan
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+              ]
+            }
+          >
+            Rp
+             
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "rgba(0,0,0, 0.09)",
+            "borderTopWidth": 1,
+            "flex": 1,
+            "marginVertical": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Membuat Deposito Berjangka
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            },
+            Object {
+              "flexDirection": "row",
+              "paddingTop": 30,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+              Object {
+                "paddingBottom": 10,
+              },
+            ]
+          }
+        >
+          *
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+              Object {
+                "paddingBottom": 10,
+              },
+            ]
+          }
+        >
+          Nominal bisa bervariasi. Bunga dikenakan pajak
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

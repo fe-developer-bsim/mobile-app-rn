@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseSavingAccount page renders correctly 1`] = `
+<RCTScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "flex": 1,
+            "justifyContent": "space-between",
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Pilih produk yang Anda inginkan
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

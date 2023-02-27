@@ -1,0 +1,738 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmallCgvInfo component EmallCgvInfo: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    extraHeight={120}
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginHorizontal": 20,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              Your Flight
+            </Text>
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "height": 30,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 10,
+                  }
+                }
+              >
+                <Text>
+                  BATAL
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginHorizontal": 20,
+              },
+              Object {
+                "marginBottom": 20,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginVertical": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              Keberangkatan
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Text>
+                Invalid date
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#666",
+                    },
+                  ]
+                }
+              >
+                NaN m
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <RCTScrollView
+            data={
+              Array [
+                Object {
+                  "AirlineName": "",
+                  "Category": "",
+                },
+              ]
+            }
+            disableVirtualization={false}
+            enableEmptySections={true}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={false}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <KeyboardAwareScrollView
+                  extraHeight={120}
+                  keyboardShouldPersistTaps="handled"
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 15,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "width": 15,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#ccc",
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "height": 15,
+                    }
+                  }
+                />
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 13,
+                      },
+                      Object {
+                        "color": "#000000",
+                        "transform": Array [
+                          Object {
+                            "rotate": "90deg",
+                          },
+                        ],
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 680,
+                  },
+                  Object {
+                    "paddingVertical": 15,
+                  },
+                  Object {
+                    "marginBottom": 10,
+                  },
+                ]
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 12,
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  Invalid date
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "marginVertical": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 24,
+                        },
+                        Object {
+                          "fontWeight": "700",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 12,
+                        },
+                        Object {},
+                      ]
+                    }
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 12,
+                        },
+                        Object {},
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+              <View>
+                <Text>
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+              Object {},
+            ]
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              Contact
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Text>
+              
+               
+              
+               
+              
+            </Text>
+            <Text>
+              
+            </Text>
+            <Text>
+              
+            </Text>
+            <Text>
+              
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 12,
+                    },
+                    Object {},
+                  ],
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              We will send booking confirmation, refund, or reschedule purpose
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+              Object {},
+            ]
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              Passenger
+            </Text>
+          </View>
+          <View />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "height": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            Array [
+              Object {
+                "padding": 20,
+              },
+              Object {},
+            ],
+          ]
+        }
+      >
+        <View>
+          <Text>
+            
+             - 
+            
+             - 
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#666",
+                  "marginBottom": 15,
+                  "marginTop": 3,
+                },
+              ]
+            }
+          >
+            Saldo tersedia - Rp
+             
+            --
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 0.4,
+                  "marginVertical": 15,
+                }
+              }
+            >
+              Price
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "flex": 0.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "marginVertical": 15,
+                  }
+                }
+              >
+                Rp
+                 
+                --
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "flex": 0.05,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 15,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text>
+        Total
+      </Text>
+      <Text>
+        Rp
+         
+        --
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "width": 135,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BAYAR
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

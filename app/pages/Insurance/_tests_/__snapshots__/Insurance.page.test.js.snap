@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insurance: Insurance page renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 7,
+            "width": 107.14285714285714,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "height": 7,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 9,
+            },
+            Object {
+              "backgroundColor": "#ECECEC",
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          Pilih Asuransi
+        </Text>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "rgba(0,0,0, 0.09)",
+            },
+            Object {
+              "backgroundColor": "rgba(0,0,0, 0.09)",
+            },
+            Object {
+              "borderTopWidth": 2,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "padding": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingVertical": 7.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 9,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "fontWeight": "600",
+                    },
+                  ]
+                }
+              >
+                Asuransi PA By Sinarmas MSIG Life
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                    },
+                    Object {
+                      "marginBottom": 20,
+                    },
+                  ]
+                }
+              >
+                Jaminan dari resiko kecelakaan di dalam aktivitas sehari-hari di rumah, di kantor, maupun di dalam perjalanan dengan resiko kematian, cacat tetap ataupun luka badan.
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "bottom": 0,
+                  "justifyContent": "flex-start",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 20,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#ED1D25",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "#ED1D25",
+                  },
+                ]
+              }
+            >
+              Lihat detail
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "rgba(0,0,0, 0.09)",
+            },
+            Object {
+              "backgroundColor": "rgba(0,0,0, 0.09)",
+            },
+            Object {
+              "borderTopWidth": 2,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "padding": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 9,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingVertical": 7.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 9,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "fontWeight": "600",
+                    },
+                  ]
+                }
+              >
+                Asuransi Perjalanan by Asuransi Simasnet
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                    },
+                    Object {
+                      "marginBottom": 20,
+                    },
+                  ]
+                }
+              >
+                Asuransi perjalanan yang memberikan perlindungan bagi Anda yang melakukan perjalanan bisnis maupun wisata domestik/dalam negeri.
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "bottom": 0,
+                  "justifyContent": "flex-start",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 20,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#ED1D25",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingVertical": 7.5,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#ED1D25",
+                      },
+                    ]
+                  }
+                >
+                  Lihat detail
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#ED1D25",
+                      },
+                    ]
+                  }
+                >
+                  Lihat tabel premi & jaminan
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "rgba(0,0,0, 0.09)",
+          },
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+          },
+          Object {
+            "borderTopWidth": 2,
+          },
+        ]
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

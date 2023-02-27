@@ -1,0 +1,83 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v4/detail-lock-dana",
+    "method": "POST",
+  "requestBody": {
+    "lang": "en",
+    "mode": "DATA_ALL"
+  },
+  "response": {
+  "responseCode": "00",
+  "responseMessage":"success",
+  "DataDetailLockDana": [
+    {
+      "reportDate":"20200426",
+      "cif":"3414245",
+      "account":"0045326268",
+      "transRef":"ACLK2006500360",
+      "lockedAmount":"25000000",
+      "fromDate":"20200305",
+      "toDate":"20200604",
+      "lockCode":"SDR02.03M",
+      "lockDescription":"SDU RETENTION 03 BULAN",
+      "promoFlag":"Y",
+      "flagSrc":"T24_KONV"
+    },
+
+    {
+      "reportDate":"20200426",
+      "cif":"3414245",
+      "account":"0045326268",
+      "transRef":"ACLK2006500360",
+      "lockedAmount":"25000000",
+      "fromDate":"20200305",
+      "toDate":"20200604",
+      "lockCode":"SDR02.03M",
+      "lockDescription":"SDU RETENTION 03 BULAN",
+      "promoFlag":"Y",
+      "flagSrc":"T24_KONV"
+      },
+      {
+        "reportDate":"20200426",
+        "cif":"3414245",
+        "account":"0045326268",
+        "transRef":"ACLK2006500360",
+        "lockedAmount":"25000000",
+        "fromDate":"20200305",
+        "toDate":"20200604",
+        "lockCode":"SDR02.03M",
+        "lockDescription":"SDU RETENTION 03 BULAN",
+        "promoFlag":"Y",
+        "flagSrc":"T24_KONV"
+
+        },
+        {
+          "reportDate":"20200426",
+          "cif":"3414245",
+          "account":"0045326268",
+          "transRef":"ACLK2006500360",
+          "lockedAmount":"25000000",
+          "fromDate":"20200305",
+          "toDate":"20200604",
+          "lockCode":"SDR02.03M",
+          "lockDescription":"SDU RETENTION 03 BULAN",
+          "promoFlag":"Y",
+          "flagSrc":"T24_KONV"
+          },
+              {
+                "reportDate":"20200426",
+                "cif":"3414245",
+                "account":"0045326268",
+                "transRef":"ACLK2006500360",
+                "lockedAmount":"25000000",
+                "fromDate":"20200305",
+                "toDate":"20200604",
+                "lockCode":"SDR02.03M",
+                "lockDescription":"SDU RETENTION 03 BULAN",
+                "promoFlag":"Y",
+                "flagSrc":"T24_KONV"
+
+                }
+
+  ]
+}
+}

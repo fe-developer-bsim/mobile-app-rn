@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardSpinner component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "borderColor": "#DBDBDB",
+      "borderRadius": 5,
+      "borderWidth": 3,
+      "flexDirection": "column",
+      "height": 170,
+      "justifyContent": "center",
+      "padding": 15,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#FA3F70"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;

@@ -1,0 +1,52 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/balance-inquiry-creditcard",
+  "method": "POST",
+  "requestBody": {
+    "accountId": 125060,
+    "ipassport": "SMP-21206821495610302837",
+    "lang": "id",
+    "TXID" : "test123"
+  },
+  "response": {
+    "responseMessage": "Show balance inquiry credit card success",
+    "responseCode": "00",
+    "dueDate": "20170715",
+    "balances": [
+      {
+        "amount": "620,000.00",
+        "currencyCode": "IDR",
+        "accountType": "Credit Card",
+        "amountSign": "C",
+        "amountType": "Minimum Repayment"
+      },
+      {
+        "amount": "620,000.00",
+        "currencyCode": "IDR",
+        "accountType": "Credit Card",
+        "amountSign": "C",
+        "amountType": "Last Statement Balance"
+      },
+      {
+        "amount": "49,000,000.00",
+        "currencyCode": "IDR",
+        "accountType": "Credit Card",
+        "amountSign": "C",
+        "amountType": "Credit Limit"
+      },
+      {
+        "amount": "450,000.00",
+        "currencyCode": "IDR",
+        "accountType": "Credit Card",
+        "amountSign": "D",
+        "amountType": "Current Outstanding"
+      },
+      {
+        "amount": "49,450,000.00",
+        "currencyCode": "IDR",
+        "accountType": "Credit Card",
+        "amountSign": "C",
+        "amountType": "Available Balance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/checkingDukcapil",
+  "requestBody": {
+	"ktpId":"3671031801950003",
+	"dob":"1995-01-18",
+	"maritalStatus":"KAWIN",
+	"mothersMaiden":"MARGARITHA M RIADA"
+}
+,
+  "response":{
+    "responseMessage": "success",
+    "responseCode": "00",
+    "nama": "ABE WASD",
+    "dataDukcapil": {
+        "0~2~10": "Islam",
+        "0~2~11": "M",
+        "0~3~4": "BATU CEPER",
+        "0~3~3": "KOTA TANGERANG",
+        "0~3~2": "BANTEN",
+        "0~3~1": "indonesia",
+        "0~2~5": "3671031801950003",
+        "0~3~8": "SIMPRUG DIPORIS BLOK. B. I / 20",
+        "0~2~6": "BELUM KAWIN",
+        "0~3~7": "3/5",
+        "0~2~7": "1995-01-18",
+        "0~3~6": "",
+        "0~2~8": "MARGARITHA M RIADA",
+        "0~3~5": "PORIS JAYA"
+    }
+}
+
+}

@@ -1,0 +1,89 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/billpay-transaction",
+  "requestBody": {
+    "ipassport":"SMP-3347851494927715545",
+    "lang":"en",
+    "idbillPay":47,
+    "displayType":"5",
+    "accSelect":"0002838796",
+    "amount":"219276",
+    "subscriberNoInput":"089665728455",
+    "descInput":"",
+    "securityTypeCode":"1",
+    "billAmount":"",
+    "variableBankCharges":"",
+    "billPeriod":""
+},
+  "response": {
+    "billerTraceNumber":null,
+    "primaryAccountNumber":null,
+    "responseCode":"00",
+    "systemsTraceAuditNumber":null,
+    "billAmount":"219276",
+    "bankCharge":0,
+    "totalAmountDebited":219276,
+    "subscriberNoInput":"089665728455",
+    "merchantCurrency":"IDR",
+    "idbillPay":47,
+    "lang":"en",
+    "accSelectInput":"0002838796",
+    "setInvoiceNo":"",
+    "descInput":"",
+    "totalBankCharge":0,
+    "amountNumber":219276,
+    "BillPeriod":"",
+    "amount":219276,
+    "vaTypeInput":null,
+    "tax":0,
+    "confirmPage":[
+        "<div class='m_content-title-confirmbillpay'>Transaction Confirmation</div>",
+        "<br>",
+        "<div class='m_content-caption'>Transaction Date</div>|<div class='m_content-field'>16 Mei 2017</div>",
+        "<div class='m_content-caption'>Transaction Time</div>|<div class='m_content-field'>16:42:32</div>",
+        "<div class='m_content-caption'>Merchant Category</div>|<div class='m_content-field'>Kartu Kredit</div>",
+        "<div class='m_content-caption'>Merchant</div>|<div class='m_content-field'>Kartu Kredit Bank Sinarmas</div>",
+        "<div class='m_content-caption-accnumber'>Account Number</div>|<div class='m_content-field-accnumber'>0002838796</div>",
+        "<div class='m_content-caption'>Credit Card No</div>|<div class='m_content-field'>089665728455</div>",
+        "<div class='m_content-caption-currency'>Payment Amount</div>|<div class='m_content-field-currency'>IDR</div> <div class='m_content-field-currency'>219.276</div>",
+        "<hr>",
+        "PEMBAYARAN|Credit Card Sinarmas",
+        "NAMA|BURHAM",
+        "LSTSTMT BAL|RP. 219.276",
+        "MIN REPAY|RP. 219.276",
+        "RPY DUEDATE|31-12-2013",
+        "",
+        "",
+        ""
+    ],
+    "displayList":[
+          {
+              "key" : "PEMBAYARAN",
+              "value" : "Credit Card Sinarmas"
+          },
+          {
+              "key" : "NAMA",
+              "value" : "BURHAM"
+          },
+          {
+              "key" : "LSTSTMT BAL",
+              "value" : "RP. 219.276"
+          },
+          {
+              "key" : "MIN REPAY",
+              "value" : "RP. 219.276"
+          },
+          {
+              "key" : "RPY DUEDATE",
+              "value" : "31-12-2013"
+          }
+      ],
+    "transactionDate":1494927752879,
+    "securityTypeCode":"1",
+    "customerName":"BURHAM",
+    "billingInfo":"08PEMBAYARAN : Credit Card Sinarmas NAMA : BURHAM LSTSTMT BAL: RP. 219.276 MIN REPAY : RP. 219.276 RPY DUEDATE: 31-12-2013 4893722000163700BURHAM 219276 219276 20131231",
+    "displayType":"5",
+    "areaCode":null,
+    "bpmTransRefNum":"BPM-334785-1494927752879",
+    "targetAccount":"Bank Sinarmas"
+  }
+}

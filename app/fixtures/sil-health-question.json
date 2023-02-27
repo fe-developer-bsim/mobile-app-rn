@@ -1,0 +1,221 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/asj-getHealthQuestioner",
+    "requestBody": {
+      "ipassport": "SMP-21381371591860091915",
+      "lang": "id"
+    },
+    "response": {
+      "responseMessage": "success",
+      "responseCode": "00",
+      "healthQuestion": [{
+          "questionareId": 2,
+          "label": "Apakah dalam 5 tahun terakhir Anda pernah dioperasi/dirawat di rumah sakit/dalam masa pengobatan/dianjurkan untuk berobat/melakukan pemeriksaan kesehatan tertentu? Jika 'YA', jelaskan :",
+          "listAnswers": [{
+              "questionarePpFlag": 0,
+              "questionareTtgFlag": 0,
+              "label": "Tidak"
+            },
+            {
+              "questionarePpFlag": 1,
+              "questionareTtgFlag": 1,
+              "label": "Ya"
+            }
+          ]
+        },
+        {
+          "questionareId": 3,
+          "label": "Apakah Anda pernah atau sedang menderita salah satu atau beberapa penyakit berikut : Jika 'Ya', harap berikan tanda X :",
+          "label2": [{
+            "string": "Apakah Anda pernah atau sedang menderita salah satu atau beberapa penyakit berikut : Jika 'Ya', harap berikan tanda",
+            "icon": "icon_ceklis"
+          }],
+          "listAnswers": [{
+              "questionarePpFlag": 0,
+              "questionareTtgFlag": 0,
+              "label": "Tidak"
+            },
+            {
+              "questionarePpFlag": 1,
+              "questionareTtgFlag": 1,
+              "label": "Ya"
+            }
+          ],
+          "listChoice": [{
+              "label": "Jantung/Nyeri dada",
+              "questionarePp": "Jantung/Nyeri dada",
+              "questionareTtg": "Jantung/Nyeri dada"
+            },
+            {
+              "label": "Tekanan darah tinggi",
+              "questionarePp": "Tekanan darah tinggi",
+              "questionareTtg": "Tekanan darah tinggi"
+            },
+            {
+              "label": "Stroke",
+              "questionarePp": "Stroke",
+              "questionareTtg": "Stroke"
+            },
+            {
+              "label": "Tumor/benjolan/kanker/kista",
+              "questionarePp": "Tumor/benjolan/kanker/kista",
+              "questionareTtg": "Tumor/benjolan/kanker/kista"
+            },
+            {
+              "label": "TBC/asma/gangguan pernapasan",
+              "questionarePp": "TBC/asma/gangguan pernapasan",
+              "questionareTtg": "TBC/asma/gangguan pernapasan"
+            },
+            {
+              "label": "Hati/sakit kuning/hepatitis",
+              "questionarePp": "Hati/sakit kuning/hepatitis",
+              "questionareTtg": "Hati/sakit kuning/hepatitis"
+            },
+            {
+              "label": "Kencing manis",
+              "questionarePp": "Kencing manis",
+              "questionareTtg": "Kencing manis"
+            },
+            {
+              "label": "Ginjal",
+              "questionarePp": "Ginjal",
+              "questionareTtg": "Ginjal"
+            },
+            {
+              "label": "Cacat",
+              "questionarePp": "Cacat",
+              "questionareTtg": "Cacat"
+            },
+            {
+              "label": "Gangguan Jiwa",
+              "questionarePp": "Gangguan Jiwa",
+              "questionareTtg": "Gangguan Jiwa"
+            },
+            {
+              "label": "Kelainan bawaan",
+              "questionarePp": "Kelainan bawaan",
+              "questionareTtg": "Kelainan bawaan"
+            },
+            {
+              "label": "Kelainan darah",
+              "questionarePp": "Kelainan darah",
+              "questionareTtg": "Kelainan darah"
+            },
+            {
+              "label": "Kelainan pada otak",
+              "questionarePp": "Kelainan pada otak",
+              "questionareTtg": "Kelainan pada otak"
+            }
+          ]
+        },
+        {
+          "questionareId": 4,
+          "label": "Apakah Anda sudah mempunyai atau sedang mengajukan Polis Asuransi Jiwa/Polis Asuransi Kecelakaan/Polis Asuransi Kesehatan baik di PT Asuransi Simas Jiwa maupun di perusahaan asuransi lainnya? Jika 'Ya', sebutkan nama perusahaan, jenis asuransi, uang pertanggungan, tarif premi yang dikenakan (Standar/Ekstra Premi/Ditunda/Ditolak) dan jelaskan alasannya:",
+          "listAnswers": [{
+              "questionarePpFlag": 0,
+              "questionareTtgFlag": 0,
+              "label": "Tidak"
+            },
+            {
+              "questionarePpFlag": 1,
+              "questionareTtgFlag": 1,
+              "label": "Ya"
+            }
+          ]
+        }
+      ],
+      "profileQuestion": [{
+          "questionareId": 105,
+          "label": "Berapa usia Anda saat ini?",
+          "listAnswers": [{
+              "questionarePp": "A",
+              "label": "18 tahun - 40 tahun"
+            },
+            {
+              "questionarePp": "B",
+              "label": "41 tahun - 54 tahun"
+            },
+            {
+              "questionarePp": "C",
+              "label": "Lebih besar atau sama dengan 55 tahun"
+            }
+          ]
+        },
+        {
+          "questionareId": 106,
+          "label": "Berapa banyak uang yang dapat Anda sisihkan setiap bulannya dari gaji/pendapatan bulanan Anda?",
+          "listAnswers": [{
+              "questionarePp": "A",
+              "label": "Sampai dengan 10%"
+            },
+            {
+              "questionarePp": "B",
+              "label": "Lebih dari 10% sampai dengan 25%"
+            },
+            {
+              "questionarePp": "C",
+              "label": "Lebih dari 25% sampai dengan 50%"
+            },
+            {
+              "questionarePp": "D",
+              "label": "Lebih dari 50%"
+            }
+          ]
+        },
+        {
+          "questionareId": 107,
+          "label": "Apakah Anda memiliki dana darurat untuk kepentingan jangka pendek?",
+          "listAnswers": [{
+              "questionarePpFlag": 0,
+              "questionareTtgFlag": 0,
+              "label": "Tidak"
+            },
+            {
+              "questionarePpFlag": 1,
+              "questionareTtgFlag": 1,
+              "label": "Ya"
+            }
+          ]
+        },
+        {
+          "questionareId": 108,
+          "label": "Jika Anda akan berinvestasi, jangka waktu mana yang akan Anda pilih untuk berinvestasi?",
+          "listAnswers": [{
+              "questionarePp": "A",
+              "label": "Sampai dengan 3 tahun"
+            },
+            {
+              "questionarePp": "B",
+              "label": "Lebih dari 3 tahun sampai dengan 5 tahun"
+            },
+            {
+              "questionarePp": "C",
+              "label": "Lebih dari 5 tahun sampai dengan 7 tahun"
+            },
+            {
+              "questionarePp": "D",
+              "label": "Lebih dari 7 tahun"
+            }
+          ]
+        },
+        {
+          "questionareId": 109,
+          "label": "Mana yang akan Anda pilih dari berbagai kombinasi hasil dan risiko yang beragam berikut untuk investasi Anda?",
+          "listAnswers": [{
+              "questionarePp": "A",
+              "label": "Risiko rendah walaupun hasil investasi mungkin juga rendah"
+            },
+            {
+              "questionarePp": "B",
+              "label": "Risiko menengah dengan kemungkinan hasil investasi menengah"
+            },
+            {
+              "questionarePp": "C",
+              "label": "Risiko tinggi dengan kemungkinan hasil investasi lebih tinggi"
+            }
+          ]
+        }
+      ]
+  
+    }
+  }
+  

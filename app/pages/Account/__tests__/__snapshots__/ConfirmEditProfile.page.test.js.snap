@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmEditProfile page renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontSize": 26,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Apakah ini informasi profil baru Anda?
+      </Text>
+      <View
+        style={
+          Object {
+            "marginBottom": 60,
+            "marginTop": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "bottom": 0,
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingBottom": 20,
+            "position": "absolute",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#FA3F70",
+                  "width": 675,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "500",
+                }
+              }
+            >
+              CONFIRM
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

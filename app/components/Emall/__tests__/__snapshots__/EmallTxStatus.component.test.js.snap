@@ -1,0 +1,840 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmallCgvInfo component EmallCgvInfo: renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Image
+          source="simobiplus.png"
+          style={
+            Object {
+              "height": 33,
+              "marginBottom": 25,
+              "marginTop": 25,
+              "width": 85,
+            }
+          }
+        />
+        <Text
+          style={Object {}}
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "marginBottom": 5,
+                },
+              ]
+            }
+          >
+            Transaction Succeed
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {},
+              ]
+            }
+          >
+            Flight Ticket purchase is successful
+          </Text>
+        </View>
+        <View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 50,
+                },
+                Object {
+                  "color": "#4ed07d",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {},
+            ]
+          }
+        >
+          Transaction Number:
+           
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "height": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+              Object {},
+            ]
+          }
+        >
+          Receipt
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(201, 198, 198, 0.2)",
+            "height": 1,
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+              },
+              Object {},
+            ]
+          }
+        >
+          Flight ticket purchase
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#FA3F70",
+              },
+            ]
+          }
+        >
+          Rp
+           
+          --
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(201, 198, 198, 0.2)",
+            "height": 1,
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        >
+          Source account
+           - 
+          
+          , 
+          
+          , 
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "height": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Array [
+            Object {
+              "padding": 20,
+            },
+            Object {},
+          ],
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Keberangkatan
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View>
+            <Text>
+              Invalid date
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#666",
+                }
+              }
+            >
+              NaN m
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+              Object {
+                "marginVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source={null}
+              style={
+                Object {
+                  "height": 40,
+                  "width": 40,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View>
+              <Text>
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "marginVertical": 2,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "marginTop": -19,
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 284,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            , 
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "marginVertical": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={Object {}}
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 25,
+                },
+                Object {
+                  "color": "#FA3F70",
+                  "marginTop": -40,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            ?
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 355,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            , 
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "marginVertical": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#666",
+            }
+          }
+        >
+          Direct flight
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "height": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Passenger
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "height": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              undefined,
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "marginTop": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {},
+              ]
+            }
+          >
+            Kode Booking juga kami kirim melalui SMS dan e-mail
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#9E9E9E",
+                  "marginBottom": 15,
+                },
+              ]
+            }
+          >
+            Butuh bantuan? Hub.
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                }
+              }
+            >
+              1500 153
+            </Text>
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#9E9E9E",
+                "marginBottom": 20,
+              },
+            ]
+          }
+        >
+          Transaksi apa saja lebih mudah dengan SimobiPlus. Download SimobiPlus gratis di
+           
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+              }
+            }
+          >
+            bit.ly/simobiplus
+          </Text>
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#9E9E9E",
+              },
+            ]
+          }
+        >
+          Resi ini adalah bukti transaksi yang sah.
+Resi ini juga dikirimkan lewat e-mail.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SELESAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

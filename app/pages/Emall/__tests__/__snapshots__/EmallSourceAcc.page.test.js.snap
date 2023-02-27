@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: EmallSourceAcc page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "flexGrow": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          Pilih Rekening Sumber
+        </Text>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#000000",
+                "borderRadius": 30,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "center",
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Text>
+              BATAL
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#666",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        Rekening tabungan
+      </Text>
+    </View>
+    <View>
+      <RCTScrollView
+        data={Array []}
+        disableVirtualization={false}
+        enableEmptySections={true}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+    <View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#666",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          Simas Poin
+        </Text>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginVertical": 5,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 0.7,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "color": "#FA3F70",
+                        "fontWeight": "900",
+                      },
+                    ]
+                  }
+                >
+                  SIMAS
+                </Text>
+                <Image
+                  source="poin.png"
+                  style={
+                    Object {
+                      "height": 18,
+                      "width": 50,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1.7,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "paddingVertical": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 24,
+                        },
+                        Object {
+                          "fontWeight": "800",
+                        },
+                      ]
+                    }
+                  >
+                    Rp
+                     
+                    --
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingVertical": 1,
+                    }
+                  }
+                >
+                  <Text>
+                    Simas Poin digunakan
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingVertical": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Text>
+                      --
+                       
+                    </Text>
+                    <View>
+                      <Image
+                        source="poin.png"
+                        style={
+                          Object {
+                            "height": 15,
+                            "width": 40,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingVertical": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#666",
+                      }
+                    }
+                  >
+                    Simas Poin tersedia
+                      
+                    0
+                     
+                    Poin
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "flex": 0.3,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 15,
+                      },
+                      Object {
+                        "color": "#ED1D25",
+                        "paddingRight": 15,
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

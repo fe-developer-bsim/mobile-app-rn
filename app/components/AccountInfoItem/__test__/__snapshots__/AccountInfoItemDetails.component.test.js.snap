@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountInfoItemDetails component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "marginBottom": 17,
+            },
+          ]
+        }
+      >
+        
+         
+        NaN
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "roboto",
+            "paddingRight": 5,
+          },
+        ]
+      }
+    >
+      Nomor Rekening
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "roboto",
+            "letterSpacing": 1.5,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        Object {
+          "marginBottom": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "500",
+            "marginBottom": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

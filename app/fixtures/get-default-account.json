@@ -1,0 +1,17 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-default-account",
+    "method": "POST",
+    "requestBody": {
+      "tokenClient":"61ea8fa71dddc1601513c926fef71ee862d7e76b55695330e94efc096a148390",
+    	"tokenServer":"46d838e0e85febec909ea8044bd1d9a53186e9ab6513e22fbfd8f5294b99d6b4",
+    	"deviceParam":"E00BB5B3-89A3-4F29-9F26-EF84AE21E6C1"
+    },
+    "response": {
+      "response_code": "00",
+      "response_message": "Success",
+      "id": 123310,
+      "accountNumber": "38081212341234",
+      "name": "GAQQU IQGUMI",
+      "productType": "Saving Account"
+    }
+  }

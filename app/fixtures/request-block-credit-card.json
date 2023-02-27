@@ -1,0 +1,14 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/request-block-creditcard",
+  "requestBody": {
+    "ipassport":"SMP-10907701496040647910",
+    "lang":"EN",
+    "accountId":122338,
+    "mPin":"237428",
+    "transRefNum":"MB-201705291496041149337011"
+  },
+  "response": {
+    "responseMessage": "Your request to block your credit card has been received. You will be confirmed within 1x24 hours by Customer Care. Please call Credit Card Customer Service at the number below if you need more information",
+    "responseCode": "00"
+  }
+}

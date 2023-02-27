@@ -1,0 +1,639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: QRMerchantDetail page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "backgroundColor": "rgba(201, 198, 198, 0.2)",
+      "paddingHorizontal": 10,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 45,
+              },
+              undefined,
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 11,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginTop": 5,
+            }
+          }
+        >
+          Merchant ID
+        </Text>
+        <Text>
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 7,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderTopColor": "#ccc",
+          "borderTopWidth": 1.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingVertical": 7,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Informasi Merchant
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nama Merchant/Toko
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nomor Telepon Merchant/Toko
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nama Pemilik
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Informasi Store/Outlet
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Alamat
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Kelurahan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Kecamatan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Kota/Kabupaten
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Provinsi
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Kode pos
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Dokumen Pendukung
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nomor KTP
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nomor Paspor
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Passport Numbers
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "marginBottom": 3,
+              }
+            }
+          >
+            Nomor SIUP
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 15,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "marginBottom": 3,
+              }
+            }
+          >
+            Nomor TDP
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 15,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Akun Pembayaran
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Akun pembayaran
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

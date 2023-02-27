@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountMenu component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 30,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <Image
+    source="change-device.png"
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 426,
+        "marginTop": 50,
+        "marginVertical": 20,
+        "width": 489.9,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginVertical": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    SUCCESS!
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 17,
+        "marginVertical": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Your authenticated device has been successfully moved to a new one. Continue your transaction and browse some interesting offers!
+  </Text>
+  <View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          DONE
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

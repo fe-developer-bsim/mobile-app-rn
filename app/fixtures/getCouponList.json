@@ -1,0 +1,150 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/show-voucher-list",
+  "requestBody": {
+	"lang":"en",
+	"transRefNum":"19950118",
+	"amount":"100000"
+}
+,
+  "response":{
+    "privateVoucherList": [
+      {
+        "id": 203,
+        "userId": "testtada1",
+        "voucher": {
+          "id": 56,
+          "code": "BPTS384",
+          "classHandlerName": null,
+          "ownership": "private",
+          "modifierType": "percent",
+          "amount": 5,
+          "type": "billPayment",
+          "quantity": 0,
+          "startDate": 1535821200000,
+          "endDate": 1546111013000,
+          "startTime": 0,
+          "endTime": 2359,
+          "minAmount": 20000,
+          "maxAmount": 0,
+          "maxPotentialAmount": 5000,
+          "redeemAmount": 5000,
+          "description": "1. eligible for smartfren data package and smartfren prepaid transaction \n2. No minimal transaction",
+          "maxRedeemCount": 0,
+          "bearerBy": "018",
+          "currency": "cashback",
+          "voucherProperties": {
+            "billerCodes": [
+              "009901",
+              "009902"
+            ],
+            "maxTransactionAmount": null
+          }
+        },
+        "createdDateString": "20 Feb 2019",
+        "expiredDateString": "20 Feb 2020",
+        "redeemDate": null,
+        "status": "available",
+        "description": null
+      },
+      {
+        "id": 203,
+        "userId": "testtada1",
+        "voucher": {
+          "id": 56,
+          "code": "BPTS384",
+          "classHandlerName": null,
+          "ownership": "private",
+          "modifierType": "percent",
+          "amount": 5,
+          "type": "billPayment",
+          "quantity": 0,
+          "startDate": 1535821200000,
+          "endDate": 1546111013000,
+          "startTime": 1200,
+          "endTime": 2359,
+          "minAmount": 20000,
+          "maxAmount": 0,
+          "maxPotentialAmount": 5000,
+          "redeemAmount": 5000,
+          "description": "this is test voucher BPTS384 simaspoin \n true this is a number of",
+          "maxRedeemCount": 0,
+          "bearerBy": "018",
+          "currency": "simaspoin",
+          "voucherProperties": {
+            "billerCodes": [
+              "009901",
+              "009902"
+            ],
+            "maxTransactionAmount": null
+          }
+        },
+        "createdDateString": "20 Feb 2019",
+        "expiredDateString": "20 Feb 2020",
+        "redeemDate": null,
+        "status": "available",
+        "description": null
+      }
+    ],
+    "publicVoucher": [
+            {
+                "id": 56,
+                "code": "BPTS384",
+                "classHandlerName": null,
+                "ownership": "public",
+                "modifierType": "percent",
+                "amount": 5,
+                "type": "billPayment",
+                "quantity": 0,
+                "startDate": 1535821200000,
+                "endDate": 1546111013000,
+                "startTime": 1200,
+                "endTime": 2359,
+                "minAmount": 20000,
+                "maxAmount": 0,
+                "maxPotentialAmount": 5000,
+                "redeemAmount": 5000,
+                "description": "this is test voucher BPTS384 SIMAS\nyou nblah blahj \nidjifjef \noiejfoiejf",
+                "maxRedeemCount": 0,
+                "bearerBy": "018",
+                "currency": "simaspoin",
+                "voucherProperties": {
+                  "billerCodes": [
+                    "009901",
+                    "009902"
+                  ],
+                  "maxTransactionAmount": null
+                }
+              },
+            {   "id": 56,
+                "code": "BPTS384",
+                "classHandlerName": null,
+                "ownership": "public",
+                "modifierType": "percent",
+                "amount": 5,
+                "type": "billPayment",
+                "quantity": 0,
+                "startDate": 1535821200000,
+                "endDate": 1546111013000,
+                "startTime": 0,
+                "endTime": 2359,
+                "minAmount": 20000,
+                "maxAmount": 0,
+                "maxPotentialAmount": 5000,
+                "redeemAmount": 5000,
+                "description": "this is test voucher BPTS384 CB efkkefkfkkfkfkfkff\neuueueueueueuueueueueueeijfiejfiejfiejfif \nwiefjwofjweofj",
+                "maxRedeemCount": 0,
+                "bearerBy": "018",
+                "currency": "cashback",
+                "voucherProperties": {
+                  "billerCodes": [
+                    "009901",
+                    "009902"
+                  ],
+                  "maxTransactionAmount": null
+                }
+              }
+    ]
+   
+}
+
+}

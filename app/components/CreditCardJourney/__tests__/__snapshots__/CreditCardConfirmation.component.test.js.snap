@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardConfirmation component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "flex": 1,
+      },
+    ]
+  }
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "paddingVertical": 10,
+          },
+          Object {
+            "fontWeight": "700",
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      RINGKASAN PEMBAYARAN
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontWeight": "300",
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#666",
+          },
+        ]
+      }
+    >
+      Berikut ringkasan pembayaran Anda
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ccc",
+            "marginBottom": 10,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Pembayaran Dari
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                NIL
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                NIL
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Pemegang Kartu
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                NA
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Nomor kartu kredit
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                NA
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                NA
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Mode Transfer
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Biaya transfer
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Rp 
+                0
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text>
+              Jumlah Pembayaran
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Rp 
+                100.000
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF8E8E",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            KONFIRMASI PEMBAYARAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

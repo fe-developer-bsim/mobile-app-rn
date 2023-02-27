@@ -1,0 +1,850 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EgiftTabs component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#ECECEC",
+      "borderTopLeftRadius": 20,
+      "borderTopRightRadius": 20,
+      "borderWidth": 0.5,
+      "flexGrow": 1,
+      "height": 720,
+      "marginTop": -250,
+      "paddingBottom": 15,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "borderColor": "#cac6c6",
+            "flexDirection": "row",
+            "height": 55,
+            "marginHorizontal": 5,
+            "paddingTop": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "paddingHorizontal": 10,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000000",
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            Bill Payment
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "paddingHorizontal": 10,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000000",
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            See all
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "marginHorizontal": 12,
+          }
+        }
+      />
+      <View>
+        <View
+          style={
+            Object {
+              "borderColor": "#cac6c6",
+              "flexDirection": "row",
+              "height": 60,
+              "marginHorizontal": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "transparent",
+                "borderWidth": 0.5,
+                "height": 333.5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "paddingHorizontal": 10,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "600",
+                    },
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                Redeem Simas Poin
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "borderColor": "transparent",
+                "borderWidth": 0.5,
+                "flex": 2,
+                "opacity": 1,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#ECECEC",
+                  "borderRadius": 20,
+                  "flexDirection": "row",
+                  "marginLeft": 40,
+                  "marginTop": 10,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <Text>
+                Muat Simas Poin
+                 
+              </Text>
+              <View>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 10,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#cac6c6",
+            "flexDirection": "row",
+            "height": 90,
+            "marginHorizontal": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Kesehatan &
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Kecantikan
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Hiburan &
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Permainan
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Makanan &
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Minuman
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Belanja
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#cac6c6",
+            "flexDirection": "row",
+            "height": 90,
+            "marginHorizontal": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Transport
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#FFD8D8",
+                    "position": "absolute",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 32,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          >
+            Lainnya
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 25,
+                  "width": 25,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "transparent",
+              "borderWidth": 0.5,
+              "flex": 0.5,
+              "height": 222.33333333333334,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingBottom": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 25,
+                  "width": 25,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

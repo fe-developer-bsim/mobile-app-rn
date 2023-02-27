@@ -1,0 +1,130 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/send-split-bill",
+    "requestBody": {
+        "Description": "Ayam Goreng Bakar",
+        "ipassport": "SMP-1120081572588438596",
+        "E2EE_RANDOM": "123456",
+        "TXID": "722c049d-1ba4-4c67-bb70-be6320ad634b",
+        "TotalAmount": "300000",
+        "accountId": "125040",
+        "easyPin": "111111",
+        "image": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAH0AXcDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAECAwQFBv/EADoQAAICAQMCBQIEBAUEAgMAAAABAhEDBCExEkEFEyJRYTJxFIGRoSMzQmIkUnKxwQYV0eE08ENUgv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACURAQEBAQACAgIBBAMAAAAAAAABEQIDMRIhMkEEIlFhcRMjgf/aAAwDAQACEQMRAD8A1gAERZiyvFK1x3RuhkUkpRZzieLI8crXHdBXVjJSVoGijHk4lF2i9NSVolmiucSmSNTRVOJhpnaI0WyRBo1BERJoVFZJiJCoCIiQmBEjk6ul9LV/JKUkvgzZdSlLphvIotxuXQnNq37CnmhHmSMXXkk7lL8iOXjnYuJrT+K65dMF+bDz6l0yf7mCWVYo2nUuxHzPMlFK75k2XE11nlSSk+K5B54ut2kcvJldVbphHO2lCyYa1Z8juoO18sqc57U6M2Zum+p3Y8cm10tlGlZpx53+UXY9SmYozcXUgcl9SGGunHLFvZlsZJ8HKtyXVF+pFmDVtOpckxddMCGPJGatEyKAodDQCoKJUOiCFBROhUURodDodARodEqCgEkSjGxqLNGHF3ZUKGLayvIqZsKssE9y6mMnTYFtUAGAYAZUAAwqeLI8cvjujbjyf1LdM55ZiyOD913A6iakrQmrKMeTunaZoTUlaM2aqmcSpxNTRVKJlVDQqLHEi0a0QEybQqCINEZSSDNkjji5SexytRqZTlt+SNSJbi3WahJdMHcrM+KPT65O2R6FC5zdsreRvfg2w0Oe1bbdyueVJbcvZFDmQ6mlKffhAwR/i6hRv0xLowpSb2t0U6V9GS+5fml1eldtgB+uculcx2KYxlCcJPjqLY7J71syWSmlT+QKdXs3XuiOnnTDI3NX7FauNNfYi43zgpTtLZqyCi4xkvbkeHJUYp9kRlNRy78PZlRKD6Gnygz4t1kj3CMquL4XBZBtOnTTQDwTcUt/sbYahKNyMMsag6TuD3Rfgmpri/cliyrZa/GnSUn+RLHqHkmk4dKfFkPKj1KVL7k8eOV2oN8GK1GpIkkSjHZE1AmtK6FRf0CcGNMVJDSLFjZJY2NTFVD",
+        "lang": "en",
+        "receivers": [
+            {
+                "amount": 2000000,
+                "status": "success",
+                "mobileNumber": "089888888888",
+                "nama": "Fendi Setiyanto" 
+            },
+            {
+                "amount": 3000000,
+                "status": "pending",
+                "mobileNumber": "087810868407",
+                "nama": "Fernando Tiwow" 
+            },
+            {
+                "amount": 10000,
+                "status": "success",
+                "mobileNumber": "081253225858",
+                "nama": "Rendy Ren" 
+            }
+        ]     
+    },
+      "response": {
+        "responseMessage": "Success",
+        "responseCode": "00",
+        "ListInvoice": [
+            {
+                "Receivers": [
+                    {
+                        "amount": 2000000,
+                        "status": "success",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 3000000,
+                        "status": "pending",
+                        "mobileNumber": "087810868407",
+                        "nama": "Fernando Tiwow" 
+                    },
+                    {
+                        "amount": 10000,
+                        "status": "success",
+                        "mobileNumber": "081253225858",
+                        "nama": "Rendy Ren" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Ayam Goreng Sinarmas",
+                "invoiceNumber": "Split Bill",
+                "status": "pending",
+                "totalAmount": 7000000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            },
+            {
+                "Receivers": [
+                    {
+                        "amount": 50000,
+                        "status": "pending",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 50000,
+                        "status": "reject",
+                        "mobileNumber": "087810868407",
+                        "nama": "Fernando Tiwow" 
+                    },
+                    {
+                        "amount": 10000,
+                        "status": "success",
+                        "mobileNumber": "081253225858",
+                        "nama": "Rendy Ren" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Kambing Bakar Roxy",
+                "invoiceNumber": "Split Bill",
+                "status": "fully paid",
+                "totalAmount": 110000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            },
+            {
+                "Receivers": [
+                    {
+                        "amount": 50000,
+                        "status": "pending",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 50000,
+                        "status": "reject",
+                        "mobileNumber": "087810868407",
+                        "nama": "Fernando Tiwow" 
+                    },
+                    {
+                        "amount": 10000,
+                        "status": "success",
+                        "mobileNumber": "081253225858",
+                        "nama": "Rendy Ren" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Kambing Bakar Roxy",
+                "invoiceNumber": "Split Bill",
+                "status": "fail",
+                "totalAmount": 110000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            }
+        ]
+      }
+}

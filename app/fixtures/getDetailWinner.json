@@ -1,0 +1,27 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v4/action/get-winner-detail-url",
+  "requestBody": {
+    "TXID":"722c049d-1ba4-4c67-bb70-be6320ad634b",
+  	"sessionCode":"8baabcc9-6dd8-4eeb-8af7-0c0a0eb84910",
+  	"E2EE_RANDOM":"123456",
+  	"tokenClient":"61ea8fa71dddc1601513c926fef71ee862d7e76b55695330e94efc096a148390",
+  	"tokenServer":"46d838e0e85febec909ea8044bd1d9a53186e9ab6513e22fbfd8f5294b99d6b4",
+  	"lang": "en"
+  },
+  "response": {
+    "responseCode": "00",
+    "news": {
+         "imgUrl": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+         "footer": "footnote title 1",
+         "offerID": "OFFER_TEST1",
+         "flag": 1,
+         "order": 0,
+         "validEndDate": "15-07-2022",
+         "imgUrl2": "https://www.banksinarmas.com/id/img/simobiplus/simobi-smartfren.jpg",
+         "navigateTo": ["genflixInit"],
+         "subtitle": "Ke DASHBOARD",
+         "validStartDate": "13-07-2017",
+         "label": "Ke DASHBOARD"
+    }
+  }
+}

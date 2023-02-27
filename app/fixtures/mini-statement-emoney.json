@@ -1,0 +1,62 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/register-easypin",
+  "requestBody": {
+    "ipassport":"SMP-21381361524042951757",
+    "lang":"EN",
+    "accountNumber":"38086281995550907",
+    "period":"today",
+    "sFromDate":"2018-03-01",
+    "sToDate":"2018-05-03",
+    "sendToMailBox":"true"
+  },
+  "response": {
+    "statementList": {
+      "headerMap": {
+          "bankBranchName": "KCS Jakarta Cik Ditiro",
+          "name": "VINZEN FERRYL YUWANTO",
+               "currency": "IDR",
+               "accountNumber": "38086281995550907"
+           },
+           "contentList": [
+               {
+                   "description": "LLG",
+                   "dtatementId": "525",
+                   "transactionCode": "66",
+                   "creditAmount": "10,000.00",
+                   "endingBalance": "5,000.00",
+                   "postDate": "18/04/2018 15:36:43",
+                   "debitAmount": "",
+                   "transactionReferenceNumber": 123,
+                   "detail": "",
+                   "transactionDate": "18/04/2018 13:55:38"
+               },
+               {
+                   "description": "SKN",
+                   "statementId": "508",
+                   "transactionCode": "66",
+                   "creditAmount": "10,000.00",
+                   "endingBalance": "15,000.00",
+                   "postDate": "18/04/2018 13:55:38",
+                   "debitAmount": "",
+                   "transactionReferenceNumber": 456,
+                   "detail": "",
+                   "transactionDate": "18/04/2018 13:55:38"
+               },
+               {
+                   "description": "ATM transfer",
+                   "statementId": "493",
+                   "transactionCode": "66",
+                   "creditAmount": "",
+                   "endingBalance": "25,000.00",
+                   "postDate": "18/04/2018 10:58:14",
+                   "debitAmount": "25,000.00",
+                   "transactionReferenceNumber": 678,
+                   "detail": "",
+                   "transactionDate": "18/04/2018 10:58:13"
+               }
+           ]
+       },
+       "responseMessage": "Success get statementList",
+       "responseCode": "00"
+  }
+}

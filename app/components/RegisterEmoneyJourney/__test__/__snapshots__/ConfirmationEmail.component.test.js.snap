@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`emoney component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  extraHeight={120}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ED1D25",
+          "paddingBottom": 80,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Image
+          source="white-simobi.png"
+          style={
+            Object {
+              "height": 40,
+              "width": 100,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            }
+          }
+        >
+          Periksa email Anda
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 30,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          Kami baru saja mengirim email verifikasi ke
+           
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "marginTop": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderColor": "#ccc",
+                "borderRadius": 50,
+                "borderWidth": 1.5,
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ccc",
+                "height": 175,
+                "width": 2,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderColor": "#ccc",
+                "borderRadius": 50,
+                "borderWidth": 1.5,
+                "height": 10,
+                "width": 10,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "paddingBottom": 20,
+              "paddingHorizontal": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 35,
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 18,
+                    "paddingTop": 5,
+                  }
+                }
+              >
+                Lihat email dari
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Bank Sinarmas
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 18,
+                    "paddingTop": 15,
+                  }
+                }
+              >
+                Tidak menemukan email? periksa juga di junk/spam folder
+              </Text>
+            </View>
+          </View>
+          <View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 18,
+                    "paddingTop": 5,
+                  }
+                }
+              >
+                Klik
+                 
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 18,
+                      "fontWeight": "700",
+                      "paddingTop": 15,
+                    }
+                  }
+                >
+                  Email Verifikasi
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#ED1D25",
+              "borderRadius": 50,
+              "borderWidth": 2,
+              "paddingHorizontal": 20,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+            }
+          }
+        >
+          SUDAH VERIFIKASI EMAIL
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

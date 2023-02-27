@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericBillerListJourney: GenericBillerList page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0)",
+            "borderColor": "#949494",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            disabled={false}
+            label="Nama Biller"
+            onChangeText={[Function]}
+            placeholder="Cth: Asuransi Sinarmas"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+                "height": 50,
+                "paddingLeft": 20,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "height": 50,
+              "paddingRight": 10,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 1,
+          "marginTop": 20,
+          "right": 20,
+          "width": 130,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 12,
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      ATAU
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 1,
+          "left": 20,
+          "marginTop": 20,
+          "width": 130,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ccc",
+        }
+      }
+    >
+      tidak ada yang ditampilkan
+    </Text>
+  </View>
+</KeyboardAwareScrollView>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabInvestment component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    dataSource={
+      ListViewDataSource {
+        "items": 0,
+      }
+    }
+    enableEmptySections={true}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

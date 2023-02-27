@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountEditProfile page renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "height": 333.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "top": 66.5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderRadius": 50,
+            "height": 30,
+            "width": 30,
+          }
+        }
+      >
+        <Image
+          source="profileBG.png"
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 20,
+              "height": 80,
+              "width": 80,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 50,
+            "elevation": 4,
+            "left": 5,
+            "marginRight": -68,
+            "marginTop": -33,
+            "opacity": 1,
+            "padding": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 0,
+            },
+            "shadowOpacity": 0.5,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 15,
+              },
+              Array [
+                Object {
+                  "color": "#000000",
+                },
+              ],
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "top": 200,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Object {
+              "color": "#000000",
+              "fontFamily": "Roboto",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "500",
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "Roboto",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "500",
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "Roboto",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 20,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "marginTop": 30,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#FA3F70",
+              "width": 675,
+            },
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#F9F8FD",
+              "width": 675,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#9E9E9E",
+              "fontWeight": "500",
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

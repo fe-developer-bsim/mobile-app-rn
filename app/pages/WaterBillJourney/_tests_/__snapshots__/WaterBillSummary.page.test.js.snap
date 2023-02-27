@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WaterBillJourney: WaterBill page renders correctly 1`] = `
+<RCTScrollView
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "paddingHorizontal": 20,
+      },
+      Object {},
+      Object {
+        "backgroundColor": "#ffffff",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "paddingVertical": 10,
+          },
+          Object {
+            "fontWeight": "700",
+          },
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Ringkasan pembelian
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "flexGrow": 1,
+            "padding": 10,
+            "paddingHorizontal": 15,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+          },
+          Object {
+            "borderColor": "#DDD",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "padding": 5,
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  undefined,
+                  Object {
+                    "color": "#000",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Pembayaran dari
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "column",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "textAlign": "right",
+                    },
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-end",
+                      "textAlign": "right",
+                    },
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 50,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "height": 40,
+                "marginBottom": 0,
+                "opacity": 1,
+                "width": 40,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "color": "#E30717",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "color": "rgba(255,0, 0, 0.2)",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "marginLeft": 20,
+                }
+              }
+            >
+              Gunakan kupon cashback
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            KONFIRMASI PEMBAYARAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

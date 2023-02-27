@@ -1,0 +1,1955 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MerchantList: MerchantList page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 15,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0)",
+            "borderColor": "#949494",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            disabled={false}
+            label="Masukkan nama kota"
+            onChangeText={[Function]}
+            placeholder="Cari Lokasi"
+            placeholderTextColor="#848484"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+                "height": 50,
+                "paddingLeft": 20,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "height": 50,
+              "paddingRight": 10,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Image
+            source="search.png"
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      checkedCity={Object {}}
+      data={
+        Array [
+          Object {
+            "code": "all",
+            "name": "All",
+          },
+          Object {
+            "code": 1088,
+            "name": "Aceh Barat",
+          },
+          Object {
+            "code": 1087,
+            "name": "Aceh Besar",
+          },
+          Object {
+            "code": 1030,
+            "name": "Aceh Jaya",
+          },
+          Object {
+            "code": 1032,
+            "name": "Aceh Tengah",
+          },
+          Object {
+            "code": 1034,
+            "name": "Aceh Timur",
+          },
+          Object {
+            "code": 715,
+            "name": "Aceh Utara",
+          },
+          Object {
+            "code": 306,
+            "name": "Ambon",
+          },
+          Object {
+            "code": 931,
+            "name": "Badung",
+          },
+          Object {
+            "code": 307,
+            "name": "Balikpapan",
+          },
+          Object {
+            "code": 1090,
+            "name": "Banda Aceh",
+          },
+          Object {
+            "code": 308,
+            "name": "Bandar Lampung",
+          },
+          Object {
+            "code": 309,
+            "name": "Bandung",
+          },
+          Object {
+            "code": 1092,
+            "name": "Bangka",
+          },
+          Object {
+            "code": 310,
+            "name": "Banjar",
+          },
+          Object {
+            "code": 311,
+            "name": "Banjarbaru",
+          },
+          Object {
+            "code": 312,
+            "name": "Banjarmasin",
+          },
+          Object {
+            "code": 1093,
+            "name": "Banjarnegara",
+          },
+          Object {
+            "code": 313,
+            "name": "Bantul",
+          },
+          Object {
+            "code": 1094,
+            "name": "Banyuwangi",
+          },
+          Object {
+            "code": 1122,
+            "name": "Batam",
+          },
+          Object {
+            "code": 314,
+            "name": "Batang",
+          },
+          Object {
+            "code": 13832,
+            "name": "Batulicin",
+          },
+          Object {
+            "code": 1095,
+            "name": "Bau-Bau",
+          },
+          Object {
+            "code": 315,
+            "name": "Bekasi",
+          },
+          Object {
+            "code": 933,
+            "name": "Belitung",
+          },
+          Object {
+            "code": 1096,
+            "name": "Belu",
+          },
+          Object {
+            "code": 316,
+            "name": "Bengkulu",
+          },
+          Object {
+            "code": 317,
+            "name": "Bengkulu Tengah",
+          },
+          Object {
+            "code": 1097,
+            "name": "Berau",
+          },
+          Object {
+            "code": 1098,
+            "name": "Biak",
+          },
+          Object {
+            "code": 1099,
+            "name": "Bima",
+          },
+          Object {
+            "code": 1100,
+            "name": "Bitung",
+          },
+          Object {
+            "code": 318,
+            "name": "Blitar",
+          },
+          Object {
+            "code": 1101,
+            "name": "Blora",
+          },
+          Object {
+            "code": 319,
+            "name": "Bogor",
+          },
+          Object {
+            "code": 1102,
+            "name": "Bojonegoro",
+          },
+          Object {
+            "code": 1103,
+            "name": "Bondowoso",
+          },
+          Object {
+            "code": 1104,
+            "name": "Bone",
+          },
+          Object {
+            "code": 1105,
+            "name": "Bontang",
+          },
+          Object {
+            "code": 1106,
+            "name": "Boyolali",
+          },
+          Object {
+            "code": 320,
+            "name": "Brebes",
+          },
+          Object {
+            "code": 321,
+            "name": "Bukittinggi",
+          },
+          Object {
+            "code": 1131,
+            "name": "Buleleng",
+          },
+          Object {
+            "code": 1133,
+            "name": "Bungo",
+          },
+          Object {
+            "code": 322,
+            "name": "Ciamis",
+          },
+          Object {
+            "code": 923,
+            "name": "Cianjur",
+          },
+          Object {
+            "code": 14774,
+            "name": "Cibubur",
+          },
+          Object {
+            "code": 1135,
+            "name": "Cikampek",
+          },
+          Object {
+            "code": 323,
+            "name": "Cilacap",
+          },
+          Object {
+            "code": 324,
+            "name": "Cilegon",
+          },
+          Object {
+            "code": 1134,
+            "name": "Cimahi",
+          },
+          Object {
+            "code": 325,
+            "name": "Cirebon",
+          },
+          Object {
+            "code": 326,
+            "name": "Denpasar",
+          },
+          Object {
+            "code": 327,
+            "name": "Depok",
+          },
+          Object {
+            "code": 13750,
+            "name": "Dompu",
+          },
+          Object {
+            "code": 1144,
+            "name": "Dumai",
+          },
+          Object {
+            "code": 2524,
+            "name": "Ende",
+          },
+          Object {
+            "code": 328,
+            "name": "Garut",
+          },
+          Object {
+            "code": 1149,
+            "name": "Gianyar",
+          },
+          Object {
+            "code": 329,
+            "name": "Gorontalo",
+          },
+          Object {
+            "code": 330,
+            "name": "Gresik",
+          },
+          Object {
+            "code": 1150,
+            "name": "Indramayu",
+          },
+          Object {
+            "code": 331,
+            "name": "Jakarta Barat",
+          },
+          Object {
+            "code": 332,
+            "name": "Jakarta Pusat",
+          },
+          Object {
+            "code": 333,
+            "name": "Jakarta Selatan",
+          },
+          Object {
+            "code": 334,
+            "name": "Jakarta Timur",
+          },
+          Object {
+            "code": 335,
+            "name": "Jakarta Utara",
+          },
+          Object {
+            "code": 336,
+            "name": "Jambi",
+          },
+          Object {
+            "code": 337,
+            "name": "Jayapura",
+          },
+          Object {
+            "code": 338,
+            "name": "Jember",
+          },
+          Object {
+            "code": 339,
+            "name": "Jepara",
+          },
+          Object {
+            "code": 1156,
+            "name": "Jombang",
+          },
+          Object {
+            "code": 1157,
+            "name": "Kaimana",
+          },
+          Object {
+            "code": 1158,
+            "name": "Karanganyar",
+          },
+          Object {
+            "code": 340,
+            "name": "Karawang",
+          },
+          Object {
+            "code": 1159,
+            "name": "Karimun",
+          },
+          Object {
+            "code": 341,
+            "name": "Kediri",
+          },
+          Object {
+            "code": 13650,
+            "name": "Kefamenanu",
+          },
+          Object {
+            "code": 1162,
+            "name": "Kendari",
+          },
+          Object {
+            "code": 342,
+            "name": "Kertasura",
+          },
+          Object {
+            "code": 1163,
+            "name": "Ketapang",
+          },
+          Object {
+            "code": 1164,
+            "name": "Klaten",
+          },
+          Object {
+            "code": 343,
+            "name": "Klungkung",
+          },
+          Object {
+            "code": 344,
+            "name": "Kolaka",
+          },
+          Object {
+            "code": 13836,
+            "name": "Kotabaru",
+          },
+          Object {
+            "code": 1165,
+            "name": "Kotamobagu",
+          },
+          Object {
+            "code": 1166,
+            "name": "Kotawaringin Barat",
+          },
+          Object {
+            "code": 345,
+            "name": "Kotawaringin Timur",
+          },
+          Object {
+            "code": 346,
+            "name": "Kudus",
+          },
+          Object {
+            "code": 347,
+            "name": "Kuningan",
+          },
+          Object {
+            "code": 351,
+            "name": "Kupang",
+          },
+          Object {
+            "code": 14829,
+            "name": "kuta",
+          },
+          Object {
+            "code": 352,
+            "name": "Labuhanbatu",
+          },
+          Object {
+            "code": 1168,
+            "name": "Labuhanbatu Selatan",
+          },
+          Object {
+            "code": 1169,
+            "name": "Lahat",
+          },
+          Object {
+            "code": 353,
+            "name": "Lamongan",
+          },
+          Object {
+            "code": 354,
+            "name": "Lampung Barat",
+          },
+          Object {
+            "code": 355,
+            "name": "Lampung Selatan",
+          },
+          Object {
+            "code": 356,
+            "name": "Lampung Tengah",
+          },
+          Object {
+            "code": 934,
+            "name": "Lebak",
+          },
+          Object {
+            "code": 1172,
+            "name": "Lhokseumawe",
+          },
+          Object {
+            "code": 13732,
+            "name": "Lombok",
+          },
+          Object {
+            "code": 1173,
+            "name": "Lombok Barat",
+          },
+          Object {
+            "code": 1174,
+            "name": "Lubuklinggau",
+          },
+          Object {
+            "code": 1175,
+            "name": "Luwu",
+          },
+          Object {
+            "code": 13861,
+            "name": "Luwuk",
+          },
+          Object {
+            "code": 358,
+            "name": "Madiun",
+          },
+          Object {
+            "code": 359,
+            "name": "Magelang",
+          },
+          Object {
+            "code": 360,
+            "name": "Magetan",
+          },
+          Object {
+            "code": 361,
+            "name": "Makassar",
+          },
+          Object {
+            "code": 380,
+            "name": "Malang",
+          },
+          Object {
+            "code": 2395,
+            "name": "Malinau",
+          },
+          Object {
+            "code": 1179,
+            "name": "Maluku Tenggara",
+          },
+          Object {
+            "code": 1180,
+            "name": "Maluku Utara",
+          },
+          Object {
+            "code": 1181,
+            "name": "Mamuju",
+          },
+          Object {
+            "code": 384,
+            "name": "Manado",
+          },
+          Object {
+            "code": 1183,
+            "name": "Manokwari",
+          },
+          Object {
+            "code": 385,
+            "name": "Mataram",
+          },
+          Object {
+            "code": 386,
+            "name": "Medan",
+          },
+          Object {
+            "code": 1191,
+            "name": "Merauke",
+          },
+          Object {
+            "code": 387,
+            "name": "Metro",
+          },
+          Object {
+            "code": 1193,
+            "name": "Minahasa",
+          },
+          Object {
+            "code": 388,
+            "name": "Minahasa Selatan",
+          },
+          Object {
+            "code": 389,
+            "name": "Mojokerto",
+          },
+          Object {
+            "code": 1206,
+            "name": "Muaro Jambi",
+          },
+          Object {
+            "code": 13855,
+            "name": "Ngabang",
+          },
+          Object {
+            "code": 1207,
+            "name": "Nganjuk",
+          },
+          Object {
+            "code": 1208,
+            "name": "Nunukan",
+          },
+          Object {
+            "code": 1209,
+            "name": "Ogan Komering Ulu",
+          },
+          Object {
+            "code": 390,
+            "name": "Ogan Komering Ulu Timur",
+          },
+          Object {
+            "code": 391,
+            "name": "Padang",
+          },
+          Object {
+            "code": 392,
+            "name": "Padang Sidempuan",
+          },
+          Object {
+            "code": 13793,
+            "name": "Pagar Alam",
+          },
+          Object {
+            "code": 1216,
+            "name": "Palangka Raya",
+          },
+          Object {
+            "code": 393,
+            "name": "Palembang",
+          },
+          Object {
+            "code": 1217,
+            "name": "Palopo",
+          },
+          Object {
+            "code": 394,
+            "name": "Palu",
+          },
+          Object {
+            "code": 1218,
+            "name": "Pamekasan",
+          },
+          Object {
+            "code": 396,
+            "name": "Pangkal Pinang",
+          },
+          Object {
+            "code": 13846,
+            "name": "Pangkalan Bun",
+          },
+          Object {
+            "code": 13768,
+            "name": "Pangkalan Kerinci",
+          },
+          Object {
+            "code": 397,
+            "name": "Pasuruan",
+          },
+          Object {
+            "code": 1219,
+            "name": "Pati",
+          },
+          Object {
+            "code": 1220,
+            "name": "Payakumbuh",
+          },
+          Object {
+            "code": 398,
+            "name": "Pekalongan",
+          },
+          Object {
+            "code": 399,
+            "name": "Pekanbaru",
+          },
+          Object {
+            "code": 1221,
+            "name": "Pemalang",
+          },
+          Object {
+            "code": 400,
+            "name": "Pematangsiantar",
+          },
+          Object {
+            "code": 1222,
+            "name": "Polewali Mandar",
+          },
+          Object {
+            "code": 1223,
+            "name": "Ponorogo",
+          },
+          Object {
+            "code": 401,
+            "name": "Pontianak",
+          },
+          Object {
+            "code": 1224,
+            "name": "Poso",
+          },
+          Object {
+            "code": 402,
+            "name": "Prabumulih",
+          },
+          Object {
+            "code": 424,
+            "name": "Pringsewu",
+          },
+          Object {
+            "code": 1226,
+            "name": "Probolinggo",
+          },
+          Object {
+            "code": 426,
+            "name": "Purbalingga",
+          },
+          Object {
+            "code": 427,
+            "name": "Purwakarta",
+          },
+          Object {
+            "code": 428,
+            "name": "Purwokerto",
+          },
+          Object {
+            "code": 429,
+            "name": "Purworejo",
+          },
+          Object {
+            "code": 13858,
+            "name": "Putussibau",
+          },
+          Object {
+            "code": 430,
+            "name": "Salatiga",
+          },
+          Object {
+            "code": 431,
+            "name": "Samarinda",
+          },
+          Object {
+            "code": 13843,
+            "name": "Sampit",
+          },
+          Object {
+            "code": 13851,
+            "name": "Sangatta",
+          },
+          Object {
+            "code": 1229,
+            "name": "Sanggau",
+          },
+          Object {
+            "code": 1230,
+            "name": "Sawahlunto",
+          },
+          Object {
+            "code": 13737,
+            "name": "Selong",
+          },
+          Object {
+            "code": 432,
+            "name": "Semarang",
+          },
+          Object {
+            "code": 13670,
+            "name": "Sengkang",
+          },
+          Object {
+            "code": 433,
+            "name": "Serang",
+          },
+          Object {
+            "code": 1047,
+            "name": "Sidoarjo",
+          },
+          Object {
+            "code": 1231,
+            "name": "Sikka",
+          },
+          Object {
+            "code": 1235,
+            "name": "Singkawang",
+          },
+          Object {
+            "code": 1237,
+            "name": "Sintang",
+          },
+          Object {
+            "code": 1046,
+            "name": "Situbondo",
+          },
+          Object {
+            "code": 434,
+            "name": "Sleman",
+          },
+          Object {
+            "code": 435,
+            "name": "Solo",
+          },
+          Object {
+            "code": 1239,
+            "name": "Solok",
+          },
+          Object {
+            "code": 1240,
+            "name": "Sorong",
+          },
+          Object {
+            "code": 436,
+            "name": "Sragen",
+          },
+          Object {
+            "code": 938,
+            "name": "Subang",
+          },
+          Object {
+            "code": 437,
+            "name": "Sukabumi",
+          },
+          Object {
+            "code": 1243,
+            "name": "Sukoharjo",
+          },
+          Object {
+            "code": 1262,
+            "name": "Sumba Barat",
+          },
+          Object {
+            "code": 1263,
+            "name": "Sumba Timur",
+          },
+          Object {
+            "code": 1264,
+            "name": "Sumbawa",
+          },
+          Object {
+            "code": 1049,
+            "name": "Sumenep",
+          },
+          Object {
+            "code": 438,
+            "name": "Surabaya",
+          },
+          Object {
+            "code": 6788,
+            "name": "Surakarta",
+          },
+          Object {
+            "code": 1268,
+            "name": "Tabanan",
+          },
+          Object {
+            "code": 439,
+            "name": "Tangerang",
+          },
+          Object {
+            "code": 440,
+            "name": "Tangerang Selatan",
+          },
+          Object {
+            "code": 441,
+            "name": "Tanggamus",
+          },
+          Object {
+            "code": 442,
+            "name": "Tanjung Pinang",
+          },
+          Object {
+            "code": 1270,
+            "name": "Tanjung Selor",
+          },
+          Object {
+            "code": 443,
+            "name": "Tarakan",
+          },
+          Object {
+            "code": 444,
+            "name": "Tasikmalaya",
+          },
+          Object {
+            "code": 445,
+            "name": "Tebing Tinggi",
+          },
+          Object {
+            "code": 446,
+            "name": "Tegal",
+          },
+          Object {
+            "code": 1271,
+            "name": "Ternate",
+          },
+          Object {
+            "code": 447,
+            "name": "Toli-Toli",
+          },
+          Object {
+            "code": 1273,
+            "name": "Tomohon",
+          },
+          Object {
+            "code": 1275,
+            "name": "Trenggalek",
+          },
+          Object {
+            "code": 1048,
+            "name": "Tuban",
+          },
+          Object {
+            "code": 1276,
+            "name": "Tulungagung",
+          },
+          Object {
+            "code": 1277,
+            "name": "Wonosobo",
+          },
+          Object {
+            "code": 448,
+            "name": "Yogyakarta",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      enableEmptySections={true}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      keyboardShouldPersistTaps="handled"
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      onSelect={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      secondaryTextKey="secondaryText"
+      stickyHeaderIndices={Array []}
+      subtextKey="subtext"
+      textKey="name"
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    All
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Barat
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Besar
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Jaya
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Tengah
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Timur
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Aceh Utara
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Ambon
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Badung
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#ccc",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "paddingVertical": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "flex-start",
+                        "color": "#000000",
+                        "flex": 1,
+                        "fontWeight": "700",
+                        "textAlign": "left",
+                      }
+                    }
+                  >
+                    Balikpapan
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "300",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "flex": 1,
+                        "fontSize": 12,
+                        "fontWeight": undefined,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</KeyboardAwareScrollView>
+`;

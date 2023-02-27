@@ -1,0 +1,18 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/secure-selected-seat",
+  "method": "POST",
+  "requestBody": {
+      "lang":"en",
+      "scheduleCode": 794354,
+      "cinemaCode":"020",
+      "secureCode":"01",
+      "secureSeatList": [	
+        "01201901",
+        "01201801"
+      ]
+  },
+  "response": {
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

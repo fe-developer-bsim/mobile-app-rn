@@ -1,0 +1,57 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-saved-billpayment",
+  "method": "POST",
+  "requestBody":{
+    "ipassport": "SMP-21208421493722531267",
+    "lang": "EN",
+    "accountNumber": "0008385181"
+  },
+
+  "response": {
+  "responseMessage": "success",
+  "customerName": "Dini Aghnatia",
+  "responseCode": "00",
+  "savedBillPaymentList": [
+    {
+      "subscriberNo": "12312312",
+      "isShowMobile": "yes",
+      "savedBillPaymentId": 63135,
+      "isShowIB": "no",
+      "description": "uauaua",
+      "billerId": 1597
+    },
+    {
+      "subscriberNo": "081293277777",
+      "isShowMobile": "yes",
+      "savedBillPaymentId": 62492,
+      "isShowIB": "no",
+      "description": "Pulsa arief",
+      "billerId": 8
+    },
+    {
+      "subscriberNo": "123456",
+      "isShowMobile": "yes",
+      "savedBillPaymentId": 62563,
+      "isShowIB": "no",
+      "description": "",
+      "billerId": 31
+    },
+    {
+      "subscriberNo": "12345",
+      "isShowMobile": "yes",
+      "savedBillPaymentId": 62492,
+      "isShowIB": "no",
+      "description": "",
+      "billerId": 8
+    },
+    {
+      "subscriberNo": "400099899",
+      "isShowMobile": "yes",
+      "savedBillPaymentId": 63319,
+      "isShowIB": "no",
+      "description": "Air Bulanan",
+      "billerId": 1073
+    }
+  ]
+}
+}

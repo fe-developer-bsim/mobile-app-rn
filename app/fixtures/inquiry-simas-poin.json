@@ -1,0 +1,40 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/inquiry-simas-poin",
+  "requestBody": {
+    "TXID":"722c049d-1ba4-4c67-bb70-be6320ad634b",
+  	"sessionCode":"8baabcc9-6dd8-4eeb-8af7-0c0a0eb84910",
+  	"E2EE_RANDOM":"123456",
+  	"tokenClient":"61ea8fa71dddc1601513c926fef71ee862d7e76b55695330e94efc096a148390",
+  	"tokenServer":"46d838e0e85febec909ea8044bd1d9a53186e9ab6513e22fbfd8f5294b99d6b4",
+  	"deviceParam":"E00BB5B3-89A3-4F29-9F26-EF84AE21E6C1",
+  	"pushToken":"123456",
+  	"clientCheck":"WEB_BROWSER",
+  	"lang": "en"
+  },
+  "response": {
+    "responseMessage": "success",
+    "responseCode": "00",
+    "simasPoin": {
+       "error": false,
+       "data": {
+           "cif": "1090770",
+           "total_point": "10000000",
+           "point_exp": "",
+           "hold_point": "",
+           "dataUndian": [{
+             "dateOfDrawing": "2019-05-28",
+             "description": "undian akan dilakukan dari bulan Juni-Juli",
+             "endDatePeriode": "2019-08-31",
+             "luckyDrawCode": "L001",
+             "luckyDrawName": "Lucky Draw 1 Milyar",
+             "quantityOfLuckyDraw": 6,
+             "startDatePeriode": "2019-05-01",
+             "termNCondition": ""
+           }]
+       },
+       "code": "12"
+    },
+    "fullName": "Adimas S Wibowo",
+    "email": "dewa.a.intan.s@banksinarmas.com"
+  }
+}

@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardFinalizeForm page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ED1D25",
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <Image
+      source=""
+      style={
+        Object {
+          "height": 30,
+          "marginTop": 20,
+          "paddingVertical": 20,
+          "resizeMode": "contain",
+          "width": 130,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+            }
+          }
+        >
+          Senang melayani Anda
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "paddingRight": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 40,
+              },
+              Object {
+                "alignItems": "flex-end",
+                "color": "#FFFFFF",
+                "marginTop": 30,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 22,
+            "fontWeight": "400",
+          }
+        }
+      >
+        Kode tiket Anda
+      </Text>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginTop": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 16,
+              "marginLeft": 60,
+            }
+          }
+        >
+          COPY
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#FA3F70",
+            "fontFamily": "roboto",
+            "fontSize": 18,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 22,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Nomor telepon Anda
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#FA3F70",
+              "fontFamily": "roboto",
+              "fontSize": 18,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingTop": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingRight": 30,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "width": 1,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ED1D25",
+              "borderRadius": 50,
+              "height": 10,
+              "width": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "flex": 1,
+              "width": 1.5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 5,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 30,
+              },
+              Object {
+                "color": "#666",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "flex": 1,
+              "width": 1.5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 5,
+            "paddingBottom": 30,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          Perwakilan kami akan menghubungi Anda dalam 2 hari kerja. Pastikan HP Anda aktif
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ccc",
+              "flex": 1,
+              "width": 1.5,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderColor": "#ccc",
+              "borderRadius": 50,
+              "borderWidth": 1.5,
+              "height": 10,
+              "width": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "width": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 5,
+          }
+        }
+      >
+        <Image
+          source=""
+          style={
+            Object {
+              "height": 35,
+              "resizeMode": "contain",
+              "width": 100,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 5,
+            "paddingBottom": 30,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          Setelah disetujui, Anda perlu datang ke kantor cabang Bank Sinarmas terdekat
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 18,
+              }
+            }
+          >
+            banksinarmas.com/id/kantor
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          atau booth kami
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 18,
+              }
+            }
+          >
+            banksinarmas.com/id/promosi/promosi-telesindo-megafon
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 5,
+            "paddingBottom": 30,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          Siapkan KTP Anda
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "textAlign": "center",
+              "width": 250,
+            }
+          }
+        >
+          SELESAI
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderItem component OrderItem: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#ECECEC",
+          "borderRadius": 10,
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingTop": 10,
+          "width": 710,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-start",
+              "borderColor": "#ECECEC",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": undefined,
+              }
+            }
+            style={
+              Object {
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "width": 620,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2F476D",
+                        "flex": 1,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "padding": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 15,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#ECECEC",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "margin": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5B52B",
+                "borderRadius": 20,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "maxWidth": "95%",
+                "padding": 5,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "marginRight": 5,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "maxWidth": "95%",
+                }
+              }
+            >
+              18 Aug 1989 00:00
+               - 
+              18 Aug 1989 00:00
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#000000",
+                  "paddingRight": 10,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

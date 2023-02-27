@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawItem component DrawItem: renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#cac6c6",
+        "borderRadius": 10,
+        "elevation": 2,
+        "justifyContent": "space-between",
+        "marginHorizontal": 20,
+        "marginVertical": 10,
+        "shadowColor": "grey",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 7,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FA3F70",
+          "borderColor": "rgba(0,0,0,0)",
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexDirection": "row",
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "color": "#FFFFFF",
+              "fontFamily": "Roboto",
+            },
+            undefined,
+            Object {
+              "fontWeight": "700",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 15,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Image
+        source="lucky-draw-banner.jpg"
+        style={
+          Object {
+            "height": 150,
+            "width": 335,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 15,
+          "paddingRight": 5,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "paddingBottom": 10,
+            },
+            undefined,
+            Object {
+              "color": "#666",
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "paddingBottom": 10,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#666",
+            },
+          ]
+        }
+      >
+        Periode Program
+        : 
+        18 Aug 1989
+         - 
+        18 Aug 1989
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Informasi Pemenang
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderColor": "#cac6c6",
+        "borderTopWidth": 1,
+        "marginHorizontal": 15,
+        "paddingVertical": 5,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "borderColor": "#cac6c6",
+        "flexDirection": "row",
+        "height": 55,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#FFFFFF",
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "height": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              Object {
+                "color": "#000000",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        >
+          Jumlah undian
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#FA3F70",
+                "fontSize": 18,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderColor": "#cac6c6",
+          "borderRightWidth": 1,
+          "marginBottom": 8,
+          "paddingHorizontal": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderColor": "#FFFFFF",
+          "borderWidth": 0.5,
+          "flex": 2,
+          "flexDirection": "row",
+          "paddingRight": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 8,
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 25,
+              },
+              Object {
+                "color": "#000000",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Detail No Undian
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingLeft": 10,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 15,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "marginTop": 3,
+                  "textDecorationLine": "underline",
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Kirim
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

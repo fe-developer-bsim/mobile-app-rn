@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney: CompletedOnboarding page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "backgroundColor": "#ED1D25",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "padding": 20,
+        "paddingTop": 40,
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            }
+          }
+        >
+          Proses migrasi Anda gagal
+        </Text>
+      </View>
+    </View>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              }
+            }
+          >
+            KEMBALI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BillerTypeTwoPayment Component: PaymentSelection renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Array [
+                  Object {
+                    "color": "#4ed07d",
+                    "marginTop": 5,
+                  },
+                  Object {
+                    "marginRight": 10,
+                  },
+                ],
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 22,
+              }
+            }
+          >
+            Masukkan jumlah
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.5,
+            }
+          }
+        >
+          <View>
+            <View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    Object {
+                      "borderColor": "#949494",
+                      "borderRadius": 5,
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Array [
+                        Object {
+                          "fontWeight": "700",
+                        },
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 20,
+                        },
+                      ],
+                      Object {
+                        "marginLeft": 10,
+                      },
+                    ]
+                  }
+                >
+                  Rp
+                </Text>
+                <TextInput
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  disabled={false}
+                  disabledLineType="solid"
+                  editable={true}
+                  keyboardType="phone-pad"
+                  label=""
+                  maxLength={13}
+                  onBlur={[Function]}
+                  onChangeText={[Function]}
+                  onFocus={[Function]}
+                  placeholder="0"
+                  rejectResponderTermination={true}
+                  style={
+                    Array [
+                      Object {
+                        "fontWeight": "700",
+                      },
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "Roboto",
+                        "fontSize": 16,
+                        "height": 50,
+                        "textAlign": "center",
+                        "width": 630,
+                      },
+                    ]
+                  }
+                  tintColor="#D72F33"
+                  underlineColorAndroid="transparent"
+                  value=""
+                />
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 25,
+                        },
+                        Object {
+                          "color": "#000000",
+                          "marginRight": 10,
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 1,
+          "marginTop": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 30,
+                  },
+                  Array [
+                    Object {
+                      "color": "#c38a05",
+                    },
+                    Object {
+                      "marginRight": 10,
+                    },
+                  ],
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 22,
+                }
+              }
+            >
+              Pilih rekening sumber
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "opacity": 1,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "roboto",
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                ]
+              }
+            >
+              Pilih rekening sumber
+            </Text>
+          </View>
+          <View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 1,
+          "marginTop": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+          },
+          Object {
+            "fontFamily": "Roboto",
+            "marginTop": 200,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                },
+                Object {
+                  "fontFamily": "Roboto",
+                },
+              ]
+            }
+          >
+            BERIKUTNYA
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+        "marginTop": 10,
+      }
+    }
+  />
+</KeyboardAwareScrollView>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insurance component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 7,
+            "width": 107.14285714285714,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "height": 7,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 9,
+              "marginBottom": 5,
+            },
+            Object {
+              "paddingHorizontal": 20,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "paddingBottom": 10,
+              },
+            ]
+          }
+        >
+          Pilih Asuransi
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

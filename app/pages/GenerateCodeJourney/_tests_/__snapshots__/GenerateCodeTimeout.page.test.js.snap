@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenerateCodeTimeoutJourney: GenerateCodeTimeout page renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "height": 1334,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "paddingTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#000000",
+                "paddingTop": 30,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 130,
+        }
+      }
+    >
+      <Image
+        source="sandTime.png"
+        style={
+          Object {
+            "height": 577.5,
+            "width": 300,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        Transaksi berakhir
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingBottom": 50,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "backgroundColor": "#ED1D25",
+              "marginHorizontal": 20,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          Dapatkan kode baru
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

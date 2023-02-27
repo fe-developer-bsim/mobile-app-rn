@@ -1,0 +1,25 @@
+{
+    "url": "http://10.32.1.83:8080/PersonalBanking/rest/v3/action/configDataLoanGeneric",
+    "method": "POST",
+    "requestBody":{
+      "ipassport": "SMP-21208421493722531267"
+    },
+  
+    "response": {
+        "responseMessage": "success get data",
+        "responseCode": "00",
+        "config": [
+            {
+                "productNameID": "Pinjaman GO",
+                "productNameEN": "Pinjaman GO",
+                "productCode": "PGO",
+                "productDescID": "Rekening tabungan kerjasama Bank Sinarmas dan Alfamart",
+                "productDescEN": "Saving account co-branding Bank Sinarmas and Alfamart",
+                "productEnabledETB": "true",
+                "productEnabledNTB": "true",                
+                "productImage": "http://10.32.1.83/PersonalBanking/images/saving-alfamart-card.png"
+            }
+        ]
+    }
+}
+  

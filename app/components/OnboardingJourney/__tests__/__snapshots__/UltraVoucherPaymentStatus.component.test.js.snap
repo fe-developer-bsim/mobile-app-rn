@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UltraVoucherPaymentStatus component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

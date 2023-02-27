@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney Component: EasyPinView renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideOnBack={true}
+  onBackButtonPress={[Function]}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideOnBack={true}
+    onBackButtonPress={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    transparent={true}
+  >
+    <View
+      contentContainerStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+      extraHeight={120}
+      keyboardShouldPersistTaps="handled"
+      scrollEnabled={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(37, 8, 10, 0.78)",
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 20,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "padding": 20,
+              },
+              Object {},
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 24,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Masukkan kode
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 5,
+                  "paddingLeft": 35,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 24,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Simas token
+              </Text>
+              <Image
+                source="simas-token.png"
+                style={
+                  Object {
+                    "height": 30,
+                    "marginLeft": 5,
+                    "marginTop": 5,
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+                "paddingVertical": 14,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 16,
+                  "paddingHorizontal": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Ambil token Anda, tekan tombolnya dan masukkan 6 digit kode yang terlampir
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "borderBottomColor": "#ED1D25",
+                  "borderBottomWidth": 1,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "width": 150,
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoFocus={true}
+              keyboardType="numeric"
+              maxLength={6}
+              onChangeText={[Function]}
+              rejectResponderTermination={true}
+              style={
+                Object {
+                  "fontSize": 24,
+                  "height": 60,
+                  "paddingVertical": 5,
+                  "textAlign": "center",
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

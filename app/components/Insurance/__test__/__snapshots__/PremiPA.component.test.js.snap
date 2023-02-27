@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PremiPA component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 7,
+            "width": 187.5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ccc",
+            "height": 7,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 9,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Pilih plan untuk Asuransi
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        >
+          Kecelakaan Diri
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "rgba(0,0,0, 0.09)",
+          },
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginHorizontal": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <Text>
+          Asuransi PA
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 9,
+          "paddingBottom": 10,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

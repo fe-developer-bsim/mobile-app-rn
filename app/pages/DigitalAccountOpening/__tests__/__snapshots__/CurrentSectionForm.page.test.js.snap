@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current Section component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FA3F70",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "flex": 1,
+        "height": 1334,
+        "marginTop": 10,
+        "padding": 30,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexGrow": 1,
+          "justifyContent": "space-between",
+          "paddingBottom": -10,
+        }
+      }
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 28,
+                  "fontWeight": "400",
+                }
+              }
+            >
+              Silahkan masukkan data Anda di bawah ini:
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 30,
+                    "flexDirection": "row",
+                    "height": 47,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                LANJUTKAN
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

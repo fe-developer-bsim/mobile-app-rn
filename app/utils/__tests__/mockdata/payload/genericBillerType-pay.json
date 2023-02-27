@@ -1,0 +1,67 @@
+{
+  "amount":0,
+  "billAmount":0,
+  "billPeriod":"",
+  "biller":{
+            "areaList":[],
+            "billerInqMenu":false,
+            "billerPreferences":{
+                                  "billerInqMenu":false,
+                                  "billerPreferences":null,
+                                  "billerType":"1",
+                                  "code":"009928",
+                                  "currency":"IDR",
+                                  "denomKey":"",
+                                  "id":1073,
+                                  "inquiryTypeFooter":"",
+                                  "inquiryTypeHeader":"",
+                                  "isFavorite":null,
+                                  "isInquiryOnConfirm":"",
+                                  "isMerchantWithSubProductCode":"",
+                                  "isOpenMonth":"",
+                                  "isPrepaidOpenAmount":"",
+                                  "isShown":true,
+                                  "isSubscriber":true,
+                                  "isUsingPackageCode":"",
+                                  "paymentSubscriberNoKey":"purchasePayment.plnCustomerIdentityKey",
+                                  "purchaseSubscriberNoKey":""
+                                },
+              "denomList":[],
+              "id":1073,
+              "name":"PAM Aetra",
+              "path":"|_root||publicservice|",
+              "prefix":null,
+              "validation":"",
+              "validationLabel":"",
+              "description":""
+            },
+  "selectedAccount":{
+                      "accountMode":null,
+                      "accountNumber":"0008300647",
+                      "accountType":"SavingAccount",
+                      "accountTypeCode":"6000",
+                      "allowFlag":"ft|bp|oa|td",
+                      "balances":{
+                                    "accountNumber":"0008300647",
+                                    "availableBalance":"177181315.41",
+                                    "currency":"IDR",
+                                    "currentBalance":177181315.41,
+                                    "workingBalance":177231315.41
+                                 },
+                      "bank":"PT BANK SINARMAS",
+                      "bankBranch":{
+                                    "address":"Jl. K.H. Fachruddin Ruko Alfa No. |",
+                                    "code":"ID0010007",
+                                    "id":7,
+                                    "name":"KC Tanah Abang"
+                                   },
+                      "currency":"IDR",
+                      "display":"0008300647 • SavingAccount • HOGTU ITUIQWA",
+                      "expiryDate":null,
+                      "id":123816,
+                      "label":"0008300647/IDR/SavingAccount/HOGTU ITUIQWA",
+                      "name":"HOGTU ITUIQWA",
+                      "rdnDetail":null
+                  },
+  "subscriberNo":"400099899"
+}

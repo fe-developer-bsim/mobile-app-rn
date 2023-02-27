@@ -1,0 +1,20 @@
+{
+  "url": "http://localhost:8080/IBORCL/rest/v3/action/get-user-device-data",
+  "requestBody": {
+    "ipassport": "SMP-10907701491565133028",
+    "lang": "EN",
+    "oldPassword": "12345678c",
+    "newPassword": "12345678b",
+    "confirmNewPassword": "12345678b",
+    "E2EE_RANDOM": "123456"
+  },
+  "response": {
+    "getUserDeviceDataMap": {
+        "randNumCode": "1f6179546719b981",
+        "userId": 101,
+        "isEligible": true
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

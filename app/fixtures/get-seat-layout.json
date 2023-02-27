@@ -1,0 +1,2553 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/get-seat-layout",
+  "requestBody": {
+  	"lang":"en",
+  	"scheduleCode": 794300
+  },
+  "response": {
+    "responseMessage": "success",
+    "responseCode": "00",
+    "seatPriceInfoList": [
+        {
+            "salesPrice": 35000,
+            "seatZoneCode": "02",
+            "standardPrice": 35000,
+            "seatZoneName": "Standard",
+            "showingAmount": 35000,
+            "scheduleCode": 794354,
+            "seatGradeCode": "01",
+            "ticketIssueAmount": 35000,
+            "seatGradeName": "STD"
+        },
+        {
+            "salesPrice": 42500,
+            "seatZoneCode": "02",
+            "standardPrice": 42500,
+            "seatZoneName": "Standard",
+            "showingAmount": 42500,
+            "scheduleCode": 794354,
+            "seatGradeCode": "03",
+            "ticketIssueAmount": 42500,
+            "seatGradeName": "SW"
+        }
+    ],
+    "showingSeatInfo": {
+        "numberOfRow": 12,
+        "numberOfColumn": 20,
+        "scheduleCode": 794354
+    },
+    "seatLayoutInfoList": [
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00100901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00101901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00102001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00102101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00102201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00200101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200201",
+                "seatNumber": "20",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00200601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00200701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00200901",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201001",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201101",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201201",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00201901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00202001",
+                "seatNumber": "2",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00202101",
+                "seatNumber": "1",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "L"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00202201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "L"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00300101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300201",
+                "seatNumber": "20",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00300601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00300701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00300901",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301001",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301101",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301201",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00301901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00302001",
+                "seatNumber": "2",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00302101",
+                "seatNumber": "1",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "K"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00302201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "K"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00400101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400201",
+                "seatNumber": "20",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00400601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00400701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00400901",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401001",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401101",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401201",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00401901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00402001",
+                "seatNumber": "2",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00402101",
+                "seatNumber": "1",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "J"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00402201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "J"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00500901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00501901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00502001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00502101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00502201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00600101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00600201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00600801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00600901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00601001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00601101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00601201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00601901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00602001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00602101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00602201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "H"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00700101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00700201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00700801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00700901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00701001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00701101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00701201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00701901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00702001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00702101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00702201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "G"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00800101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00800201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00800801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00800901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00801001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00801101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00801201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00801901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00802001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00802101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00802201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "F"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00900101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00900201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00900301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00900401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00900501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00900601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00900701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "02",
+                "seatLocationNumber": "00900801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00900901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00901001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00901101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00901201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "00901901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00902001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00902101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "00902201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "E"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01000101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01000201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01000801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01000901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01001001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01001101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01001201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01001901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01002001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01002101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01002201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "D"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01100101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01100201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01100901",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101001",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101101",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101201",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01101901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01102001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01102101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "C"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01102201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "C"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01200101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01200201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200301",
+                "seatNumber": "19",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200401",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200501",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200601",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200701",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200801",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01200901",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201001",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201101",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201201",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201301",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201401",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201501",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201601",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201701",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201801",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01201901",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "01",
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01202001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01202101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "B"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01202201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "B"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01300101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "A"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01300201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "A"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300301",
+                "seatNumber": "18",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "10"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300401",
+                "seatNumber": "17",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "10"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300501",
+                "seatNumber": "16",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "9"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300601",
+                "seatNumber": "15",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "9"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300701",
+                "seatNumber": "14",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "8"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300801",
+                "seatNumber": "13",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "8"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01300901",
+                "seatNumber": "12",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "7"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301001",
+                "seatNumber": "11",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "7"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301101",
+                "seatNumber": "10",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "6"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301201",
+                "seatNumber": "9",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "6"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301301",
+                "seatNumber": "8",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "5"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301401",
+                "seatNumber": "7",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "5"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301501",
+                "seatNumber": "6",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "4"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301601",
+                "seatNumber": "5",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "4"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301701",
+                "seatNumber": "4",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "3"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301801",
+                "seatNumber": "3",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "2"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01301901",
+                "seatNumber": "2",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "2"
+            },
+            {
+                "seatStatusCode": "01",
+                "seatLocationNumber": "01302001",
+                "seatNumber": "1",
+                "scheduleCode": 794354,
+                "seatGradeCode": "03",
+                "rowName": "A",
+                "specialConnectionGradeCode": "1"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01302101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "A",
+                "specialConnectionGradeCode": "1"
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01302201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": "A"
+            }
+        ],
+        [
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01400901",
+                "seatNumber": "IO",
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401301",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401401",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401501",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401601",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401701",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401801",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01401901",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01402001",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01402101",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            },
+            {
+                "seatStatusCode": "00",
+                "seatLocationNumber": "01402201",
+                "seatNumber": null,
+                "scheduleCode": 794354,
+                "seatGradeCode": null,
+                "rowName": null
+            }
+        ]
+    ]
+}
+}

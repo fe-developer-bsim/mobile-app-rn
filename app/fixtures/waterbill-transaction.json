@@ -1,0 +1,108 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpayment-transaction",
+  "requestBody": {
+    "ipassport": "SMP-3347851488784564108",
+    "lang": "en",
+    "idbillPay": 1157,
+    "billerType": "10",
+    "accountFrom": "10322",
+    "subscriberNoInput": "11123434",
+    "areaCode": "2005",
+    "descInput": "PDAM POSTPAID",
+    "billAmount": "182000",
+    "securityTypeCode": "11",
+    "mPinInputed": "123456"
+  },
+  "response": {
+    "autoDebetEnabled": "true",
+    "transRefNum": "BPM-334785-1488784939429",
+    "responseMessage": "No Error",
+    "responseCode": "00",
+    "subscriberNo": "11123434",
+    "transferStatus": "success",
+    "billPaymentMap": {
+      "displayString": "08PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     BILLING AMT: RP. 182.000              ADMIN BANK : RP. 7.500                PAYMENT AMT: RP. 189.500              REF NUM    :                            20170306142141000000000000000947    ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "BPM-334785-1488784939429",
+      "displayList": [
+        {
+          "key" : "PAYMENT",
+          "value" : "PDAM Gowa"
+       },
+       {
+         "key" : "CUSTOMER ID",
+         "value" : "11123434"
+       },
+       {
+         "key" : "NAME",
+         "value" : "PLGN GOWA 0011123434"
+       },
+       {
+         "key" : "BILLING AMT",
+         "value" : "RP. 182.000"
+       },
+       {
+         "key" : "ADMIN BANK",
+         "value" : "RP. 7.500"
+       },
+       {
+         "key" : "PAYMENT AMT",
+         "value" : "RP. 189.500"
+       }
+      ],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "PLGN GOWA 0011123434",
+        "displayString": "08PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     BILLING AMT: RP. 182.000              ADMIN BANK : RP. 7.500                PAYMENT AMT: RP. 189.500              REF NUM    :                            20170306142141000000000000000947    ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [
+          [
+            "PAYMENT",
+            "PDAM Gowa"
+          ],
+          [
+            "CUSTOMER ID",
+            "11123434"
+          ],
+          [
+            "NAME",
+            "PLGN GOWA 0011123434"
+          ],
+          [
+            "BILLING AMT",
+            "RP. 182.000"
+          ],
+          [
+            "ADMIN BANK",
+            "RP. 7.500"
+          ],
+          [
+            "PAYMENT AMT",
+            "RP. 189.500"
+          ],
+          [
+            "REF NUM",
+            ""
+          ],
+          [
+            "20170306142141000000000000000947"
+          ]
+        ],
+        "reserved_private_1": "05PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     ADMIN CHARGE:  RP. 7.500              BILLING AMT:  RP. 182.000             11123434       20170306142141000000000000000947PLGN GOWA 0011123434          032016120000000255002017010000000320002017020000001245002005",
+        "amount_transaction": "18950000",
+        "billing_info": "08PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     BILLING AMT: RP. 182.000              ADMIN BANK : RP. 7.500                PAYMENT AMT: RP. 189.500              REF NUM    :                            20170306142141000000000000000947    "
+      },
+      "errorCode": "No Error",
+      "billing_info": "08PAYMENT    : PDAM Gowa                CUSTOMER ID: 11123434                 NAME       : PLGN GOWA 0011123434     BILLING AMT: RP. 182.000              ADMIN BANK : RP. 7.500                PAYMENT AMT: RP. 189.500              REF NUM    :                            20170306142141000000000000000947    "
+    },
+    "transactionDate": 1488784939729,
+    "parameterAutoDebet": {
+      "subscriberNo": "200511123434",
+      "accountId": "10322",
+      "fixAmount": "182000.0",
+      "payeeCode": "009937"
+    }
+  }
+}

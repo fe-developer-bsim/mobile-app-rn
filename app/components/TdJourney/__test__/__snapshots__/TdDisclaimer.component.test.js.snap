@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TdForm should render renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "stretch",
+      "borderColor": "#ccc",
+      "borderWidth": 1,
+      "flexGrow": 1,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 20,
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {
+              "marginVertical": 10,
+            },
+          ]
+        }
+      >
+        Syarat dan ketentuan Deposito berjangka
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

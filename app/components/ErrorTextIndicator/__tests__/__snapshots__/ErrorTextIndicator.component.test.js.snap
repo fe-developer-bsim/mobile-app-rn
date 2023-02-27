@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorTextIndicator component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingVertical": 5,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 12,
+        },
+        Object {
+          "color": "#FA3F70",
+          "fontSize": 12,
+          "paddingRight": 5,
+        },
+        Object {
+          "fontFamily": "simas",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#FA3F70",
+        "fontSize": 12,
+        "fontWeight": "500",
+      }
+    }
+  />
+</View>
+`;

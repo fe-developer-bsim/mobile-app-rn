@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FingerprintModal component FingerprintModal: renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideOnBack={true}
+  onBackButtonPress={[Function]}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideOnBack={true}
+    onBackButtonPress={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    transparent={true}
+  >
+    <View
+      contentContainerStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+      extraHeight={120}
+      keyboardShouldPersistTaps="handled"
+      scrollEnabled={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(37, 8, 10, 0.78)",
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "padding": 20,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Masuk
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {
+                  "paddingBottom": 28,
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
+            Konfirmasi fingerprint untuk lanjut
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 48,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#666",
+                    "paddingLeft": 16,
+                  },
+                ]
+              }
+            >
+              Sentuh sensor
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "color": undefined,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  BATAL
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

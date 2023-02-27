@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmallCgvInfo component EmallCgvInfo: renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+/>
+`;

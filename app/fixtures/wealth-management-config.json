@@ -1,0 +1,37 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/wealth-management-config",
+  "requestBody": {
+    "ipassport": "SMP-21208611556247610570",
+    "language": "EN"
+  },
+  "response": {
+    "responseMessage":"success",
+    "responseCode":"00",
+    "ipassport":"SMP-21208611556247610570",
+    "portfolio":
+    {
+      "dateOfBirth":"12/12/1980",
+      "id":"2122222222222",
+      "name":"DIPDIQJ RIPEQJMIV",
+      "affiliation":"OWNER"},
+      "type":
+        [
+          {
+            "id":1084,
+            "code":"SinarmasSekuritas",
+            "type":"portofolio_mutualfund"
+          },
+          {
+            "id":1725,
+            "code":"sinarmasMSIG",
+            "type":"portofolio_bancassurance"
+          },
+          {
+            "id":4226,
+            "code":"ASJ",
+            "type":"portofolio_bancassurance"
+          }
+        ],
+      "lang":"en"
+    }
+  }

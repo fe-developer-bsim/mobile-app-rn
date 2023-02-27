@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ededed",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingBottom": 20,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 24,
+          },
+        ]
+      }
+    >
+      Login dengan wajah
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": undefined,
+        "flex": 1,
+        "overflow": "hidden",
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ededed",
+        "flexDirection": "row",
+        "marginHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingRight": 10,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#9E9E9E",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#666",
+            },
+          ]
+        }
+      >
+        Posisikan wajah Anda di tengah kotak, pastikan mata Anda terbuka, dan pastikan percahayaan cukup
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "justifyContent": "flex-end",
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          FOTO UNTUK LOGIN
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

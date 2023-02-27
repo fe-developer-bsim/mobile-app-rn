@@ -1,0 +1,604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recurring component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingLeft": 30,
+          "paddingRight": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View>
+                  <View>
+                    <View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "fontSize": 14,
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 35,
+                          }
+                        }
+                      >
+                        Jumlah transfer
+                      </Text>
+                    </View>
+                    <View
+                      onResponderRelease={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      pointerEvents="auto"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "borderBottomColor": "rgba(0, 0, 0, 0.38)",
+                            "borderBottomWidth": 0.5,
+                            "height": 64,
+                            "paddingBottom": 8,
+                            "paddingTop": 32,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "position": "absolute",
+                              "top": 36,
+                            }
+                          }
+                        >
+                          <Text
+                            numberOfLines={1}
+                            style={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.38)",
+                                "fontSize": 16,
+                              }
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "flexDirection": "row",
+                            }
+                          }
+                        >
+                          <TextInput
+                            allowFontScaling={true}
+                            autoCapitalize="none"
+                            disableFullscreenUI={true}
+                            editable={true}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onChangeText={[Function]}
+                            onContentSizeChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            rejectResponderTermination={true}
+                            selectionColor="#D72F33"
+                            style={
+                              Array [
+                                Object {
+                                  "flex": 1,
+                                  "margin": 0,
+                                  "padding": 0,
+                                  "top": 2,
+                                },
+                                Object {
+                                  "color": "rgba(0, 0, 0, .87)",
+                                  "fontSize": 16,
+                                  "height": 24,
+                                },
+                                Object {
+                                  "color": "#000",
+                                  "fontSize": 24,
+                                },
+                              ]
+                            }
+                            theme="primary"
+                            underlineColorAndroid="transparent"
+                            value=""
+                          />
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "height": 8,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "paddingVertical": 4,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "color": "rgb(213, 0, 0)",
+                                  "fontSize": 0,
+                                  "opacity": 0,
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "paddingVertical": 4,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <Text
+                              numberOfLines={1}
+                              style={
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "color": "rgba(0, 0, 0, .38)",
+                                  "fontSize": 12,
+                                  "opacity": 1,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View>
+          <Text>
+            Saldo tersedia
+             : Rp 
+            --
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingBottom": 10,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ECECEC",
+                "height": 2,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 14,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Transfer
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingRight": 50,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "paddingHorizontal": 20,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#4ed07d",
+                  "borderRadius": 40,
+                  "borderWidth": 1,
+                  "height": 10,
+                  "justifyContent": "center",
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#4ed07d",
+                  "borderRightColor": "#4ed07d",
+                  "borderStyle": "dashed",
+                  "borderWidth": 1,
+                  "height": 40,
+                  "width": 0,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderLeftColor": "transparent",
+                  "borderLeftWidth": 5,
+                  "borderRightColor": "transparent",
+                  "borderRightWidth": 5,
+                  "borderStyle": "solid",
+                  "borderTopColor": "#4ed07d",
+                  "borderTopWidth": 12,
+                  "height": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                 - PT BANK SINARMAS
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingTop": 22,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                 - 
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingRight": 50,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                  }
+                }
+              >
+                Jadwal transfer
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                 
+                Sebulan sekali
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                  }
+                }
+              >
+                Transfer berikutnya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                 
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                  }
+                }
+              >
+                Catatan
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                  }
+                }
+              >
+                Total berjalan
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                 
+                dari
+                 
+                 
+                kali
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "paddingTop": 80,
+          "right": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "height": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+            "paddingLeft": 30,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#949494",
+                "fontSize": 12,
+              }
+            }
+          >
+            Transaksi yang sudah berjalan tidak dapat dibatalkan
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              SIMPAN
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

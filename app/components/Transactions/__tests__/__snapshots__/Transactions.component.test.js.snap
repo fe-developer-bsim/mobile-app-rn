@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FA3F70",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FA3F70",
+        "height": 100,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": -100,
+      }
+    }
+  />
+  <RCTScrollView
+    onScroll={[Function]}
+    scrollEventThrottle={1}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "flex": 1,
+        "paddingHorizontal": 30,
+      }
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2F476D",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
+            Mutasi
+          </Text>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#2F476D",
+                    "transform": Array [
+                      Object {
+                        "rotate": "90deg",
+                      },
+                    ],
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <Text />
+        <View
+          style={
+            Object {
+              "paddingVertical": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "marginTop": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#949494",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "300",
+              }
+            }
+          >
+            Belum ada data yang bisa ditampilkan
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

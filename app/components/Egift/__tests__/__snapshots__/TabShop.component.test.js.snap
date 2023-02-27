@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shop component Shop: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    tabLabel="Voucher saya"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#F1F3F6",
+            "paddingBottom": 20,
+            "paddingHorizontal": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#cac6c6",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingTop": 110,
+            }
+          }
+        >
+          <Image
+            source="no-voucher.png"
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1.35,
+                "height": 170,
+                "justifyContent": "center",
+                "width": 170,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "Roboto",
+                    "paddingTop": 20,
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              e-Voucher tidak dapat ditemukan
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                  Object {
+                    "fontFamily": "Roboto",
+                  },
+                ]
+              }
+            >
+              Silahkan lakukan penukaran e-Voucher sekarang!
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

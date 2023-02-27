@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedeemSmartfrenResult: form page renders correctly 1`] = `
+<RCTScrollView
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Image
+          source="check-green.png"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "color": "#000000",
+                "paddingVertical": 20,
+              },
+            ]
+          }
+        >
+          Gagal
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "color": "#000000",
+                "paddingVertical": 20,
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingTop": 150,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "marginTop": 40,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Dapatkan Cashback
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

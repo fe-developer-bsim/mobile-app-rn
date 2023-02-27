@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentStatus page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FA3F70",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "zIndex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "paddingLeft": 0,
+            "textAlignVertical": "center",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingTop": 64,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            
+             
+             dalam proses!
+          </Text>
+        </View>
+        <ActivityIndicator
+          animating={true}
+          color="#666"
+          hidesWhenStopped={true}
+          size="large"
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "flex": 1,
+                    "paddingBottom": 25,
+                    "paddingTop": 20,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              Transaction ID: 
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 12,
+                    },
+                    Object {
+                      "flex": 1,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Tidak tersedia
+              </Text>
+               
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FF8E8E",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              OK
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

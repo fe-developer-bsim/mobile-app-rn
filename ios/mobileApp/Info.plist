@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>SimobiPlus</string>
+  <key>CFBundleExecutable</key>
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>$(PRODUCT_NAME)</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>7.1.2</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+      <key>CFBundleURLName</key>
+      <string>com.simas.mobile.SimobiPlus</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>simobiplus</string>
+        <string>smbplus</string>
+        <string>http</string>
+        <string>https</string>
+        <string>fb221053032393720</string>
+      </array>
+    </dict>
+  </array>
+  <key>CFBundleVersion</key>
+  <string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>DTXApplicationID</key>
+  <string>44c3d9f5-c0b6-4ef2-9b86-63b22e14a885</string>
+  <key>DTXBeaconURL</key>
+  <string>https://www.banksinarmas.com:9999/mbeacon/5342aeb5-7b4d-47db-a91e-646b8963a456</string>
+  <key>DTXLogLevel</key>
+  <string>ALL</string>
+  <key>DTXUserOptIn</key>
+  <true/>
+  <key>LSApplicationCategoryType</key>
+  <string></string>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>whatsapp</string>
+    <string>mailto</string>
+  </array>
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  <key>LSSupportsOpeningDocumentsInPlace</key>
+  <true/>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+    <key>NSExceptionDomains</key>
+    <dict>
+      <key>localhost</key>
+      <dict>
+        <key>NSExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+      </dict>
+      <key>simigi.banksinarmas.com</key>
+      <dict>
+        <key>NSExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+      </dict>
+    </dict>
+  </dict>
+  <key>NSAppleMusicUsageDescription</key>
+  <string>To continue, please allow us to access Music to pick song</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>To continue, please allow us to access Bluetooth to share files</string>
+  <key>NSCalendarsUsageDescription</key>
+  <string>To continue, please allow us to access Calendar to see your schedule</string>
+  <key>NSCameraUsageDescription</key>
+  <string>To continue, please allow us to access Camera to take picture or scan QR</string>
+  <key>NSContactsUsageDescription</key>
+  <string>To continue, please allow us to access Contact to auto fill phone number</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>SimobiPlus uses location for push notification and searching nearby ATM or Merchant</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>SimobiPlus uses location for push notification and searching nearby ATM or Merchant</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>SimobiPlus uses location for push notification and searching nearby ATM or Merchant</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>To continue, please allow us to access Microphone to access camera or record audio</string>
+  <key>NSMotionUsageDescription</key>
+  <string>To continue, please allow us to access Motion Sensor to capture movement</string>
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>To continue, please allow us to access Photo Library to save image used for share</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>This Access is needed to do QR transaction and change your photo profile. To continue, please allow us to access Photo Library to pick your photos</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>To continue, please allow us to access Speech Recognition to listen your voice</string>
+  <key>Pushwoosh_SHOW_ALERT</key>
+  <string>NO</string>
+  <key>UIAppFonts</key>
+  <array>
+    <string>Roboto-Regular.ttf</string>
+    <string>Roboto-Medium.ttf</string>
+    <string>Roboto-Light.ttf</string>
+    <string>Roboto-Bold.ttf</string>
+    <string>Andale Mono.ttf</string>
+    <string>Arial Black.ttf</string>
+    <string>Arial.ttf</string>
+    <string>Comic Sans MS.ttf</string>
+    <string>Courier New.ttf</string>
+    <string>Georgia.ttf</string>
+    <string>Microsoft Sans Serif.ttf</string>
+    <string>Roboto_medium.ttf</string>
+    <string>Roboto.ttf</string>
+    <string>rubicon-icon-font.ttf</string>
+    <string>Rubik-Black.ttf</string>
+    <string>Rubik-BlackItalic.ttf</string>
+    <string>Rubik-Bold.ttf</string>
+    <string>Rubik-BoldItalic.ttf</string>
+    <string>Rubik-Italic.ttf</string>
+    <string>Rubik-Light.ttf</string>
+    <string>Rubik-LightItalic.ttf</string>
+    <string>Rubik-Medium.ttf</string>
+    <string>Rubik-MediumItalic.ttf</string>
+    <string>Rubik-Regular.ttf</string>
+    <string>SanFrancisco.ttf</string>
+    <string>SanFranciscoBold.ttf</string>
+    <string>SanFranciscoThin.ttf</string>
+    <string>SF-UI-Text-Regular.otf</string>
+    <string>Skia.ttf</string>
+    <string>Times New Roman.ttf</string>
+    <string>simas.ttf</string>
+    <string>Entypo.ttf</string>
+    <string>EvilIcons.ttf</string>
+    <string>FontAwesome.ttf</string>
+    <string>Foundation.ttf</string>
+    <string>Ionicons.ttf</string>
+    <string>MaterialCommunityIcons.ttf</string>
+    <string>MaterialIcons.ttf</string>
+    <string>Octicons.ttf</string>
+    <string>SimpleLineIcons.ttf</string>
+    <string>Zocial.ttf</string>
+    <string>AntDesign.ttf</string>
+    <string>Feather.ttf</string>
+    <string>FontAwesome5_Brands.ttf</string>
+    <string>FontAwesome5_Regular.ttf</string>
+    <string>FontAwesome5_Solid.ttf</string>
+  </array>
+  <key>UIFileSharingEnabled</key>
+  <true/>
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>armv7</string>
+  </array>
+  <key>UIRequiresFullScreen</key>
+  <true/>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+  </array>
+  <key>UIViewControllerBasedStatusBarAppearance</key>
+  <false/>
+</dict>
+</plist>

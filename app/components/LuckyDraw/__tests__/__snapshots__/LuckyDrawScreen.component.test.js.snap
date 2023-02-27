@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LuckyDrawScreen component LuckyDrawScreen: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "flex": 1,
+          }
+        }
+      >
+        <KeyboardAwareScrollView
+          extraHeight={120}
+          keyboardShouldPersistTaps="handled"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingBottom": 10,
+                "paddingTop": 110,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "paddingTop": 20,
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+              Anda belum memiliki nomor Undian
+            </Text>
+          </View>
+        </KeyboardAwareScrollView>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

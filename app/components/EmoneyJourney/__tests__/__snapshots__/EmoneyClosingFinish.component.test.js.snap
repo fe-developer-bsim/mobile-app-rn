@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyClosingFinish page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ED1D25",
+            "height": 300,
+            "padding": 20,
+          }
+        }
+      >
+        <Image
+          source="white-simobi.png"
+          style={
+            Object {
+              "height": 41,
+              "width": 116,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flex": 4,
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+                "paddingBottom": 60,
+                "paddingTop": 40,
+              }
+            }
+          >
+            Akun Simas E-Money Anda berhasil ditutup
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 40,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "paddingBottom": 60,
+                  "paddingLeft": 20,
+                  "paddingTop": 40,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Roboto",
+              "fontSize": 14,
+            }
+          }
+        >
+          Butuh bantuan? Hubungi Bank Sinarmas Care di 1500 153
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#ccc",
+                  "borderRadius": 50,
+                  "borderWidth": 1,
+                  "height": 10,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 40,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 18,
+                }
+              }
+            >
+              Anda akan secara otomatis keluar dari aplikasi SimobiPlus
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SELESAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

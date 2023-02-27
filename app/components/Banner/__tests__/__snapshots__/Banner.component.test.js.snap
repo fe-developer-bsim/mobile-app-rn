@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "flexDirection": "row",
+        "height": 80,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": "test",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;

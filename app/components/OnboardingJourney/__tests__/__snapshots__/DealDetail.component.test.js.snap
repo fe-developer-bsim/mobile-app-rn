@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DealDetail component DealDetail: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0, 0.09)",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 20,
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 310.625,
+              "width": 710,
+            }
+          }
+        >
+          <Image
+            resizeMode="stretch"
+            source={
+              Object {
+                "uri": undefined,
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "padding": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={undefined}
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={undefined}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

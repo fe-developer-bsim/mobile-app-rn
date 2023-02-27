@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    autoplay={true}
+    autoplayDirection={true}
+    autoplayTimeout={2.5}
+    bounces={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
+    }
+    horizontal={true}
+    index={0}
+    loadMinimal={false}
+    loadMinimalSize={1}
+    loop={true}
+    onIndexChanged={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={true}
+    scrollsToTop={false}
+    showsButtons={false}
+    showsHorizontalScrollIndicator={false}
+    showsPagination={true}
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        test
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingHorizontal": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 12,
+            "justifyContent": "center",
+            "textAlign": "center",
+          }
+        }
+      >
+        Dengan log in atau buat akun baru,
+saya setuju dengan 
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 12,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          syarat dan ketentuan
+        </Text>
+      </Text>
+    </View>
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 30,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 50,
+                "borderWidth": 2,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            LOGIN / RESET
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "paddingBottom": 25,
+          "paddingHorizontal": 30,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 50,
+                "borderWidth": 2,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              }
+            }
+          >
+            REGISTER
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

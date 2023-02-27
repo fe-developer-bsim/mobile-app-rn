@@ -1,0 +1,70 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-list-split-bill-by-sender",
+    "requestBody": {
+        "ipassport": "SMP-1120081572588438596"
+      },
+      "response": {
+        "responseMessage": "Success",
+        "responseCode": "00",
+        "InvoiceList": [
+            {
+                "Receivers": [
+                    {
+                        "amount": 2000000,
+                        "status": "paid",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 3000000,
+                        "status": "pending",
+                        "mobileNumber": "08594857444",
+                        "nama": "Ahmad Jubair" 
+                    },
+                    {
+                        "amount": 5000000,
+                        "status": "reject",
+                        "mobileNumber": "08212322222",
+                        "nama": "Fernando Tiwow" 
+                    },
+                    {
+                        "amount": 5000000,
+                        "status": "pending",
+                        "mobileNumber": "08212322234",
+                        "nama": "Nadine" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Ayam Goreng Sinarmas",
+                "invoiceNumber": "Split Bill",
+                "status": "Pending",
+                "totalAmount": 10000000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24"
+            },
+            {
+                "Receivers": [
+                    {
+                        "amount": 150000,
+                        "status": "pending",
+                        "mobileNumber": "08212322234",
+                        "nama": "Nadine" 
+                    },
+                    {
+                        "amount": 150000,
+                        "status": "reject",
+                        "mobileNumber": "08212322229",
+                        "nama": "Fendi Setiyanto" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Ayam Guling cap 24 Jogja Kotagede",
+                "invoiceNumber": "Split Bill",
+                "status": "Pending",
+                "totalAmount": 250000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24"
+            }
+        ]
+      }
+}

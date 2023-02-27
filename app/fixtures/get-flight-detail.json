@@ -1,0 +1,82 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-fare-detail",
+    "requestBody": {
+      "Airline": 2,
+      "Adult": 1,
+      "Child": 1,
+      "Infant": 1,
+      "ClassId": "2fa66eb1-3e5d-42ca-a151-e7a9b2257c05",
+      "FlightId": "5c3149a2-c087-4bdd-9f32-d2bbfa9f8902",
+      "Fare": 1403000,
+      "Tax": 210300
+    },
+    "response": {
+      "responseCode": "00",
+      "getFareDetailMap": {
+        "ClassId": null,
+        "FlightId": null,
+        "Total": 3802000,
+        "Currency": "IDR",
+        "ForeignTotal": 0,
+        "ForeignTotalCurrency": "IDR",
+        "Details": [
+          {
+            "Code": null,
+            "Text": "Base Fare - 2 Adult",
+            "Amount": 2060000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Insurance Surcharge (IWJR)",
+            "Amount": 10000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Value Added Tax (VAT)",
+            "Amount": 206000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Airport Tax (TX)",
+            "Amount": 130000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Base Fare - 2 Adult",
+            "Amount": 1260000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Insurance Surcharge (IWJR)",
+            "Amount": 10000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          },
+          {
+            "Code": null,
+            "Text": "Value Added Tax (VAT)",
+            "Amount": 126000,
+            "Currency": "IDR",
+            "ForeignAmount": 0,
+            "ForeignCurrency": null
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsFilter component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "height": 1334,
+    }
+  }
+>
+  <View>
+    <Modal
+      animationType="none"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={true}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "margin": 20,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 18,
+                "fontWeight": "700",
+                "marginBottom": 15,
+              }
+            }
+          >
+            Peringatan!
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "marginBottom": 30,
+                "marginHorizontal": 50,
+                "textAlign": "center",
+              }
+            }
+          >
+            Anda yakin ingin download laporan
+             
+             
+            sebagai file PDF?
+          </Text>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 30,
+                    "flexDirection": "row",
+                    "height": 47,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                  },
+                  Object {
+                    "paddingHorizontal": 100,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                IYA
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "marginTop": 20,
+                }
+              }
+            >
+              Batal
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Modal>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "marginHorizontal": 25,
+            "marginVertical": 15,
+          }
+        }
+      >
+        Sortir sesuai tanggal
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingVertical": 5,
+          }
+        }
+      >
+        <View />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "marginHorizontal": 25,
+            "marginVertical": 15,
+          }
+        }
+      >
+        Kirim file 
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+              "fontWeight": "normal",
+            }
+          }
+        >
+          (optional)
+        </Text>
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "paddingHorizontal": 25,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontSize": 14,
+                  "fontWeight": "300",
+                }
+              }
+            >
+              Unduh PDF
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#949494",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                }
+              }
+            >
+              Kata sandi diisi tanggal lahir (format : ddmmyyyy)
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginBottom": 5,
+                    },
+                    Array [
+                      Object {
+                        "flexDirection": "row-reverse",
+                        "justifyContent": "space-between",
+                        "marginHorizontal": -20,
+                        "paddingHorizontal": 20,
+                      },
+                      Object {
+                        "marginBottom": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <Image
+                  source="checkbox-unselected.png"
+                  style={
+                    Array [
+                      Object {
+                        "height": 26,
+                        "width": 26,
+                      },
+                      Object {
+                        "height": 15,
+                        "marginRight": 8,
+                        "width": 15,
+                      },
+                    ]
+                  }
+                />
+                <View />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 1.5,
+              "borderColor": "rgba(0,0,0, 0.09)",
+              "flex": 1,
+              "marginHorizontal": 20,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "opacity": 1,
+              "paddingHorizontal": 25,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontSize": 14,
+                  "fontWeight": "300",
+                }
+              }
+            >
+              Kirim ke email:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#949494",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={null}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "marginBottom": 5,
+                    },
+                    Array [
+                      Object {
+                        "flexDirection": "row-reverse",
+                        "justifyContent": "space-between",
+                        "marginHorizontal": -20,
+                        "paddingHorizontal": 20,
+                      },
+                      Object {
+                        "marginBottom": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <Image
+                  source="checkbox-unselected.png"
+                  style={
+                    Array [
+                      Object {
+                        "height": 26,
+                        "width": 26,
+                      },
+                      Object {
+                        "height": 15,
+                        "marginRight": 8,
+                        "width": 15,
+                      },
+                    ]
+                  }
+                />
+                <View />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "margin": 20,
+          "marginTop": 50,
+          "padding": 10,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 28,
+            },
+            Object {
+              "color": "#2F476D",
+              "paddingLeft": 30,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontFamily": "roboto",
+            "fontSize": 12,
+            "fontWeight": "300",
+            "marginRight": 10,
+            "padding": 10,
+          }
+        }
+      >
+        Transaksi pada hari Sabtu, Minggu atau pada hari libur nasional, akan tercatat di hari kerja berikutnya
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "borderRadius": 10,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SORTIR
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormError component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginRight": 40,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 25,
+        },
+        Object {
+          "color": "#ff8e8e",
+          "marginLeft": 5,
+          "marginRight": 10,
+          "marginVertical": 5,
+          "width": 25,
+        },
+        Object {
+          "fontFamily": "simas",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#ff8e8e",
+        "paddingTop": 5,
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,1025 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component renders correctly 1`] = `
+<RCTScrollView
+  keyboardShouldPersistTaps="handled"
+  refreshControl={
+    <RefreshControlMock
+      colors={
+        Array [
+          "#ED1D25",
+        ]
+      }
+      enabled={true}
+      onRefresh={[Function]}
+      refreshing={false}
+      tintColor="#ED1D25"
+    />
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <RCTRefreshControl />
+  <View>
+    <BVLinearGradient
+      colors={
+        Array [
+          4294967295,
+          4294638330,
+          4293717228,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 0,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "paddingBottom": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 15,
+            "borderBottomRightRadius": 15,
+            "elevation": 3,
+            "marginHorizontal": 10,
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+          }
+        }
+      >
+        <View>
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "white",
+                  "borderWidth": 0.5,
+                  "justifyContent": "center",
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 16,
+                    "fontWeight": "700",
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Hai,
+                 
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "height": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            style={Object {}}
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "paddingVertical": 7.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Tabungan
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Rp 
+                  --
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ECECEC",
+                      "height": 1,
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "paddingVertical": 7.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Giro
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Rp 
+                  --
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ECECEC",
+                      "height": 1,
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "paddingVertical": 7.5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Deposito Berjangka
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                    ]
+                  }
+                >
+                  Rp 
+                  --
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingVertical": 3,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ECECEC",
+                      "height": 1,
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 25,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderColor": "white",
+                      "borderRadius": 25,
+                      "color": "#ED1D25",
+                      "paddingHorizontal": 5,
+                    },
+                  ],
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="auto"
+        style={false}
+      >
+        <View
+          onLayout={[Function]}
+          style={Object {}}
+        >
+          <BVLinearGradient
+            colors={
+              Array [
+                4285801390,
+                4289083046,
+                4292102304,
+              ]
+            }
+            endPoint={
+              Object {
+                "x": 1,
+                "y": 1,
+              }
+            }
+            locations={null}
+            startPoint={
+              Object {
+                "x": 0,
+                "y": 0,
+              }
+            }
+            style={
+              Object {
+                "alignItems": "center",
+                "borderRadius": 15,
+                "elevation": 3,
+                "flexDirection": "row",
+                "marginHorizontal": 10,
+                "marginTop": 10,
+                "paddingBottom": 15,
+                "paddingHorizontal": 20,
+                "paddingTop": 20,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 3,
+              }
+            }
+          >
+            <Image
+              source="emoney-activate.png"
+              style={
+                Object {
+                  "height": 70,
+                  "width": 70,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "paddingLeft": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 18,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Simas E-money
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "roboto",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Aktivasi E-money untuk memudahkan transaksi pembayaran Anda
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "flex-end",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Nanti saja
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 20,
+                      "marginLeft": 30,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingVertical": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "roboto",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Aktivasi sekarang
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </BVLinearGradient>
+        </View>
+      </View>
+    </BVLinearGradient>
+    <View />
+    <View
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "borderColor": "#ccc",
+                "borderLeftWidth": 0,
+                "borderRightWidth": 0,
+                "borderTopWidth": 0,
+                "borderWidth": 1,
+                "height": 50,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+              Object {
+                "borderWidth": 0,
+              },
+            ]
+          }
+        >
+          <RCTScrollView
+            automaticallyAdjustContentInsets={false}
+            bounces={false}
+            contentContainerStyle={
+              Object {
+                "flexGrow": 1,
+                "justifyContent": "center",
+              }
+            }
+            directionalLockEnabled={true}
+            horizontal={true}
+            scrollsToTop={false}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-around",
+                    },
+                    Object {
+                      "width": null,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  accessibilityLabel="Rekening"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontWeight": "bold",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Rekening
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Deposito Berjangka"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9E9E9E",
+                            "fontWeight": "normal",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Deposito Berjangka
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Kartu Kredit"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9E9E9E",
+                            "fontWeight": "normal",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Kartu Kredit
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Pinjaman"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9E9E9E",
+                            "fontWeight": "normal",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Pinjaman
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Investasi"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9E9E9E",
+                            "fontWeight": "normal",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Investasi
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Lainnya"
+                  accessible={true}
+                  isTVSelectable={true}
+                  onLayout={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 49,
+                          "justifyContent": "center",
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#9E9E9E",
+                            "fontWeight": "normal",
+                          },
+                          Object {
+                            "textAlign": "center",
+                          },
+                        ]
+                      }
+                    >
+                      Lainnya
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ED1D25",
+                      "borderRadius": 5,
+                      "bottom": 0,
+                      "height": 4,
+                      "left": 0,
+                      "position": "absolute",
+                      "width": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+        <RCTScrollView
+          alwaysBounceVertical={false}
+          automaticallyAdjustContentInsets={false}
+          contentOffset={
+            Object {
+              "x": 0,
+            }
+          }
+          directionalLockEnabled={true}
+          horizontal={true}
+          keyboardDismissMode="on-drag"
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          pagingEnabled={true}
+          scrollEnabled={false}
+          scrollEventThrottle={16}
+          scrollsToTop={false}
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingHorizontal": 20,
+                  }
+                }
+              >
+                <View>
+                  <View>
+                    <View />
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                tabLabel="Deposito Berjangka"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                tabLabel="Kartu Kredit"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                tabLabel="Pinjaman"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                tabLabel="Investasi"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 750,
+                }
+              }
+            >
+              <View
+                tabLabel="Lainnya"
+              />
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

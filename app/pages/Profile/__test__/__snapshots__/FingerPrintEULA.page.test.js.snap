@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NTB OnboardingConfirmationAccount page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingHorizontal": 5,
+      }
+    }
+  />
+  <View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {},
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          SAYA MENGERTI
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

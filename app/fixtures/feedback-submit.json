@@ -1,0 +1,12 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/feedback",
+  "requestBody": {
+    "ipassport": "SMP-3347851491041311642",
+    "rating": 2,
+    "suggestion": "Test suggestion"
+  },
+  "response": {
+    "responseMessage": "Feedback submitted successfully",
+    "responseCode": "00"
+  }
+}

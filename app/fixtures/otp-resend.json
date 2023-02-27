@@ -1,0 +1,10 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/resend-otp",
+  "requestBody" : {
+    "iPassport": "SMP-10907701487573352518"
+  },
+  "response": {
+    "responseMessage": "We have sent SMS Token to your mobile number",
+    "responseCode": "00"
+  }
+}

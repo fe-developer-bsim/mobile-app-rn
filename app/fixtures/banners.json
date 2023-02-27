@@ -1,0 +1,13 @@
+{
+  "url": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/banners.json",
+  "response": [{
+    "imageLink": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/banners/samples/sample1.png",
+    "location": "TRANSFER"
+  }, {
+    "imageLink": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/banners/samples/sample2.png",
+    "location": "TD_DASHBOARD"
+  }, {
+    "imageLink": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/banners/samples/sample3.png",
+    "location": "PAY"
+  }]
+}

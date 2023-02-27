@@ -1,0 +1,251 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpayment-transaction",
+  "requestBody": {
+    "ipassport": "SMP-2137351488457327083",
+    "lang": "en",
+    "idbillPay": 40,
+    "billerType": "1",
+    "accountFrom": "46456",
+    "subscriberNoInput": "330333333333",
+    "billAmount": "75360",
+    "easyPin": "123456"
+  },
+  "response": {
+    "result": {
+      "displayList": [
+        {
+          "key": "STRUK PEMBELIAN LISTRIK PRABAYAR"
+        },
+        {
+          "value": "86007425746",
+          "key": "NO METER"
+        },
+        {
+          "value": "546106879889",
+          "key": "IDPEL"
+        },
+        {
+          "value": "THJIN THIAM NGIAN",
+          "key": "NAME"
+        },
+        {
+          "value": "R1  /000002200 VA",
+          "key": "TARIF/DAYA"
+        },
+        {
+          "value": "",
+          "key": "NO REF"
+        },
+        {
+          "key": "01531411000114BA43BC"
+        },
+        {
+          "value": "RP 23.000",
+          "key": "RP BAYAR"
+        },
+        {
+          "value": "RP 0,00",
+          "key": "METERAI"
+        },
+        {
+          "value": "RP 0,00",
+          "key": "PPN"
+        },
+        {
+          "value": "RP 583,00",
+          "key": "PPJ"
+        },
+        {
+          "value": "RP 0,00",
+          "key": "ANGSURAN"
+        },
+        {
+          "value": "RP 19.417,00",
+          "key": "RP STROOM/TOKEN"
+        },
+        {
+          "value": "13,0",
+          "key": "JML KWH"
+        },
+        {
+          "value": "3237 5773 8257 1124 9307",
+          "key": "STROOM/TOKEN"
+        },
+        {
+          "value": "RP 3.000",
+          "key": "ADMIN BANK"
+        },
+        {
+          "key": "Informasi Hubungi Call Center 123 At"
+        },
+        {
+          "key": "au hubungi PLN Terdekat"
+        }
+      ]
+    },
+    "responseMessage": "No Error",
+    "transRefNum": "MB-BP-34545370374907386",
+    "responseCode": "00",
+    "transferStatus": "success",
+    "billPaymentMap": {
+      "displayString": "19   STRUK PEMBELIAN LISTRIK PRABAYAR   NO METER   : 86007425746              IDPEL      : 546106879889             NAME       : THJIN THIAM NGIAN        TARIF/DAYA : R1  /000002200 VA        NO REF     :                          01531411000114BA43BC                  RP BAYAR   : RP 23.000                METERAI    : RP 0,00                  PPN        : RP 0,00                  PPJ        : RP 583,00                ANGSURAN   : RP 0,00                  RP STROOM/TOKEN: RP 19.417,00         JML KWH    : 13,0                     STROOM/TOKEN: 3237 5773 8257 1124 9307ADMIN BANK : RP 3.000                  Informasi Hubungi Call Center 123 At         au hubungi PLN Terdekat       ",
+      "totalBankCharge": null,
+      "status": "success",
+      "transactionReferenceNumber": "MB-BP-34545370374907386",
+      "displayList": [
+        [
+          "STRUK PEMBELIAN LISTRIK PRABAYAR"
+        ],
+        [
+          "NO METER",
+          "86007425746"
+        ],
+        [
+          "IDPEL",
+          "546106879889"
+        ],
+        [
+          "NAME",
+          "THJIN THIAM NGIAN"
+        ],
+        [
+          "TARIF/DAYA",
+          "R1  /000002200 VA"
+        ],
+        [
+          "NO REF",
+          ""
+        ],
+        [
+          "01531411000114BA43BC"
+        ],
+        [
+          "RP BAYAR",
+          "RP 23.000"
+        ],
+        [
+          "METERAI",
+          "RP 0,00"
+        ],
+        [
+          "PPN",
+          "RP 0,00"
+        ],
+        [
+          "PPJ",
+          "RP 583,00"
+        ],
+        [
+          "ANGSURAN",
+          "RP 0,00"
+        ],
+        [
+          "RP STROOM/TOKEN",
+          "RP 19.417,00"
+        ],
+        [
+          "JML KWH",
+          "13,0"
+        ],
+        [
+          "STROOM/TOKEN",
+          "3237 5773 8257 1124 9307"
+        ],
+        [
+          "ADMIN BANK",
+          "RP 3.000"
+        ],
+        [
+          "Informasi Hubungi Call Center 123 At"
+        ],
+        [
+          "au hubungi PLN Terdekat"
+        ]
+      ],
+      "bpMap": {
+        "forwarding_institution_identification_code": "153",
+        "customerName": "THJIN THIAM NGIAN",
+        "displayString": "19   STRUK PEMBELIAN LISTRIK PRABAYAR   NO METER   : 86007425746              IDPEL      : 546106879889             NAME       : THJIN THIAM NGIAN        TARIF/DAYA : R1  /000002200 VA        NO REF     :                          01531411000114BA43BC                  RP BAYAR   : RP 23.000                METERAI    : RP 0,00                  PPN        : RP 0,00                  PPJ        : RP 583,00                ANGSURAN   : RP 0,00                  RP STROOM/TOKEN: RP 19.417,00         JML KWH    : 13,0                     STROOM/TOKEN: 3237 5773 8257 1124 9307ADMIN BANK : RP 3.000                  Informasi Hubungi Call Center 123 At         au hubungi PLN Terdekat       ",
+        "currency_code_transaction": "360",
+        "response_code": "00",
+        "displayList": [
+          [
+            "STRUK PEMBELIAN LISTRIK PRABAYAR"
+          ],
+          [
+            "NO METER",
+            "86007425746"
+          ],
+          [
+            "IDPEL",
+            "546106879889"
+          ],
+          [
+            "NAME",
+            "THJIN THIAM NGIAN"
+          ],
+          [
+            "TARIF/DAYA",
+            "R1  /000002200 VA"
+          ],
+          [
+            "NO REF",
+            ""
+          ],
+          [
+            "01531411000114BA43BC"
+          ],
+          [
+            "RP BAYAR",
+            "RP 23.000"
+          ],
+          [
+            "METERAI",
+            "RP 0,00"
+          ],
+          [
+            "PPN",
+            "RP 0,00"
+          ],
+          [
+            "PPJ",
+            "RP 583,00"
+          ],
+          [
+            "ANGSURAN",
+            "RP 0,00"
+          ],
+          [
+            "RP STROOM/TOKEN",
+            "RP 19.417,00"
+          ],
+          [
+            "JML KWH",
+            "13,0"
+          ],
+          [
+            "STROOM/TOKEN",
+            "3237 5773 8257 1124 9307"
+          ],
+          [
+            "ADMIN BANK",
+            "RP 3.000"
+          ],
+          [
+            "Informasi Hubungi Call Center 123 At"
+          ],
+          [
+            "au hubungi PLN Terdekat"
+          ]
+        ],
+        "reserved_private_1": "08PEMBELIAN PLN PRABAYAR                NO METER   : 86007425746              IDPEL      : 546106879889             NAME       : THJIN THIAM NGIAN        TARIF/DAYA : R1  /000002200 VA        RP BAYAR   : RP. 3.000                                                                                            301422186007425746         0                   24102018165432             THJIN THIAM NGIAN00000000000000000000300001531411000114BA43BC            546106879889                    0004826552",
+        "amount_transaction": "2300000",
+        "billing_info": "19   STRUK PEMBELIAN LISTRIK PRABAYAR   NO METER   : 86007425746              IDPEL      : 546106879889             NAME       : THJIN THIAM NGIAN        TARIF/DAYA : R1  /000002200 VA        NO REF     :                          01531411000114BA43BC                  RP BAYAR   : RP 23.000                METERAI    : RP 0,00                  PPN        : RP 0,00                  PPJ        : RP 583,00                ANGSURAN   : RP 0,00                  RP STROOM/TOKEN: RP 19.417,00         JML KWH    : 13,0                     STROOM/TOKEN: 3237 5773 8257 1124 9307ADMIN BANK : RP 3.000                  Informasi Hubungi Call Center 123 At         au hubungi PLN Terdekat       "
+      },
+      "errorCode": "No Error",
+      "billing_info": "19   STRUK PEMBELIAN LISTRIK PRABAYAR   NO METER   : 86007425746              IDPEL      : 546106879889             NAME       : THJIN THIAM NGIAN        TARIF/DAYA : R1  /000002200 VA        NO REF     :                          01531411000114BA43BC                  RP BAYAR   : RP 23.000                METERAI    : RP 0,00                  PPN        : RP 0,00                  PPJ        : RP 583,00                ANGSURAN   : RP 0,00                  RP STROOM/TOKEN: RP 19.417,00         JML KWH    : 13,0                     STROOM/TOKEN: 3237 5773 8257 1124 9307ADMIN BANK : RP 3.000                  Informasi Hubungi Call Center 123 At         au hubungi PLN Terdekat       "
+    },
+    "billPaymentMode": "plnPrepaid",
+    "transactionDate": 1540374918358
+  }
+}

@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailSplitBillMenuOwe renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <KeyboardAwareScrollView
+    contentContainerStyle={
+      Array [
+        Object {
+          "flexGrow": 1,
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+        },
+      ]
+    }
+    enableOnAndroid={true}
+    extraScrollHeight={100}
+    keyboardShouldPersistTaps="handled"
+    style={
+      Object {
+        "backgroundColor": "#F1F3F6",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FA3F70",
+          "borderColor": "transparent",
+          "borderWidth": 1,
+          "height": 133.4,
+          "marginBottom": 533.6,
+          "position": "absolute",
+          "width": 750,
+        }
+      }
+    />
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 15,
+            "marginHorizontal": 37.5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingHorizontal": 20,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ECF3FD",
+                    "borderRadius": 20,
+                    "paddingHorizontal": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0299d1",
+                      "fontFamily": "roboto",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Hutang Kamu
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "padding": 20,
+                  "paddingTop": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "color": "#2F476D",
+                        "fontFamily": "roboto",
+                        "fontWeight": "300",
+                        "paddingTop": 30,
+                      },
+                    ]
+                  }
+                >
+                  Jumlah tagihan
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#2F476D",
+                      "fontFamily": "roboto",
+                      "fontSize": 22,
+                      "fontWeight": "500",
+                      "marginBottom": 17,
+                    }
+                  }
+                >
+                  IDR
+                   
+                  --
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 12,
+                      },
+                      Object {
+                        "color": "#9E9E9E",
+                        "fontFamily": "roboto",
+                      },
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "marginTop": 50,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 2,
+              "flexDirection": "row",
+              "paddingBottom": 10,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "#2F476D",
+                  "fontFamily": "roboto",
+                },
+              ]
+            }
+          >
+            Anggota
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#7D7F9E",
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                  "marginRight": 5,
+                  "marginTop": 4,
+                  "paddingLeft": 5,
+                },
+              ]
+            }
+          >
+            (0
+             
+            orang)
+          </Text>
+        </View>
+      </View>
+    </View>
+  </KeyboardAwareScrollView>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "marginVertical": 10,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BAYAR
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

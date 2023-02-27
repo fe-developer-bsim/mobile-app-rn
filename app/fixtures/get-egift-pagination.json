@@ -1,0 +1,72 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v4/egift-list-pagination",
+    "method": "POST",
+  "requestBody": {
+    "lang": "en",
+    "mode": "DATA_ALL",
+    "pagination": 2
+  },
+  "response": {
+  "responseCode": "00",
+  "responseMessage":"success",
+  "egiftListByConstructList": [
+    {
+      "brand": "Alfamart",
+      "egiftId": "TADA1231004929220",
+      "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607050217.jpg",
+      "itemName": "eGift Alfamart Rp 10.000,-",
+      "value": 10000
+    },
+
+    {
+      "brand": "Haagendazs_development",
+      "egiftId": "TADA2983102189191",
+       "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607052300.jpg",
+       "itemName": "Haagen Dazs Mini Cup",
+       "value": 65000
+
+      },
+      {
+      "brand": "Alfamart",
+      "egiftId": "TADA1231004929220",
+      "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607050217.jpg",
+      "itemName": "eGift Alfamart Rp 10.000,-",
+      "value": 10000
+
+        },
+        {
+          "brand": "Haagendazs_development",
+          "egiftId": "TADA2983102189191",
+           "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607052300.jpg",
+           "itemName": "Haagen Dazs Mini Cup",
+           "value": 65000
+
+          },
+          {
+            "brand": "Alfamart",
+            "egiftId": "TADA1231004929220",
+            "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607050217.jpg",
+            "itemName": "eGift Alfamart Rp 10.000,-",
+            "value": 10000
+
+            },
+            {
+              "brand": "Haagendazs_development",
+              "egiftId": "TADA2983102189191",
+               "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607052300.jpg",
+               "itemName": "Haagen Dazs Mini Cup",
+               "value": 65000
+
+              },
+              {
+                "brand": "Alfamart",
+                "egiftId": "TADA1231004929220",
+                "image": "https://av-uploads.s3.amazonaws.com/egift_image/image-egift-20170607050217.jpg",
+                "itemName": "eGift Alfamart Rp 10.000,-",
+                "value": 10000
+
+                }
+
+  ]
+}
+}

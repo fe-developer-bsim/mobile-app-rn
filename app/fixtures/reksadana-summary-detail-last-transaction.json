@@ -1,0 +1,82 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/open-acc-reksadana/summaryPortfolio",
+  "requestBody": {
+    "ipassport": "SMP-21208611556247610570"
+  },
+  "response": {
+    "data": [
+      {
+        "summaryPortfolio": {
+          "Customer_Unit_Penyertaan": 66299.3268,
+          "Customer_Name": "ROSNAH HERMAN",
+          "Fund_Name": "REKSADANA DANAMAS STABIL",
+          "Fund_Code": "DH002FICSTABIL00",
+          "Fund_Manager": "PT. SINARMAS ASSET MANAGEMENT",
+          "Fund_Currency": "IDR",
+          "Fund_Type": "FIX INCOME FUND"
+        },
+        "lastTransaction": [
+          {
+            "Trn_Date_Time": "25-AUG-2017",
+            "NAB_Per_Unit": 3021.4544,
+            "Posted_Date_Time": "25-AUG-2017",
+            "Status": "Posted",
+            "Trn_Type": "Subscription",
+            "Fund_Name": "REKSADANA DANAMAS STABIL",
+            "Fund_Code": "DH002FICSTABIL00",
+            "Nilai_Bersih": 100000000,
+            "Currency": "IDR",
+            "Unit": 33096.6438,
+            "NAB_Date": "25-AUG-2017"
+          },
+          {
+            "Trn_Date_Time": "07-AUG-2017",
+            "NAB_Per_Unit": 3011.8048,
+            "Posted_Date_Time": "07-AUG-2017",
+            "Status": "Posted",
+            "Trn_Type": "Subscription",
+            "Fund_Name": "REKSADANA DANAMAS STABIL",
+            "Fund_Code": "DH002FICSTABIL00",
+            "Nilai_Bersih": 100000000,
+            "Currency": "IDR",
+            "Unit": 33202.683,
+            "NAB_Date": "07-AUG-2017"
+          }
+        ],
+        "detailPortfolio": {
+          "fee": [],
+          "portfolio": [
+            {
+              "Product_Account_Lock": 0,
+              "NAB_Per_Unit": 3025.6812,
+              "Subscription_Min_Next": 5000000,
+              "Redemption_Lock": 0,
+              "Customer_Nomor_Rekening": "0024128288",
+              "Subscription_Lock": 0,
+              "Fund_Code": "DH002FICSTABIL00",
+              "Product_Account_Lock_Reason": null,
+              "Redemption_Min_Amt": 200000,
+              "Product_Account": "35468",
+              "Redemption_Min_Bal_Unit": 5000000,
+              "NAB_Date": "11-SEP-2017",
+              "Fund_CutOff": "23:00",
+              "Customer_Unit_Penyertaan": 66299.3268,
+              "Customer_Name": "ROSNAH HERMAN",
+              "Fund_Name": "REKSADANA DANAMAS STABIL",
+              "Fund_Status": 1,
+              "Branch_Cutoff": null,
+              "Fund_Manager": "PT. SINARMAS ASSET MANAGEMENT",
+              "Fund_Currency": "IDR",
+              "Customer_Lock_Reason": null,
+              "Fund_Type": "FIX INCOME FUND",
+              "Redemption_Min_Bal_AMT": null,
+              "Customer_Lock": 0
+            }
+          ]
+        }
+      }
+    ],
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

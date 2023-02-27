@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabReferralYourFriend component TabReferralYourFriend: renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 12,
+              "borderWidth": 2,
+              "height": 25,
+              "justifyContent": "center",
+              "width": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+                "fontWeight": "700",
+              }
+            }
+          >
+            1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Roboto",
+              }
+            }
+          >
+             Download dan buka
+             
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              Aplikasi
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              SimobiPlus
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              kamu.
+               
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <Image
+          source="MgmRegister.png"
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 1224,
+              "width": 598.4,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+            "paddingTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 12,
+              "borderWidth": 2,
+              "height": 25,
+              "justifyContent": "center",
+              "width": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+                "fontWeight": "700",
+              }
+            }
+          >
+            2
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              Pilih
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Saving Account
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              dan klik
+               
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Tabungan Simas Digi
+               
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <Image
+          source="MgmSavingDAO.png"
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 1224,
+              "width": 598.4,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 20,
+            "paddingTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 12,
+              "borderWidth": 2,
+              "height": 25,
+              "justifyContent": "center",
+              "width": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+                "fontWeight": "700",
+              }
+            }
+          >
+            3
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+               Masukkan kode
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Referal kamu
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              dari teman
+               
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Roboto",
+                }
+              }
+            >
+              kamu, dan selesaikan pendaftaran nya.
+               
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 30,
+          }
+        }
+      >
+        <Image
+          source="MgmCodeRegister.png"
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 1224,
+              "width": 598.4,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,13 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/update-easypin",
+  "requestBody": {
+    "ipassport": "SMP-10907701489663741389",
+    "E2EE_RANDOM": "123123sdfasf24123",
+    "userPassword": "encryptedPass",
+    "easyPin": "123456"
+  },
+  "response": {
+    "responseCode": "00",
+    "responseMessage": "Update easypin success"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "url": "http://simigi.banksinarmas.com/PersonalBanking/rest/v3/action/personal-accident-result",
+  "requestBody": {
+  "ipassport": "SMP-1120081515468510513",
+  "lang": "en",
+  "TXID": "aade319a-1f6e-44a8-b17a-bfb9e8141334",
+  "ipassport": "SMP-1120081515468510513",
+  "lang": "en",
+  "mPinInputed": "123456",
+  "transRefNum": "MB-1120085468690938",
+  "payload": {
+    "benef_dob": "1199/12/12",
+    "benef_name": "bere",
+    "benef_relation": "7",
+    "benef_sex": "1",
+    "client_id": "1",
+    "client_name": "BSIM",
+    "cust_account": "0000270423",
+    "cust_address": "poris",
+    "cust_cif": "112008",
+    "cust_city": "tangerang",
+    "cust_dob": "1984/01/22",
+    "cust_email": "bram.riada@gmail.com",
+    "cust_identity_number": "1273022201840001",
+    "cust_mobile": "087882121822",
+    "cust_name": "HERMAN",
+    "cust_phone": "021433434343",
+    "cust_postal_code": "18123",
+    "cust_sex": "1",
+    "premium": "75000",
+    "request": "PA BSIM",
+    "request_type": "1",
+    "signature": "b55586a3166237d392e6bae74fee55bc5bdf5eab"
+  }
+},
+  "response": {
+    "message": "Proses Pembelian Polis Sukses",
+    "result": "success",
+    "data": {
+        "NO_VA": "8093121702000241",
+        "MSPO_POLICY_NO": "09073201800004",
+        "PREMI": 150000,
+        "UP": 50000000,
+        "REG_SPAJ": "09180074660",
+        "MCL_FIRST": "HERMAN"
+    }
+}
+}

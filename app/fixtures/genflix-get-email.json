@@ -1,0 +1,39 @@
+{
+  "data": {
+    "email": "alvin.e.variandi@banksinarmas.com",
+    "responseCode": "00"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "date": "Fri, 12 Apr 2019 07:38:28 GMT",
+    "server": "Apache-Coyote/1.1",
+    "transfer-encoding": "chunked",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 60000,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json;charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "method": "post",
+    "baseURL": "http://192.168.1.92:8080/IBORCL/rest/v3/action",
+    "params": {},
+    "withCredentials": true,
+    "cancelToken": null,
+    "additional": [
+      "ipassport"
+    ],
+    "endpoint": "GENFLIX_GET_EMAIL",
+    "url": "http://192.168.1.92:8080/IBORCL/rest/v3/action/genflix-get-email",
+    "data": "{\"ipassport\":\"SMP-21242541555054667280\"}"
+  },
+  "request": {}
+}

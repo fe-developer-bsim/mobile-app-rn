@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CgvOrderItem component CgvOrderItem: renders correctly 1`] = `
+<RCTScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cac6c6",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 10,
+            "marginVertical": 5,
+            "paddingTop": 20,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "flex": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": undefined,
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 75,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "borderRadius": 3,
+              "flex": 3,
+              "justifyContent": "center",
+              "paddingLeft": 15,
+              "paddingRight": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Kode Booking Anda
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "paddingBottom": 5,
+                },
+                Object {
+                  "color": "#FA3F70",
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Passkey
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "paddingBottom": 5,
+                },
+                Object {
+                  "color": "#FA3F70",
+                },
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 5,
+                  "paddingTop": 10,
+                },
+                undefined,
+                Object {
+                  "fontWeight": "700",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 5,
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 12,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "paddingBottom": 10,
+                  "paddingLeft": 50,
+                  "paddingRight": 5,
+                  "paddingTop": 20,
+                },
+                Object {
+                  "color": "#000",
+                  "fontSize": 10,
+                },
+                Object {
+                  "color": "#666",
+                },
+              ]
+            }
+          >
+            Tanggal penukaran:
+              
+            18 Aug 1989 12:00
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivationSuccess component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "paddingHorizontal": 20,
+            "paddingVertical": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        >
+          <Image
+            source="simobiplus.png"
+            style={
+              Object {
+                "height": 40,
+                "width": 110,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 4,
+                "fontFamily": "roboto",
+                "fontSize": 24,
+                "paddingBottom": 15,
+                "paddingTop": 30,
+              }
+            }
+          >
+            Welcome onboard, 
+            !
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "#000000",
+                  "flex": 1,
+                  "paddingTop": 40,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          Now you have Sinarmas Banking Services at your fingertips
+        </Text>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "opacity": 1,
+              "paddingTop": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 16,
+              }
+            }
+          >
+            I'M GOOD TO GO   
+          </Text>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 13,
+                },
+                Object {
+                  "color": "#FA3F70",
+                  "paddingLeft": 20,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Roboto",
+                "fontSize": 18,
+                "paddingBottom": 10,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            What you can do with SimobiPlus
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginBottom": 10,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          <Image
+            source="top-up-phone-balance.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 730,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "padding": 20,
+                }
+              }
+            >
+              Never run out of mobile data to play Facebook, watch Youtube and listening to music
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginBottom": 10,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          <Image
+            source="pay-at-tokopedia.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 730,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "padding": 20,
+                }
+              }
+            >
+              Buy smartphone or new gadgets at Tokopedia and your favorite marketplace, without card
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginBottom": 10,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          <Image
+            source="gopay.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 730,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "padding": 20,
+                }
+              }
+            >
+              Top up GO-PAY without going to minimarket or ATM
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginBottom": 10,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          <Image
+            source="pay-by-qr.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 730,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "padding": 20,
+                }
+              }
+            >
+              Pay with your phone at your favorite restaurant or retail stores
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "marginBottom": 10,
+              "marginHorizontal": 10,
+            }
+          }
+        >
+          <Image
+            source="pay-bills.jpg"
+            style={
+              Object {
+                "height": 375,
+                "width": 730,
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "padding": 20,
+                }
+              }
+            >
+              Pay electricity and water bills without queuing at post office or minimarket
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            I'M GOOD TO GO
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

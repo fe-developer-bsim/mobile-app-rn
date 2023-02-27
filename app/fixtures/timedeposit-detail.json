@@ -1,0 +1,27 @@
+{
+  "url": "http://10.32.1.142:7001/PersonalBanking/rest/v3/action/td-online-detail",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-1062451491386899181",
+    "lang": "en",
+    "accountFrom": "123421"
+  },
+  "response": {
+    "OpeningBalance": "0,00",
+    "RolloverIntRate": "",
+    "WorkingBalance": "8.000.002,00",
+    "MaturityDate": "2017-05-06T17:00:00Z",
+    "LockedAmount": "0,00",
+    "AccountNumber": "0900000000023138",
+    "Name": "RKIQ LEQJ VOQJ",
+    "responseCode": "00",
+    "ClosingBalance": "-",
+    "AvailableBalance": "-",
+    "MaturityInstruction": "PAYMENT TO NOMINATED ACCOUNT",
+    "ClearingAmount": "0,00",
+    "Currency": "IDR",
+    "InterestRate": "10.00",
+    "MaturityType": "Non ARO",
+    "Principal": "8000002.00"
+  }
+}

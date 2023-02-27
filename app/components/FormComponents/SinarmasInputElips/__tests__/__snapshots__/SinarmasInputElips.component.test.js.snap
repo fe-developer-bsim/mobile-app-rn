@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormComponent: SinarmasInputElips component renders correctly 1`] = `
+<View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 15,
+          },
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 5,
+            "borderWidth": 1,
+          },
+          Object {
+            "borderRadius": 5,
+            "marginTop": 20,
+            "shadowColor": "#ECECEC",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 3,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 112.5,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 35,
+              },
+              Object {
+                "color": "#4ed07d",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          disabled={false}
+          disabledLineType="solid"
+          editable={true}
+          label=""
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          placeholder="0"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+                "height": 30,
+                "textAlign": "center",
+                "width": 375,
+              },
+            ]
+          }
+          tintColor="#D72F33"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "width": 75,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 25,
+              },
+              undefined,
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

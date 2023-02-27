@@ -1,0 +1,171 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/myPassenger/list",
+  "requestBody": {
+    "ipassport": "SMP-3347851491041311642"
+  },
+  "response": {
+    "ipassport": "2gNtluMZVWITn6DMLjbbWjoMmZ3uTCTGIOvtwPfWdIrUSEonhk4w5Scnk8AtDo15",
+    "pageCtrl-start": 0,
+    "pageCtrl-count": 20,
+    "pageCtrl-total": 1,
+    "result": [
+        {
+            "modelClass": "MyPassenger",
+            "id": 1,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Erdi",
+            "lastName": "Isnanu",
+            "title": "MS",
+            "birthDate": "11/20/1994 00:00:00",
+            "email": "isnanu@gmail.com",
+            "homePhone": "0213020200",
+            "mobilePhone": "081929911999",
+            "otherPhone": null,
+            "IdNumber": "1249239299912938",
+            "IdExpiry": "12/24/2023 00:00:00",
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Friend",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        },
+        {
+            "modelClass": "MyPassenger",
+            "id": 2,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Chae",
+            "lastName": "Young",
+            "title": "MS",
+            "birthDate": "07/22/1997 00:00:00",
+            "email": "rose@gmail.com",
+            "homePhone": "1111111111",
+            "mobilePhone": "22222222222",
+            "otherPhone": null,
+            "IdNumber": "1249239299932453",
+            "IdExpiry": "05/30/2022 00:00:00",
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Friend",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        },
+        {
+            "modelClass": "MyPassenger",
+            "id": 3,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Anak",
+            "lastName": "Satu",
+            "title": "MR",
+            "birthDate": "05/10/2009 00:00:00",
+            "otherPhone": null,
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Child",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        },
+        {
+            "modelClass": "MyPassenger",
+            "id": 4,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Infant",
+            "lastName": "Satu",
+            "title": "MR",
+            "birthDate": "11/20/2017 00:00:00",
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Friend",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        },
+        {
+            "modelClass": "MyPassenger",
+            "id": 5,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Ayam",
+            "lastName": "Satu",
+            "title": "MR",
+            "birthDate": "11/20/2017 00:00:00",
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Friend",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        },
+        {
+            "modelClass": "MyPassenger",
+            "id": 6,
+            "createdDate": "05/09/2018 00:00:00",
+            "createdBy": {
+                "loginName": "admin",
+                "fullName": null,
+                "ID": 2
+            },
+            "lastUpdatedBy": null,
+            "firstName": "Kambing",
+            "lastName": "Satu",
+            "title": "MR",
+            "birthDate": "11/20/2017 00:00:00",
+            "nationality": "ID",
+            "passportNumber": null,
+            "relation": "Friend",
+            "gender": "Male",
+            "owner": "C1234",
+            "passengerType": "AIRLINE",
+            "passengerTypeId": 61,
+            "status": "New",
+            "statusId": 51
+        }
+    ]
+  }
+}

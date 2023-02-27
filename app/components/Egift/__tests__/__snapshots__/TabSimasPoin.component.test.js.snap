@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabSimasPoin component TabSimasPoin: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0, 0.09)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingVertical": 100,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          undefined,
+          Object {
+            "color": "#666",
+          },
+        ]
+      }
+    >
+      E-Voucher
+       
+      Lainnya
+       
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          undefined,
+          Object {
+            "color": "#666",
+          },
+        ]
+      }
+    >
+      Belum Tersedia
+    </Text>
+  </View>
+</View>
+`;

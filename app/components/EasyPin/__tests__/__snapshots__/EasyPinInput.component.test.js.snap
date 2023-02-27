@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EasyPinInput component renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  autoFocus={true}
+  keyboardType="numeric"
+  maxLength={6}
+  onChangeText={[Function]}
+  rejectResponderTermination={true}
+  secureTextEntry={true}
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;

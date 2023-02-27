@@ -1,0 +1,37 @@
+{
+  "url": "https://raw.githubusercontent.com/banksinarmas/static-assets/master/offers-list/en.json",
+  "response": [{
+    "label": "SKN Fee Waiver: Free Transfer Fee SKN only on New Simobi+",
+    "subtitle": "",
+    "footer": "30 / 07 / 2017 ",
+    "navigateTo": ["genflixInit"],
+    "offerID": "SKN"
+  }, {
+    "label": "Now, get refund 7% for all TD you create from New Simobi+",
+    "subtitle": "",
+    "footer": "17 / 07 / 2017 ",
+    "navigateTo": ["TdForm"],
+    "offerID": "TD"
+  }, {
+    "label": "Now, pay all the bill with your Credit Card via Simobi +",
+    "subtitle": "",
+    "footer": "05 / 07 / 2017 ",
+    "navigateTo": ["Pay","CreditCard"],
+    "offerID": "CC"
+  },
+  {
+    "imgUrl": "https://www.banksinarmas.com/id/img/simobiplus/lucky-draw-simobiplus-680x300.jpg",
+    "footer": "footnote title 1",
+    "offerID": "OFFER_TEST1",
+    "flag": 1,
+    "order": 0,
+    "validEndDate": "15-07-2022",
+    "imgUrl2": "https://www.banksinarmas.com/id/img/simobiplus/lucky-draw-simobiplus-720x460.jpg",
+    "navigateTo": ["genflixInit"],
+    "subtitle": "Ke DASHBOARD",
+    "validStartDate": "13-07-2017",
+    "label": "Ke DASHBOARD"
+  }
+
+]
+}

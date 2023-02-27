@@ -1,0 +1,12 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/confirm-card-options-creditcard",
+  "requestBody": {
+    "ipassport":"SMP-10907701496047243489",
+    "lang":"EN"
+  },
+  "response": {
+    "responseCode":"00",
+    "responseMessage":"Sms OTP sent successfully",
+    "transRefNum":"MB-201705291496047423825005"
+  }
+}

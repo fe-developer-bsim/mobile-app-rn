@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney Component: OTP renders correctly 1`] = `
+<View>
+  <Image
+    source="introduction-image.png"
+    style={
+      Object {
+        "height": 635.2380952380952,
+        "marginTop": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "height": 1334,
+        "marginTop": -10,
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source="simobiplus.png"
+        style={
+          Object {
+            "height": 33,
+            "marginRight": 10,
+            "width": 85,
+          }
+        }
+      />
+      <Image
+        source="banksinarmas.png"
+        style={
+          Object {
+            "height": 30,
+            "marginLeft": 10,
+            "width": 130,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 22,
+            "textAlign": "center",
+          }
+        }
+      >
+        Cara mudah dan aman untuk mengatur keuangan Anda
+      </Text>
+    </View>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#FA3F70",
+            "borderColor": "#cac6c6",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "marginTop": 20,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "textAlign": "center",
+            }
+          }
+        >
+          LOGIN
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#DBDBDB",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "marginBottom": 15,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FA3F70",
+              "fontFamily": "roboto",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "textAlign": "center",
+            }
+          }
+        >
+          DAFTAR
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#949494",
+            "fontSize": 12,
+            "justifyContent": "center",
+            "textAlign": "center",
+          }
+        }
+      >
+        Dengan log in atau buat akun baru,
+saya setuju dengan 
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          syarat dan ketentuan
+        </Text>
+        <Text>
+           dan 
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          kebijakan
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;

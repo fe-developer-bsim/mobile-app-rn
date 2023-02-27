@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Egift Cart page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "paddingBottom": 10,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ededed",
+          "flexGrow": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontFamily": "Roboto",
+              "fontSize": 14,
+            }
+          }
+        >
+          Keranjang Anda masih kosong
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "height": 70,
+          "justifyContent": "space-between",
+          "padding": 20,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "paddingRight": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "borderWidth": 2,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontSize": 16,
+                }
+              }
+            >
+              TAMBAH LAGI
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "paddingLeft": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FF8E8E",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              LANJUT BAYAR
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

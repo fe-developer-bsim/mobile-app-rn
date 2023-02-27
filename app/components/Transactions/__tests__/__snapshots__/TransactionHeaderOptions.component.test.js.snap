@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionHeaderOptions component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          Object {
+            "color": "#ffffff",
+          },
+          Object {
+            "fontFamily": "simas",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingTop": 70,
+        }
+      }
+    >
+      <Image
+        source="no-coupon.png"
+        style={
+          Object {
+            "height": 180,
+            "width": 250,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "alignText": "center",
+            "color": "#9E9E9E",
+            "paddingTop": 30,
+          }
+        }
+      >
+         
+        Anda tidak memiliki Kupon!
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

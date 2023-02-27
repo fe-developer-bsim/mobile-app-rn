@@ -1,0 +1,1651 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/refresh-storage",
+  "requestBody": {
+    "ipassport":"SMP-21205461493022031062"
+  },
+  "response": {
+  "responseMessage": "Login Success",
+  "responseCode": "00",
+  "ipassport": "SMP-3347851491886236682",
+  "ipassportData": {
+    "ipassDataClient": {
+      "loginTime": 1491886236809,
+      "lastAccess": 1491808599000,
+      "profileScope": {
+        "inbankTransferList": [{
+          "id": 369510,
+          "accountNumber": "0003455734",
+          "transferType": "inbank",
+          "name": "CHLAUDIA M PESIK",
+          "accountType": "Tabungan Smart Dompet",
+          "label": "0003455734/IDR/Tabungan Smart Dompet/CHLAUDIA M PESIK",
+          "targetType": {
+            "code": "inbanktransfer"
+          },
+          "currency": "IDR"
+        },
+          {
+            "id": 369509,
+            "accountNumber": "0008276293",
+            "transferType": "inbank",
+            "name": "ECHANNEL BANKING TEST",
+            "accountType": "Tabunganku Smt",
+            "label": "0008276293/IDR/Tabunganku Smt/ECHANNEL BANKING TEST",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 305200,
+            "accountNumber": "9900078169",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tab Simas Passbook iB Wadiah",
+            "label": "9900078169/IDR/Tab Simas Passbook iB Wadiah/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 305201,
+            "accountNumber": "0900371799",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tabungan Simas Lion",
+            "label": "0900371799/IDR/Tabungan Simas Lion/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 308845,
+            "accountNumber": "0002838796",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tabungan Smart Dompet",
+            "label": "0002838796/IDR/Tabungan Smart Dompet/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369481,
+            "accountNumber": "0000269085",
+            "transferType": "inbank",
+            "name": "VIVI",
+            "accountType": "Tabungan Sinarmas-Statement",
+            "label": "0000269085/IDR/Tabungan Sinarmas-Statement/VIVI",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 10322,
+            "accountNumber": "0002838796",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0002838796/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 51002,
+            "accountNumber": "0900371799",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0900371799/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121106,
+            "accountNumber": "0008332231",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332231/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122618,
+            "accountNumber": "0008345098",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345098/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122619,
+            "accountNumber": "0008345244",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345244/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122620,
+            "accountNumber": "0008345918",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345918/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122621,
+            "accountNumber": "0008345996",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345996/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122622,
+            "accountNumber": "0008346957",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "CurrentAccount",
+            "label": "0008346957/USD/CurrentAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 122623,
+            "accountNumber": "0008361894",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008361894/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121283,
+            "accountNumber": "0008332355",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332355/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121284,
+            "accountNumber": "0008332657",
+            "transferType": "own",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332657/IDR/SavingAccount/MOCHAMAD FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121285,
+            "accountNumber": "0008332673",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332673/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121286,
+            "accountNumber": "0008332867",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332867/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121287,
+            "accountNumber": "0008332878",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332878/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121282,
+            "accountNumber": "0008332347",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332347/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123045,
+            "accountNumber": "0008370788",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370788/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123047,
+            "accountNumber": "0008377871",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008377871/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123048,
+            "accountNumber": "0008381108",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381108/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 123050,
+            "accountNumber": "0008381127",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381127/CNY/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "CNY"
+          },
+          {
+            "id": 123042,
+            "accountNumber": "0008367426",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008367426/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123043,
+            "accountNumber": "0008370327",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370327/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123044,
+            "accountNumber": "0008370777",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370777/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123046,
+            "accountNumber": "0008370796",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370796/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123049,
+            "accountNumber": "0008381119",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381119/SGD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "SGD"
+          },
+          {
+            "id": 123051,
+            "accountNumber": "0008382255",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008382255/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          }
+        ],
+        "savedMerchantList": [],
+        "accountList": [{
+          "id": 10322,
+          "accountNumber": "0002838796",
+          "accountMode": null,
+          "allowFlag": "ft|bp|oa|tds",
+          "name": "M FERDIANSYAH",
+          "accountType": "savingaccount",
+          "accountTypeCode": "6003",
+          "bank": "PT BANK SINARMAS",
+          "label": "0002838796/IDR/SavingAccount/M FERDIANSYAH",
+          "bankBranch": {
+            "id": 7,
+            "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+            "name": "KC Tanah Abang",
+            "code": "ID0010007"
+          },
+          "currency": "IDR"
+        },
+          {
+            "id": 121438,
+            "accountNumber": "4893722099995202",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "TEDDY SUDIONO",
+            "accountType": "CreditCardAccount",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "4893722099995202/IDR/CreditCardAccount/TEDDY SUDIONO",
+            "currency": "IDR"
+          },
+          {
+            "id": 121848,
+            "accountNumber": "4893722000040536",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "IRFAN",
+            "accountType": "CreditCardAccount",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "4893722000040536/IDR/CreditCardAccount/IRFAN",
+            "currency": "IDR"
+          },
+          {
+            "id": 121849,
+            "accountNumber": "4893744000177464",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "INSTANT CARD",
+            "accountType": "CreditCardAccount",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "4893744000177464/IDR/CreditCardAccount/INSTANT CARD",
+            "currency": "IDR"
+          },
+          {
+            "id": 121439,
+            "accountNumber": "4893722099993561",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "TEDDY SUDIONO",
+            "accountType": "CreditCardAccount",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "4893722099993561/IDR/CreditCardAccount/TEDDY SUDIONO",
+            "currency": "IDR"
+          },
+          {
+            "id": 51002,
+            "accountNumber": "0900371799",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6012",
+            "bank": "PT BANK SINARMAS",
+            "label": "0900371799/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121106,
+            "accountNumber": "0008332231",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6010",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332231/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122618,
+            "accountNumber": "0008345098",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008345098/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122619,
+            "accountNumber": "0008345244",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008345244/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122620,
+            "accountNumber": "0008345918",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008345918/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122621,
+            "accountNumber": "0008345996",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008345996/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122622,
+            "accountNumber": "0008346957",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "CurrentAccount",
+            "accountTypeCode": "1012",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008346957/USD/CurrentAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 122623,
+            "accountNumber": "0008361894",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008361894/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122625,
+            "accountNumber": "0900000000022858",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "TimeDepositAccount",
+            "accountTypeCode": "1190",
+            "bank": "PT BANK SINARMAS",
+            "label": "0900000000022858/IDR/TimeDepositAccount/MOCHAMAD FERDIANSYAH",
+            "currency": "IDR"
+          },
+          {
+            "id": 122626,
+            "accountNumber": "0900000000022861",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "TimeDepositAccount",
+            "accountTypeCode": "1190",
+            "bank": "PT BANK SINARMAS",
+            "label": "0900000000022861/IDR/TimeDepositAccount/MOCHAMAD FERDIANSYAH",
+            "currency": "IDR"
+          },
+          {
+            "id": 122627,
+            "accountNumber": "0900000000022860",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "TimeDepositAccount",
+            "accountTypeCode": "1190",
+            "bank": "PT BANK SINARMAS",
+            "label": "0900000000022860/IDR/TimeDepositAccount/MOCHAMAD FERDIANSYAH",
+            "currency": "IDR"
+          },
+          {
+            "id": 121283,
+            "accountNumber": "0008332355",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332355/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121284,
+            "accountNumber": "0008332657",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332657/IDR/SavingAccount/MOCHAMAD FERDIANSYAH",
+            "bankBranch": {
+              "id": 45,
+              "address": "Jl Ahmad Yani Ambon 97125",
+              "name": "KC Ambon",
+              "code": "ID0010044"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121285,
+            "accountNumber": "0008332673",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332673/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121286,
+            "accountNumber": "0008332867",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332867/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121287,
+            "accountNumber": "0008332878",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6008",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332878/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121282,
+            "accountNumber": "0008332347",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6008",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008332347/IDR/SavingAccount/M FERDIANSYAH",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123045,
+            "accountNumber": "0008370788",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6003",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008370788/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 1,
+              "address": "Jl MH. Thamrin No.51 Jakarta Tlp. |",
+              "name": "Head Office PRD",
+              "code": "ID0010001"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123047,
+            "accountNumber": "0008377871",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008377871/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123048,
+            "accountNumber": "0008381108",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "accountTypeCode": "1012",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008381108/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 123050,
+            "accountNumber": "0008381127",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "accountTypeCode": "1020",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008381127/CNY/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 179,
+              "address": "Jl. Otista No. 05 B Rt. 001 Rw. 00|",
+              "name": "KCP Otista - Tangerang",
+              "code": "ID0010175"
+            },
+            "currency": "CNY"
+          },
+          {
+            "id": 123052,
+            "accountNumber": "0900000000022863",
+            "accountMode": null,
+            "allowFlag": "",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "TimeDepositAccount",
+            "accountTypeCode": "1190",
+            "bank": "PT BANK SINARMAS",
+            "label": "0900000000022863/IDR/TimeDepositAccount/PAFKIPIG HOTGUIQVBIK",
+            "currency": "IDR"
+          },
+          {
+            "id": 123042,
+            "accountNumber": "0008367426",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6000",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008367426/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123043,
+            "accountNumber": "0008370327",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6003",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008370327/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 1,
+              "address": "Jl MH. Thamrin No.51 Jakarta Tlp. |",
+              "name": "Head Office PRD",
+              "code": "ID0010001"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123044,
+            "accountNumber": "0008370777",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6003",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008370777/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 1,
+              "address": "Jl MH. Thamrin No.51 Jakarta Tlp. |",
+              "name": "Head Office PRD",
+              "code": "ID0010001"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123046,
+            "accountNumber": "0008370796",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "accountTypeCode": "6003",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008370796/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 1,
+              "address": "Jl MH. Thamrin No.51 Jakarta Tlp. |",
+              "name": "Head Office PRD",
+              "code": "ID0010001"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123049,
+            "accountNumber": "0008381119",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "accountTypeCode": "1007",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008381119/SGD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "currency": "SGD"
+          },
+          {
+            "id": 123051,
+            "accountNumber": "0008382255",
+            "accountMode": null,
+            "allowFlag": "ft|bp|oa|td",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "accountTypeCode": "1012",
+            "bank": "PT BANK SINARMAS",
+            "label": "0008382255/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "bankBranch": {
+              "id": 7,
+              "address": "Jl. K.H. Fachruddin Ruko Alfa No. |",
+              "name": "KC Tanah Abang",
+              "code": "ID0010007"
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 123052,
+            "accountNumber": "4320291239122912",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "CreditCardAccount",
+            "label": "0008332673/IDR/CreditCardAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123053,
+            "accountNumber": "0004123456781012",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "CreditCardAccount",
+            "label": "0008332673/IDR/CreditCardAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          }
+        ],
+        "rtgsTransferList": [],
+        "uangkuTransferList": [],
+        "listOfAllTransferList": [{
+          "id": 369510,
+          "accountNumber": "0003455734",
+          "transferType": "inbank",
+          "name": "CHLAUDIA M PESIK",
+          "accountType": "Tabungan Smart Dompet",
+          "label": "0003455734/IDR/Tabungan Smart Dompet/CHLAUDIA M PESIK",
+          "targetType": {
+            "code": "inbanktransfer"
+          },
+          "currency": "IDR"
+        },
+          {
+            "id": 369509,
+            "accountNumber": "0008276293",
+            "transferType": "inbank",
+            "name": "ECHANNEL BANKING TEST",
+            "accountType": "Tabunganku Smt",
+            "label": "0008276293/IDR/Tabunganku Smt/ECHANNEL BANKING TEST",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 305200,
+            "accountNumber": "9900078169",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tab Simas Passbook iB Wadiah",
+            "label": "9900078169/IDR/Tab Simas Passbook iB Wadiah/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 305201,
+            "accountNumber": "0900371799",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tabungan Simas Lion",
+            "label": "0900371799/IDR/Tabungan Simas Lion/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 308845,
+            "accountNumber": "0002838796",
+            "transferType": "inbank",
+            "name": "M FERDIANSYAH",
+            "accountType": "Tabungan Smart Dompet",
+            "label": "0002838796/IDR/Tabungan Smart Dompet/M FERDIANSYAH",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369481,
+            "accountNumber": "0000269085",
+            "transferType": "inbank",
+            "name": "VIVI",
+            "accountType": "Tabungan Sinarmas-Statement",
+            "label": "0000269085/IDR/Tabungan Sinarmas-Statement/VIVI",
+            "targetType": {
+              "code": "inbanktransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 10322,
+            "accountNumber": "0002838796",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0002838796/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 51002,
+            "accountNumber": "0900371799",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0900371799/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121106,
+            "accountNumber": "0008332231",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332231/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122618,
+            "accountNumber": "0008345098",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345098/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122619,
+            "accountNumber": "0008345244",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345244/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122620,
+            "accountNumber": "0008345918",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345918/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122621,
+            "accountNumber": "0008345996",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008345996/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 122622,
+            "accountNumber": "0008346957",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "CurrentAccount",
+            "label": "0008346957/USD/CurrentAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 122623,
+            "accountNumber": "0008361894",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008361894/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121283,
+            "accountNumber": "0008332355",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332355/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121284,
+            "accountNumber": "0008332657",
+            "transferType": "own",
+            "name": "MOCHAMAD FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332657/IDR/SavingAccount/MOCHAMAD FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121285,
+            "accountNumber": "0008332673",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332673/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121286,
+            "accountNumber": "0008332867",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332867/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121287,
+            "accountNumber": "0008332878",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332878/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 121282,
+            "accountNumber": "0008332347",
+            "transferType": "own",
+            "name": "M FERDIANSYAH",
+            "accountType": "SavingAccount",
+            "label": "0008332347/IDR/SavingAccount/M FERDIANSYAH",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123045,
+            "accountNumber": "0008370788",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370788/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123047,
+            "accountNumber": "0008377871",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008377871/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123048,
+            "accountNumber": "0008381108",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381108/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 123050,
+            "accountNumber": "0008381127",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381127/CNY/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "CNY"
+          },
+          {
+            "id": 123042,
+            "accountNumber": "0008367426",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008367426/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123043,
+            "accountNumber": "0008370327",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370327/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123044,
+            "accountNumber": "0008370777",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370777/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123046,
+            "accountNumber": "0008370796",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "SavingAccount",
+            "label": "0008370796/IDR/SavingAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 123049,
+            "accountNumber": "0008381119",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008381119/SGD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "SGD"
+          },
+          {
+            "id": 123051,
+            "accountNumber": "0008382255",
+            "transferType": "own",
+            "name": "PAFKIPIG HOTGUIQVBIK",
+            "accountType": "CurrentAccount",
+            "label": "0008382255/USD/CurrentAccount/PAFKIPIG HOTGUIQVBIK",
+            "targetType": {
+              "code": null
+            },
+            "currency": "USD"
+          },
+          {
+            "id": 369528,
+            "accountNumber": "00002690853",
+            "name": "fariez",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002690853/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369529,
+            "accountNumber": "0000269085",
+            "name": "fariez",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "0000269085/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369531,
+            "accountNumber": "12345678",
+            "name": "fariez",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "12345678/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369523,
+            "accountNumber": "00002623",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002623/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369524,
+            "accountNumber": "00002683",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002683/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369526,
+            "accountNumber": "00002682",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002682/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369530,
+            "accountNumber": "12345678",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK MANDIRI, TBK.",
+            "label": "12345678/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369536,
+            "accountNumber": "0000269086",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK RAKYAT INDONESIA, TBK.",
+            "label": "0000269086/Ramdhani/PT. BANK RAKYAT INDONESIA, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369787,
+            "accountNumber": "0000269085",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK MANDIRI, TBK.",
+            "label": "0000269085/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369788,
+            "accountNumber": "0000269082",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK MANDIRI, TBK.",
+            "label": "0000269082/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          }
+        ],
+        "networkTransferList": [{
+          "id": 369530,
+          "accountNumber": "12345678",
+          "name": "Ramdhani",
+          "modeFlag": "001",
+          "bank": "PT. BANK MANDIRI, TBK.",
+          "label": "12345678/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+          "targetType": {
+            "code": "networkTransfer"
+          },
+          "currency": "IDR"
+        },
+          {
+            "id": 369536,
+            "accountNumber": "0000269086",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK RAKYAT INDONESIA, TBK.",
+            "label": "0000269086/Ramdhani/PT. BANK RAKYAT INDONESIA, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369787,
+            "accountNumber": "0000269085",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK MANDIRI, TBK.",
+            "label": "0000269085/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369788,
+            "accountNumber": "0000269082",
+            "name": "Ramdhani",
+            "modeFlag": "001",
+            "bank": "PT. BANK MANDIRI, TBK.",
+            "label": "0000269082/Ramdhani/PT. BANK MANDIRI, TBK./ATMNETWORK",
+            "targetType": {
+              "code": "networkTransfer"
+            },
+            "currency": "IDR"
+          }
+        ],
+        "sknTransferList": [{
+          "id": 369528,
+          "accountNumber": "00002690853",
+          "name": "fariez",
+          "modeFlag": "100",
+          "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+          "label": "00002690853/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+          "targetType": {
+            "code": "sknTransfer"
+          },
+          "currency": "IDR"
+        },
+          {
+            "id": 369529,
+            "accountNumber": "0000269085",
+            "name": "fariez",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "0000269085/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369531,
+            "accountNumber": "12345678",
+            "name": "fariez",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "12345678/fariez/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369523,
+            "accountNumber": "00002623",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002623/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369524,
+            "accountNumber": "00002683",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002683/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          },
+          {
+            "id": 369526,
+            "accountNumber": "00002682",
+            "name": "rahul",
+            "modeFlag": "100",
+            "bank": "PT. BANK DANAMON INDONESIA, TBK. UUS",
+            "label": "00002682/rahul/PT. BANK DANAMON INDONESIA, TBK. UUS/SKN",
+            "targetType": {
+              "code": "sknTransfer"
+            },
+            "currency": "IDR"
+          }
+        ],
+        "userLogin": {
+          "id": 6863,
+          "title": "MR",
+          "userPreference": "8",
+          "userToken": [
+            "0",
+            "1"
+          ],
+          "email": "daghnatia@gmail.com",
+          "name": "M FERDIANSYAH",
+          "mobileNumberMasking": "******8407",
+          "customer": {
+            "id": 6849,
+            "profileVersion": 489,
+            "cifCode": "334785",
+            "employersCode": 1
+          },
+          "loginName": "indosat2010"
+        },
+        "creditCardList": [
+          {
+            "id": 121438,
+            "accountNumber": "4893722099995202",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": null,
+            "name": "TEDDY SUDIONO",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*5202/IDR/CreditCardAccount/TEDDY SUDIONO",
+            "cardType": null,
+            "currency": "IDR"
+          },
+          {
+            "id": 121848,
+            "accountNumber": "4893722000040536",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": null,
+            "name": "IRFAN",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*0536/IDR/CreditCardAccount/IRFAN",
+            "cardType": null,
+            "currency": "IDR"
+          },
+          {
+            "id": 121849,
+            "accountNumber": "4893744000177464",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": null,
+            "name": "INSTANT CARD",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*7464/IDR/CreditCardAccount/INSTANT CARD",
+            "cardType": null,
+            "currency": "IDR"
+          },
+          {
+            "id": 121439,
+            "accountNumber": "4893722099993561",
+            "accountMode": null,
+            "allowFlag": "",
+            "expiryDate": null,
+            "name": "TEDDY SUDIONO",
+            "accountTypeCode": "30",
+            "bank": "PT BANK SINARMAS",
+            "label": "*3561/IDR/CreditCardAccount/TEDDY SUDIONO",
+            "cardType": null,
+            "currency": "IDR"
+          }
+        ]
+      }
+    }
+  },
+  "reconstructIPassportData": "yes",
+  "isEasyPinSet": true,
+  "SMP-3347851491886236682": "RANDOMNUMXXXXXX"
+  }
+}

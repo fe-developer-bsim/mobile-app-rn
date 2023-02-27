@@ -1,0 +1,59 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/payDayLoand-disburse",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-1120081517799880716",
+    "lang": "en",
+    "TXID": "ffc2e8e9-9f6b-4830-a2a9-f7a034bb9b64",
+    "disburse": {
+      "cif": "568345",
+      "account_no": "0047548365",
+      "loan_amount": "7000000",
+      "tanggal_pengajuan": "20171214",
+      "tanggal_cair": "20171216",
+      "email": "noname@banksinarmas.com",
+      "no_hp": "08881234567",
+      "no_ref":"MB-201802061517919194777003",
+        "customer_data": {
+          "cabang": "002",
+          "cif": "444444",
+          "nomor_rek_payroll": "009548672365",
+          "jenis_identitas": "1",
+          "no_identitas": "88888888",
+          "nama_sesuai_identitas": " Via Vallen",
+          "nama_lengkap": "Via Vallen",
+          "status_gelar": "1",
+          "jenis_kelamin": "P",
+          "tempat_lahir_ktp": "1990-01-01",
+          "tanggal_lahir": "Bandung",
+          "npwp": "93746873643649",
+          "alamat": "Jakarta",
+          "kelurahan": "Gambir",
+          "kecamatan": "Gambir",
+          "dati2": "2368",
+          "kode_pos": "",
+          "telepon": "0216857436",
+          "nomor_telepon_genggam": "+626948562365",
+          "alamat_email": "viavallen@gmail.com",
+          "kode_negara_domisili": "ID",
+          "kode_pekerjaan": "123",
+          "tempat_bekerja": "jakarta",
+          "kode_bidang_usaha_tempat_bekerja_debitur": "12",
+          "kode_hubungan_dengan_ljk": "1",
+          "kode_golongan_debitur": "1",
+          "status_perkawinan_debitur": "1",
+          "melanggar_bmpk_bmpd_bmpp": "1",
+          "melampaui_bmpk_bmpd_bmpp": "1",
+          "nama_gadis_ibu_kandung": "Maimunah",
+          "company_payroll": "ikpp"
+        }
+      }
+},
+  "response": {
+    "responseMessage": "Pengajuan Di Proses",
+    "responseCode": "00",
+    "ipassport": "SMP-1120081517799880716",
+    "data": null,
+    "lang": "en"
+}
+}

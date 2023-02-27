@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferDetail component OfferDetail: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 10,
+              "paddingHorizontal": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <Text />
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

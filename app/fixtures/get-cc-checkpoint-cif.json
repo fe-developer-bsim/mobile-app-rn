@@ -1,0 +1,80 @@
+{
+      "url": "http://10.32.1.77:8080/EFormCentral/rest/formdata/action/getCustomerForCCI",
+      "requestBody": {
+    	"cif": "2125518"
+      },
+      "response": {
+        "data": {
+            "responseMessage": "Data from Core",
+            "responseCode": "00",
+            "dataDukcapil": {
+                "0~2~5": "3273052101660002",
+                "0~2~6": "KAWIN",
+                "0~2~7": "1966-01-21",
+                "0~2~8": "TJEN JIT SOEN",
+                "0~2~9": "BANDUNG",
+                "0~3~4": "ANDIR",
+                "0~3~3": "KOTA BANDUNG",
+                "0~3~2": "JAWA BARAT",
+                "0~3~1": "INDONESIA",
+                "0~3~8": "JL.H.ILYAS NO.8",
+                "0~3~7": "3/6",
+                "0~3~6": "",
+                "0~3~5": "KEBON JERUK",
+                "0~2~10": "KRISTEN",
+                "0~2~11": "Laki-Laki"
+            },
+            "dataFromCore": {
+                "0~6~21": "KEBON JERUK",
+                "0~6~20": "003/006",
+                "0~6~23": "Bandung, Kota.",
+                "0~6~22": "ANDIR",
+                "0~6~1": "1",
+                "0~6~25": "40242",
+                "0~6~3": "BANDUNG",
+                "0~6~2": "3273052101660002",
+                "0~6~24": "Jawa Barat",
+                "0~6~5": "UW VAOQ",
+                "0~6~4": "21/01/1966",
+                "0~6~8": "M",
+                "0~6~9": "2",
+                "0~6~6": "ID",
+                "0~6~7": "014",
+                "0~6~15": "ANDIR",
+                "0~6~16": "Bandung, Kota.",
+                "0~6~13": "003/006",
+                "0~6~14": "KEBON JERUK",
+                "0~6~19": "JL H ILYAS NO 8",
+                "0~6~17": "Jawa Barat",
+                "0~6~18": "40242",
+                "0~6~11": "6",
+                "0~6~12": "JL H ILYAS NO 8",
+                "0~6~10": "PENGHASILAN"
+            },
+            "dataUser": {
+                "ktpId": "3273052101660002",
+                "title": "MR",
+                "email": "fajar.a.yulianto@banksinarmas.com",
+                "aboutWork": [
+                    "Wiraswasta/Wirausaha"
+                ],
+                "yourLiving": [
+                    "PENGHASILAN",
+                    "Diatas Rp. 100.000.000"
+                ],
+                "name": "PHAN JUNG SENG",
+                "cifCode": "106245",
+                "mobileNumber": "6285779583450",
+                "currentAddressList": [
+                    "Jawa Barat",
+                    "Bandung, Kota.",
+                    "ANDIR",
+                    "KEBON JERUK",
+                    "003/006",
+                    "JL H ILYAS NO 8",
+                    "40242"
+                ]
+            }
+        }
+    }
+    }

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Componenent: EmoneyHeader renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flexDirection": "row",
+      "paddingRight": 5,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justtifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+            }
+          }
+        >
+          SKIP
+        </Text>
+      </View>
+    </View>
+    <View />
+  </View>
+</View>
+`;

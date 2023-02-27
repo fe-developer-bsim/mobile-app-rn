@@ -1,0 +1,160 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/account-statement-simas-poin",
+  "method": "POST",
+  "requestBody": {
+    "TXID":"722c049d-1ba4-4c67-bb70-be6320ad634b",
+  	"sessionCode":"8baabcc9-6dd8-4eeb-8af7-0c0a0eb84910",
+  	"E2EE_RANDOM":"123456",
+  	"tokenClient":"61ea8fa71dddc1601513c926fef71ee862d7e76b55695330e94efc096a148390",
+  	"tokenServer":"46d838e0e85febec909ea8044bd1d9a53186e9ab6513e22fbfd8f5294b99d6b4",
+  	"deviceParam":"E00BB5B3-89A3-4F29-9F26-EF84AE21E6C1",
+  	"pushToken":"123456",
+  	"clientCheck":"WEB_BROWSER",
+  	"lang": "en"
+  },
+  "response": {
+    "accountStatementSimasPoin": {
+        "code": "12",
+        "data": [
+            {
+                "trxPoin": 100000,
+                "saldoPoin": 477565,
+                "trxDate": "2018-08-30 17:18:18",
+                "description": "Simas Poin refund"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 377565,
+                "trxDate": "2018-08-30 05:08:27",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 100000,
+                "saldoPoin": 487565,
+                "trxDate": "2018-08-30 17:12:56",
+                "description": "Simas Poin refund"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 387565,
+                "trxDate": "2018-08-30 05:08:27",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 100000,
+                "saldoPoin": 497565,
+                "trxDate": "2018-08-30 17:07:13",
+                "description": "Simas Poin refund"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 397565,
+                "trxDate": "2018-08-30 05:08:47",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 0,
+                "saldoPoin": 507565,
+                "trxDate": "2018-08-30 17:07:04",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 507565,
+                "trxDate": "2018-08-30 05:08:22",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 100000,
+                "saldoPoin": 617565,
+                "trxDate": "2018-08-30 16:25:36",
+                "description": "Simas Poin refund"
+            },
+            {
+                "trxPoin": -100000,
+                "saldoPoin": 517565,
+                "trxDate": "2018-08-30 04:08:08",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": -65000,
+                "saldoPoin": 617565,
+                "trxDate": "2018-08-30 04:08:47",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 10000,
+                "saldoPoin": 682565,
+                "trxDate": "2018-08-30 15:08:01",
+                "description": "Simas Poin refund"
+            },
+            {
+                "trxPoin": -10000,
+                "saldoPoin": 672565,
+                "trxDate": "2018-08-30 03:08:35",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": -75000,
+                "saldoPoin": 682565,
+                "trxDate": "2018-08-30 03:08:53",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": -1000000,
+                "saldoPoin": 757565,
+                "trxDate": "2018-08-29 18:05:36",
+                "description": "Rewards activation Simobi+"
+            },
+            {
+                "trxPoin": -140000,
+                "saldoPoin": 1757565,
+                "trxDate": "2018-08-29 06:08:59",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 1897565,
+                "trxDate": "2018-08-29 06:08:22",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 1000000,
+                "saldoPoin": 2007565,
+                "trxDate": "2018-08-29 00:00:00",
+                "description": "Simas Poin monthly earning"
+            },
+            {
+                "trxPoin": 250,
+                "saldoPoin": 1007565,
+                "trxDate": "2018-08-06 00:00:00",
+                "description": "Simas Poin monthly earning"
+            },
+            {
+                "trxPoin": -110000,
+                "saldoPoin": 1897565,
+                "trxDate": "2018-09-29 06:08:22",
+                "description": "Simas Poin redeem"
+            },
+            {
+                "trxPoin": 1000000,
+                "saldoPoin": 2007565,
+                "trxDate": "2018-09-30 00:00:00",
+                "description": "Simas Poin monthly earning"
+            },
+            {
+                "trxPoin": 250,
+                "saldoPoin": 1007565,
+                "trxDate": "2018-09-31 00:00:00",
+                "description": "Simas Poin monthly earning"
+            }
+        ],
+        "error": false,
+        "cifCode": "1090770"
+    },
+    "fullName": "Adimas S Wibowo",
+    "responseMessage": "success",
+    "email": "adimas.wibowo@banksinarmas.com",
+    "responseCode": "00"
+  }
+}

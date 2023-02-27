@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabYouOwe renders correctly 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 933.8,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source="no_split_bill.png"
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 200,
+              "width": 100,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#2F476D",
+              "fontFamily": "roboto",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "paddingTop": 5,
+            }
+          }
+        >
+          Tidak ada apa-apa di sini...
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#7D7F9E",
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "paddingLeft": 5,
+              "paddingVertical": 10,
+              "textAlign": "center",
+              "width": 375,
+            }
+          }
+        >
+          Anda belum memilki transaksi split bill.
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

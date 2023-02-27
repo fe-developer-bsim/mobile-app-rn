@@ -1,0 +1,45 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-merchant-list",
+  "method": "POST",
+  "requestBody": {
+    "ipassport":"SMP-1120081517806157641",
+    "lang":"EN",
+    "cif":"123434"
+  },
+  "response": {
+    "response_code": "00",
+    "updated_status": "InProcess",
+    "result": [{
+        "acq_data": null,
+        "created_by" : null,
+        "created_date" : null,
+        "dimei" : null,
+        "merchant_id" : "19259TahuLaura0",
+        "merchant_pan_name" : "Tahu Laura 01",
+        "mobile_number" : "081293277709",
+        "modified_by" : null,
+        "modified_date" : null,
+        "pan" : "9360015359371010051",
+        "password" : "04986782",
+        "terminal_id" : "37101005",
+        "user_status" : "on_process",
+        "username" : "chikuwa"
+      },
+      {
+        "acq_data": null,
+        "created_by" : null,
+        "created_date" : null,
+        "dimei" : null,
+        "merchant_id" : "19259TahuLaura0",
+        "merchant_pan_name" : "Tahu Laura 01",
+        "mobile_number" : "081293277709",
+        "modified_by" : null,
+        "modified_date" : null,
+        "pan" : "9360015359371010051",
+        "password" : "04986782",
+        "terminal_id" : "37101005",
+        "user_status" : "on_process",
+        "username" : "chikuwa"
+      }]
+  }
+}

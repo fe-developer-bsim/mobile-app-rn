@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoDebitTransactions component renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FA3F70",
+        "minHeight": "100%",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 15,
+            "borderTopRightRadius": 15,
+            "flex": 1,
+            "paddingHorizontal": 30,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 20,
+              "marginTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Transaksi terakhir
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "marginBottom": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          Tidak ada transaksi
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

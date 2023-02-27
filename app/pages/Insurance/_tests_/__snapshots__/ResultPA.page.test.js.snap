@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultPA: ResultPA page renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 9,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 14,
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          No Transaksi
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "marginBottom": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 9,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 14,
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Waktu
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "marginBottom": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "rgba(0,0,0, 0.09)",
+          },
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+          },
+          Object {
+            "borderTopWidth": 5,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+                "textAlign": "center",
+                "width": 250,
+              }
+            }
+          >
+            TUTUP
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabSpesification component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 10,
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0)",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+        "marginRight": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "500",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0)",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+        "marginRight": 5,
+        "paddingBottom": 10,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text>
+      Merek : 
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0)",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+        "marginRight": 5,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0)",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+        "marginRight": 5,
+        "paddingBottom": 10,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text>
+      Panjang : 
+      
+       
+      cm
+    </Text>
+    <Text>
+      Lebar : 
+      
+       
+      cm
+    </Text>
+    <Text>
+      Tinggi : 
+      
+       
+      cm
+    </Text>
+    <Text>
+      Berat : 
+      
+       
+      gr
+    </Text>
+  </View>
+</View>
+`;

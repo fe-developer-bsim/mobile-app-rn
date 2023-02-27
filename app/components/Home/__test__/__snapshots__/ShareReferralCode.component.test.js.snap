@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareReferralCode component renders correctly 1`] = `
+<RCTScrollView
+  Style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 18,
+            "padding": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        Bagikan kasih sayang, undang temanmu! dan dapatkan IDR 25,000 untuk setiap teman yang mengaktifasi akun Simobi.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingHorizontal": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 100,
+              "padding": 10,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            source="lesspeople.png"
+            style={
+              Object {
+                "height": 100,
+                "padding": 10,
+                "width": 100,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Undang 10+ temanmu dan masing masing akan mendapatkan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 16,
+            }
+          }
+        >
+          IDR 1,000,000
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 100,
+              "padding": 10,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            source="morepeople.png"
+            style={
+              Object {
+                "height": 100,
+                "padding": 10,
+                "width": 100,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Undang 20+ temanmu dan masing masing akan mendapatkan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 16,
+            }
+          }
+        >
+          IDR 2,000,000
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingBottom": 70,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Valid sampai dengan maret 2018
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0,0,0, 0.09)",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 5,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <Text>
+          Bagikan link referral unik milikmu
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 5,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingHorizontal": 25,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <Text />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingHorizontal": 25,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            selectable={true}
+            style={
+              Object {
+                "color": "#ED1D25",
+              }
+            }
+          >
+            SALIN
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0, 0.09)",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Bagikan
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingBottom": 20,
+            }
+          }
+        >
+          Syarat dan ketentuan berlaku
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

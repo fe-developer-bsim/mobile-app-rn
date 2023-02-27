@@ -1,0 +1,12 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-payday-loan",
+  "requestBody": {
+    "ipassport": "SMP-1062451491450864905",
+    "lang": "en",
+    "transRefNum": "IB-106245-1491451415079",
+    "mPinInputed": "123456"
+  },
+  "response": {
+    "isEligible": true,
+  }
+}

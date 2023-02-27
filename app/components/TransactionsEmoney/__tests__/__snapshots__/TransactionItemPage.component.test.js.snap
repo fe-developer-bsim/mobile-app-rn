@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionItemPage component renders correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingVertical": 7.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 3,
+          "justifyContent": "center",
+          "paddingRight": 5,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "paddingBottom": 5,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            undefined,
+            Object {
+              "color": "#FF8E8E",
+            },
+          ]
+        }
+      >
+        - 
+        Rp
+         
+        10.000
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "paddingLeft": 25,
+          "paddingRight": 5,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 10,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

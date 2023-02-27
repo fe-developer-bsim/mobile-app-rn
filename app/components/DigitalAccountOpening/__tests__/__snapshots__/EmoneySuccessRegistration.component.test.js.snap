@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneySuccessRegistration component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingTop": 50,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 28,
+            "fontWeight": "500",
+            "marginBottom": 30,
+            "textAlign": "left",
+          }
+        }
+      >
+        Simas E-Money anda telah berhasil dibuat
+      </Text>
+    </View>
+    <Image
+      source="create-emoney-success.png"
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 476.42857142857144,
+          "width": 705,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 10,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 16,
+            "fontWeight": "300",
+            "lineHeight": 25,
+            "paddingVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        Masuk ke akun SimobiPlus Anda dengan username dan password yang Anda buat. Sekarang anda dapat
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "lineHeight": 25,
+              "paddingVertical": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+           jelajahi SimobiPlus dan lakukan transaksi dengan Simas E-Money
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          OK
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

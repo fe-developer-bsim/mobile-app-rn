@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavingAccountCheckpoint Component: credit card Checkpoint renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": undefined,
+            },
+            Object {
+              "backgroundColor": "#FA3F70",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": undefined,
+            },
+            Object {
+              "backgroundColor": "#DBDBDB",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingTop": 20,
+          "paddingVertical": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 24,
+          }
+        }
+      >
+        Konfirmasi detail Anda di bawah benar
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View />
+      <View />
+      <View />
+      <View />
+      <View />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BERIKUTNYA
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

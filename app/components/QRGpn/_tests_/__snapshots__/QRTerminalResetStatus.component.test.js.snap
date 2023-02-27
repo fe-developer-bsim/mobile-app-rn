@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRTerminalResetStatus component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 10,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+        Object {
+          "backgroundColor": "#FA3F70",
+        },
+      ]
+    }
+  >
+    <Image
+      source="white-simobi.png"
+      style={
+        Object {
+          "height": 33,
+          "marginVertical": 25,
+          "width": 85,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          Reset password
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          Simas QR Cashier
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          berhasil
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingRight": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 30,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+        Object {
+          "marginTop": -80,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "paddingRight": 20,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "color": "#ccc",
+                  "paddingTop": 10,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingRight": 20,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 35,
+                },
+                Object {
+                  "color": "#000000",
+                  "paddingTop": 10,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginVertical": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+              ]
+            }
+          >
+            Kami telah mengirim SMS
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                },
+              ]
+            }
+          >
+            panduan log in ke Cashier terkait.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          SELESAI
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

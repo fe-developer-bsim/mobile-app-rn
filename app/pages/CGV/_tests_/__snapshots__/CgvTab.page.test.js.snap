@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: CgvTab page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingRight": 0,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "borderColor": "#ccc",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "height": 50,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {},
+        ]
+      }
+    >
+      <RCTScrollView
+        bounces={false}
+        directionalLockEnabled={true}
+        horizontal={true}
+        scrollsToTop={false}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "width": null,
+                },
+                Object {},
+              ]
+            }
+          >
+            <View
+              accessibilityLabel="Sedang tayang"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 49,
+                      "justifyContent": "center",
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontWeight": "bold",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Sedang tayang
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="Cinema"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 49,
+                      "justifyContent": "center",
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#9E9E9E",
+                        "fontWeight": "normal",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Cinema
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="Segera hadir"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 49,
+                      "justifyContent": "center",
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#9E9E9E",
+                        "fontWeight": "normal",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Segera hadir
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FA3F70",
+                  "bottom": 0,
+                  "height": 4,
+                  "left": 0,
+                  "position": "absolute",
+                  "width": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      automaticallyAdjustContentInsets={false}
+      contentOffset={
+        Object {
+          "x": 0,
+        }
+      }
+      directionalLockEnabled={true}
+      horizontal={true}
+      keyboardDismissMode="on-drag"
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      pagingEnabled={true}
+      scrollEnabled={false}
+      scrollEventThrottle={16}
+      scrollsToTop={false}
+      showsHorizontalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        >
+          <RCTScrollView
+            contentContainerStyle={
+              Object {
+                "paddingBottom": 100,
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+              }
+            }
+            tabLabel="Sedang tayang"
+          >
+            <View>
+              <View />
+              <View
+                style={
+                  Object {
+                    "justifyContent": "space-between",
+                    "paddingHorizontal": 20,
+                    "paddingTop": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#949494",
+                      "textAlign": "justify",
+                    }
+                  }
+                >
+                  Tiket dijual oleh CGV. Jika terdapat Biaya admin dan diskon, maka diatur oleh Bank Sinarmas
+                </Text>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        >
+          <View
+            tabLabel="Cinema"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        >
+          <View
+            tabLabel="Segera hadir"
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

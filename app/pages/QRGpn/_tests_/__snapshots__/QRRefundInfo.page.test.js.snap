@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: QRRefundInfo page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "paddingBottom": 30,
+      },
+    ]
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {
+        "paddingBottom": 10,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {},
+          ]
+        }
+      >
+        Kode autentifikasi refund
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 18,
+            },
+            Object {
+              "backgroundColor": "rgba(201, 198, 198, 0.2)",
+              "marginVertical": 18,
+              "padding": 13,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 25,
+              },
+              Object {
+                "color": "#ccc",
+                "marginVertical": 15,
+                "padding": 10,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginVertical": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#666",
+          }
+        }
+      >
+        Transaksi
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "marginBottom": 20,
+              "marginTop": 3,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginVertical": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#666",
+          }
+        }
+      >
+        Kode refund digunakan oleh
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "marginBottom": 20,
+              "marginTop": 3,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginVertical": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#666",
+          }
+        }
+      >
+        Tanggal refund
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "marginBottom": 20,
+              "marginTop": 3,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "#ED1D25",
+            },
+          ]
+        }
+      >
+        Kode refund telah digunakan
+      </Text>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

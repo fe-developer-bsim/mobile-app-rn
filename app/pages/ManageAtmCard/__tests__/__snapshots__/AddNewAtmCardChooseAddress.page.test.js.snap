@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewAtmCardChooseAddress renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+        "height": 667,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": -10,
+      }
+    }
+    extraHeight={120}
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingHorizontal": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              }
+            }
+          >
+            Pilih alamat yang Anda inginkan untuk pengiriman kartu
+          </Text>
+          <View
+            style={
+              Object {
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "paddingTop": 10,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "borderColor": "#FA3F70",
+                            "borderRadius": 12,
+                            "borderWidth": 2,
+                            "height": 20,
+                            "justifyContent": "center",
+                            "width": 20,
+                          }
+                        }
+                      />
+                      <View>
+                        <Text
+                          style={
+                            Object {
+                              "fontFamily": "roboto",
+                              "fontSize": 14,
+                              "fontWeight": "700",
+                              "marginBottom": 5,
+                              "paddingLeft": 5,
+                            }
+                          }
+                        >
+                          Alamat sekarang
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#666",
+                              "fontFamily": "roboto",
+                              "fontSize": 12,
+                              "paddingLeft": 5,
+                            }
+                          }
+                        >
+                          
+
+
+INDONESIA
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "borderBottomWidth": 1,
+                      "borderColor": "rgba(0,0,0, 0.09)",
+                      "flex": 1,
+                      "marginHorizontal": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                />
+              </View>
+              <View>
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                          "paddingTop": 10,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "borderColor": "#FA3F70",
+                            "borderRadius": 12,
+                            "borderWidth": 2,
+                            "height": 20,
+                            "justifyContent": "center",
+                            "width": 20,
+                          }
+                        }
+                      />
+                      <View>
+                        <Text
+                          style={
+                            Object {
+                              "fontFamily": "roboto",
+                              "fontSize": 14,
+                              "fontWeight": "700",
+                              "marginBottom": 5,
+                              "paddingLeft": 5,
+                            }
+                          }
+                        >
+                          Alamat KTP
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#666",
+                              "fontFamily": "roboto",
+                              "fontSize": 12,
+                              "paddingLeft": 5,
+                            }
+                          }
+                        >
+                          
+
+
+INDONESIA
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "borderBottomWidth": 1,
+                      "borderColor": "rgba(0,0,0, 0.09)",
+                      "flex": 1,
+                      "marginHorizontal": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "marginHorizontal": 10,
+                  "marginTop": 20,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "alignSelf": "center",
+                      "justifyContent": "center",
+                      "marginRight": 10,
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "flex": 1,
+                    "fontFamily": "roboto",
+                    "fontSize": 14,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Pastikan alamat Anda sudah sesuai dan lengkap untuk memudahkan pihak ekspedisi (berisi nama jalan, nomor rumah, RT/RW dan kode pos). Jika belum sesuai atau belum lengkap silahkan lakukan pembaruan alamat Anda pada SimobiPlus (menu edit profile) atau dengan menghubungi Bank Sinarmas CARE 1500153 atau kantor cabang terdekat
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#FA3F70",
+                      "fontFamily": "roboto",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  PERBARUI ALAMAT ANDA
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F0F0F0",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "marginTop": 15,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "padding": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Estimasi Ketersediaan Kartu ATM
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 10,
+                  }
+                }
+              >
+                <Text>
+                  -
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  Area JADETABEK estimasi tiba dalam 5 hari kerja,
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 10,
+                  }
+                }
+              >
+                <Text>
+                  -
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  Area Pulau Jawa dan diluar JADETABEK estimasi tiba dalam 10 hari kerja,
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 10,
+                  }
+                }
+              >
+                <Text>
+                  -
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  Area Luar Pulau Jawa estimasi tiba dalam 12 hari kerja.
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "borderColor": "#ED1D25",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginTop": 50,
+                  "padding": 20,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={null}
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "marginBottom": 5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Image
+                    source="checkbox-unchecked.png"
+                    style={
+                      Array [
+                        Object {
+                          "height": 26,
+                          "width": 26,
+                        },
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "marginTop": 10,
+                        },
+                      ]
+                    }
+                  />
+                  <View />
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "paddingHorizontal": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "flex": 1,
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "fontWeight": "300",
+                    }
+                  }
+                >
+                  Saya menyatakan bahwa alamat yang telah saya pilih adalah benar dan mengizinkan Bank Sinarmas untuk memproses pengiriman kartu ATM
+sesuai alamat tersebut.
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        Object {
+          "padding": 20,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FF8E8E",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

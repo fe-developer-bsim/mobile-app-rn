@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account info item component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 8,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "shadowOffset": Object {
+              "height": 1.2,
+            },
+            "shadowOpacity": 0.183,
+            "shadowRadius": 1.08,
+          },
+          Object {
+            "borderRadius": 15,
+            "elevation": 3,
+            "height": 190,
+            "margin": 2,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1.5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 3,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "flex": 1,
+            "height": null,
+            "resizeMode": "stretch",
+            "width": null,
+          }
+        }
+      >
+        <Image
+          borderRadius={15}
+          source="savings-card.png"
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": null,
+                "width": null,
+              },
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "flex": 1,
+              "padding": 20,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "roboto",
+                  "marginBottom": 34,
+                  "paddingTop": 10,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "paddingBottom": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 24,
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "roboto",
+                        "marginBottom": 17,
+                      },
+                    ]
+                  }
+                >
+                   
+                  --
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingBottom": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 12,
+                    },
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontFamily": "roboto",
+                      "paddingRight": 5,
+                    },
+                  ]
+                }
+              >
+                Nomor Rekening
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontFamily": "roboto",
+                      "letterSpacing": 1.5,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "marginBottom": 10,
+                    }
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "bottom": 0,
+                "justifyContent": "flex-end",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 50,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "margin": 20,
+                  "marginBottom": 30,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#FFFFFF",
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

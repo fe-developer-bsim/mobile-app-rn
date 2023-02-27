@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummarySIL component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#060142",
+      "borderBottomLeftRadius": 15,
+      "borderBottomRightRadius": 15,
+      "elevation": 3,
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1.5,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "marginLeft": 7,
+          "marginRight": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "marginBottom": 5,
+              "marginTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Summary Portofolio
+        </Text>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 5,
+              "opacity": 1,
+              "paddingVertical": 5,
+              "width": 120,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#ED1D25",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+            Show Detail
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      Object {
+        "height": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": 2,
+            "marginBottom": 20,
+            "marginLeft": 7,
+            "marginRight": 7,
+            "marginTop": 20,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginLeft": 7,
+            "marginRight": 7,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#ccc",
+                "marginBottom": 10,
+              },
+            ]
+          }
+        >
+          Total Aktif Nilai Polis
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 10,
+            "marginLeft": 7,
+            "marginRight": 7,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#ccc",
+                "marginBottom": 5,
+              },
+            ]
+          }
+        >
+          Last Update:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

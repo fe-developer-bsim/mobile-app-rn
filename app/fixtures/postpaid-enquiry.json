@@ -1,0 +1,84 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/billpay-inquiry",
+  "requestBody": {
+    "ipassport": "SMP-3347851489034690218",
+    "subscriberNoInput": "0895123450",
+    "idbillPay": 17,
+    "billerType": "1",
+    "lang": "en"
+  },
+  "response": {
+    "displayString": "08PAYMENT    : Three Postpaid           IDPEL      : 62895123450              NAME       : Sunaryo                  BILLING AMT: RP. 27.580               ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 27.580                                                                                           62895123450                     11                000000000000000000000000000000000000                000000000000000000000000000000000000                0000000000000000000000000000000000000309007587      000000027580000000000000000000000000Sunaryo                                 25102010  ",
+    "customerName": "Sunaryo",
+    "responseCode": "00",
+    "paymentInfo": null,
+    "billPeriod": null,
+    "displayList": [
+      [
+        "PAYMENT",
+        "Three Postpaid"
+      ],
+      [
+        "IDPEL",
+        "62895123450"
+      ],
+      [
+        "NAME",
+        "Sunaryo"
+      ],
+      [
+        "BILLING AMT",
+        "RP. 27.580"
+      ],
+      [
+        "ADMIN BANK",
+        "RP. 0"
+      ],
+      [
+        "PAYMENT AMT",
+        "RP. 27.580"
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "displayListNew": [{
+        "value": "Three Postpaid",
+        "key": "PAYMENT"
+      },
+      {
+        "value": "62895123450",
+        "key": "IDPEL"
+      },
+      {
+        "value": "Sunaryo",
+        "key": "NAME"
+      },
+      {
+        "value": "RP. 27.580",
+        "key": "BILLING AMT"
+      },
+      {
+        "value": "RP. 0",
+        "key": "ADMIN BANK"
+      },
+      {
+        "value": "RP. 27.580",
+        "key": "PAYMENT AMT"
+      },
+      {
+        "key": ""
+      },
+      {
+        "key": ""
+      }
+    ],
+    "billAmount": 30001,
+    "billingInfo": "08PAYMENT    : Three Postpaid           IDPEL      : 62895123450              NAME       : Sunaryo                  BILLING AMT: RP. 27.580               ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 27.580                                                                                           62895123450                     11                000000000000000000000000000000000000                000000000000000000000000000000000000                0000000000000000000000000000000000000309007587      000000027580000000000000000000000000Sunaryo                                 25102010  ",
+    "vaInputMode": null,
+    "additionalDataPrivate": null
+  }
+}

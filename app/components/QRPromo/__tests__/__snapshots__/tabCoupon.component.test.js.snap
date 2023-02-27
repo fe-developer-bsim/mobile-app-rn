@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabCoupon component TabCoupon: renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomWidth": 1,
+        "borderColor": "#DBDBDB",
+        "overflow": "hidden",
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderColor": "#DBDBDB",
+          "borderRadius": 3,
+          "borderWidth": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 0.45,
+              "justifyContent": "center",
+              "minHeight": 60,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 60,
+                "justifyContent": "center",
+                "position": "absolute",
+                "right": 10,
+                "top": 0,
+                "width": 80,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 100,
+                  },
+                  Object {
+                    "color": "#44E77B",
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 0.55,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 60,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": 200,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              Diskon0% Diskon
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ECECEC",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <View
+          animated={true}
+          animationConfig={
+            Object {
+              "bounciness": 0,
+            }
+          }
+          animationType="spring"
+          indeterminate={false}
+          indeterminateAnimationDuration={1000}
+          onLayout={[Function]}
+          progress={NaN}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ECECEC",
+                "borderColor": "#44E77B",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "overflow": "hidden",
+                "width": 200,
+              },
+              undefined,
+            ]
+          }
+          useNativeDriver={false}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#44E77B",
+                "height": 6,
+                "transform": Array [
+                  Object {
+                    "translateX": -7.105427357601002e-15,
+                  },
+                  Object {
+                    "translateX": NaN,
+                  },
+                  Object {
+                    "scaleX": NaN,
+                  },
+                ],
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text>
+            0
+            /
+            0
+             
+            point untuk mendapatkan kupon
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomWidth": 1,
+        "borderColor": "#DBDBDB",
+        "overflow": "hidden",
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingBottom": 15,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 14,
+            },
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "#9E9E9E",
+            },
+          ]
+        }
+      >
+        Anda belum memiliki kupon untuk merchant ini
+      </Text>
+    </View>
+  </View>
+</View>
+`;

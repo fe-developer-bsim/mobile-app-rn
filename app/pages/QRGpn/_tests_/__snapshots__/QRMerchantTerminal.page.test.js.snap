@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: QRMerchantTerminal page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    extraHeight={120}
+    keyboardShouldPersistTaps="handled"
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+            "fontWeight": "700",
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        Daftar Store/Outlet
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#ECECEC",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "elevation": 2,
+            "height": 160,
+            "justifyContent": "center",
+            "marginBottom": 5,
+            "marginTop": 5,
+            "paddingHorizontal": 20,
+            "shadowColor": "grey",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 5,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 7,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 50,
+                "justifyContent": "center",
+                "marginLeft": 10,
+                "marginRight": 30,
+                "marginTop": 10,
+                "width": 50,
+              }
+            }
+          >
+            <Image
+              source="store-icon.png"
+              style={
+                Object {
+                  "color": "#3892FC",
+                  "flex": 1,
+                  "height": 50,
+                  "resizeMode": "contain",
+                  "width": 50,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontWeight": "700",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+            <Text>
+              
+              , 
+              
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontWeight": "700",
+                  },
+                ]
+              }
+            >
+              ID toko
+            </Text>
+            <Text>
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 10,
+                    "color": "#FFFFFF",
+                    "marginTop": 10,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                Refund Transaksi
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-end",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 10,
+                    "color": "#FFFFFF",
+                    "marginTop": 10,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                Detail Store/Outlet
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          TAMBAH KASIR BARU
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

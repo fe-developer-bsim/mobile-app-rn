@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LuckyDipInformationDetaileVoucher component LuckyDipInformationDetaileVoucher: renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#ECECEC",
+      "flex": 1,
+      "paddingBottom": 25,
+      "paddingHorizontal": 25,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 10,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Image
+      source="AlfaCarticon.jpg"
+      style={
+        Object {
+          "height": 200,
+          "width": 200,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingBottom": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+            }
+          }
+        >
+          Valid Date
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Invalid date
+           - 
+          Invalid date
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingTop": 10,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+              }
+            }
+          >
+            Alfacart worth 
+            <Text
+              style={
+                Object {
+                  "fontFamily": "roboto",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              IDR 
+              0
+            </Text>
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text>
+            read
+             
+            <Text
+              style={
+                Object {
+                  "color": "#ED1D25",
+                  "textDecorationLine": "underline",
+                }
+              }
+            >
+              Terms and Condition
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+    <Image
+      source="DesainAlfaCart.png"
+      style={
+        Object {
+          "height": 40,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingBottom": 30,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <Text>
+        Your Code :
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingBottom": 5,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          Tap to copy
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

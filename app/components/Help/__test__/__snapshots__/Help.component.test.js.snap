@@ -1,0 +1,684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "flex": 1,
+            "justifyContent": "space-between",
+            "padding": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderColor": "rgba(0,0,0, 0.09)",
+                  },
+                  Object {
+                    "borderBottomColor": "#ECECEC",
+                    "borderBottomWidth": 8,
+                    "paddingVertical": 30,
+                  },
+                ],
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 1,
+                      "justifyContent": "flex-start",
+                      "paddingLeft": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                      ]
+                    }
+                  >
+                    BANK SINARMAS CARE
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 12,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "paddingTop": 5,
+                        },
+                      ]
+                    }
+                  >
+                    1500153
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 30,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 10,
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderColor": "rgba(0,0,0, 0.09)",
+                  },
+                  Object {
+                    "borderBottomColor": "#ECECEC",
+                    "borderBottomWidth": 8,
+                    "paddingVertical": 30,
+                  },
+                ],
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 1,
+                      "justifyContent": "flex-start",
+                      "paddingLeft": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                      ]
+                    }
+                  >
+                    BANK SINARMAS CARE
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 12,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "paddingTop": 5,
+                        },
+                      ]
+                    }
+                  >
+                    (021) 50188888
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 30,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 10,
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderColor": "rgba(0,0,0, 0.09)",
+                  },
+                  Object {
+                    "borderBottomColor": "#ECECEC",
+                    "borderBottomWidth": 8,
+                    "paddingVertical": 30,
+                  },
+                ],
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 1,
+                      "justifyContent": "flex-start",
+                      "paddingLeft": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                      ]
+                    }
+                  >
+                    PERTANYAAN SERING DITANYA
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 30,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 10,
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderColor": "rgba(0,0,0, 0.09)",
+                  },
+                  Object {
+                    "borderBottomColor": "#ECECEC",
+                    "borderBottomWidth": 8,
+                    "paddingVertical": 30,
+                  },
+                ],
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 40,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flex": 1,
+                      "justifyContent": "flex-start",
+                      "paddingLeft": 20,
+                      "paddingRight": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                        },
+                      ]
+                    }
+                  >
+                    KIRIMKAN KOMENTAR UNTUK APP
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 0,
+                      "height": 30,
+                      "justifyContent": "center",
+                      "width": 30,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 10,
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": undefined,
+            "fontSize": undefined,
+            "paddingTop": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        Version: 
+        v1.0.test
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

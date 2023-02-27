@@ -1,0 +1,27 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/fetch-pan-number",
+  "requestBody" : {
+    "panPinNumberEncrypt":"1234567890123456",
+    "sessionCode":"123456"
+  },
+  "response": {
+    "transRefNum":"MB-201708071502086034052023",
+    "responseMessage": "We have sent SMS Token to your mobile number",
+    "responseCode": "06",
+    "username":"morinayo0404a",
+    "attributeMap": {
+      "isMobileNumberRegistered":true,
+      "isActiveUser":true,
+      "isDormant":false,
+      "statusUser":"active",
+      "username":"morinayo0404a",
+      "cifCode": "2120486",
+      "mothersMaidenEligibility": true,
+      "isEasyPinSet":true,
+      "isBlocked":false,
+      "iPassport": "SMP-21204861489386481599",
+      "mobileNumberMasking":"*********1072"
+    },
+    "forward": "validate"
+  }
+}

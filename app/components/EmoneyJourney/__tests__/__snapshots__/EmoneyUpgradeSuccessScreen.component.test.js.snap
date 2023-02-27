@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyUpgradeSuccessScreen page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <Image
+      source="success-icon-new.png"
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 576.9230769230769,
+          "marginTop": 20,
+          "width": 576.9230769230769,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingHorizontal": 20,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 24,
+              "fontWeight": "500",
+              "textAlign": "center",
+            }
+          }
+        >
+          Upgrade Simas E-Money Berhasil
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 16,
+              "fontWeight": "300",
+              "lineHeight": 25,
+              "paddingVertical": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          Permintaan Anda akan diproses maksimal satu jam. Terima kasih!
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

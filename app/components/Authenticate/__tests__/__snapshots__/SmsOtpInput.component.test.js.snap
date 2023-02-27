@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmsOtpInput component renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  input={
+    Object {
+      "onChange": [Function],
+    }
+  }
+  keyboardType="numeric"
+  maxLength={6}
+  onChangeText={[Function]}
+  rejectResponderTermination={true}
+  style={
+    Object {
+      "fontSize": 24,
+      "height": 60,
+      "paddingVertical": 5,
+      "textAlign": "center",
+    }
+  }
+  submitHandler={[Function]}
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;

@@ -1,0 +1,8 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/listLocation",
+  "requestBody": {
+ "mode":"subdistrict",
+ "code":"367103"
+},
+  "response": {"responseMessage":"success get data","responseCode":"00","data":{"subDistrict":[{"zipCode":"55651","name":"BENDUNGAN","code":"34010201"},{"zipCode":"55651","name":"KULWARU","code":"34010204"},{"zipCode":"55651","name":"TRIHARJO","code":"34010207"},{"zipCode":"55651","name":"WATES","code":"34010208"},{"zipCode":"55651","name":"GIRI PENI","code":"34010202"},{"zipCode":"55651","name":"KARANG WUNI","code":"34010203"},{"zipCode":"55651","name":"NGESTIHARJO","code":"34010205"},{"zipCode":"55651","name":"SOGAN","code":"34010206"},{"zipCode":"55651","name":"GIRIPENI","code":"34010209"}]}}
+}

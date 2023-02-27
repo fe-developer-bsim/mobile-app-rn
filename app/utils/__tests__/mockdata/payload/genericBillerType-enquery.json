@@ -1,0 +1,36 @@
+{
+  "selectedBiller":{
+            "areaList":[],
+            "billerInqMenu":false,
+            "billerPreferences":{
+                                  "billerInqMenu":false,
+                                  "billerPreferences":null,
+                                  "billerType":"1",
+                                  "code":"009928",
+                                  "currency":"IDR",
+                                  "denomKey":"",
+                                  "id":1073,
+                                  "inquiryTypeFooter":"",
+                                  "inquiryTypeHeader":"",
+                                  "isFavorite":null,
+                                  "isInquiryOnConfirm":"",
+                                  "isMerchantWithSubProductCode":"",
+                                  "isOpenMonth":"",
+                                  "isPrepaidOpenAmount":"",
+                                  "isShown":true,
+                                  "isSubscriber":true,
+                                  "isUsingPackageCode":"",
+                                  "paymentSubscriberNoKey":"purchasePayment.plnCustomerIdentityKey",
+                                  "purchaseSubscriberNoKey":""
+                                },
+            "denomList":[],
+            "id":1073,
+            "name":"PAM Aetra",
+            "path":"|_root||publicservice|",
+            "prefix":null,
+            "validation":"",
+            "validationLabel":"",
+            "description":""
+            },
+  "subscriberNo":"400099899"
+}

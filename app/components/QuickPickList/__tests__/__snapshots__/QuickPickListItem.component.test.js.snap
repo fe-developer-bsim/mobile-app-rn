@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickPickListItem component renders correctly 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ccc",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "color": "#000000",
+              "flex": 1,
+              "fontWeight": "700",
+              "textAlign": "left",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingRight": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "flex": 1,
+              "fontSize": 12,
+              "fontWeight": undefined,
+              "textAlign": "right",
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 10,
+          },
+          Object {
+            "alignSelf": "center",
+            "color": "#FA3F70",
+            "paddingRight": 20,
+          },
+          Object {
+            "fontFamily": "simas",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Component: HeaderCgv renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingRight": 10,
+    }
+  }
+>
+  <View>
+    <Image
+      source="cgvCinemas.png"
+      style={
+        Object {
+          "maxHeight": 66.45569620253164,
+          "maxWidth": 97.65625,
+        }
+      }
+    />
+  </View>
+</View>
+`;

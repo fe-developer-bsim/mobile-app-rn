@@ -1,0 +1,11 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/resend-payment-otp",
+  "requestBody": {
+    "iPassport": "SMP-10907701487573352518",
+    "transRefNum": "MB-ATL-443048318015"
+  },
+  "response": {
+    "responseMessage": "Resend SMS Success",
+    "responseCode": "00"
+  }
+}

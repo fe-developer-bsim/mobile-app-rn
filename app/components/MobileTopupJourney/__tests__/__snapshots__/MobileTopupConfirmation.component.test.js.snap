@@ -1,0 +1,610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileTopup component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "flex": 1,
+      },
+    ]
+  }
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Ringkasan pembelian
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 12,
+          "fontWeight": "300",
+          "paddingTop": 10,
+        }
+      }
+    >
+      Berikut Ringakasan pembelian Anda
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ccc",
+            "marginBottom": 10,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "300",
+                }
+              }
+            >
+              Pembayaran dari
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                NIL
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                NIL
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "300",
+                }
+              }
+            >
+              Pembayaran kepada
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Nomor Telepon
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontWeight": "500",
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Pilih jumlah
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  0
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Biaya Admin
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  0
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontWeight": "300",
+                  }
+                }
+              >
+                Total
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  0
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 50,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "height": 40,
+                "marginBottom": 0,
+                "opacity": 1,
+                "width": 40,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "color": "#E30717",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "color": "rgba(255,0, 0, 0.2)",
+                      },
+                      Object {
+                        "fontFamily": "simas",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "marginLeft": 20,
+                }
+              }
+            >
+              Gunakan kupon cashback
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            KONFIRMASI PEMBAYARAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

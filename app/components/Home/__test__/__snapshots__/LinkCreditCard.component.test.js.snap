@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkCreditCard component renders correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderRadius": 15,
+        "marginTop": 7,
+        "minHeight": 195,
+        "opacity": 1,
+        "overflow": "hidden",
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 1.5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 3,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "flex": 1,
+          "height": null,
+          "justifyContent": "center",
+          "resizeMode": "stretch",
+          "width": null,
+        }
+      }
+    >
+      <Image
+        source="link-cc.png"
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": null,
+              "width": null,
+            },
+            undefined,
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "flex": 1,
+              "paddingRight": 20,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "flex": 3,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "textAlign": "center",
+              }
+            }
+          >
+            MENYAMBUNGKAN KARTU KREDIT
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "flex": 1,
+              "paddingRight": 20,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 20,
+                },
+                Object {
+                  "color": "#FA3F70",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

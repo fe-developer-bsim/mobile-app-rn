@@ -1,0 +1,16 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/td-online-note?lang=en",
+  "method": "GET",
+  "response": {
+    "responseCode": "00",
+    "newsList": [],
+    "footNoteList": [
+        "Pembukaan rekening deposito berjangka dengan waktu 1 bulan",
+        "Minimum deposito IDR 8.000.000/USD 1000",
+        "Suku bunga yang berlaku mengikuti suku bunga LPS (counter rate)"
+    ],
+    "extraNoteList": [
+        "<p><font size='2' color='red'>DEPOSITO ONLINE YANG DIBUKA PADA HARI SABTU/MINGGU/LIBUR, AKAN EFEKTIF DIPERHITUNGKAN DAN DICATAT PADA HARI KERJA BERIKUTNYA</font></p>"
+    ]
+  }
+}

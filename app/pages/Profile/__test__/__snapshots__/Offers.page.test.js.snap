@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OffersJourney: Offers page renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ED1D25",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 16,
+          "padding": 20,
+        }
+      }
+    >
+      Penawaran
+    </Text>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 15,
+            },
+            Object {
+              "color": "white",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView>
+    <View />
+  </RCTScrollView>
+</View>
+`;

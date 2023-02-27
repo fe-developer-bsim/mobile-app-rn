@@ -1,0 +1,56 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/fundTransferSchedule-edit",
+  "method": "POST",
+  "requestBody" : {
+    "ipassport": "SMP-3347851521446191447",
+    "lang": "en",
+    "TXID": "ffc2e8e9-9f6b-4830-a2a9-f7a034bb9b64",
+    "mPinInputed": "123456",
+    "transRefNum": "MB-1120085391818934",
+    "accessFrom": "v3",
+    "data"
+:{
+                "bankCharges": 0,
+                "transferDate": "01-Apr-18",
+                "lastRecurrence": 0,
+                "targetBankName": null,
+                "debitExchangeRate": 1,
+                "futureDated": "yes",
+                "targetBank": "PT BANK SINARMAS",
+                "creditExchangeRate": 1,
+                "totalAmountDebited": 100000,
+                "transferMode": "INBANK",
+                "currency": "IDR",
+                "authorizedDate": "14-Mar-18",
+                "recurringInterval": null,
+                "targetAccountName": "FKNIEGUI P ROVUM",
+                "lastUpdatedBy": "indosat2010",
+                "amount": 100000,
+                "targetCurrency": "IDR",
+                "lastRun": null,
+                "transactionReferenceNumber": "IB-016778606095000",
+                "recurring": "1",
+                "maxRecurrence": null,
+                "message": null,
+                "transactionType": "Transfer Fund",
+                "lockFlag": null,
+                "bankReferenceNumber": null,
+                "lastUpdatedDate": "14-Mar-18",
+                "createdDate": "14-Mar-18",
+                "targetBankBranch": "KC Tanah Abang",
+                "createdBy": "indosat2010",
+                "nextRecurrence": "01-Apr-18",
+                "targetAccount": "0003455734",
+                "maxRecurrenceDate": 1526317200000,
+                "targetBankBranchName": null,
+                "account": "0002838796",
+                "status": "Recurring"
+            }
+
+},
+    "response":{
+        "responseMessage": "sukses",
+        "responseCode": "00",
+        "vaNumber": "8153219002",
+        "referenceCode": "219002" }
+        }

@@ -1,0 +1,62 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/get-user-api-key",
+  "requestBody": {
+    "ipassport":"SMP-10907701496040647910",
+    "lang":"EN"
+  },
+  "response": {
+    "userApiKey": "5081d0771cfd18fcb0d786fdf669195c0da25e51",
+    "responseDimo": {
+      "message": "MD_API_OK_00",
+      "items": [
+        {
+          "id": "DE3",
+          "value": "000010"
+        },
+        {
+          "id": "DE7",
+          "value": "0320103440"
+        },
+        {
+          "id": "DE11",
+          "value": "738835"
+        },
+        {
+          "id": "DE12",
+          "value": "103440"
+        },
+        {
+          "id": "DE13",
+          "value": "0320"
+        },
+        {
+          "id": "DE15",
+          "value": "0320"
+        },
+        {
+          "id": "DE32",
+          "value": "153"
+        },
+        {
+          "id": "DE33",
+          "value": "153"
+        },
+        {
+          "id": "DE39",
+          "value": "00"
+        },
+        {
+          "id": "DE48",
+          "value": "269be510882d9a6300fa7970d022f2e9a85ad2f4"
+        },
+        {
+          "id": "DE49",
+          "value": "360"
+        }
+      ],
+      "status": "success"
+    },
+    "responseMessage": "Get User API Key Success",
+    "responseCode": "00"
+  }
+}

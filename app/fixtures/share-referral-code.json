@@ -1,0 +1,12 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/share-referral-code",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-12000731501140893112"
+  },
+  "response": {
+    "responseMessage": "Get Referral Code Success",
+    "responseCode": "00",
+    "referralCode": "abhis1501144490507163"
+  }
+}

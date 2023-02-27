@@ -1,0 +1,42 @@
+{
+  "data": {
+    "isEmailSent": "",
+    "ranCode": "99b1803cec83f832",
+    "responseMessage": "Success Validate OTP",
+    "email": "randyang@email.com",
+    "responseCode": "00"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "date": "Tue, 16 Apr 2019 09:13:33 GMT",
+    "server": "Apache-Coyote/1.1",
+    "transfer-encoding": "chunked",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 60000,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json;charset=utf-8",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "method": "post",
+    "baseURL": "http://192.168.1.92:8080/IBORCL/rest/v3/action",
+    "params": {},
+    "withCredentials": true,
+    "cancelToken": null,
+    "additional": [
+      "ipassport"
+    ],
+    "endpoint": "EMAIL_OTP_VALIDATE",
+    "url": "http://192.168.1.92:8080/IBORCL/rest/v3/action/genflix-validate-otp",
+    "data": "{\"ipassport\":\"SMP-21242541555405690027\",\"otpCode\":\"418032\"}"
+  },
+  "request": {}
+}

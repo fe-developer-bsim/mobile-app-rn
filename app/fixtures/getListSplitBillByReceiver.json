@@ -1,0 +1,84 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/get-list-split-bill-by-receiver",
+    "requestBody": {
+        "ipassport": "SMP-1120081572588438596"
+      },
+      "response": {
+        "responseMessage": "Success",
+        "responseCode": "00",
+        "ListInvoice": [
+            {
+                "Receivers": [
+                    {
+                        "amount": 2000000,
+                        "status": "success",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 10000,
+                        "status": "success",
+                        "mobileNumber": "081253225858",
+                        "nama": "Rendy Ren" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Ayam Goreng Sinarmas",
+                "invoiceNumber": "Split Bill",
+                "status": "pending",
+                "totalAmount": 7000000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            },
+            {
+                "Receivers": [
+                    {
+                        "amount": 50000,
+                        "status": "pending",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Kambing Bakar Roxy",
+                "invoiceNumber": "Split Bill",
+                "status": "Fully Paid",
+                "totalAmount": 110000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            },
+            {
+                "Receivers": [
+                    {
+                        "amount": 50000,
+                        "status": "pending",
+                        "mobileNumber": "089888888888",
+                        "nama": "Fendi Setiyanto" 
+                    },
+                    {
+                        "amount": 50000,
+                        "status": "reject",
+                        "mobileNumber": "087810868407",
+                        "nama": "Fernando Tiwow" 
+                    },
+                    {
+                        "amount": 10000,
+                        "status": "success",
+                        "mobileNumber": "081253225858",
+                        "nama": "Rendy Ren" 
+                    }
+                ],
+                "createdBy": "Herman",
+                "description": "Kambing Bakar Roxy",
+                "invoiceNumber": "Split Bill",
+                "status": "fail",
+                "totalAmount": 110000,
+                "transRefNum": "MB-SB-112008828465754",
+                "transactionDate": "2020-01-06 11:27:24",
+                "accountNumber" : "0002751704"
+            }
+        ]
+      }
+}

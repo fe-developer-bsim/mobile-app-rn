@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedeemSmartfrenConfirm: form page renders correctly 1`] = `
+<RCTScrollView
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#000000",
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        Konfirmasi detail transaksi
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text>
+          Cashback
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 20,
+            }
+          }
+        >
+          Rp 
+          --
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 10,
+          "marginTop": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#000000",
+              "paddingTop": 30,
+            },
+          ]
+        }
+      >
+        Detail transaksi
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text>
+        Transaksi
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 15,
+          }
+        }
+      >
+        Cashback Promo Andromax SimobiPlus
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text>
+        Nomor KTP
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 15,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text>
+        Nomor Smartfren
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 15,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text>
+        Rekening tujuan
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 15,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingTop": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#949494",
+              "fontSize": 12,
+            }
+          }
+        >
+          Transaksi yang sudah berjalan tidak dapat dibatalkan
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Dapatkan Cashback
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

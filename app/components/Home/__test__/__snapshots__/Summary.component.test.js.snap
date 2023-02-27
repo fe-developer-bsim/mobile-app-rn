@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FA3F70",
+      "borderBottomLeftRadius": 15,
+      "borderBottomRightRadius": 15,
+      "elevation": 3,
+      "paddingHorizontal": 20,
+      "paddingTop": 40,
+      "paddingVertical": 20,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1.5,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 20,
+          "marginLeft": 7,
+          "marginRight": 7,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "white",
+                "borderRadius": 20,
+                "color": "#ED1D25",
+                "fontWeight": "bold",
+                "height": 65,
+                "justifyContent": "center",
+                "marginTop": 5,
+                "paddingHorizontal": 5,
+                "width": 65,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 35,
+                },
+                Array [
+                  Object {
+                    "color": "#FA3F70",
+                  },
+                ],
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontSize": 10,
+              }
+            }
+          >
+            HOME
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginLeft": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "marginBottom": 5,
+              "marginTop": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Summary Portofolio
+        </Text>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#fb658c",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginTop": 5,
+              "opacity": 1,
+              "paddingVertical": 5,
+              "width": 120,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#FFFFFF",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+            Show Detail
+          </Text>
+          <View
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "borderColor": "white",
+                      "borderRadius": 25,
+                      "color": "#FFFFFF",
+                      "fontWeight": "bold",
+                      "paddingHorizontal": 5,
+                    },
+                  ],
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      Object {
+        "height": 0,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "height": 2,
+              "marginBottom": 20,
+              "marginLeft": 7,
+              "marginRight": 7,
+              "marginTop": 20,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 13,
+              "marginRight": 13,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Tabungan
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Rp 
+            --
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 3,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 13,
+              "marginRight": 13,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Giro
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Rp 
+            --
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 3,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 13,
+              "marginRight": 13,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Deposito Berjangka
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Rp 
+            --
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingVertical": 3,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 13,
+              "marginRight": 13,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Rekening Dana Nasabah (RDN)
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Rp 
+            --
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PayeeListItem component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "rgba(201, 198, 198, 0.2)",
+      "borderBottomWidth": 1,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 14,
+        "fontWeight": "500",
+      }
+    }
+  >
+    1
+  </Text>
+  <Text>
+    x
+  </Text>
+</View>
+`;

@@ -1,0 +1,201 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/asj-getinvestData",
+  "requestBody": {
+    "ipassport": "SMP-22090391565665740442"
+  },
+  "response": 
+  {
+    "listInformasiPolis": [
+        {
+            "listMti": [
+                {
+                    "id": 3,
+                    "desc": "3"
+                },
+                {
+                    "id": 6,
+                    "desc": "6"
+                },
+                {
+                    "id": 12,
+                    "desc": "12"
+                },
+                {
+                    "id": 24,
+                    "desc": "24"
+                },
+                {
+                    "id": 36,
+                    "desc": "36"
+                }
+            ],
+            "informasiRekening": {
+                "rekeningNo": "6556556556",
+                "bankNama": "BANK SINARMAS",
+                "branchNama": " ",
+                "rekeningNama": "ARIF SUJATMIKO"
+            },
+            "tertanggung": "ARIF SUJATMIKO",
+            "produk": "SIMAS INVESTA LINK - DOLLAR",
+            "keyPolis": "zoRtd4petbXC52Y9fAEp2w==",
+            "maxWithdrawal": "50000000",
+            "mataUang": "US$",
+            "premiDasar": "2000",
+            "nomorPolis": "192030000207",
+            "premiTopUp": "500",
+            "tanggalBerlakuPolis": "19 OCT 2018 - 14 APR 2086",
+            "frekuensiPembayaran": "SEKALIGUS",
+            "produkCode": "2032",
+            "uangPertanggungan": "2500",
+            "noVa": "8117192030000207",
+            "statusPolis": "INFORCE",
+            "pemegangPolis": "ARIF SUJATMIKO"
+        },
+        {
+            "listMti": [
+                {
+                    "id": 3,
+                    "desc": "3"
+                },
+                {
+                    "id": 6,
+                    "desc": "6"
+                },
+                {
+                    "id": 12,
+                    "desc": "12"
+                },
+                {
+                    "id": 24,
+                    "desc": "24"
+                },
+                {
+                    "id": 36,
+                    "desc": "36"
+                }
+            ],
+            "informasiRekening": {
+                "rekeningNo": "3513513512",
+                "bankNama": "BANK SINARMAS",
+                "branchNama": "KC JAKARTA - TANAH ABANG",
+                "rekeningNama": "ARIF SUJATMIKO"
+            },
+            "tertanggung": "ARIF SUJATMIKO",
+            "produk": "SIMAS INVESTA LINK",
+            "keyPolis": "tiNauLCZUFHfK6KajcVTJQ==",
+            "maxWithdrawal": "50000000",
+            "mataUang": "Rp",
+            "premiDasar": "20000000",
+            "nomorPolis": "192020000464",
+            "premiTopUp": "80000000",
+            "tanggalBerlakuPolis": "13 AUG 2019 - 12 AUG 2089",
+            "frekuensiPembayaran": "SEKALIGUS",
+            "produkCode": "2021",
+            "uangPertanggungan": "25000000",
+            "noVa": "8119192020000464",
+            "statusPolis": "INFORCE",
+            "pemegangPolis": "ARIF SUJATMIKO"
+        }
+    ],
+    "listSumberPendanaan": [
+        {
+            "label": "GAJI",
+            "value": "GAJI"
+        },
+        {
+            "label": "INVESTASI/TABUNGAN/DEPOSITO",
+            "value": "INVESTASI/TABUNGAN/DEPOSITO"
+        },
+        {
+            "label": "HASIL USAHA",
+            "value": "HASIL USAHA"
+        },
+        {
+            "label": "WARISAN",
+            "value": "WARISAN"
+        },
+        {
+            "label": "LAINNYA : ",
+            "value": "LAINNYA : "
+        }
+    ],
+    "listRollover": [
+        {
+            "value": 1,
+            "label": "MEMPERPANJANG (ROLL OVER) NILAI POLIS"
+        },
+        {
+            "value": 2,
+            "label": "MEMPERPANJANG (ROLL OVER) PREMI"
+        }
+    ],
+    "responseMessage": "Success",
+    "listMtiPayMethod": [
+        {
+            "id": 0,
+            "desc": "AKHIR MTI"
+        }
+    ],
+    "listRingkasanDana": [
+        {
+            "listRingkasanSLink": [
+                {
+                    "listDetail": [
+                        {
+                            "keyTopUpId": "MeL55Z2j5XHswdobkplJEA==",
+                            "periode": "15 APR 2019 - 14 APR 2020",
+                            "alokasiPremi": "Premi Sekaligus",
+                            "amount": "2000",
+                            "tingkatTargetInvestasi": "3% p.a",
+                            "mti": "12 bulan",
+                            "tanggalJatuhTempo": "14 APR 2020",
+                            "statusTopup": "Aktif"
+                        },
+                        {
+                            "keyTopUpId": "IIC8aQzgEsPboI9O9GNV2w==",
+                            "periode": "15 APR 2019 - 14 APR 2020",
+                            "alokasiPremi": "Top Up Sekaligus Ke-1",
+                            "amount": "500",
+                            "tingkatTargetInvestasi": "3% p.a",
+                            "mti": "12 bulan",
+                            "tanggalJatuhTempo": "14 APR 2020",
+                            "statusTopup": "Aktif"
+                        }
+                    ],
+                    "produk": "SIMAS INVESTA LINK - DOLLAR",
+                    "nomorPolis": "192030000207",
+                    "produkCode": "2032"
+                },
+                {
+                    "listDetail": [
+                        {
+                            "keyTopUpId": "MeL55Z2j5XHswdobkplJEA==",
+                            "periode": "13 AUG 2019 - 12 NOV 2019",
+                            "alokasiPremi": "Premi Sekaligus",
+                            "amount": "20000000",
+                            "tingkatTargetInvestasi": "7% p.a",
+                            "mti": "3 bulan",
+                            "tanggalJatuhTempo": "12 NOV 2019",
+                            "statusTopup": "Aktif"
+                        },
+                        {
+                            "keyTopUpId": "IIC8aQzgEsPboI9O9GNV2w==",
+                            "periode": "13 AUG 2019 - 12 NOV 2019",
+                            "alokasiPremi": "Top Up Sekaligus Ke-1",
+                            "amount": "80000000",
+                            "tingkatTargetInvestasi": "7% p.a",
+                            "mti": "3 bulan",
+                            "tanggalJatuhTempo": "12 NOV 2019",
+                            "statusTopup": "Aktif"
+                        }
+                    ],
+                    "produk": "SIMAS INVESTA LINK",
+                    "nomorPolis": "192020000464",
+                    "produkCode": "2021"
+                }
+            ]
+        }
+    ],
+    "responseCode": "00"
+}
+}

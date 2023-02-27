@@ -1,0 +1,16 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/payee-name",
+  "requestBody": {
+    "ipassport": "SMP-3347851487733932831",
+    "targetBankId": "0",
+    "accountNumber": "0000269085",
+    "securityTypeCode": "11",
+    "language": "EN"
+  },
+  "response": {
+    "transRefNum": "939509460148",
+    "responseMessage": "Success",
+    "responseCode": "00",
+    "targetName": "NOT A NUMBER"
+  }
+}

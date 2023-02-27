@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRPaymentStatus component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomWidth": 8,
+              "borderColor": "#ECECEC",
+              "paddingBottom": 20,
+              "paddingHorizontal": 20,
+              "paddingTop": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 20,
+              }
+            }
+          >
+            <Image
+              source="simobiplus.png"
+              style={
+                Object {
+                  "height": 30,
+                  "width": 80,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "roboto",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Pembayaran QR
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "roboto",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                
+                 
+                Gagal
+              </Text>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 50,
+                  },
+                  Object {
+                    "color": "#ccc",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#ccc",
+              "borderTopWidth": 1,
+              "marginLeft": 20,
+              "marginRight": 20,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 50,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+              }
+            }
+          >
+            Butuh bantuan? Hub.
+             
+            <Text
+              onPress={[Function]}
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                }
+              }
+            >
+              1500 153
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+              }
+            }
+          >
+            Transaksi apa saja lebih mudah dengan SimobiPlus. Download SimobiPlus gratis di
+             
+            <Text
+              onPress={[Function]}
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 12,
+                }
+              }
+            >
+              bit.ly/simobiplus
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9E9E9E",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+              }
+            }
+          >
+            Resi ini juga dikirimkan lewat email.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 30,
+                    "flexDirection": "row",
+                    "height": 47,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                OK
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

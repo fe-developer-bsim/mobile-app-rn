@@ -1,0 +1,11 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/verify-otp",
+  "requestBody" : {
+    "iPassport":"SMP-10907701487573352518",
+    "mPin":"123456"
+  },
+  "response": {
+    "responseMessage": "Your Mobile Number is Verified",
+    "responseCode": "00"
+  }
+}

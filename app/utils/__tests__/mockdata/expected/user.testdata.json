@@ -1,0 +1,22 @@
+{
+  "user": {
+    "ipassport": "SMP-3347851490262089484",
+    "ipassportMetaCode": "RANDOMNUMXXXXXX",
+    "lastAccess": 1490262063000,
+    "loginTime": 1490262089555,
+    "profile": {
+      "customer": {
+        "cifCode": "334785",
+        "id": 6849,
+        "profileVersion": 489
+      },
+      "email": "daghnatia@gmail.com",
+      "id": 6863,
+      "loginName": "indosat2010",
+      "name": "M FERDIANSYAH",
+      "title": "MR",
+      "userPreference": "8",
+      "userToken": ["0", "1"]
+    }
+  }
+}

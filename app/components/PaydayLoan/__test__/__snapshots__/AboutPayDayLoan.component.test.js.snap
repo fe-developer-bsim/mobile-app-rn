@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payloan component renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 2,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 50,
+          "paddingTop": 40,
+        }
+      }
+    >
+      <Image
+        source=""
+        style={
+          Object {
+            "height": 200,
+            "justifyContent": "center",
+            "paddingTop": 30,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": undefined,
+            "paddingRight": 70,
+          }
+        }
+      >
+        Dapatkan gaji tanpa menunggu sampai akhir bulan
+      </Text>
+      <Text
+        style={
+          Object {
+            "paddingBottom": 10,
+            "paddingTop": 20,
+          }
+        }
+      >
+        Fasilitas ini hanya berlaku untuk karyawan Bank Sinarmas. Di akhir bulan, pelunasan akan dipotong dari gaji.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 3,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "padding": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+              "fontWeight": undefined,
+              "paddingRight": 70,
+            }
+          }
+        >
+          Syarat dan ketentuan umum
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 3,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "padding": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 24,
+            "fontWeight": undefined,
+            "paddingRight": 70,
+          }
+        }
+      >
+        Kuasa
+      </Text>
+      <Text
+        style={
+          Object {
+            "paddingBottom": 10,
+            "paddingTop": 20,
+          }
+        }
+      >
+        Dengan ini saya memberikan kuasa kepada BANK untuk melakukan pencairan kredit serta kuasa untuk melakukan:
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ccc",
+          "height": 3,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "padding": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+              "fontWeight": undefined,
+              "paddingRight": 70,
+            }
+          }
+        >
+          Pernyataan & pengakuan hutang
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingTop": 30,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              SAYA SETUJU
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

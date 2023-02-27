@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRRegisterStatus component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 10,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {
+            "backgroundColor": "#FA3F70",
+          },
+        ]
+      }
+    >
+      <Image
+        source="white-simobi.png"
+        style={
+          Object {
+            "height": 33,
+            "marginVertical": 25,
+            "width": 85,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Pendaftaran Simas
+          </Text>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              gagal
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingRight": 20,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 30,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+              }
+            }
+          >
+            Nomor ref
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+            }
+          }
+        >
+          Pengajuan sedang diproses, hubungi
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            1500 153 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+              }
+            }
+          >
+            untuk informasi lebih lanjut
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SELESAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,39 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/billpay-inquiry",
+  "requestBody": {
+    "ipassport": "SMP-2137351488457327083",
+    "subscriberNoInput": "440444444444",
+    "idbillPay": 41,
+    "billerType": "7",
+    "lang": "en"
+  },
+  "response": {
+    "displayString": "06PEMBELIAN PLN PRABAYAR                NO METER   : 10077764594              NAME       : Mar\"i@a;GaS'i?/*re^la    TARIF/DAYA : B1  /000001300 VA                                                                                    3014221520077764594        0                   02042017151425         Mar\"i@a;GaS'i?/*re^la00000000000000000000300001531400000000017FD7            520077764594                    0000024663",
+    "customerName": "Mar\"X@X;XXX'X?/*XX^XX",
+    "responseCode": "00",
+    "paymentInfo": null,
+    "billPeriod": null,
+    "displayList": [{
+      "key": "PEMBELIAN PLN PRABAYAR"
+    }, {
+      "value": "10077764594",
+      "key": "NO METER"
+    }, {
+      "value": "Mar\"X@X;XXX'X?/*XX^XX",
+      "key": "NAME"
+    }, {
+      "value": "B1  /000001300 VA",
+      "key": "TARIF/DAYA"
+    }, {
+      "key": ""
+    }, {
+      "key": ""
+    }],
+    "denomList": ["20000", "50000", "100000", "200000", "500000", "1000000", "5000000", "10000000", "50000000"],
+    "tokens": [],
+    "billAmount": 30000,
+    "billingInfo": "06PEMBELIAN PLN PRABAYAR                NO METER   : 10077764594              NAME       : Mar\"i@a;GaS'i?/*re^la    TARIF/DAYA : B1  /000001300 VA                                                                                    3014221520077764594        0                   02042017151425         Mar\"i@a;GaS'i?/*re^la00000000000000000000300001531400000000017FD7            520077764594                    0000024663",
+    "vaInputMode": null,
+    "additionalDataPrivate": null
+  }
+}

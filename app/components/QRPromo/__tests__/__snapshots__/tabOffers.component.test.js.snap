@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabOffers component TabOffers: renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      No Offers for this Category
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditProxyConfirmationBIFast component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+      },
+    ]
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Array [
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {
+                "color": "#2F476D",
+                "marginBottom": 15,
+                "paddingHorizontal": 10,
+              },
+            ]
+          }
+        >
+          Apakah ini alamat proxy Anda?
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(201, 198, 198, 0.2)",
+            "borderColor": "rgba(201, 198, 198, 0.2)",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View
+            style={Object {}}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#949494",
+                  "fontFamily": "roboto",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Tipe Alamat Proxy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontFamily": "roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(201, 198, 198, 0.2)",
+            "borderColor": "rgba(201, 198, 198, 0.2)",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View
+            style={Object {}}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#949494",
+                  "fontFamily": "roboto",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Alias
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontFamily": "roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(201, 198, 198, 0.2)",
+            "borderColor": "rgba(201, 198, 198, 0.2)",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View
+            style={Object {}}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#949494",
+                  "fontFamily": "roboto",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Akun Proxy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontFamily": "roboto",
+                  "fontWeight": "700",
+                }
+              }
+            >
+              
+               - 
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+            }
+          }
+        >
+          KONFIRMASI
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

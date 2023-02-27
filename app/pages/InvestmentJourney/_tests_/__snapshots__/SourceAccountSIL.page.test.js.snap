@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SourceAccountSIL page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "padding": 20,
+        },
+        Object {
+          "backgroundColor": "rgba(201, 198, 198, 0.2)",
+          "flexGrow": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "fontSize": 22,
+              },
+            ]
+          }
+        >
+          Pilih Rekening Sumber
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#666",
+            "paddingVertical": 10,
+          }
+        }
+      >
+        Rekening tabungan
+      </Text>
+    </View>
+    <View />
+  </View>
+</KeyboardAwareScrollView>
+`;

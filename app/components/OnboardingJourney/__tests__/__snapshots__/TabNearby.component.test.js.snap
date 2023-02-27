@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabNearby component TabNearby: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "marginBottom": 100,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "borderRadius": 100,
+          "flex": 9.5,
+          "marginVertical": 20,
+          "paddingBottom": 10,
+          "paddingRight": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          label="Cari"
+          onChangeText={[Function]}
+          placeholder="Nama toko"
+          placeholderTextColor="#848484"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "height": 45,
+              "paddingHorizontal": 20,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flex": 0.5,
+          "opacity": 1,
+          "paddingLeft": 20,
+          "paddingRight": 10,
+          "paddingTop": 35,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+          "fontWeight": "500",
+          "textAlign": "center",
+        }
+      }
+    >
+      Data tidak ditemukan
+    </Text>
+  </View>
+</View>
+`;

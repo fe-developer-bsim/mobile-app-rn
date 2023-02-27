@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SILChoosePolisBuy: form page renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "marginVertical": 20,
+          },
+        ]
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

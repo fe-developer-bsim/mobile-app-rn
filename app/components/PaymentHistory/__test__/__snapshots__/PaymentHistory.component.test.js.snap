@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentHistory Component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 30,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#949494",
+          "flex": 3,
+          "height": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 2,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#949494",
+            "fontFamily": "roboto",
+            "fontSize": 12,
+            "textAlign": "center",
+          }
+        }
+      >
+        ATAU
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#949494",
+          "flex": 3,
+          "height": 1,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "fontSize": 18,
+        },
+        Object {
+          "color": "#000000",
+          "fontFamily": "roboto",
+        },
+      ]
+    }
+  >
+    Cari dari transaksi sebelumnya
+  </Text>
+  <View
+    style={
+      Object {
+        "borderColor": "#949494",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "marginTop": 15,
+        "paddingHorizontal": 10,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      maxLength={20}
+      onChangeText={[Function]}
+      placeholder="Nama biller / Nomor pelanggan"
+      style={
+        Object {
+          "flex": 1,
+          "fontSize": 16,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 20,
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginTop": 30,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;

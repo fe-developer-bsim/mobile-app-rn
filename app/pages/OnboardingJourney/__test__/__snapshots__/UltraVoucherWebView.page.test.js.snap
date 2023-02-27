@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UltraVoucherWebView page renders correctly 1`] = `
+<ReduxForm
+  handleSubmit={[MockFunction]}
+  navigation={
+    Object {
+      "state": Object {
+        "params": Object {},
+      },
+    }
+  }
+/>
+`;

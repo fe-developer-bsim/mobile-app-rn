@@ -1,0 +1,802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCardInfo component renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "marginLeft": -20,
+      }
+    }
+  >
+    <Image
+      source="instbg.png"
+      style={
+        Object {
+          "height": 80,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 10,
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingTop": 10,
+          "position": "absolute",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 35,
+            "marginRight": 10,
+            "paddingTop": 10,
+            "width": 35,
+          }
+        }
+      >
+        <Image
+          source="paylatericon.png"
+          style={
+            Object {
+              "height": 28,
+              "width": 35,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 16,
+            }
+          }
+        >
+          PayLater
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 12,
+            }
+          }
+        >
+          Ubah transaksi kartu kredit Anda dengan mudah
+menjadi cicilan!
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "paddingTop": 10,
+            "textAlign": "right",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+          "marginTop": 15,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 25,
+            "marginRight": 10,
+            "paddingTop": 10,
+            "width": 25,
+          }
+        }
+      >
+        <Image
+          source="amountcc.png"
+          style={
+            Object {
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FA3F70",
+              "fontFamily": "roboto",
+              "fontSize": 12,
+            }
+          }
+        >
+          Jumlah tagihan belum terbayar
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#FA3F70",
+              "fontFamily": "roboto",
+              "fontSize": 16,
+            }
+          }
+        >
+          Rp 
+          0
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "justifyContent": "space-between",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "#FA3F70",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+                "fontWeight": "700",
+              }
+            }
+          >
+            BAYAR
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+          "marginTop": 5,
+          "opacity": 1,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 25,
+            "marginRight": 10,
+            "width": 25,
+          }
+        }
+      >
+        <Image
+          source="statementcc.png"
+          style={
+            Object {
+              "height": 25,
+              "width": 25,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#FA3F70",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "marginRight": 20,
+          }
+        }
+      >
+        Pernyataan Elektronik
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#FA3F70",
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "color": "#000000",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "marginBottom": 25,
+          "marginTop": 20,
+        }
+      }
+    >
+      Informasi Kartu Kredit
+    </Text>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "marginRight": 20,
+          }
+        }
+      >
+        Kredit yang tersedia
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        Rp 0
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "#ECECEC",
+          "flexDirection": "row",
+          "marginBottom": 10,
+          "paddingBottom": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "marginRight": 20,
+          }
+        }
+      >
+        Batas kredit
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontWeight": undefined,
+            "textAlign": "right",
+          }
+        }
+      >
+        Rp 0
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "color": "#000000",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "marginBottom": 25,
+          "marginTop": 20,
+        }
+      }
+    >
+      Transaksi terakhir
+    </Text>
+    <View>
+      <View>
+        <View>
+          <View>
+            <View
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "paddingVertical": 7.5,
+                    },
+                    Object {
+                      "flexDirection": "row",
+                    },
+                  ],
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "paddingVertical": 7.5,
+                      },
+                      Object {
+                        "flexDirection": "row",
+                      },
+                    ],
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#f9f8fd",
+                      "borderRadius": 10,
+                      "justifyContent": "center",
+                      "marginRight": 20,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 13,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 15,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                          "fontFamily": "roboto",
+                          "fontWeight": undefined,
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 2,
+                      "justifyContent": "center",
+                      "paddingRight": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#2F476D",
+                          "fontFamily": "roboto",
+                          "fontSize": 14,
+                          "fontWeight": "700",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 12,
+                          },
+                          Object {
+                            "color": "#666",
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Array [
+                          undefined,
+                          Object {
+                            "fontFamily": "roboto",
+                          },
+                        ],
+                        Object {
+                          "color": "#2F476D",
+                          "fontFamily": "roboto",
+                          "fontWeight": "700",
+                        },
+                      ]
+                    }
+                  >
+                    Rp
+                     
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ECECEC",
+                  "flex": 1,
+                  "height": 1,
+                  "marginVertical": 10,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "paddingVertical": 7.5,
+                    },
+                    Object {
+                      "flexDirection": "row",
+                    },
+                  ],
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "paddingVertical": 7.5,
+                      },
+                      Object {
+                        "flexDirection": "row",
+                      },
+                    ],
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#f9f8fd",
+                      "borderRadius": 10,
+                      "justifyContent": "center",
+                      "marginRight": 20,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 13,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 15,
+                        },
+                        Object {
+                          "color": "#FA3F70",
+                          "fontFamily": "roboto",
+                          "fontWeight": undefined,
+                        },
+                        Object {
+                          "fontFamily": "simas",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 2,
+                      "justifyContent": "center",
+                      "paddingRight": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#2F476D",
+                          "fontFamily": "roboto",
+                          "fontSize": 14,
+                          "fontWeight": "700",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 12,
+                          },
+                          Object {
+                            "color": "#666",
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "flex": 3,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Array [
+                          undefined,
+                          Object {
+                            "fontFamily": "roboto",
+                          },
+                        ],
+                        Object {
+                          "color": "#2F476D",
+                          "fontFamily": "roboto",
+                          "fontWeight": "700",
+                        },
+                      ]
+                    }
+                  >
+                    Rp
+                     
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ECECEC",
+                  "flex": 1,
+                  "height": 1,
+                  "marginVertical": 10,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FA3F70",
+            "fontFamily": "roboto",
+            "paddingRight": 10,
+          }
+        }
+      >
+        Tampilkan semua transaksi
+      </Text>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 13,
+            },
+            Object {
+              "color": "#FA3F70",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

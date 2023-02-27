@@ -1,0 +1,214 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v4/myOrder-voucher",
+    "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-3347851486990939101"
+  },
+  "response": {
+  "responseCode": "00",
+  "responseMessage":"success",
+  "myOrderVoucher": [
+    {
+      "cifCode": "1031385",
+      "transRefNum": "MB-12345678901234567890",
+      "agregator": "TADA",
+      "voucherName": "Haagen Dazs Big Cup",
+      "expiredDate": "2020-02-10 21:59:59",
+      "redemptionDate": "2020-02-05 04:39:54",
+      "orderNumber": "TADA18050204395413",
+      "urlImage": "https://pics.drugstore.com/prodimg/418600/450.jpg",
+      "url": "http://demo.e.gift.id/r/5545/02155307",
+        "voucher": {
+        "mid": "5545",
+        "url": "http://demo.e.gift.id/r/5545/02155307",
+        "brand": "Haagendazs_development1",
+        "value": 65000,
+        "item_name": "Haagen Dazs Mini Cup",
+        "egift_code": "02155307",
+        "egift_type": "Internal",
+        "expired_date": "11/05/2018 16:59:59",
+        "program_name": "Haagen Dazs Big Cup"
+        }
+    },
+    {
+      "cifCode": "1031385",
+      "transRefNum": "MB-12345678901234567890",
+      "agregator": "TADA",
+      "voucherName": "Haagen Dazs Mini Cup",
+      "expiredDate": "2018-01-06 16:59:59",
+      "redemptionDate": "2018-02-05 04:39:54",
+      "orderNumber": "TADA18050204395413",
+      "urlImage": "https://pics.drugstore.com/prodimg/418600/450.jpg",
+      "url": "http://demo.e.gift.id/r/5545/02155307",
+        "voucher": {
+        "mid": "5545",
+        "url": "http://demo.e.gift.id/r/5545/02155307",
+        "brand": "Haagendazs_development1",
+        "value": 65000,
+        "item_name": "Haagen Dazs Mini Cup",
+        "egift_code": "02155307",
+        "egift_type": "Internal",
+        "expired_date": "11/05/2018 16:59:59",
+        "program_name": "Haagen Dazs Mini Cup"
+        }
+    },
+
+    {
+      "cifCode": "1031385",
+      "transRefNum": "MB-12345678901234567890",
+      "agregator": "TADA",
+      "voucherName": "Haagen Dazs Mini Cup",
+      "expiredDate": "2020-02-09 16:59:59",
+      "redemptionDate": "2019-12-11 04:39:54",
+      "orderNumber": "TADA18050204395413",
+      "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+      "url": "http://demo.e.gift.id/r/5545/02155307",
+        "voucher": {
+          "mid": "5545",
+          "url": "http://demo.e.gift.id/r/5545/02155307",
+          "brand": "Haagendazs_development",
+          "value": 65000,
+          "item_name": "Haagen Dazs Mini Cup",
+          "egift_code": "02155308",
+          "egift_type": "Internal",
+          "expired_date": "11/05/2018 16:59:59",
+          "program_name": "Haagen Dazs Mini Cup"
+        }
+
+      },
+      {
+        "cifCode": "1031385",
+        "transRefNum": "MB-12345678901234567890",
+        "agregator": "TADA",
+        "voucherName": "Haagen Dazs Mini Cup",
+        "expiredDate": "2018-01-06 16:59:59",
+        "redemptionDate": "2018-04-05 04:39:54",
+        "orderNumber": "TADA18050204395413",
+        "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+        "url": "http://demo.e.gift.id/r/5545/02155307",
+          "voucher": {
+            "mid": "5545",
+            "url": "http://demo.e.gift.id/r/5545/02155307",
+            "brand": "Haagendazs_development",
+            "value": 65000,
+            "item_name": "Haagen Dazs Mini Cup",
+            "egift_code": "02155308",
+            "egift_type": "Internal",
+            "expired_date": "11/05/2018 16:59:59",
+            "program_name": "Haagen Dazs Mini Cup"
+          }
+
+        },
+        {
+          "cifCode": "1031385",
+          "transRefNum": "MB-12345678901234567890",
+          "agregator": "TADA",
+          "voucherName": "Haagen Dazs Mini Cup",
+          "expiredDate": "2018-01-06 16:59:59",
+          "redemptionDate": "2018-05-05 04:39:54",
+          "orderNumber": "TADA18050204395413",
+          "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+          "url": "http://demo.e.gift.id/r/5545/02155307",
+            "voucher": {
+              "mid": "5545",
+              "url": "http://demo.e.gift.id/r/5545/02155307",
+              "brand": "Haagendazs_development",
+              "value": 65000,
+              "item_name": "Haagen Dazs Mini Cup",
+              "egift_code": "02155308",
+              "egift_type": "Internal",
+              "expired_date": "11/05/2018 16:59:59",
+              "program_name": "Haagen Dazs Mini Cup"
+            }
+
+          },
+          {
+            "cifCode": "1031385",
+            "transRefNum": "MB-12345678901234567890",
+            "agregator": "TADA",
+            "voucherName": "Haagen Dazs Mini Cup",
+            "expiredDate": "2018-01-06 16:59:59",
+            "redemptionDate": "2018-06-05 04:39:54",
+            "orderNumber": "TADA18050204395413",
+            "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+            "url": "http://demo.e.gift.id/r/5545/02155307",
+              "voucher": {
+                "mid": "5545",
+                "url": "http://demo.e.gift.id/r/5545/02155307",
+                "brand": "Haagendazs_development",
+                "value": 65000,
+                "item_name": "Haagen Dazs Mini Cup",
+                "egift_code": "02155308",
+                "egift_type": "Internal",
+                "expired_date": "11/05/2018 16:59:59",
+                "program_name": "Haagen Dazs Mini Cup"
+              }
+
+            },
+            {
+              "cifCode": "1031385",
+              "transRefNum": "MB-12345678901234567890",
+              "agregator": "TADA",
+              "voucherName": "Haagen Dazs Mini Cup",
+              "expiredDate": "2018-01-06 16:59:59",
+              "redemptionDate": "2018-02-06 04:39:54",
+              "orderNumber": "TADA18050204395413",
+              "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+              "url": "http://demo.e.gift.id/r/5545/02155307",
+                "voucher": {
+                  "mid": "5545",
+                  "url": "http://demo.e.gift.id/r/5545/02155307",
+                  "brand": "Haagendazs_development",
+                  "value": 65000,
+                  "item_name": "Haagen Dazs Mini Cup",
+                  "egift_code": "02155308",
+                  "egift_type": "Internal",
+                  "expired_date": "11/05/2018 16:59:59",
+                  "program_name": "Haagen Dazs Mini Cup"
+                }
+
+              },
+              {
+                "cifCode": "1031385",
+                "transRefNum": "MB-12345678901234567890",
+                "agregator": "CGV",
+                "voucherName": "Haagen Dazs Mini Cup",
+                "expiredDate": "2018-01-06 16:59:59",
+                "redemptionDate": "2018-02-05 04:39:54",
+                "orderNumber": "TADA18050204395413",
+                "urlImage": "http://simigi.banksinarmas.com/PersonalBanking/icon/100001-CGV.jpg",
+                "url": "http://demo.e.gift.id/r/5545/02155307",
+                  "voucher": {
+                    "bookingCode": "02155308",
+                    "passKey": "4988181",
+                    "saleNumber" : "0061808151025638"
+                  }
+
+                },
+              {
+                "cifCode": "1031385",
+                "transRefNum": "MB-12345678901234567890",
+                "agregator": "TADA",
+                "voucherName": "Haagen Dazs Mini Cup",
+                "expiredDate": "2018-01-06 16:59:59",
+                "redemptionDate": "2018-02-05 04:39:54",
+                "orderNumber": "TADA18050204395413",
+                "urlImage": "https://supermart.ae/2555-thickbox_default/haagen-dazs-strawberry-cheesecake-500ml.jpg",
+                "url": "http://demo.e.gift.id/r/5545/02155307",
+                  "voucher": {
+                    "mid": "5545",
+                    "url": "http://demo.e.gift.id/r/5545/02155307",
+                    "brand": "Haagendazs_development",
+                    "value": 65000,
+                    "item_name": "Haagen Dazs Mini Cup",
+                    "egift_code": "02155308",
+                    "egift_type": "Internal",
+                    "expired_date": "11/05/2018 16:59:59",
+                    "program_name": "Haagen Dazs Mini Cup"
+                  }
+
+                }
+
+  ]
+}
+}

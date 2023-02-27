@@ -1,0 +1,20 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/fetch-user-simobi",
+  "requestBody" : {
+    "encryptedToken":"000003",
+     "isForgetPassword": false
+  },
+  "response": {
+    "transRefNum":"MB-201708071502086034052023",
+    "responseMessage": "We have sent SMS Token to your mobile number",
+    "responseCode": "00",
+    "attributeMap": {
+      "cifCode": "2120486",
+      "mothersMaidenEligibility": true,
+      "iPassport": "SMP-21204861489386481599",
+      "mobileNumberMasking":"*********1072",
+      "username": "cassidy"
+    },
+    "forward": "validate"
+  }
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineWithCenterLabel page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingVertical": 30,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#989898",
+        "flex": 1,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "red",
+          "flex": 0,
+          "paddingHorizontal": 10,
+        },
+        Object {
+          "color": "#000",
+          "fontSize": 16,
+        },
+        Object {
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    test
+  </Text>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#989898",
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;

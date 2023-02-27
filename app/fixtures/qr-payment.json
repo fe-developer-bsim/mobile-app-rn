@@ -1,0 +1,132 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/qr-payment",
+  "requestBody": {
+    "ipassport": "SMP-2137351488853201405",
+    "accountFrom":"4715",
+    "easyPin":"123456",
+    "lang": "en",
+    "contents": [
+      {
+        "id": "DE4",
+        "value": "00000000000118800"
+      },
+      {
+        "id": "DE7",
+        "value": "0829144625"
+      },
+      {
+        "id": "DE32",
+        "value": "153"
+      },
+      {
+        "id": "DE33",
+        "value": "153"
+      },
+      {
+        "id": "DE43",
+        "value": "Payment Loyalty"
+      },
+      {
+        "id": "DE48",
+        "value": "b3df488756c74dcd0c6039420b3f97f603570f11"
+      },
+      {
+        "id": "DE54",
+        "value": "000000000000000000"
+      },
+      {
+        "id": "DE61",
+        "value": "SXEUhpbcKQRh"
+      },
+      {
+        "id": "DE62",
+        "value": "                                        000000000062000PERMANENT_PERCENTAGEDiscount 5 %                            000000000000000000000000"
+      },
+      {
+        "id": "DE98",
+        "value": "33"
+      }
+    ]
+  },
+  "response": {
+    "responseDimo": {
+      "message": "MD_API_OK_00",
+      "items": [
+        {
+          "id": "DE3",
+          "value": "500000"
+        },
+        {
+          "id": "DE4",
+          "value": "000000000000118800"
+        },
+        {
+          "id": "DE7",
+          "value": "0829144625"
+        },
+        {
+          "id": "DE11",
+          "value": "490967"
+        },
+        {
+          "id": "DE12",
+          "value": "102923"
+        },
+        {
+          "id": "DE13",
+          "value": "0320"
+        },
+        {
+          "id": "DE15",
+          "value": "0320"
+        },
+        {
+          "id": "DE32",
+          "value": "153"
+        },
+        {
+          "id": "DE33",
+          "value": "153"
+        },
+        {
+          "id": "DE37",
+          "value": "980563007006"
+        },
+        {
+          "id": "DE39",
+          "value": "00"
+        },
+        {
+          "id": "DE43",
+          "value": "Payment Loyalty                         "
+        },
+        {
+          "id": "DE48",
+          "value": "c77c5f0b3943970a5712cc39284da1f094fb44b9"
+        },
+        {
+          "id": "DE49",
+          "value": "360"
+        },
+        {
+          "id": "DE54",
+          "value": "000000000000000000"
+        },
+        {
+          "id": "DE61",
+          "value": "0369ndG0HHom"
+        },
+        {
+          "id": "DE62",
+          "value": "eb442ee0c7c5594714830556e654229dcf30deeb000000000062000PERMANENT_PERCENTAGEDiscount 5 %                            000000000000000000000000"
+        },
+        {
+          "id": "DE98",
+          "value": "33                       "
+        }
+      ],
+      "status": "success"
+    },
+    "responseCode": "00"
+  }
+}

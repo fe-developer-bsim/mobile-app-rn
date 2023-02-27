@@ -1,0 +1,14 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/request-sms-otp-eform",
+  "requestBody": {
+	"mobileNumber":"6281995550907",
+	"transactionType":"cartuCreditIndigo",
+	"activateOtp": true,
+	"smsPriority": false
+  },
+  "response": {
+    "transRefNum": "MB-763404238034",
+    "responseMessage": "Send SMS Success",
+    "responseCode": "00"
+  }
+}

@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmImageEditProfile page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": -10,
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingTop": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 24,
+            }
+          }
+        >
+          Apakah Anda ingin mengirim foto ini?
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "data:image/gif;base64,",
+            }
+          }
+          style={
+            Object {
+              "height": 662.6666666666666,
+              "transform": Array [
+                Object {
+                  "rotate": "0deg",
+                },
+              ],
+              "width": 710,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FA3F70",
+                    "fontFamily": "roboto",
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                AMBIL ULANG FOTO
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#F0F0F0",
+                "borderRadius": 8,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "padding": 10,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "alignself": "center",
+                    "color": "#2F476D",
+                    "padding": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#949494",
+                  "paddingLeft": 5,
+                  "paddingRight": 25,
+                }
+              }
+            >
+              Foto ini akan menentukan keberhasilan permintaan perubahan data Anda
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 30,
+                    "flexDirection": "row",
+                    "height": 47,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                GUNAKAN FOTO INI
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

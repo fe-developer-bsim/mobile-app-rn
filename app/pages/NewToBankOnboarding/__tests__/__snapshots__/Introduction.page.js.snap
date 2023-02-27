@@ -1,0 +1,836 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NTB Onboarding: INTRO renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    autoplay={true}
+    autoplayDirection={true}
+    autoplayTimeout={2.5}
+    bounces={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
+    }
+    contentOffset={undefined}
+    horizontal={true}
+    index={0}
+    isLockedDevice={undefined}
+    loadMinimal={false}
+    loadMinimalSize={1}
+    loop={true}
+    onButtonPress={[Function]}
+    onButtonProductPress={[Function]}
+    onIndexChanged={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onPressLink={[Function]}
+    onRegistrationEmoney={undefined}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={true}
+    scrollsToTop={false}
+    showsButtons={false}
+    showsHorizontalScrollIndicator={false}
+    showsPagination={true}
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 70,
+                  "width": 70,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 40,
+                }
+              }
+            >
+              Pay by QR (Bayar menggunakan QR) dan nikmati penawaran menarik
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 45,
+                  "marginBottom": 20,
+                  "width": 113,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 60,
+                }
+              }
+            >
+              Cara mudah dan aman untuk mengatur keuangan Anda
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 70,
+                  "width": 70,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 60,
+                }
+              }
+            >
+              Kirim uang tanpa biaya ke seluruh Bank di Indonesia
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 70,
+                  "width": 70,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 50,
+                }
+              }
+            >
+              Bunga yang tinggi untuk tabungan dan deposito berjangka online
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 70,
+                    "width": 70,
+                  }
+                }
+              />
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 70,
+                    "width": 70,
+                  }
+                }
+              />
+            </View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 40,
+                }
+              }
+            >
+              Bayar tagihan air, listrik dan pulsa handphone dalam satu Aplikasi
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 70,
+                  "width": 70,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 40,
+                }
+              }
+            >
+              Pay by QR (Bayar menggunakan QR) dan nikmati penawaran menarik
+            </Text>
+          </Image>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 1334,
+              "width": 750,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": undefined,
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "flex": 1,
+                "height": 1334,
+                "justifyContent": "center",
+                "paddingBottom": 60,
+                "paddingHorizontal": 35,
+                "resizeMode": "stretch",
+                "width": 750,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 45,
+                  "marginBottom": 20,
+                  "width": 113,
+                }
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 24,
+                  "paddingBottom": 60,
+                }
+              }
+            >
+              Cara mudah dan aman untuk mengatur keuangan Anda
+            </Text>
+          </Image>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingHorizontal": 30,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 12,
+            "justifyContent": "center",
+            "textAlign": "center",
+          }
+        }
+      >
+        Dengan log in atau buat akun baru,
+saya setuju dengan 
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 12,
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          syarat dan ketentuan
+        </Text>
+      </Text>
+    </View>
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 30,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 50,
+                "borderWidth": 2,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            SAYA MEMILIKI AKUN
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "paddingBottom": 25,
+          "paddingHorizontal": 30,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#FFFFFF",
+                "borderRadius": 50,
+                "borderWidth": 2,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              }
+            }
+          >
+            BUAT PRODUK BARU
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "bottom": 25,
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 4,
+          "height": 8,
+          "marginBottom": 372.57142857142856,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 3,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#FFFFFF",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 4,
+          "marginBottom": 372.57142857142856,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 3,
+          "width": 4,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#FFFFFF",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 4,
+          "marginBottom": 372.57142857142856,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 3,
+          "width": 4,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#FFFFFF",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 4,
+          "marginBottom": 372.57142857142856,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 3,
+          "width": 4,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#FFFFFF",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 4,
+          "marginBottom": 372.57142857142856,
+          "marginLeft": 5,
+          "marginRight": 5,
+          "marginTop": 3,
+          "width": 4,
+        }
+      }
+    />
+  </View>
+</View>
+`;

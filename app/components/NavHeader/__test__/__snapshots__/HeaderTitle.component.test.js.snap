@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle component renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "black",
+      "fontSize": 16,
+      "marginHorizontal": 10,
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  
+</Text>
+`;

@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitBillMenu renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+      },
+    ]
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "paddingHorizontal": 50,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Text>
+              Penagih
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "paddingHorizontal": 42,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Text>
+              Tertagih
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <RCTScrollView>
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 933.8,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Image
+                  source="no_split_bill.png"
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "height": 200,
+                      "width": 100,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "color": "#2F476D",
+                      "fontFamily": "roboto",
+                      "fontSize": 20,
+                      "fontWeight": "700",
+                      "paddingTop": 5,
+                    }
+                  }
+                >
+                  Tidak ada apa-apa di sini...
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#7D7F9E",
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "paddingLeft": 5,
+                      "paddingVertical": 10,
+                      "textAlign": "center",
+                      "width": 375,
+                    }
+                  }
+                >
+                  Anda belum memilki transaksi split bill.
+                </Text>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "marginVertical": 10,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          BUAT TAGIHAN BARU
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

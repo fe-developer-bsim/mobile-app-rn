@@ -1,0 +1,27 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/payDayLoand-eligible",
+  "method": "POST",
+  "requestBody": {
+    "ipassport":"SMP-1120081517806157641",
+    "lang":"EN",
+    "cif":"123434"
+  },
+  "response": {
+    "responseMessage": "Data ditemukan",
+    "imagePayDayLoan": "http://banksinarmas.com/id/img/simobiplus/simas-kasbon-1.jpg",
+    "responseCode": "00",
+    "ipassport": "SMP-1120081517806157641",
+    "data": {
+        "cif": "568345",
+        "plafond": "12000000",
+        "skip_data_entry": "no",
+        "eligible_until": "20171215",
+        "eligible_status": "yes",
+        "nama": "BUDI",
+        "fee_percentage": "2",
+        "sisa_plafond": "4000000",
+        "payroll_date": "26"
+    },
+    "lang": "EN"
+}
+}

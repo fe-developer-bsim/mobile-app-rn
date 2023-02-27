@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompletedOnboarding component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "backgroundColor": "#ED1D25",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "padding": 20,
+        "paddingTop": 40,
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View>
+    <View>
+      <View>
+        <Image
+          source="white-checked-success.png"
+          style={
+            Object {
+              "height": 50,
+              "width": 60,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            }
+          }
+        >
+          Selamat
+           , 
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+            }
+          }
+        >
+          Proses migrasi Anda sudah selesai
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "paddingTop": 5,
+            }
+          }
+        >
+          Sekarang Anda sudah mempunyai layanan sinarmas banking dalam genggaman Anda
+        </Text>
+      </View>
+    </View>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              }
+            }
+          >
+            MULAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

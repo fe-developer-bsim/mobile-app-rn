@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Genflix Confirmation component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingBottom": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "Roboto",
+                "fontWeight": "700",
+              }
+            }
+          >
+            Pada Senin, 06 Feb 2023
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 30,
+                  },
+                  Object {
+                    "color": "#c38a05",
+                    "marginRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  },
+                ]
+              }
+            >
+              N/A
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  },
+                ]
+              }
+            >
+              N/A
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  },
+                ]
+              }
+            >
+              N/A
+            </Text>
+          </View>
+        </View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 25,
+              },
+              Object {
+                "color": "#ccc",
+                "marginBottom": 5,
+                "marginLeft": 3,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 30,
+                  },
+                  Array [
+                    Object {
+                      "color": "#0787e3",
+                      "marginRight": 10,
+                    },
+                    undefined,
+                  ],
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "roboto",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                }
+              }
+            >
+              N/A
+            </Text>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "roboto",
+            },
+            Object {
+              "color": "#FF6300",
+              "marginBottom": 5,
+            },
+          ]
+        }
+      >
+        Dengan melanjutkan transaksi ini, Anda setuju dengan pembayaran auto debet dan akan ditagih berdasarkan yang tertulis dibawah*:
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FF6300",
+              "marginBottom": 5,
+            },
+          ]
+        }
+      >
+        Bulan 1 - 3: Gratis
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FF6300",
+              "marginBottom": 5,
+            },
+          ]
+        }
+      >
+        Bulan 4 - seterusnya: Rp. 30,000
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 10,
+            },
+            Object {
+              "color": "#FF6300",
+              "marginBottom": 5,
+            },
+          ]
+        }
+      >
+        *Jumlah yang ditagih bisa berubah sewaktu-waktu tergantung dari Pihak Genflix.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View />
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            LANJUTKAN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

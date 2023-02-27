@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component Checkbox: renders correctly 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 5,
+          },
+          Array [
+            Object {
+              "flexDirection": "row-reverse",
+              "justifyContent": "space-between",
+              "marginHorizontal": -20,
+              "paddingHorizontal": 20,
+            },
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Image
+        source="checkbox-unchecked.png"
+        style={
+          Array [
+            Object {
+              "height": 26,
+              "width": 26,
+            },
+            undefined,
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginLeft": 10,
+            "marginRight": 10,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "grey",
+                "fontSize": 15,
+              },
+              Array [
+                Object {
+                  "color": "black",
+                  "marginHorizontal": -10,
+                },
+                Object {},
+              ],
+            ]
+          }
+        >
+          Label
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

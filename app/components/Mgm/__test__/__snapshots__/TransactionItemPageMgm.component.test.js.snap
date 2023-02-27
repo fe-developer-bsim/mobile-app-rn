@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionItemPageMgm component renders correctly 1`] = `
+<View>
+  <View>
+    <View
+      style={
+        Array [
+          Array [
+            Object {
+              "flex": 1,
+              "paddingVertical": 7.5,
+            },
+            Object {
+              "flexDirection": "row",
+            },
+          ],
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 2,
+            "justifyContent": "center",
+            "marginHorizontal": 36.75,
+            "paddingRight": 5,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+                "fontWeight": "700",
+              }
+            }
+          />
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "paddingTop": 5,
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#666",
+                  },
+                ]
+              }
+            >
+               
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "paddingTop": 5,
+              },
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "paddingRight": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "flex": 1,
+          "height": 1,
+          "marginVertical": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;

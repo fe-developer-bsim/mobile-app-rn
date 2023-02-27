@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailTransaction component renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FA3F70",
+          "borderColor": "transparent",
+          "borderWidth": 1,
+          "height": 133.4,
+          "position": "absolute",
+          "width": 750,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 15,
+          "marginHorizontal": 21.75,
+          "paddingBottom": 10,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginHorizontal": 21.75,
+          }
+        }
+      >
+        <View>
+          <Image
+            source="REWARD.png"
+            style={
+              Object {
+                "height": 45,
+                "width": 45,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+              }
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#4ed07d",
+                "paddingTop": 5,
+              }
+            }
+          >
+            +
+            
+             POIN
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              Kredit ke:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#2F476D",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "paddingTop": 5,
+                }
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 15,
+          "marginBottom": 53.36,
+          "marginHorizontal": 21.75,
+          "marginTop": 26.68,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#2F476D",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "padding": 10,
+            }
+          }
+        >
+          Rincian Referal Teman
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(201, 198, 198, 0.2)",
+              "borderRadius": 15,
+              "marginHorizontal": 21.75,
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "fontSize": 12,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Pengguna Referral
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 12,
+                "fontWeight": "700",
+                "paddingTop": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(201, 198, 198, 0.2)",
+              "borderRadius": 15,
+              "marginHorizontal": 21.75,
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "fontSize": 12,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Nama Program
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 12,
+                "fontWeight": "700",
+                "paddingTop": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(201, 198, 198, 0.2)",
+              "borderRadius": 15,
+              "marginHorizontal": 21.75,
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "fontSize": 12,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Status Referral
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 12,
+                "fontWeight": "700",
+                "paddingTop": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgba(201, 198, 198, 0.2)",
+              "borderRadius": 15,
+              "marginHorizontal": 21.75,
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "fontSize": 12,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Tanggal
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#2F476D",
+                "fontSize": 12,
+                "fontWeight": "700",
+                "paddingTop": 5,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DigitalEFormSuccessScreen page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "paddingHorizontal": 20,
+        "paddingTop": 50,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "",
+        }
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 333.5,
+          "width": 705,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 10,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 24,
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 16,
+            "fontWeight": "300",
+            "lineHeight": 25,
+            "paddingVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          LACAK
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

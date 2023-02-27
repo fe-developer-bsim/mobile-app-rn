@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateCifData page renders correctly 1`] = `
+<RCTScrollView
+  bounces={false}
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "justifyContent": "space-between",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+            "paddingTop": 0,
+            "paddingVertical": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+            }
+          }
+        >
+          Konfirmasi detail Anda di bawah benar
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View>
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "fontWeight": "300",
+                      "paddingBottom": 2,
+                    }
+                  }
+                >
+                  Alamat saat ini
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FA3F70",
+                      "fontFamily": "roboto",
+                      "fontSize": 16,
+                    }
+                  }
+                >
+                  GANTI
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ECECEC",
+                  "height": 1,
+                  "marginVertical": 15,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View>
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "roboto",
+                      "fontSize": 14,
+                      "fontWeight": "300",
+                      "paddingBottom": 2,
+                    }
+                  }
+                >
+                  Pekerjaan saat ini
+                </Text>
+              </View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FA3F70",
+                      "fontFamily": "roboto",
+                      "fontSize": 16,
+                    }
+                  }
+                >
+                  GANTI
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ECECEC",
+                  "height": 1,
+                  "marginVertical": 15,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#FA3F70",
+                "fontFamily": "roboto",
+                "fontSize": 12,
+              }
+            }
+          >
+            Pastikan data Anda di atas lengkap dan paling update
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FA3F70",
+                    "borderRadius": 30,
+                    "flexDirection": "row",
+                    "height": 47,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 15,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                BERIKUTNYA
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

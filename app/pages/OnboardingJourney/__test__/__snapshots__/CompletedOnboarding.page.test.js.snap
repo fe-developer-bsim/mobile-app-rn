@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney: CompletedOnboarding page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Roboto",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "paddingBottom": 20,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      Selesai!
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000000",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      Anda telah berhasil membuat akun SimobiPlus. Klik di bawah untuk masuk ke akun Anda
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderColor": "#ED1D25",
+              "borderRadius": 30,
+              "borderWidth": 2,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#ED1D25",
+              "fontSize": 16,
+            }
+          }
+        >
+          Kembali ke Dashboard
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

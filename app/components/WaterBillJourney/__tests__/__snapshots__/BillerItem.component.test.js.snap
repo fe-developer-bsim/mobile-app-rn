@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BillerItem component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingVertical": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 15,
+        "fontWeight": "600",
+      }
+    }
+  />
+</View>
+`;

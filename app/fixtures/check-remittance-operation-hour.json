@@ -1,0 +1,15 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/check-remmitance-operation-hour",
+    "method": "POST",
+    "requestBody": {
+      "ipassport":"SMP-22128811610423877759",
+      "lang":"EN"
+    },
+    "response": {
+      "ipassport": "SMP-22128811610423877759",
+      "responseCode": "00",
+      "statusMessage": "success",
+      "responseMessage": "Foreign currency (Valas) transactions \ncan only be accessed from \n08.00 - 14.00 (GMT+7)"
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/statement-detail",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-10907701505099399927",
+    "statementId": "181520015936556.010001",
+    "lang": "en"
+  },
+  "response": {
+    "detail": {
+      "TO Account": "12345678 - TEST",
+      "Booking Date": "11 SEP 2017",
+      "Value Date": "11 SEP 2017",
+      "Trans Narative": "0202 - LLG Outgoing",
+      "Narrative": "",
+      "Branch": "9999 - ELECTRONICS BANKING",
+      "Trans Reference": "FT17254T679G",
+      "Amount": "-50000.00"
+    },
+    "responseMessage": "Retrieve Statement Entry Detail Success",
+    "responseCode": "00"
+  }
+}

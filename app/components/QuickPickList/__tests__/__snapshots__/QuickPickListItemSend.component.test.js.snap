@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickPickListItemSend component renders correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 1,
+        },
+        Object {
+          "height": 0,
+          "width": 0,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FA3F70",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 27,
+              },
+              Object {
+                "alignSelf": "flex-end",
+                "color": "#FFFFFF",
+                "paddingBottom": 35,
+                "paddingRight": 18,
+                "paddingTop": 25,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    manipulationModes={
+      Array [
+        "translateX",
+      ]
+    }
+    onLayout={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+        "zIndex": 2,
+      }
+    }
+  >
+    <View
+      accessible={false}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#ccc",
+                "flex": 1,
+                "flexDirection": "row",
+                "paddingVertical": 20,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                    "color": "#000000",
+                    "flex": 1,
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#000000",
+                    "flex": 1,
+                    "fontSize": 12,
+                    "fontWeight": undefined,
+                    "textAlign": "right",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 10,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#000000",
+                  "marginRight": 10,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SILeSPAJForm page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "fontFamily": "Roboto",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+        }
+      }
+    >
+      eSPAJ
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "height": 7,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 10,
+          },
+          Object {
+            "backgroundColor": "#3892FC",
+            "flexDirection": "row",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 0,
+          },
+          Object {
+            "backgroundColor": "#DBDBDB",
+            "flexDirection": "row",
+          },
+        ]
+      }
+    />
+  </View>
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "paddingHorizontal": 20,
+          "paddingTop": 25,
+        }
+      }
+    >
+      Data Penilaian Profil Risiko Nasabah
+    </Text>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 10,
+            },
+            Object {
+              "backgroundColor": "#DBDBDB",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "roboto",
+          "fontSize": 14,
+          "fontWeight": "300",
+          "paddingBottom": 5,
+          "paddingLeft": 20,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      Berdasarkan Penilaian Profil Risiko Nasabah di atas, maka Anda adalah:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "roboto",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "paddingLeft": 30,
+        }
+      }
+    >
+      Tipe Investor
+       
+    </Text>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 40,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        
+         
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "roboto",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "paddingLeft": 30,
+        }
+      }
+    >
+      Paduan Pengalokasian Dana Investasi
+       
+    </Text>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "paddingLeft": 40,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 10,
+            },
+            Object {
+              "backgroundColor": "#DBDBDB",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginBottom": 5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source="checkbox-unchecked.png"
+            style={
+              Array [
+                Object {
+                  "height": 26,
+                  "width": 26,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 20,
+          "paddingRight": 25,
+        }
+      }
+    >
+      <Text>
+        Dengan ini saya menyatakan bahwa saya mengerti Penilaian Profil Risiko Nasabah ini hanyalah panduan dalam penempatan investasi dan risikonya. Saya mengerti bahwa saran yang disampaikan pada penilaian ini bukanlah sesuatu yang harus diikuti. Segala keputusan yang saya ambil sehubungan dengan alokasi investasi saya beserta seluruh perubahannya di masa yang akan datang menjadi tanggung jawab saya sepenuhnya. Apabila terdapat perbedaan alokasi investasi antara yang tertulis dalam penilaian ini dengan Surat Pengajuan Asuransi Jiwa Elektronik (eSPAJ) atau perubahan terakhir, maka yang akan berlaku adalah alokasi terakhir, maka yang akan berlaku adalah alokasi investasi yang tertulis dalam eSPAJ atau perubahan terakhir yang tercatat di PT. Asuransi Simas Jiwa.
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FF8E8E",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          KIRIM
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

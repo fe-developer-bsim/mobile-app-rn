@@ -1,0 +1,4365 @@
+{
+  "url": "https://uat.mydibi.com/PersonalBanking/rest/v3/action/biller-config",
+  "method": "GET",
+  "response": {
+  "billerAllowList": [
+    {
+      "id": "0",
+      "name": "WATER",
+      "listOfBiller": [
+        "009937",
+        "009936",
+        "009928s"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "ELECTRICITY",
+      "listOfBiller": [
+        "301211",
+        "301422",
+        "305111"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "MOBILE POSTPAID",
+      "listOfBiller": [
+        "019004",
+        "010001",
+        "013001",
+        "012101",
+        "018002",
+        "017003",
+        "009918"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CC",
+      "listOfBiller": [
+        "300002"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "TOPUP",
+      "listOfBiller": [
+        "011002",
+        "019003",
+        "010002",
+        "012102",
+        "013002",
+        "018001"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "QR",
+      "listOfBiller": [
+        "009904"
+      ]
+    },
+    {
+      "id": "6 ",
+      "name": "GOJEK",
+      "listOfBiller": [
+        "810128"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "OVO",
+      "listOfBiller": [
+        "812277"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "TOKOPEDIA",
+      "listOfBiller": [
+        "810133"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "SMARTFREN PAKET DATA",
+      "listOfBiller": [
+        "000123"
+      ]
+    }
+  ],
+  "billerList": [
+    {
+      "billerInqMenu": false,
+      "id": 1598,
+      "billerPreferences": {
+        "id": 1598,
+        "code": "007271",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "AJB Bumiputera Premi Lanjutan",
+      "path": "|_root||asuransi|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1597,
+      "billerPreferences": {
+        "id": 1597,
+        "code": "007270",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "AJB Bumiputera Premi Pertama",
+      "path": "|_root||asuransi|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1599,
+      "billerPreferences": {
+        "id": 1599,
+        "code": "007272",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "AJB Bumiputera Top Up",
+      "path": "|_root||asuransi|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1780,
+      "billerPreferences": {
+        "id": 1780,
+        "code": "113801",
+        "currency": "IDR",
+        "billerType": "",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Alfamart",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 57,
+      "billerPreferences": {
+        "id": 57,
+        "code": "009917",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Aora TV",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1236,
+      "billerPreferences": {
+        "id": 1236,
+        "code": "040001",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "^[0-9]{14}$",
+      "prefix": null,
+      "name": "Asuransi MSIG",
+      "path": "|_root||other|",
+      "validationLabel": "Polis number must be numeric and 14 digit length|Nomor polis harus angka dan panjang 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 2,
+      "billerPreferences": {
+        "id": 2,
+        "code": "040001",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "^[0-9]{14}$",
+      "prefix": null,
+      "name": "Asuransi Sinarmas",
+      "path": "|_root||asuransi|",
+      "validationLabel": "Polis number must be numeric and 14 digit length|Nomor polis harus angka dan panjang 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1336,
+      "billerPreferences": {
+        "id": 1336,
+        "code": "009932",
+        "currency": "IDR",
+        "billerType": "10",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "1",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "BPJS Kesehatan",
+      "path": "|_root||publicservice|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 33,
+      "billerPreferences": {
+        "id": 33,
+        "code": "710111",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "BSD Junction",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 31,
+      "billerPreferences": {
+        "id": 31,
+        "code": "009902",
+        "currency": "IDR",
+        "billerType": "2",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{0,9}$",
+      "prefix": null,
+      "name": "Baznas Infaq & Shadaqah",
+      "path": "|_root||other|",
+      "validationLabel": "Subscriber number must be numeric and maximum 9 digit length|Nomor pelanggan harus angka dan panjang maksimum 9 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 30,
+      "billerPreferences": {
+        "id": 30,
+        "code": "009901",
+        "currency": "IDR",
+        "billerType": "2",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{0,9}$",
+      "prefix": null,
+      "name": "Baznas Zakat",
+      "path": "|_root||other|",
+      "validationLabel": "Subscriber number must be numeric and maximum 9 digit length|Nomor pelanggan harus angka dan panjang maksimum 9 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1681,
+      "billerPreferences": {
+        "id": 1681,
+        "code": "009934",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Big TV Postpaid",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1682,
+      "billerPreferences": {
+        "id": 1682,
+        "code": "009935",
+        "currency": "IDR",
+        "billerType": "9",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Big TV Prepaid",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "50000",
+          "name": "Rp. 50.000",
+          "label": "Rp. 50.000",
+          "filter": "50000"
+        },
+        {
+          "id": "100000",
+          "name": "Rp. 100.000",
+          "label": "Rp. 100.000",
+          "filter": "100000"
+        },
+        {
+          "id": "200000",
+          "name": "Rp. 200.000",
+          "label": "Rp. 200.000",
+          "filter": "200000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 26,
+      "billerPreferences": {
+        "id": 26,
+        "code": "060201",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{14,16}$",
+      "prefix": null,
+      "name": "CGV Pay",
+      "path": "|_root||ticket|",
+      "validationLabel": "Subscriber No must be numeric and 14 -16 digit length|No Pelanggan harus angka dan panjang 14-16 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "75000",
+          "name": "IDR 75.000",
+          "label": "IDR 75.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": " "
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": " "
+        },
+        {
+          "id": "400000",
+          "name": "IDR 400.000",
+          "label": "IDR 400.000",
+          "filter": " "
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": " "
+        },
+        {
+          "id": "600000",
+          "name": "IDR 600.000",
+          "label": "IDR 600.000",
+          "filter": " "
+        },
+        {
+          "id": "750000",
+          "name": "IDR 750.000",
+          "label": "IDR 750.000",
+          "filter": " "
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1700,
+      "billerPreferences": {
+        "id": 1700,
+        "code": "100001",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": false,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "",
+      "prefix": null,
+      "name": "CGV Ticket",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1212,
+      "billerPreferences": {
+        "id": 1212,
+        "code": "009941",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Columbia",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1211,
+      "billerPreferences": {
+        "id": 1211,
+        "code": "009940",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Courts",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 19,
+      "billerPreferences": {
+        "id": 19,
+        "code": "018002",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(622131|6221343|622135|622149|622141|622151|622156|622159|62216|62218|622183|622184|622185|622187|622189|62219|622191|622192|622193|622194|622195|622196|622197|622198|622199|02131|021343|02135|021409|02141|02151|02156|02159|02160|02180|02183|02184|02185|02187|02189|02190|02191|02192|02193|02194|02195|02196|02197|02198|02199)",
+      "name": "Esia Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 20,
+      "billerPreferences": {
+        "id": 20,
+        "code": "018001",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(622131|6221343|622135|622149|622141|622151|622156|622159|62216|62218|622183|622184|622185|622187|622189|62219|622191|622192|622193|622194|622195|622196|622197|622198|622199|02131|021343|02135|021409|02141|02151|02156|02159|02160|02180|02183|02184|02185|02187|02189|02190|02191|02192|02193|02194|02195|02196|02197|02198|02199)",
+      "name": "Esia Prepaid",
+      "path": "|_root||mobilephonevoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": " "
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150.000",
+          "label": "IDR 150.000",
+          "filter": " "
+        },
+        {
+          "id": "250000",
+          "name": "IDR 250.000",
+          "label": "IDR 250.000",
+          "filter": " "
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1217,
+      "billerPreferences": {
+        "id": 1217,
+        "code": "009943",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Finpay",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 5,
+      "billerPreferences": {
+        "id": 5,
+        "code": "060301",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "^[0-9]{6,8}",
+      "prefix": null,
+      "name": "Firstmedia",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "Subscriber number must be numeric and 6 - 8 digit length|Nomor pelanggan harus angka dan panjang 6 - 8 digit ",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1436,
+      "billerPreferences": {
+        "id": 1436,
+        "code": "009904",
+        "currency": "IDR",
+        "billerType": "2",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": false,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Flash Iz",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1176,
+      "billerPreferences": {
+        "id": 1176,
+        "code": "061701",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": null,
+      "name": "Genflix",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "Customer Id must be numeric and 10-14 digit length|Nomor pelanggan harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "5000",
+          "name": "Rp. 5.000",
+          "label": "Rp. 5.000",
+          "filter": null
+        },
+        {
+          "id": "10000",
+          "name": "Rp. 10.000",
+          "label": "Rp. 10.000",
+          "filter": null
+        },
+        {
+          "id": "25000",
+          "name": "Rp. 25.000",
+          "label": "Rp. 25.000",
+          "filter": null
+        },
+        {
+          "id": "50000",
+          "name": "Rp. 50.000",
+          "label": "Rp. 50.000",
+          "filter": null
+        },
+        {
+          "id": "100000",
+          "name": "Rp. 100.000",
+          "label": "Rp. 100.000",
+          "filter": null
+        },
+        {
+          "id": "300000",
+          "name": "Rp. 300.000",
+          "label": "Rp. 300.000",
+          "filter": null
+        },
+        {
+          "id": "500000",
+          "name": "Rp. 500.000",
+          "label": "Rp. 500.000",
+          "filter": null
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1256,
+      "billerPreferences": {
+        "id": 1256,
+        "code": "810128",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Go-Pay Customer",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1257,
+      "billerPreferences": {
+        "id": 1257,
+        "code": "810129",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Go-Pay Driver",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1258,
+      "billerPreferences": {
+        "id": 1258,
+        "code": "812129",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Go-Pay Merchant",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 54,
+      "billerPreferences": {
+        "id": 54,
+        "code": "710519",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Grand Wisata",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 35,
+      "billerPreferences": {
+        "id": 35,
+        "code": "710010",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "IPL BSD",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 34,
+      "billerPreferences": {
+        "id": 34,
+        "code": "710112",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC BSD",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1537,
+      "billerPreferences": {
+        "id": 1537,
+        "code": "20016",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC Cempaka Mas",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1079,
+      "billerPreferences": {
+        "id": 1079,
+        "code": "710715",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC Depok",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1536,
+      "billerPreferences": {
+        "id": 1536,
+        "code": "20014",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC Fatmawati",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1080,
+      "billerPreferences": {
+        "id": 1080,
+        "code": "710716",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC Permata Hijau",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 55,
+      "billerPreferences": {
+        "id": 55,
+        "code": "710615",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "ITC Surabaya",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": true,
+      "id": 1397,
+      "billerPreferences": {
+        "id": 1397,
+        "code": "001160",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": true,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[a-zA-Z0-9]{10,20}$",
+      "prefix": null,
+      "name": "Indosat Ooredoo Paket Data",
+      "path": "|_root||internetvoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "FC01",
+          "name": "FreeDom Combo M",
+          "label": "FreeDom Combo M",
+          "filter": "59000 "
+        },
+        {
+          "id": "FC02",
+          "name": "FreeDom Combo L",
+          "label": "FreeDom Combo L",
+          "filter": "99000"
+        },
+        {
+          "id": "FC03",
+          "name": "FreeDom Combo XL",
+          "label": "FreeDom Combo XL",
+          "filter": "149000"
+        },
+        {
+          "id": "FC04",
+          "name": "FreeDom Combo XXL",
+          "label": "FreeDom Combo XXL",
+          "filter": "199000"
+        },
+        {
+          "id": "SA01",
+          "name": "Pake Internet 1GB",
+          "label": "Pake Internet 1GB",
+          "filter": "40000"
+        },
+        {
+          "id": "SA02",
+          "name": "Pake Internet 2GB",
+          "label": "Pake Internet 2GB",
+          "filter": "60000"
+        },
+        {
+          "id": "SA03",
+          "name": "Pake Internet 3GB",
+          "label": "Pake Internet 3GB",
+          "filter": "80000"
+        },
+        {
+          "id": "SA04",
+          "name": "Pake Internet 5GB",
+          "label": "Pake Internet 5GB",
+          "filter": "130000"
+        },
+        {
+          "id": "EQ01",
+          "name": "Extra Kuota 2GB",
+          "label": "Extra Kuota 2GB",
+          "filter": "40000"
+        },
+        {
+          "id": "EQ02",
+          "name": "Extra Kuota 4GB",
+          "label": "Extra Kuota 4GB",
+          "filter": "60000"
+        },
+        {
+          "id": "EQ03",
+          "name": "Extra Kuota 6GB",
+          "label": "Extra Kuota 6GB",
+          "filter": "80000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1296,
+      "billerPreferences": {
+        "id": 1296,
+        "code": "009918",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62814|62815|62816|62855|62856|62857|62858|0814|0815|0816|0855|0856|0857|0858)",
+      "name": "Indosat Ooredoo Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 13,
+      "billerPreferences": {
+        "id": 13,
+        "code": "011002",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62814|62815|62816|62855|62856|62857|62858|0814|0815|0816|0855|0856|0857|0858)",
+      "name": "Indosat Ooredoo Prepaid",
+      "path": "|_root||mobilephonevoucher||indosat|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": " "
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150,000",
+          "label": "IDR 150,000",
+          "filter": " "
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": null
+        },
+        {
+          "id": "250000",
+          "name": "IDR 250.000",
+          "label": "IDR 250.000",
+          "filter": " "
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": null
+        },
+        {
+          "id": "1000000",
+          "name": "IDR 1.000.000",
+          "label": "IDR 1.000.000",
+          "filter": null
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 50,
+      "billerPreferences": {
+        "id": 50,
+        "code": "060401",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Indovision/Okevision/Top Tv",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 56,
+      "billerPreferences": {
+        "id": 56,
+        "code": "009914",
+        "currency": "IDR",
+        "billerType": "8",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.paymentPaymentNoKey",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "KAI",
+      "path": "|_root||ticket|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 47,
+      "billerPreferences": {
+        "id": 47,
+        "code": "300002",
+        "currency": "IDR",
+        "billerType": "5",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": "^(489370|489371|489372|489373|489374|421456|421469)",
+      "name": "Kartu Kredit Bank Sinarmas",
+      "path": "|_root||creditcard|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1077,
+      "billerPreferences": {
+        "id": 1077,
+        "code": "710412",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Kota Bunga",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1219,
+      "billerPreferences": {
+        "id": 1219,
+        "code": "061201",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{0,11}$",
+      "prefix": null,
+      "name": "Kvision Prepaid",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "Subscriber number must be numeric and 11 digit length|Nomor pelanggan harus angka dan panjang 11 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "50000",
+          "name": "Rp. 50.000",
+          "label": "Rp. 50.000",
+          "filter": "50000"
+        },
+        {
+          "id": "100000",
+          "name": "Rp. 100.000",
+          "label": "Rp. 100.000",
+          "filter": "100000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1076,
+      "billerPreferences": {
+        "id": 1076,
+        "code": "710312",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Legenda Wisata Cibubur",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 44,
+      "billerPreferences": {
+        "id": 44,
+        "code": "710110",
+        "currency": "IDR",
+        "billerType": "8",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.paymentPaymentNoKey",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Lion Air",
+      "path": "|_root||ticket|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1618,
+      "billerPreferences": {
+        "id": 1618,
+        "code": "302201",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "MNC Finance",
+      "path": "|_root||pinjaman|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1617,
+      "billerPreferences": {
+        "id": 1617,
+        "code": "061401",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "MNC Playmedia",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1619,
+      "billerPreferences": {
+        "id": 1619,
+        "code": "300401",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Mega Finance",
+      "path": "|_root||pinjaman|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1762,
+      "billerPreferences": {
+        "id": 1762,
+        "code": "10051",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "MyRepublic Corporate",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1763,
+      "billerPreferences": {
+        "id": 1763,
+        "code": "10052",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "MyRepublic Retail",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 51,
+      "billerPreferences": {
+        "id": 51,
+        "code": "060801",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Nexmedia",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1760,
+      "billerPreferences": {
+        "id": 1760,
+        "code": "812277",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{6,14}$",
+      "prefix": null,
+      "name": "OVO",
+      "path": "|_root||other|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 49,
+      "billerPreferences": {
+        "id": 49,
+        "code": "810011",
+        "currency": "IDR",
+        "billerType": "8",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.paymentPaymentNoKey",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Ocean Park",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1073,
+      "billerPreferences": {
+        "id": 1073,
+        "code": "009928",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PAM Aetra",
+      "path": "|_root||publicservice|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1156,
+      "billerPreferences": {
+        "id": 1156,
+        "code": "009936",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PAM PALYJA",
+      "path": "|_root||publicservice|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1157,
+      "billerPreferences": {
+        "id": 1157,
+        "code": "009937",
+        "currency": "IDR",
+        "billerType": "10",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PDAM",
+      "path": "|_root||publicservice|",
+      "validationLabel": "",
+      "areaList": [
+        {
+          "id": "1032",
+          "label": "PDAM Kota Semarang"
+        },
+        {
+          "id": "1034",
+          "label": "PDAM Kota Surabaya"
+        },
+        {
+          "id": "2001",
+          "label": "PDAM Kab Bondowoso"
+        },
+        {
+          "id": "2002",
+          "label": "PDAM Banda Aceh"
+        },
+        {
+          "id": "2003",
+          "label": "PDAM Maros"
+        },
+        {
+          "id": "2004",
+          "label": "PDAM Jember"
+        },
+        {
+          "id": "2005",
+          "label": "PDAM Gowa"
+        },
+        {
+          "id": "2006",
+          "label": "PDAM Intan Banjar"
+        },
+        {
+          "id": "2007",
+          "label": "PDAM Sidoarjo"
+        },
+        {
+          "id": "2008",
+          "label": "PDAM Kab Malang"
+        },
+        {
+          "id": "2009",
+          "label": "PDAM Jambi Kota"
+        },
+        {
+          "id": "2010",
+          "label": "PDAM Kudus"
+        },
+        {
+          "id": "2011",
+          "label": "PDAM Tasikmalaya"
+        },
+        {
+          "id": "2012",
+          "label": "PDAM Mojokerto"
+        },
+        {
+          "id": "2013",
+          "label": "PDAM Subang"
+        },
+        {
+          "id": "2014",
+          "label": "PDAM Situbondo"
+        },
+        {
+          "id": "2015",
+          "label": "PDAM Probolinggo Kota"
+        },
+        {
+          "id": "2016",
+          "label": "PDAM Kab Probolinggo"
+        },
+        {
+          "id": "2017",
+          "label": "PDAM Mataram"
+        },
+        {
+          "id": "2018",
+          "label": "PDAM Bandung"
+        },
+        {
+          "id": "2019",
+          "label": "PDAM Bandar Lampung"
+        },
+        {
+          "id": "2020",
+          "label": "PDAM Banjarmasin"
+        },
+        {
+          "id": "2021",
+          "label": "PDAM Banyuwangi"
+        },
+        {
+          "id": "2022",
+          "label": "PDAM Malang Kota"
+        },
+        {
+          "id": "2023",
+          "label": "PDAM Lamongan"
+        },
+        {
+          "id": "2024",
+          "label": "PDAM Bogor Kota"
+        },
+        {
+          "id": "2025",
+          "label": "PDAM Makassar"
+        },
+        {
+          "id": "2026",
+          "label": "PDAM Jombang"
+        },
+        {
+          "id": "2027",
+          "label": "PDAM Kupang"
+        },
+        {
+          "id": "2028",
+          "label": "PDAM Denpasar"
+        },
+        {
+          "id": "2029",
+          "label": "PDAM Aceh Besar"
+        },
+        {
+          "id": "2030",
+          "label": "PDAM Kab Kupang"
+        },
+        {
+          "id": "2031",
+          "label": "PDAM Klaten"
+        },
+        {
+          "id": "2033",
+          "label": "PDAM Solo"
+        },
+        {
+          "id": "2034",
+          "label": "PDAM Kab Nganjuk"
+        },
+        {
+          "id": "2035",
+          "label": "PDAM Depok"
+        },
+        {
+          "id": "2036",
+          "label": "PDAM Kab Aceh"
+        },
+        {
+          "id": "2037",
+          "label": "PDAM Palembang"
+        },
+        {
+          "id": "2038",
+          "label": "PDAM Aceh Timur"
+        },
+        {
+          "id": "2039",
+          "label": "PDAM Kab Banyumas"
+        },
+        {
+          "id": "2040",
+          "label": "PDAM Kab Karawang"
+        },
+        {
+          "id": "2041",
+          "label": "PDAM Aceh Barat"
+        },
+        {
+          "id": "2042",
+          "label": "PDAM Kab Blitar"
+        },
+        {
+          "id": "2043",
+          "label": "PDAM Medan"
+        },
+        {
+          "id": "2044",
+          "label": "PDAM Kab Bogor"
+        },
+        {
+          "id": "2045",
+          "label": "PDAM Boyolali"
+        },
+        {
+          "id": "2046",
+          "label": "PDAM Lombok Tengah"
+        },
+        {
+          "id": "2047",
+          "label": "PDAM Tuban"
+        },
+        {
+          "id": "2048",
+          "label": "PDAM Garut"
+        },
+        {
+          "id": "2050",
+          "label": "PDAM Bangkalan"
+        },
+        {
+          "id": "2051",
+          "label": "PDAM Bekasi Kota"
+        },
+        {
+          "id": "2052",
+          "label": "PDAM Kab Magetan"
+        },
+        {
+          "id": "2053",
+          "label": "PDAM Bandung Kota"
+        },
+        {
+          "id": "2056",
+          "label": "PDAM Kab Cianjur"
+        },
+        {
+          "id": "2057",
+          "label": "PDAM Kab Gresik"
+        },
+        {
+          "id": "2058",
+          "label": "PDAM Kab Cilacap"
+        },
+        {
+          "id": "2059",
+          "label": "PDAM Kab Bone"
+        },
+        {
+          "id": "2060",
+          "label": "PDAM Kab Serang"
+        },
+        {
+          "id": "2061",
+          "label": "PDAM Kota Mojokerto"
+        },
+        {
+          "id": "2062",
+          "label": "PDAM Kab Sragen"
+        },
+        {
+          "id": "2063",
+          "label": "PDAM Kota Magelang"
+        },
+        {
+          "id": "2064",
+          "label": "PDAM Kota Cirebon"
+        },
+        {
+          "id": "2065",
+          "label": "PDAM Kab Ponorogo"
+        },
+        {
+          "id": "2066",
+          "label": "PDAM Kota Palopo"
+        },
+        {
+          "id": "2067",
+          "label": "PDAM Kota Balikpapan"
+        },
+        {
+          "id": "2068",
+          "label": "PDAM Kab Polewali Mandar"
+        },
+        {
+          "id": "2070",
+          "label": "PDAM Kab Takalar"
+        },
+        {
+          "id": "2071",
+          "label": "PDAM Kab Tulungagung"
+        },
+        {
+          "id": "2072",
+          "label": "PDAM Kota Padang"
+        },
+        {
+          "id": "2073",
+          "label": "PDAM Kab Purbalingga"
+        },
+        {
+          "id": "2074",
+          "label": "PDAM Kota Samarinda"
+        },
+        {
+          "id": "2075",
+          "label": "PDAM Kab Pati"
+        },
+        {
+          "id": "2076",
+          "label": "PDAM Kab Ngawi"
+        },
+        {
+          "id": "2077",
+          "label": "PDAM Kota Pontianak"
+        },
+        {
+          "id": "2078",
+          "label": "PDAM Kab Kediri"
+        },
+        {
+          "id": "2079",
+          "label": "PDAM Kab Pidie"
+        },
+        {
+          "id": "2080",
+          "label": "PDAM Kota Parepare"
+        },
+        {
+          "id": "2081",
+          "label": "PDAM Kab Gorontalo"
+        },
+        {
+          "id": "2082",
+          "label": "PDAM Kota Gorontalo"
+        },
+        {
+          "id": "2083",
+          "label": "PDAM Kota Ternate"
+        },
+        {
+          "id": "2084",
+          "label": "PDAM Kab Donggala"
+        },
+        {
+          "id": "2085",
+          "label": "PDAM Kab Rembang"
+        },
+        {
+          "id": "2086",
+          "label": "PDAM Kab Temanggung"
+        },
+        {
+          "id": "2087",
+          "label": "PDAM Kab Belu"
+        },
+        {
+          "id": "2088",
+          "label": "PDAM Kab Aceh Utara"
+        },
+        {
+          "id": "2089",
+          "label": "PDAM Kab Bandung Barat"
+        },
+        {
+          "id": "2090",
+          "label": "PDAM Kab Pasuruan"
+        },
+        {
+          "id": "2092",
+          "label": "PDAM Kab Sumedang"
+        },
+        {
+          "id": "2093",
+          "label": "PDAM Kab Tenggarong"
+        },
+        {
+          "id": "2094",
+          "label": "PDAM Kab Lumajang"
+        }
+      ],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 42,
+      "billerPreferences": {
+        "id": 42,
+        "code": "305111",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnRegistrationNoKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PLN Non Taglis",
+      "path": "|_root||publicservice||PLN|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 40,
+      "billerPreferences": {
+        "id": 40,
+        "code": "301211",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": "5",
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PLN Postpaid",
+      "path": "|_root||publicservice||PLN|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 41,
+      "billerPreferences": {
+        "id": 41,
+        "code": "301422",
+        "currency": "IDR",
+        "billerType": "7",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.plnMeterNoKey",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PLN Prepaid",
+      "path": "|_root||publicservice||PLN|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "20000",
+          "name": "Rp. 20.000",
+          "label": "Rp. 20.000",
+          "filter": "20000"
+        },
+        {
+          "id": "50000",
+          "name": "Rp. 50.000",
+          "label": "Rp. 50.000",
+          "filter": "50000"
+        },
+        {
+          "id": "100000",
+          "name": "Rp. 100.000",
+          "label": "Rp. 100.000",
+          "filter": "100000"
+        },
+        {
+          "id": "200000",
+          "name": "Rp. 200.000",
+          "label": "Rp. 200.000",
+          "filter": "200000"
+        },
+        {
+          "id": "500000",
+          "name": "Rp. 500.000",
+          "label": "Rp. 500.000",
+          "filter": "500000"
+        },
+        {
+          "id": "1000000",
+          "name": "Rp. 1.000.000",
+          "label": "Rp. 1.000.000",
+          "filter": "1000000"
+        },
+        {
+          "id": "5000000",
+          "name": "Rp. 5.000.000",
+          "label": "Rp. 5.000.000",
+          "filter": "5000000"
+        },
+        {
+          "id": "10000000",
+          "name": "Rp. 10.000.000",
+          "label": "Rp. 10.000.000",
+          "filter": "10000000"
+        },
+        {
+          "id": "50000000",
+          "name": "Rp. 50.000.000",
+          "label": "Rp. 50.000.000",
+          "filter": "50000000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1206,
+      "billerPreferences": {
+        "id": 1206,
+        "code": "710316",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "PPL Kota Wisata",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1761,
+      "billerPreferences": {
+        "id": 1761,
+        "code": "10535",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "1",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Paytren",
+      "path": "|_root||ecommerce|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1072,
+      "billerPreferences": {
+        "id": 1072,
+        "code": "009924",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Penerimaan Negara (MPN/pajak)",
+      "path": "|_root||publicservice|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1376,
+      "billerPreferences": {
+        "id": 1376,
+        "code": "010004",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": null,
+      "name": "Pulsa Internet Telkomsel",
+      "path": "|_root||internetvoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "20000",
+          "name": "IDR 20.000",
+          "label": "IDR 20.000",
+          "filter": null
+        },
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": null
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": null
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": null
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150.000",
+          "label": "IDR 150.000",
+          "filter": null
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": null
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": null
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1316,
+      "billerPreferences": {
+        "id": 1316,
+        "code": "999999",
+        "currency": "IDR",
+        "billerType": "11",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Pulsa Telepon",
+      "path": "|_root||mobilephonevoucher|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1620,
+      "billerPreferences": {
+        "id": 1620,
+        "code": "123456",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": false,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "",
+      "prefix": null,
+      "name": "QR GPN",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 299,
+      "billerPreferences": {
+        "id": 299,
+        "code": "009903",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "SMMF Virtual Account",
+      "path": "|_root||va|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1145,
+      "billerPreferences": {
+        "id": 1145,
+        "code": "061301",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "1",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{0,11}$",
+      "prefix": null,
+      "name": "Skynindo Prepaid",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "Subscriber number must be numeric and 11 digit length|Nomor pelanggan harus angka dan panjang 11 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "101",
+          "name": "FAMILY 1 BULAN",
+          "label": "FAMILY 1 BULAN",
+          "filter": "40000"
+        },
+        {
+          "id": "103",
+          "name": "FAMILY 3 BULAN",
+          "label": "FAMILY 3 BULAN",
+          "filter": "120000"
+        },
+        {
+          "id": "106",
+          "name": "FAMILY 6 BULAN",
+          "label": "FAMILY 6 BULAN",
+          "filter": "240000"
+        },
+        {
+          "id": "112",
+          "name": "FAMILY 12 BULAN",
+          "label": "FAMILY 12 BULAN",
+          "filter": "480000"
+        },
+        {
+          "id": "201",
+          "name": "DELUXE 1 BULAN",
+          "label": "DELUXE 1 BULAN",
+          "filter": "80000"
+        },
+        {
+          "id": "203",
+          "name": "DELUXE 3 BULAN",
+          "label": "DELUXE 3 BULAN",
+          "filter": "240000"
+        },
+        {
+          "id": "206",
+          "name": "DELUXE 6 BULAN",
+          "label": "DELUXE 6 BULAN",
+          "filter": "480000"
+        },
+        {
+          "id": "212",
+          "name": "DELUXE 12 BULAN",
+          "label": "DELUXE 12 BULAN",
+          "filter": "960000"
+        },
+        {
+          "id": "301",
+          "name": "MANDARIN 1 BULAN",
+          "label": "MANDARIN 1 BULAN",
+          "filter": "140000"
+        },
+        {
+          "id": "303",
+          "name": "MANDARIN 3 BULAN",
+          "label": "MANDARIN 3 BULAN",
+          "filter": "420000"
+        },
+        {
+          "id": "306",
+          "name": "MANDARIN 6 BULAN",
+          "label": "MANDARIN 6 BULAN",
+          "filter": "840000"
+        },
+        {
+          "id": "312",
+          "name": "MANDARIN 12 BULAN",
+          "label": "MANDARIN 12 BULAN",
+          "filter": "1680000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1801,
+      "billerPreferences": {
+        "id": 1801,
+        "code": "000123",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "1",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[a-zA-Z0-9]{10,20}$",
+      "prefix": null,
+      "name": "Smartfren Paket Data",
+      "path": "|_root||internetvoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 6,
+      "billerPreferences": {
+        "id": 6,
+        "code": "019004",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": "2",
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62881|62882|62883|62884|62885|62886|62887|62888|62889|0881|0882|0883|0884|0885|0886|0887|0888|0889)",
+      "name": "Smartfren Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 7,
+      "billerPreferences": {
+        "id": 7,
+        "code": "019003",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": "1",
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": "^(62881|62882|62883|62884|62885|62886|62887|62888|62889|0881|0882|0883|0884|0885|0886|0887|0888|0889)",
+      "name": "Smartfren Prepaid",
+      "path": "|_root||mobilephonevoucher|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "5000",
+          "name": "IDR 5.000",
+          "label": "IDR 5.000",
+          "filter": null
+        },
+        {
+          "id": "10000",
+          "name": "IDR 10.000",
+          "label": "IDR 10.000",
+          "filter": " "
+        },
+        {
+          "id": "20000",
+          "name": "IDR 20.000",
+          "label": "IDR 20.000",
+          "filter": " "
+        },
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": null
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "60000",
+          "name": "IDR 60.000",
+          "label": "IDR 60.000",
+          "filter": null
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150.000",
+          "label": "IDR 150.000",
+          "filter": " "
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": " "
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": " "
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": " "
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1579,
+      "billerPreferences": {
+        "id": 1579,
+        "code": "710011",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Sriwijaya Air Ticket",
+      "path": "|_root||ticket|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1578,
+      "billerPreferences": {
+        "id": 1578,
+        "code": "710115",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Sriwijaya Air Top Up Agent",
+      "path": "|_root||ticket|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1741,
+      "billerPreferences": {
+        "id": 1741,
+        "code": "654321",
+        "currency": "IDR",
+        "billerType": "3",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "1",
+        "paymentSubscriberNoKey": "payment.subscriberNo.key",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "billPeriod": [
+        {
+          "id": "Apr 2019",
+          "label": "Apr 2019"
+        },
+        {
+          "id": "Mar 2019",
+          "label": "Mar 2019"
+        },
+        {
+          "id": "Feb 2019",
+          "label": "Feb 2019"
+        }
+      ],
+      "validation": "",
+      "prefix": null,
+      "name": "TX Travel Ticket",
+      "path": "|_root||other|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1317,
+      "billerPreferences": {
+        "id": 1317,
+        "code": "999998",
+        "currency": "IDR",
+        "billerType": "12",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Tagihan Telepon",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 21,
+      "billerPreferences": {
+        "id": 21,
+        "code": "017002",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": null,
+      "name": "Telkom Flexi",
+      "path": "|_root||mobilephone||telkom|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 22,
+      "billerPreferences": {
+        "id": 22,
+        "code": "017003",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{9,14}$",
+      "prefix": "^(061|0727|0620|0728|0621|0729|0622|0730|0623|0731|0624|0732|0625|0733|0626|0734|0627|0735|0628|0736|0629|0737|0630|0738|0631|0739|0632|0741|0633|0742|0634|0743|0636|0744|0639|0745|0641|0746|0642|0747|0643|0748|0644|0751|0645|0752|0646|0753|0650|0754|0651|0755|0652|0756|0653|0757|0654|0759|0655|0760|0656|0761|0657|0762|0658|0763|0702|0764|0711|0765|0712|0766|0713|0767|0714|0768|0716|0769|0717|0771|0718|0772|0719|0773|0721|0776|0722|0777|0724|0778|0725|0779|0726|021|0254|0251|0264|0267|022|0260|0231|0261|0232|0262|0233|0263|0234|0265|0252|0266|0253|024|0285|0271|0286|0272|0287|0273|0289|0274|0291|0275|0292|0276|0293|0280|0294|0281|0295|0282|0296|0283|0297|0284|0298|024|0285|0271|0286|0272|0287|0273|0289|0274|0291|0275|0292|0276|0293|0280|0294|0281|0295|0282|0296|0283|0297|0284|0298|031|0336|0321|0338|0322|0341|0323|0342|0324|0343|0325|0351|0327|0352|0328|0353|0331|0354|0332|0355|0333|0356|0334|0357|0335|0358|031|0336|0321|0338|0322|0341|0323|0342|0324|0343|0325|0351|0327|0352|0328|0353|0331|0354|0332|0355|0333|0356|0334|0357|0335|0358|0511|0541|0512|0542|0513|0543|0517|0545|0518|0548|0519|0549|0522|0551|0525|0552|0526|0553|0527|0554|0528|0556|0531|0561|0532|0562|0534|0563|0536|0564|0537|0565|0538|0567|0539|0568|0511|0541|0512|0542|0513|0543|0517|0545|0518|0548|0519|0549|0522|0551|0525|0552|0526|0553|0527|0554|0528|0556|0531|0561|0532|0562|0534|0563|0536|0564|0537|0565|0538|0567|0539|0568|0361|0434|0362|0435|0363|0438|0365|0443|0366|0450|0368|0451|0370|0452|0371|0453|0372|0457|0373|0458|0374|0461|0376|0462|0377|0463|0378|0464|0379|0465|0380|0471|0381|0473|0382|0481|0383|0482|0384|0484|0385|0485|0386|0901|0387|0902|0388|0910|0389|0911|0390|0912|0394|0913|0395|0914|0396|0915|0398|0916|0399|0917|0401|0918|0402|0921|0403|0922|0404|0923|0405|0924|0408|0927|0410|0929|0411|0951|0413|0952|0414|0955|0417|0956|0418|0957|0419|0966|0420|0967|0421|0969|0422|0971|0423|0975|0426|0980|0427|0981|0428|0983|0430|0984|0431|0986|0432|0434|6261|62727|62620|62728|62621|62729|62622|62730|62623|62731|62624|62732|62625|62733|62626|62734|62627|62735|62628|62736|62629|62737|62630|62738|62631|62739|62632|62741|62633|62742|62634|62743|62636|62744|62639|62745|62641|62746|62642|62747|62643|62748|62644|62751|62645|62752|62646|62753|62650|62754|62651|62755|62652|62756|62653|62757|62654|62759|62655|62760|62656|62761|62657|62762|62658|62763|62702|62764|62711|62765|62712|62766|62713|62767|62714|62768|62716|62769|62717|62771|62718|62772|62719|62773|62721|62776|62722|62777|62724|62778|62725|62779|62726|6221|62254|62251|62264|62267|6222|62260|62231|62261|62232|62262|62233|62263|62234|62265|62252|62266|62253|6224|62285|62271|62286|62272|62287|62273|62289|62274|62291|62275|62292|62276|62293|62280|62294|62281|62295|62282|62296|62283|62297|62284|62298|6224|62285|62271|62286|62272|62287|62273|62289|62274|62291|62275|62292|62276|62293|62280|62294|62281|62295|62282|62296|62283|62297|62284|62298|6231|62336|62321|62338|62322|62341|62323|62342|62324|62343|62325|62351|62327|62352|62328|62353|62331|62354|62332|62355|62333|62356|62334|62357|62335|62358|6231|62336|62321|62338|62322|62341|62323|62342|62324|62343|62325|62351|62327|62352|62328|62353|62331|62354|62332|62355|62333|62356|62334|62357|62335|62358|62511|62541|62512|62542|62513|62543|62517|62545|62518|62548|62519|62549|62522|62551|62525|62552|62526|62553|62527|62554|62528|62556|62531|62561|62532|62562|62534|62563|62536|62564|62537|62565|62538|62567|62539|62568|62511|62541|62512|62542|62513|62543|62517|62545|62518|62548|62519|62549|62522|62551|62525|62552|62526|62553|62527|62554|62528|62556|62531|62561|62532|62562|62534|62563|62536|62564|62537|62565|62538|62567|62539|62568|62361|62434|62362|62435|62363|62438|62365|62443|62366|62450|62368|62451|62370|62452|62371|62453|62372|62457|62373|62458|62374|62461|62376|62462|62377|62463|62378|62464|62379|62465|62380|62471|62381|62473|62382|62481|62383|62482|62384|62484|62385|62485|62386|62901|62387|62902|62388|62910|62389|62911|62390|62912|62394|62913|62395|62914|62396|62915|62398|62916|62399|62917|62401|62918|62402|62921|62403|62922|62404|62923|62405|62924|62408|62927|62410|62929|62411|62951|62413|62952|62414|62955|62417|62956|62418|62957|62419|62966|62420|62967|62421|62969|62422|62971|62423|62975|62426|62980|62427|62981|62428|62983|62430|62984|62431|62986|62432|62434)",
+      "name": "Telkom PSTN",
+      "path": "|_root||mobilephone||telkom|",
+      "validationLabel": "Phone number must be numeric and 9-14 digit length|Nomor telepon harus angka dan panjang 9 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 23,
+      "billerPreferences": {
+        "id": 23,
+        "code": "017004",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{12}$",
+      "prefix": null,
+      "name": "Telkom Speedy",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "Phone number must be numeric and 12 digit length|Nomor telepon harus angka dan panjang 12 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 9,
+      "billerPreferences": {
+        "id": 9,
+        "code": "010001",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": "4",
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62811|62812|62813|62821|62852|62853|62822|62823|62851|0811|0812|0813|0821|0852|0853|0822|0823|0851)",
+      "name": "Telkomsel Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 8,
+      "billerPreferences": {
+        "id": 8,
+        "code": "010002",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": "3",
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62811|62812|62813|62821|62852|62853|62822|62823|62851|0811|0812|0813|0821|0852|0853|0822|0823|0851)",
+      "name": "Telkomsel Prepaid",
+      "path": "|_root||mobilephonevoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "20000",
+          "name": "IDR 20.000",
+          "label": "IDR 20.000",
+          "filter": " "
+        },
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": " "
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150.000",
+          "label": "IDR 150.000",
+          "filter": " "
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": " "
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": " "
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": " "
+        },
+        {
+          "id": "1000000",
+          "name": "IDR 1.000.000",
+          "label": "IDR 1.000.000",
+          "filter": " "
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 17,
+      "billerPreferences": {
+        "id": 17,
+        "code": "012101",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62895|62896|62897|62898|62899|0895|0896|0897|0898|0899)",
+      "name": "Three Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 18,
+      "billerPreferences": {
+        "id": 18,
+        "code": "012102",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62895|62896|62897|62898|62899|0895|0896|0897|0898|0899)",
+      "name": "Three Prepaid",
+      "path": "|_root||mobilephonevoucher|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "30000",
+          "name": "IDR 30.000",
+          "label": "IDR 30.000",
+          "filter": " "
+        },
+        {
+          "id": "40000",
+          "name": "IDR 40.000",
+          "label": "IDR 40.000",
+          "filter": " "
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "75000",
+          "name": "IDR 75.000",
+          "label": "IDR 75.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "150000",
+          "name": "IDR 150.000",
+          "label": "IDR 150.000",
+          "filter": " "
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": " "
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": " "
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1476,
+      "billerPreferences": {
+        "id": 1476,
+        "code": "810133",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Tokopedia",
+      "path": "|_root||ecommerce|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 52,
+      "billerPreferences": {
+        "id": 52,
+        "code": "060901",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Topas TV",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1218,
+      "billerPreferences": {
+        "id": 1218,
+        "code": "009942",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "TransVision",
+      "path": "|_root||tvcableinternet|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 53,
+      "billerPreferences": {
+        "id": 53,
+        "code": "009923",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.paymentAgentNoKey",
+        "denomKey": "purchasePayment.paymentTopupAmountKey",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "^[a-zA-Z0-9]{0,11}$",
+      "prefix": null,
+      "name": "Travel Agen Lion Air",
+      "path": "|_root||other|",
+      "validationLabel": "Subscriber number must be alphanumeric and 0 until 11 digit length|Nomor Subscriber boleh kombinasi angka-huruf dan panjang 0 sampai 11 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "10000000",
+          "name": "10.000.000",
+          "label": "10.000.000",
+          "filter": "10000000"
+        },
+        {
+          "id": "20000000",
+          "name": "20.000.000",
+          "label": "20.000.000",
+          "filter": "20000000"
+        },
+        {
+          "id": "50000000",
+          "name": "50.000.000",
+          "label": "50.000.000",
+          "filter": "50000000"
+        },
+        {
+          "id": "100000000",
+          "name": "100.000.000",
+          "label": "100.000.000",
+          "filter": "100000000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1680,
+      "billerPreferences": {
+        "id": 1680,
+        "code": "061001",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": false,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Unipin (Voucher Game Online)",
+      "path": "|_root||internetvoucher|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "10000",
+          "name": "IDR 10.000",
+          "label": "IDR 10.000",
+          "filter": null
+        },
+        {
+          "id": "20000",
+          "name": "IDR 20.000",
+          "label": "IDR 20.000",
+          "filter": null
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": null
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": null
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": null
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": null
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 43,
+      "billerPreferences": {
+        "id": 43,
+        "code": "009903",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.plnCustomerIdentityKey",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "Virtual Account",
+      "path": "|_root||va|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 1616,
+      "billerPreferences": {
+        "id": 1616,
+        "code": "061801",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.nameSubscriber",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": false,
+        "isShown": true,
+        "isUsingPhoneNumber": false,
+        "billerPreferences": null
+      },
+      "validation": "",
+      "prefix": null,
+      "name": "WIFI ID",
+      "path": "|_root||internetvoucher|",
+      "validationLabel": "",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "5000",
+          "name": "IDR 5.000",
+          "label": "IDR 5.000",
+          "filter": null
+        },
+        {
+          "id": "20000",
+          "name": "IDR 20.000",
+          "label": "IDR 20.000",
+          "filter": null
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": null
+        }
+      ]
+    },
+    {
+      "billerInqMenu": true,
+      "id": 46,
+      "billerPreferences": {
+        "id": 46,
+        "code": "013007",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "1",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": true,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{1,30}$",
+      "prefix": null,
+      "name": "XL MDS",
+      "path": "|_root||mobilephonevoucher||xl|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "14",
+          "name": "HotRod 600MB",
+          "label": "HotRod 600MB",
+          "filter": "30000 "
+        },
+        {
+          "id": "15",
+          "name": "HotRod 2GB",
+          "label": "HotRod 2GB",
+          "filter": "60000"
+        },
+        {
+          "id": "16",
+          "name": "HotRod 6GB",
+          "label": "HotRod 6GB",
+          "filter": "120000"
+        },
+        {
+          "id": "31",
+          "name": "Xmartplan HotRod 4GB",
+          "label": "Xmartplan HotRod 4GB",
+          "filter": "50000"
+        }
+      ]
+    },
+    {
+      "billerInqMenu": false,
+      "id": 10,
+      "billerPreferences": {
+        "id": 10,
+        "code": "013001",
+        "currency": "IDR",
+        "billerType": "1",
+        "inquiryTypeHeader": "",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "purchasePayment.namePhone",
+        "purchaseSubscriberNoKey": "",
+        "denomKey": "",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62817|62818|62819|62859|62877|62878|62838|62831|62832|62833|62835|0817|0818|0819|0859|0877|0878|0838|0831|0832|0833|0835)",
+      "name": "XL/AXIS Postpaid",
+      "path": "|_root||mobilephone|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": []
+    },
+    {
+      "billerInqMenu": false,
+      "id": 11,
+      "billerPreferences": {
+        "id": 11,
+        "code": "013002",
+        "currency": "IDR",
+        "billerType": "6",
+        "inquiryTypeHeader": "1",
+        "inquiryTypeFooter": "",
+        "paymentSubscriberNoKey": "",
+        "purchaseSubscriberNoKey": "purchasePayment.namePhone",
+        "denomKey": "purchasePayment.nameDenom",
+        "isUsingPackageCode": "",
+        "isInquiryOnConfirm": "",
+        "isMerchantWithSubProductCode": "",
+        "isPrepaidOpenAmount": "",
+        "isFavorite": null,
+        "isOpenMonth": "",
+        "billerInqMenu": false,
+        "isSubscriber": true,
+        "isShown": true,
+        "isUsingPhoneNumber": true,
+        "billerPreferences": null
+      },
+      "validation": "^[0-9]{10,14}$",
+      "prefix": "^(62817|62818|62819|62859|62877|62878|62838|62831|62832|62833|62835|0817|0818|0819|0859|0877|0878|0838|0831|0832|0833|0835)",
+      "name": "XL/AXIS Prepaid",
+      "path": "|_root||mobilephonevoucher||xl|",
+      "validationLabel": "Phone number must be numeric and 10-14 digit length|Nomor telepon harus angka dan panjang 10 - 14 digit",
+      "areaList": [],
+      "denomList": [
+        {
+          "id": "25000",
+          "name": "IDR 25.000",
+          "label": "IDR 25.000",
+          "filter": " "
+        },
+        {
+          "id": "50000",
+          "name": "IDR 50.000",
+          "label": "IDR 50.000",
+          "filter": " "
+        },
+        {
+          "id": "100000",
+          "name": "IDR 100.000",
+          "label": "IDR 100.000",
+          "filter": " "
+        },
+        {
+          "id": "200000",
+          "name": "IDR 200.000",
+          "label": "IDR 200.000",
+          "filter": " "
+        },
+        {
+          "id": "300000",
+          "name": "IDR 300.000",
+          "label": "IDR 300.000",
+          "filter": null
+        },
+        {
+          "id": "500000",
+          "name": "IDR 500.000",
+          "label": "IDR 500.000",
+          "filter": null
+        },
+        {
+          "id": "1000000",
+          "name": "IDR 1000.000",
+          "label": "IDR 1000.000",
+          "filter": null
+        }
+      ]
+    }
+  ],
+  "billerAllowListRevamp": [
+    {
+      "id": "0",
+      "name": "WATER",
+      "listOfBiller": [
+        "009937",
+        "009936",
+        "009928s"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "ELECTRICITY",
+      "listOfBiller": [
+        "301211",
+        "301422",
+        "305111"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "MOBILE POSTPAID",
+      "listOfBiller": [
+        "019004",
+        "010001",
+        "013001",
+        "012101",
+        "018002",
+        "017003",
+        "009918"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CC",
+      "listOfBiller": [
+        "300002"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "TOPUP",
+      "listOfBiller": [
+        "011002",
+        "019003",
+        "010002",
+        "012102",
+        "013002",
+        "018001"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "QR",
+      "listOfBiller": [
+        "009904"
+      ]
+    },
+    {
+      "id": "6 ",
+      "name": "GOJEK",
+      "listOfBiller": [
+        "810128"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "OVO",
+      "listOfBiller": [
+        "812277"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "TOKOPEDIA",
+      "listOfBiller": [
+        "810133"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "SMARTFREN PAKET DATA",
+      "listOfBiller": [
+        "000123"
+      ]
+    }
+  ]
+}
+  }

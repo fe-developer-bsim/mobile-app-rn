@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabIcon page renders correctly 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 12,
+      },
+      Object {
+        "color": "#333333",
+      },
+      Object {
+        "fontFamily": "simas",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;

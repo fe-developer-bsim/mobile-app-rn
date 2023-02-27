@@ -1,0 +1,25 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/td-online",
+  "requestBody": {
+    "ipassport": "SMP-1062451491450864905",
+    "lang": "en",
+    "transRefNum": "IB-106245-1491451415079",
+    "mPinInputed": "123456"
+},
+  "response": {
+    "depositPeriod": "Deposit Period 1 Bulan",
+    "interestRate": "10",
+    "debitAccountNumber": "0000137577",
+    "bankBranch": "KCP Samanhudi",
+    "newAccountNumber": "0900000000023146",
+    "maturityInstruction": "ARO Pokok",
+    "transRefNum": "IB-106245-1491451415079",
+    "appliedDate": "2017-04-06T17:00:00Z",
+    "responseCode": "00",
+    "initialDeposit": 8100001,
+    "currency": "IDR",
+    "completionDate": "2017-05-06T17:00:00Z",
+    "responseMessage": "success",
+    "productType": "Deposito Berjangka/Time Deposit"
+  }
+}

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Componenent: LuckyDIpHeader renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingRight": 20,
+    }
+  }
+>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "paddingBottom": 3,
+        "paddingLeft": 5,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 35,
+          "paddingTop": 25,
+          "width": 35,
+        }
+      }
+    >
+      <Image
+        source="closeBox.png"
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": 35,
+              "width": 35,
+            },
+            undefined,
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ED1D25",
+            "borderRadius": 20,
+            "height": 12,
+            "width": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 9,
+              "fontWeight": "700",
+            }
+          }
+        >
+          My Prize
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 5,
+      }
+    }
+  />
+</View>
+`;

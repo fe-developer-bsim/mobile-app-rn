@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation Account component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <Image
+        source="banksinarmas.png"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": undefined,
+        "backgroundColor": "transparent",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "paddingBottom": 100,
+        }
+      }
+    >
+      Apakah Anda memiliki akun bank Sinarmas?
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              Object {
+                "borderColor": "#ED1D25",
+                "borderRadius": 50,
+                "borderWidth": 2,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            YA, SAYA PUNYA
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "borderColor": "#ED1D25",
+              "borderRadius": 50,
+              "borderWidth": 2,
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          TIDAK, BUAT AKUN BANK
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

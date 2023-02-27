@@ -1,0 +1,38 @@
+{
+  "url": "https://sandbox.dimo.co.id/banking/v1/mobile/invoice/status?userkey=af4a3f866e66337cc07d7ac9e79cb1af0fc35b95&invoiceId=r1IelksWihgf",
+  "method": "GET",
+  "response": {
+      "result": "success",
+      "content": {
+          "fidelitizInfo": {
+              "loyaltyProgramId": 138,
+              "pointAmountForCoupon": 5,
+              "startDate": 1506556800000,
+              "logo": [
+                  -1,
+                  -40
+              ],
+              "membership": [
+                  {
+                      "address1": "Testing Address",
+                      "memberBrandName": "Payment Plain",
+                      "city": "Jakarta Pusat"
+                  }
+              ],
+              "pointsGenerated": 9,
+              "couponsGenerated": 2,
+              "endDate": 1542412800000,
+              "couponValue": 1000,
+              "rewardType": "CASH",
+              "amountPerPoint": 10000,
+              "pointPerExpense": 1,
+              "expenseType": "MONEY",
+              "couponsBalance": 2,
+              "pointsBalance": 3,
+              "loyaltyProgramLabel": "Kupon"
+          },
+          "invoiceId": "ocBky6ZfjxJF",
+          "status": "PAID"
+      }
+  }
+}

@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customizable Transaction Summary component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Roboto",
+          "fontWeight": "700",
+        }
+      }
+    >
+      Pada Senin, 06 Feb 2023
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#c38a05",
+              "marginRight": 10,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+          ]
+        }
+      >
+        N/A
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+          ]
+        }
+      >
+        N/A
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+          ]
+        }
+      >
+        N/A
+      </Text>
+    </View>
+  </View>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 25,
+        },
+        Object {
+          "color": "#ccc",
+          "marginBottom": 5,
+          "marginLeft": 3,
+        },
+        Object {
+          "fontFamily": "simas",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#0787e3",
+            "paddingRight": 10,
+            "paddingTop": 10,
+          },
+          Object {
+            "fontFamily": "simas",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+            },
+          ]
+        }
+      >
+        N/A
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+          }
+        }
+      >
+        N/A
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+          }
+        }
+      >
+        N/A
+      </Text>
+    </View>
+  </View>
+</View>
+`;

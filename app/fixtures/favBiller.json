@@ -1,0 +1,130 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/favoriteTransaction/getTransaction",
+  "requestBody": {
+    "ipassport": "SMP-3347851487734803235"
+  },
+  "response": {
+    "allTransaction": {
+      "savedBillPaymentList": [
+        {
+          "transactionType": "Payment",
+          "billerId": 2,
+          "amount": 25000,
+          "favoriteType": "billPayment",
+          "description": "Asuransi sinarmas",
+          "billerType": "asuransi sinarmas",
+          "subscriberNo": "12345678901234",
+          "transactionId": 63319,
+          "merchantName": "asuransi sinarmas"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 1073,
+          "amount": null,
+          "favoriteType": "billPayment",
+          "description": "Air Bulanan",
+          "billerType": "Aetra",
+          "subscriberNo": "400099899",
+          "transactionId": 63319,
+          "merchantName": "Aetra"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 56,
+          "amount": 10000,
+          "favoriteType": "billPayment",
+          "description": "KAI",
+          "billerType": "KAI",
+          "subscriberNo": "12341234",
+          "transactionId": 62492,
+          "merchantName": "KAI"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 11,
+          "amount": 100000,
+          "favoriteType": "billPayment",
+          "description": "arief simpati",
+          "billerType": "Isi Pulsa",
+          "subscriberNo": "081993277709",
+          "transactionId": 62492,
+          "merchantName": "Telkomsel Prepaid"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 1256,
+          "amount": null,
+          "favoriteType": "billPayment",
+          "description": "",
+          "billerType": "Bayar Lainnya",
+          "subscriberNo": "089665728455",
+          "transactionId": 61992,
+          "merchantName": "Go-Pay Customer"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 1760,
+          "amount": 20000,
+          "favoriteType": "billPayment",
+          "description": "testing favorite1 (edit)",
+          "billerType": "Bayar Lainnya",
+          "subscriberNo": "1234567",
+          "transactionId": 64002,
+          "merchantName": "OVO"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 7,
+          "amount": 25000,
+          "favoriteType": "billPayment",
+          "description": "",
+          "billerType": "Isi Pulsa",
+          "subscriberNo": "628881722171",
+          "transactionId": 62112,
+          "merchantName": "Smartfren Prepaid"
+        },
+        {
+          "transactionType": "Payment",
+          "billerId": 11,
+          "amount": null,
+          "favoriteType": "billPayment",
+          "description": "",
+          "billerType": "XL",
+          "subscriberNo": "6281808002168",
+          "transactionId": 2789,
+          "merchantName": "XL/AXIS Prepaid"
+        }
+      ],
+      "targetAccountList": [
+        {
+          "amount": 10000,
+          "accountType": "Tabungan Sinarmas-Gold Passbook",
+          "name": "PHAN JUNG SENG",
+          "transferType": "inbank",
+          "description": "",
+          "bankName": "Bank Sinar Mas",
+          "currency": "IDR",
+          "targetType": "inbanktransfer",
+          "id": 369186,
+          "label": "0000137577/IDR/Tabungan Sinarmas-Gold Passbook/PHAN JUNG SENG",
+          "accountNumber": "0000137577"
+      },
+      {
+          "amount": null,
+          "accountType": "SavingAccount",
+          "name": "ADITYA SAXENA",
+          "transferType": "inbank",
+          "description": "",
+          "bankName": "0171018088",
+          "currency": "IDR",
+          "targetType": "inbanktransfer",
+          "id": 377148,
+          "label": "0171018088/IDR/SavingAccount/ADITYA SAXENA",
+          "accountNumber": "0171018088"
+      }
+      ]
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

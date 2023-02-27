@@ -1,0 +1,55 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/billpay-inquiry",
+  "requestBody": {
+    "ipassport": "SMP-2137351488457327083",
+    "subscriberNoInput": "440444444444",
+    "idbillPay": 41,
+    "billerType": "7",
+    "lang": "en"
+  },
+  "response": {
+
+    "billAmount":0,
+    "billingInfo":"08PEMBAYARAN : Credit Card Sinarmas NAMA : BURHAM LSTSTMT BAL: RP. 219.276 MIN REPAY : RP. 219.276 RPY DUEDATE: 31-12-2013 4893722000163700BURHAM 219276 219276 20131231",
+    "billAmountCC":"219276",
+    "displayString":"08PEMBAYARAN : Credit Card Sinarmas NAMA : BURHAM LSTSTMT BAL: RP. 219.276 MIN REPAY : RP. 219.276 RPY DUEDATE: 31-12-2013 4893722000163700BURHAM 219276 219276 20131231",
+    "additionalDataPrivate":null,
+    "vaInputMode":"OPEN",
+    "displayList":[
+        [
+            "PEMBAYARAN",
+            "Credit Card Sinarmas"
+        ],
+        [
+            "NAMA",
+            "BURHAM"
+        ],
+        [
+            "LSTSTMT BAL",
+            "RP. 219.276"
+        ],
+        [
+            "MIN REPAY",
+            "RP. 219.276"
+        ],
+        [
+            "RPY DUEDATE",
+            "31-12-2013"
+        ],
+        [
+            ""
+        ],
+        [
+            ""
+        ],
+        [
+            ""
+        ]
+    ],
+    "paymentInfo":null,
+    "customerName":"BURHAM",
+    "responseCode":"00",
+    "billPeriod":null
+
+}
+}

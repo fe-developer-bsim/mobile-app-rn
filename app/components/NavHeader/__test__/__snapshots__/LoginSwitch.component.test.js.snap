@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginSwitch component renders correctly 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FA3F70",
+      }
+    }
+  />
+</View>
+`;

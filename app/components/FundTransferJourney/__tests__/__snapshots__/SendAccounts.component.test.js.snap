@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendAccounts component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "marginVertical": 5,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 0.7,
+              }
+            }
+          >
+            <Image
+              source="saving-paycard.png"
+              style={
+                Object {
+                  "height": 85,
+                  "width": 85,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1.7,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingVertical": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                1
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 1,
+                }
+              }
+            >
+              <Text />
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 1,
+                }
+              }
+            >
+              <Text />
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingVertical": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                  }
+                }
+              >
+                Saldo tersedia Rp
+                 
+                --
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "flex": 0.3,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "color": "#ED1D25",
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

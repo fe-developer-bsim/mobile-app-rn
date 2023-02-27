@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TxTravelSeat Component: PaymentSelection renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+      }
+    }
+    extraHeight={120}
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#C10C19",
+              "height": 5,
+              "width": 525,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 28,
+                "paddingVertical": 20,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "paddingTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                  "paddingRight": 20,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  clickable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "marginBottom": 5,
+                        },
+                        Array [
+                          Object {
+                            "flexDirection": "row-reverse",
+                            "justifyContent": "space-between",
+                            "marginHorizontal": -20,
+                            "paddingHorizontal": 20,
+                          },
+                          Object {},
+                        ],
+                      ]
+                    }
+                  >
+                    <Image
+                      source="checkbox-unchecked.png"
+                      style={
+                        Array [
+                          Object {
+                            "height": 26,
+                            "width": 26,
+                          },
+                          Object {
+                            "height": 25,
+                            "width": 25,
+                          },
+                        ]
+                      }
+                    />
+                    <View />
+                  </View>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "paddingHorizontal": 10,
+                    }
+                  }
+                >
+                  CHUBB Travel Insurance
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 12,
+                      "fontWeight": "bold",
+                      "paddingHorizontal": 10,
+                    }
+                  }
+                >
+                  Rp 
+                  135,000/pax
+                </Text>
+              </View>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#ccc",
+                "paddingTop": 20,
+              }
+            }
+          >
+            Dengan membeli asuransi ini, Anda menyetujui semua ketentuan yang ditetapkan oleh CHUBB, Setiap maskapai mungkin berbeda
+          </Text>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#ED1D25",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Syarat & Ketentuan
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingVertical": 50,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "paddingHorizontal": 50,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            onpress={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              LANJUTKAN
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

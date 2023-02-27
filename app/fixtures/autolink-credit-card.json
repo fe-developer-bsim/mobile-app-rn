@@ -1,0 +1,11 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/autolink-creditcard",
+  "method": "POST",
+  "requestBody":{
+    "ipassport": "SMP-21208421493722531267",
+    "lang": "EN",
+    "accountNumber": "0008385181"
+  },
+
+  "response": {}
+}

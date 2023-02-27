@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainGenerateCode component renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

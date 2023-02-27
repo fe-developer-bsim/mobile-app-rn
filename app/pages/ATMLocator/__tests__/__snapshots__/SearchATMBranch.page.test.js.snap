@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchATMBranch: SearchATMBranch page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+  enableOnAndroid={true}
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "width": 750,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ECECEC",
+            "borderRadius": 100,
+            "flexDirection": "row",
+            "height": 50,
+            "margin": 20,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            autoFocus={true}
+            onChangeText={[Function]}
+            placeholder="Cari lokasi"
+            placeholderTextColor="#848484"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "height": 50,
+                "width": 645,
+              }
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 20,
+                },
+                Object {
+                  "paddingTop": 15,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#ECECEC",
+          "borderBottomWidth": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "fontSize": 16,
+          }
+        }
+      >
+        Tidak ada ATM atau cabang dekat sini
+      </Text>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: SelectSeat page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "justifyContent": "space-between",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomWidth": 10,
+            "borderColor": "#ECECEC",
+            "paddingBottom": 15,
+            "paddingHorizontal": 20,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 18,
+            }
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+            }
+          }
+        >
+           -  - 
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+            }
+          }
+        >
+          Invalid date, 
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ECECEC",
+              "height": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#666",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+              }
+            }
+          >
+            LAYAR
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#ECECEC",
+              },
+            ]
+          }
+        >
+          <RCTScrollView
+            directionalLockEnabled={false}
+            horizontal={true}
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "height": 75,
+                    "width": 75,
+                  }
+                }
+              />
+            </View>
+          </RCTScrollView>
+        </View>
+        <View
+          style={
+            Object {
+              "marginVertical": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "500",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Kursi
+               (
+              0
+              )
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FA3F70",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "textAlign": "right",
+                }
+              }
+            >
+              01:00
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 16,
+            "fontWeight": "300",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 18,
+          }
+        }
+      >
+        Rp 
+        0
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FF8E8E",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            BELI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

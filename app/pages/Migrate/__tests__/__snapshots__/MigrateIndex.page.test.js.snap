@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney: CompletedOnboarding page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": -10,
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "paddingTop": 30,
+      }
+    }
+  >
+    <Image
+      source="simobiplus.png"
+    />
+    <View>
+      <Image
+        source="MigrateImage.png"
+        style={
+          Object {
+            "height": 130,
+            "justifyContent": "center",
+            "paddingTop": 30,
+            "width": 327,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "paddingTop": 20,
+        }
+      }
+    >
+      Mendaftar dalam 3 langkah
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "paddingTop": 5,
+        }
+      }
+    >
+      Informasi Anda aman dari akun Simobi sebelumnya
+    </Text>
+  </View>
+  <View>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            BERIKUTNYA
+          </Text>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#ED1D25",
+          "fontSize": 16,
+          "padding": 10,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      Sudah memiliki akun Simobi? 
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingHorizontal": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 12,
+            "justifyContent": "center",
+            "textAlign": "center",
+          }
+        }
+      >
+        SimobiPlus 
+        v1.0.test
+         Dengan melanjutkan saya menyetujui
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 12,
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "textAlign": "center",
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        syarat dan ketentuan SimobiPlus
+      </Text>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

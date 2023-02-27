@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewAtmCardConfirmation page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+        "height": 667,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": -10,
+      }
+    }
+    extraHeight={120}
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingHorizontal": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              }
+            }
+          >
+            Konfirmasi Pengajuan Kartu ATM
+          </Text>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Account Linked to ATM Card
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "marginTop": 5,
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Nama Pemegang Kartu
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "marginTop": 5,
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Card Network
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "marginTop": 5,
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Fee
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "marginTop": 5,
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Rp. --
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginTop": 20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#9E9E9E",
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              >
+                Delivery Address
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "marginTop": 5,
+                    },
+                    Object {
+                      "fontFamily": "roboto",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginBottom": 100,
+                "marginTop": 20,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#9E9E9E",
+                  "fontFamily": "roboto",
+                  "marginBottom": 10,
+                }
+              }
+            >
+              Detail Kartu
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1.5,
+                  "flex": 1,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": undefined,
+                  }
+                }
+                style={
+                  Object {
+                    "flex": 1,
+                    "resizeMode": "contain",
+                    "width": 750,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        Object {
+          "padding": 20,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,22 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/transfer",
+  "requestBody": {
+    "ipassport": "SMP-3347851489053247995",
+    "accountFrom": "10322",
+    "targetAccount": "121106",
+    "transferList": "121106",
+    "currency": "IDR",
+    "amount": "10000",
+    "mode": "own",
+    "modeCategory": "internal",
+    "targetAccountType": "inbanktransfer",
+    "lang": "EN",
+    "easyPin": "123456"
+  },
+  "response": {
+    "responseMessage": "success",
+    "transRefNum": "IB-053282141137",
+    "responseCode": "00",
+    "forward": "result"
+  }
+}

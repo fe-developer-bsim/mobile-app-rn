@@ -1,0 +1,27 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/td-online-confirmation",
+  "requestBody": {
+    "ipassport": "SMP-1062451491450864905",
+    "lang": "en",
+    "accountFrom": "9640",
+    "bankBranch": "ID0010008",
+    "productType": "timeDeposit",
+    "currency": "IDR",
+    "initialDeposit": "8100001",
+    "depositPeriod": "01M",
+    "maturityInstruction": "883"
+  },
+  "response": {
+    "depositPeriod": "Deposit Period 1 Bulan",
+    "interestRate": "10",
+    "initialDeposit": "8100001",
+    "debitAccountNumber": "0000137577",
+    "bankBranch": "KCP Samanhudi",
+    "maturityInstruction": "ARO Pokok",
+    "appliedDate": "2017-04-06T17:00:00Z",
+    "currency": "IDR",
+    "completionDate": "2017-05-06T17:00:00Z",
+    "productType": "timeDeposit",
+    "responseCode": "00"
+  }
+}

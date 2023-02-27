@@ -1,0 +1,84 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/biller-config",
+  "method": "POST",
+  "requestBody": {
+    "ipassport": "SMP-3347851490171629525",
+    "lang": "EN",
+    "accountNumber": "0002838796"
+  },
+  "response": {
+    "responseMessage": "Success get mini statement",
+    "miniStatementData": [{
+        "amount": "29,000",
+        "description": "Bill Payme",
+        "date": "21/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "26,000",
+        "description": "Bill Payme",
+        "date": "21/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "27,000",
+        "description": "Bill Payme",
+        "date": "21/03/2017",
+        "creditOrDebit": "C",
+        "currency": "IDR"
+      },
+      {
+        "amount": "33,614",
+        "description": "Bill Payme",
+        "date": "21/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "21,500",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "75,000",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "51,500",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "10,611",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "381,511",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      },
+      {
+        "amount": "87,000",
+        "description": "Bill Payme",
+        "date": "22/03/2017",
+        "creditOrDebit": "D",
+        "currency": "IDR"
+      }
+    ],
+    "responseCode": "00"
+  }
+}

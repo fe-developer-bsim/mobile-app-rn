@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyHistoryReward Component: PaymentSelection renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FA3F70",
+          "borderColor": "transparent",
+          "borderWidth": 1,
+          "height": 133.4,
+          "position": "absolute",
+          "width": 750,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 20,
+            "marginHorizontal": 21.75,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#2F476D",
+              "fontWeight": "700",
+              "paddingTop": 10,
+            }
+          }
+        >
+          Kamu berhasil mengundang
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ED1D25",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "paddingTop": 5,
+            }
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ED1D25",
+              "fontSize": 18,
+            }
+          }
+        >
+          Teman
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#2F476D",
+              "fontWeight": "700",
+              "paddingTop": 15,
+            }
+          }
+        >
+          Kamu berhasil mendapatkan
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ED1D25",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "paddingTop": 5,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ED1D25",
+              "fontSize": 18,
+              "paddingBottom": 20,
+            }
+          }
+        >
+          poin
+        </Text>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F1F3F6",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "height": 65,
+                "justifyContent": "center",
+                "marginHorizontal": 36.75,
+                "paddingHorizontal": 15,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#7B7F9E",
+                    "fontSize": 12,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Reward poin kamu akan masuk ke Simas Poin 
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#7B7F9E",
+                    "fontSize": 12,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                secara otomatis setiap hari Sabtu.
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#7B7F9E",
+                      "fontSize": 12,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cek Simas Poin kamu secara berkala
+                   
+                </Text>
+                <Text
+                  style={
+                    Object {
+                      "color": "#ED1D25",
+                      "fontSize": 12,
+                      "textDecorationLine": "underline",
+                    }
+                  }
+                >
+                  disini
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 15,
+          "marginBottom": 20,
+          "marginHorizontal": 21.75,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontWeight": "700",
+            "marginHorizontal": 36.75,
+            "paddingBottom": 10,
+            "paddingTop": 15,
+          }
+        }
+      >
+        List Hadiah terakhir
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "paddingTop": 40,
+            }
+          }
+        >
+          No Content
+        </Text>
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "marginBottom": 160.07999999999998,
+              "paddingTop": 10,
+            }
+          }
+        >
+          Silakan Periksa catatan Undangan untuk Informasi hadiah
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SetEditLimitFundTransfer component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+    ]
+  }
+  enableOnAndroid={true}
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingVertical": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 15,
+                          },
+                          Object {
+                            "backgroundColor": "#ffe8e1",
+                            "borderRadius": 10,
+                            "color": "#E30717",
+                            "flex": 1,
+                            "paddingHorizontal": 1,
+                            "paddingVertical": 12,
+                          },
+                          Object {
+                            "fontFamily": "simas",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "justifyContent": "flex-end",
+                        "paddingLeft": 20,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          undefined,
+                          Object {
+                            "alignItems": "center",
+                            "color": "#2F476D",
+                            "fontWeight": "700",
+                            "justifyContent": "flex-start",
+                          },
+                        ]
+                      }
+                    />
+                    <Text
+                      style={
+                        Array [
+                          undefined,
+                          Object {
+                            "alignItems": "center",
+                            "color": "#2F476D",
+                            "fontWeight": "700",
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ECECEC",
+                  "height": 5,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text>
+            Transfer to
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingVertical": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "borderColor": "#cac6c6",
+                      "borderRadius": 10,
+                      "borderWidth": 1,
+                      "paddingHorizontal": 15,
+                      "paddingVertical": 10,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#ccc",
+                        "fontFamily": "Roboto",
+                        "fontSize": 12,
+                        "marginBottom": 5,
+                      }
+                    }
+                  >
+                    Transfer to
+                  </Text>
+                  <View>
+                    <Text>
+                          -    
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "paddingHorizontal": 10,
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2F476D",
+                "fontFamily": "Roboto",
+                "fontSize": 16,
+                "fontWeight": "700",
+                "paddingBottom": 30,
+              },
+            ]
+          }
+        >
+          Set Limit Transaction
+        </Text>
+      </View>
+      <View>
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                Object {
+                  "borderColor": "#949494",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto",
+                      "fontSize": 20,
+                    },
+                  ],
+                  Object {
+                    "marginLeft": 10,
+                  },
+                ]
+              }
+            >
+              Rp
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              disabled={false}
+              disabledLineType="solid"
+              editable={true}
+              keyboardType="numeric"
+              label=""
+              maxLength={17}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="Limit / Transaction "
+              rejectResponderTermination={true}
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                    "height": 50,
+                    "textAlign": "center",
+                    "width": 630,
+                  },
+                ]
+              }
+              theme="primary"
+              tintColor="#D72F33"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginRight": 10,
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "paddingHorizontal": 10,
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <View>
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                Object {
+                  "borderColor": "#949494",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontWeight": "700",
+                    },
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Roboto",
+                      "fontSize": 20,
+                    },
+                  ],
+                  Object {
+                    "marginLeft": 10,
+                  },
+                ]
+              }
+            >
+              Rp
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              disabled={false}
+              disabledLineType="solid"
+              editable={true}
+              keyboardType="numeric"
+              label=""
+              maxLength={17}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="Limit / Day"
+              rejectResponderTermination={true}
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                    "height": 50,
+                    "textAlign": "center",
+                    "width": 630,
+                  },
+                ]
+              }
+              theme="primary"
+              tintColor="#D72F33"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View>
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 25,
+                    },
+                    Object {
+                      "color": "#000000",
+                      "marginRight": 10,
+                    },
+                    Object {
+                      "fontFamily": "simas",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FF8E8E",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

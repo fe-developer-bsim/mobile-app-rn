@@ -1,0 +1,12 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/confirm-block-creditcard",
+  "requestBody": {
+    "ipassport":"SMP-10907701496040647910",
+    "lang":"EN"
+  },
+  "response": {
+    "transRefNum": "MB-201705291496040837617010",
+    "responseMessage": "Sms OTP sent successfully",
+    "responseCode": "00"
+  }
+}

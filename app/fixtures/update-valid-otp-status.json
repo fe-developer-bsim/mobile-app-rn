@@ -1,0 +1,19 @@
+{
+  "url": "http://localhost:8080/IBORCL/rest/v3/action/verifyOTPEform",
+  "requestBody": {
+    "ipassport": "SMP-10907701491565133028",
+    "lang": "EN",
+    "oldPassword": "12345678c",
+    "newPassword": "12345678b",
+    "confirmNewPassword": "12345678b",
+    "E2EE_RANDOM": "123456"
+  },
+  "response": {
+    "updateValidOTPStatusMap": {
+      "username": "is**nu",
+      "tokenServer": "46d838e0e85febec909ea8044bd1d9a53186e9ab6513e22fbfd8f5294b99d6b4"
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader Componenent: SwitchToLogin renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+      }
+    }
+  >
+    Punya akun? 
+  </Text>
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FA3F70",
+        }
+      }
+    >
+      Log in
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay component Overlay: renders correctly 1`] = `
+<Modal
+  animationType="none"
+  hardwareAccelerated={false}
+  hideOnBack={false}
+  onBackButtonPress={[Function]}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    hideOnBack={false}
+    onBackButtonPress={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    transparent={true}
+  >
+    <View
+      contentContainerStyle={
+        Object {
+          "flex": 1,
+        }
+      }
+      extraHeight={120}
+      keyboardShouldPersistTaps="handled"
+      scrollEnabled={false}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(37, 8, 10, 0.78)",
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 20,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 20,
+                "padding": 20,
+              },
+              Object {},
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 20,
+                "padding": 20,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

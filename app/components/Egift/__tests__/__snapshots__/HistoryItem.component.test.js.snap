@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryItem component HistoryItem: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 3,
+      "justifyContent": "center",
+      "paddingHorizontal": 10,
+      "paddingRight": 15,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "flex": 1,
+            "paddingVertical": 0,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+        ],
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#F1F3F6",
+          "borderRadius": 10,
+          "flex": 0.4,
+          "justifyContent": "center",
+          "marginHorizontal": 5,
+          "marginVertical": 23,
+          "paddingRight": 10,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 7,
+            },
+            Object {
+              "color": "#0ba042",
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+              "transform": Array [
+                Object {
+                  "rotate": "180deg",
+                },
+              ],
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+          "justifyContent": "center",
+          "paddingHorizontal": 10,
+          "paddingRight": 5,
+        }
+      }
+    >
+      <View>
+        <Text
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "paddingBottom": 5,
+              },
+              undefined,
+              Object {
+                "fontWeight": "700",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "paddingTop": 1,
+              },
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        >
+          Saldo akhir: 
+          --
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 3,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "green",
+            },
+            undefined,
+          ]
+        }
+      >
+        +
+        -- points
+         
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 11,
+              "paddingBottom": 5,
+            },
+            Object {
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        18 Aug 1989
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "flex": 1,
+        "height": 1,
+        "marginVertical": 10,
+      }
+    }
+  />
+</View>
+`;

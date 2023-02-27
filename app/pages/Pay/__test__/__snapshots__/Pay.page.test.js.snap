@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney: CompletedOnboarding page renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 2,
+          "justifyContent": "space-between",
+          "marginTop": 20,
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "marginBottom": 5,
+              },
+            ]
+          }
+        >
+          Pembayaran Tagihan dan Lainnya
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000",
+              "fontSize": 14,
+            }
+          }
+        >
+          Lihatlah apa yang ingin Anda bayar
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(0,0,0, 0.09)",
+              },
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "height": 400,
+                "justifyContent": "space-between",
+                "marginTop": 20,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "flexDirection": "column",
+                  "height": 100,
+                  "justifyContent": "center",
+                  "marginBottom": 1,
+                  "width": 354,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

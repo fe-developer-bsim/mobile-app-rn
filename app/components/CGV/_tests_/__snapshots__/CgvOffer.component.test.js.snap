@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CgvOffer component CgvOffer: renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderColor": "#cac6c6",
+      "borderRadius": 1,
+      "borderWidth": 1,
+      "marginLeft": 13,
+      "marginVertical": 1,
+      "opacity": 1,
+      "width": 355,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Object {
+        "maxWidth": 355,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 465.9375,
+        }
+      }
+    >
+      <Image
+        onError={[Function]}
+        onLoad={[Function]}
+        onLoadStart={[Function]}
+        onProgress={[Function]}
+        resizeMode="stretch"
+        source={
+          Object {
+            "uri": "-",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 124.25,
+          "justifyContent": "flex-start",
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 11,
+          }
+        }
+      >
+        -
+      </Text>
+    </View>
+  </View>
+</View>
+`;

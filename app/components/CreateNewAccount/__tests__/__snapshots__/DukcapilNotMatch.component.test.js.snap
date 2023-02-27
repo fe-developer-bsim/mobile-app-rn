@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DukcapilNotMatch Component: create new credit card journey renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+    }
+  }
+  extraHeight={120}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ED1D25",
+        "paddingBottom": 20,
+      }
+    }
+  >
+    <Image
+      source="white-simobi.png"
+      style={
+        Object {
+          "height": 30,
+          "marginTop": 20,
+          "paddingVertical": 20,
+          "resizeMode": "contain",
+          "width": 130,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 3,
+            "paddingHorizontal": 20,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+            }
+          }
+        >
+          Gagal membuat rekening tabungan
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "paddingRight": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 26,
+              },
+              Object {
+                "alignItems": "flex-end",
+                "color": "#FFFFFF",
+                "marginTop": 30,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 2,
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignItems": "center",
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 24,
+            "fontWeight": "400",
+          }
+        }
+      >
+        Silakan lakukan pengkinian data di kantor cabang Bank Sinarmas terdekat atau hubungi Bank Sinarmas Care 1500 153
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#cac6c6",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "marginVertical": 20,
+          "padding": 10,
+          "paddingRight": 20,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 20,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "roboto",
+            "fontSize": 12,
+            "marginLeft": 10,
+            "width": 650,
+          }
+        }
+      >
+        Silahkan kunjungi Kantor Cabang Bank Sinarmas untuk bantuan pembukaan produk
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "textAlign": "center",
+              "width": 250,
+            }
+          }
+        >
+          TUTUP
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

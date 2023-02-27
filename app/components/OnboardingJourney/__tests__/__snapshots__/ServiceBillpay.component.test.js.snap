@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingJourney Component: RegisterFormView renders correctly 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 50,
+        "marginBottom": 1,
+        "marginRight": 4,
+        "marginTop": 10,
+        "width": 172,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <Image
+        style={
+          Object {
+            "height": 50,
+            "width": 50,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 20,
+          "justifyContent": "center",
+          "marginLeft": 5,
+          "marginTop": 15,
+          "width": 172,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 12,
+            "textAlign": "center",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

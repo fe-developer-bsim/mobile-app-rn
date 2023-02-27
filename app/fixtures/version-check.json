@@ -1,0 +1,13 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/version-check",
+  "requestBody": {
+    "currentVersion": "5.1.1",
+    "devicePlatform": "ios"
+  },
+  "response": {
+    "minimumVersion": "7.0.1",
+    "latestVersion": "7.0.1",
+    "dueDate": "03/06/2017",
+    "description": "some desc"
+  }
+}

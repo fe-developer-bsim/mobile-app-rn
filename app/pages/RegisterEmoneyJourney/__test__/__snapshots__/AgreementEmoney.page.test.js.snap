@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BillerTypeSixConfirmation page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "paddingBottom": 15,
+      "paddingTop": 25,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      injectedJavaScript="document.getElementById('checkbox').addEventListener('click', function(){
+      window.postMessage(\\"true\\")
+    })
+    true"
+      messagingEnabled={true}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={[Function]}
+      scalesPageToFit={true}
+      source={
+        Object {
+          "uri": "http://www.banksinarmas.com/PersonalBanking/externalContent/OnboardingTnC.html",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ED1D25",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FF8E8E",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          SAYA SETUJU
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

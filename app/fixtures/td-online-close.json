@@ -1,0 +1,29 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/td-online-close",
+  "requestBody": {
+    "ipassport": "SMP-21144621500023339770",
+    "lang": "en",
+    "tdAccNumber": "0900000000023526",
+    "closeMode": "futureDate",
+    "reason": "test",
+    "breakDateStr": "2017-07-30",
+    "transRefNum": "IB-106245-1491915244717",
+    "mPinInputed": "123456"
+  },
+  "response": {
+    "reason": "test",
+    "debitAccountNumber": "0171014287",
+    "transRefNum": "IB-106245-1491915244717",
+    "newAccountNumber": "0900000000023526",
+    "bankBranchName": "KC Tanah Abang",
+    "closingPrincipal": null,
+    "responseCode": "00",
+    "breakDate": "2017-07-30",
+    "closingPrincipalStr": null,
+    "maturityDate": "2017-08-14",
+    "name": "CORIN CORIN",
+    "currency": "IDR",
+    "responseMessage": "success",
+    "productType": "Deposito Berjangka/Time Deposit"
+  }
+}

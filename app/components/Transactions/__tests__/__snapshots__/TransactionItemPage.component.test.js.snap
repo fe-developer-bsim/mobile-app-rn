@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionItemPage component renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "flex": 1,
+            "paddingVertical": 7.5,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+        ],
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#f9f8fd",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "marginRight": 20,
+          "paddingHorizontal": 8,
+          "paddingVertical": 13,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#FA3F70",
+              "fontFamily": "roboto",
+              "fontWeight": undefined,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 2,
+          "justifyContent": "center",
+          "paddingRight": 5,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#2F476D",
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "paddingBottom": 5,
+            }
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#666",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 3,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Array [
+              undefined,
+              Object {
+                "fontFamily": "roboto",
+              },
+            ],
+            Object {
+              "color": "#2F476D",
+              "fontFamily": "roboto",
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        - 
+        Rp
+         
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "paddingLeft": 25,
+          "paddingRight": 5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "flex": 1,
+        "height": 1,
+        "marginVertical": 10,
+      }
+    }
+  />
+</View>
+`;

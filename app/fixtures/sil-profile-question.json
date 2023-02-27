@@ -1,0 +1,110 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/asj-getProfileQuestion",
+    "requestBody": {
+      "ipassport":"SMP-21381371591860091915",
+      "lang":"id"
+    },
+    "response": {
+      "responseMessage": "success",
+      "responseCode": "00",
+      "profileQuestion": [
+          {
+              "questionareId": 105,
+              "label": "Berapa usia Anda saat ini?",
+              "listAnswers": [
+                  {
+                      "questionarePp": "A",
+                      "label": "18 tahun - 40 tahun"
+                  },
+                  {
+                      "questionarePp": "B",
+                      "label": "41 tahun - 54 tahun"
+                  },
+                  {
+                      "questionarePp": "C",
+                      "label": "Lebih besar atau sama dengan 55 tahun"
+                  }
+              ]
+          },
+          {
+              "questionareId": 106,
+              "label": "Berapa banyak uang yang dapat Anda sisihkan setiap bulannya dari gaji/pendapatan bulanan Anda?",
+              "listAnswers": [
+                  {
+                      "questionarePp": "A",
+                      "label": "Sampai dengan 10%"
+                  },
+                  {
+                      "questionarePp": "B",
+                      "label": "Lebih dari 10% sampai dengan 25%"
+                  },
+                  {
+                      "questionarePp": "C",
+                      "label": "Lebih dari 25% sampai dengan 50%"
+                  },
+                  {
+                      "questionarePp": "D",
+                      "label": "Lebih dari 50%"
+                  }
+              ]
+          },
+          {
+              "questionareId": 107,
+              "label": "Apakah Anda memiliki dana darurat untuk kepentingan jangka pendek?",
+              "listAnswers": [
+                  {
+                      "questionarePpFlag": 0,
+                      "questionareTtgFlag": 0,
+                      "label": "Tidak"
+                  },
+                  {
+                      "questionarePpFlag": 1,
+                      "questionareTtgFlag": 1,
+                      "label": "Ya"
+                  }
+              ]
+          },
+          {
+              "questionareId": 108,
+              "label": "Jika Anda akan berinvestasi, jangka waktu mana yang akan Anda  pilih untuk berinvestasi?",
+              "listAnswers": [
+                  {
+                      "questionarePp": "A",
+                      "label": "Sampai dengan 3 tahun"
+                  },
+                  {
+                      "questionarePp": "B",
+                      "label": "Lebih dari 3 tahun sampai dengan 5 tahun"
+                  },
+                  {
+                      "questionarePp": "C",
+                      "label": "Lebih dari 5 tahun sampai dengan 7 tahun"
+                  },
+                  {
+                      "questionarePp": "D",
+                      "label": "Lebih dari 7 tahun"
+                  }
+              ]
+          },
+          {
+              "questionareId": 109,
+              "label": "Mana yang akan Anda pilih dari berbagai kombinasi hasil dan risiko yang beragam berikut untuk investasi Anda?",
+              "listAnswers": [
+                  {
+                      "questionarePp": "A",
+                      "label": "Risiko rendah walaupun hasil investasi mungkin juga rendah"
+                  },
+                  {
+                      "questionarePp": "B",
+                      "label": "Risiko menengah dengan kemungkinan hasil investasi menengah"
+                  },
+                  {
+                      "questionarePp": "C",
+                      "label": "Risiko tinggi dengan kemungkinan hasil investasi lebih tinggi"
+                  }
+              ]
+          }
+      ]
+  }
+  }
+  

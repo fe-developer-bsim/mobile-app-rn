@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coupon Detail page renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+                "fontSize": 20,
+                "fontWeight": "700",
+                "textAlign": "left",
+              }
+            }
+          >
+            0
+             
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "paddingLeft": 15,
+                  "paddingRight": 20,
+                  "textAlign": "left",
+                }
+              }
+            >
+              Cashback
+            </Text>
+          </Text>
+        </View>
+        <View />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingBottom": 20,
+            "paddingTop": 6,
+          }
+        }
+      >
+        <Image
+          source="LabelCashback.png"
+          style={
+            Object {
+              "height": 15,
+              "width": 60,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "paddingHorizontal": 5,
+              "width": 80,
+            }
+          }
+        >
+          <Image
+            source="eventLable.png"
+            style={
+              Object {
+                "height": 15,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "paddingLeft": 8,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Dapatkan cashback sebesar 0 untuk transaksi di SimobiPlus
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Berlaku
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            }
+          }
+        >
+          Invalid date
+           - 
+          Invalid date
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Durasi
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            }
+          }
+        >
+          00:00 - 
+          0:
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "paddingBottom": 5,
+            }
+          }
+        >
+          Syarat dan ketentuan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+              }
+            }
+          >
+            PAKAI
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

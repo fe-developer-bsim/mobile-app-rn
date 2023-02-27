@@ -1,0 +1,84 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/reservation",
+  "method": "POST",
+  "requestBody": {
+    "Contact": {
+      "Email": "darknugi@gmail.com",
+      "Title": "MR",
+      "FirstName": "Gea",
+      "LastName": " Nugraha",
+      "HomePhone": "6281372884968",
+      "MobilePhone": "6281372884968"
+    },
+    "Passengers": [
+      {
+        "Index": 1,
+        "Type": 1,
+        "Title": "MISS",
+        "FirstName": "alisa",
+        "LastName": "subandono",
+        "BirthDate": "1990-08-05",
+        "HomePhone": "0215683691",
+        "MobilePhone": "088212635028",
+        "OtherPhone": null,
+        "IdNumber": "1471100508900002",
+        "Nationality": "ID",
+        "AdultAssoc": null,
+        "PassportExpire": null,
+        "PassportNumber": null,
+        "PassportOrigin": null
+      }
+    ],
+    "Segments": [
+      { 
+        "ClassId": "7445855:E:S][CGK|DPS|SJ 272|2018-07-25 06:15|2018-07-25 09:05|E",
+        "Airline": 2,
+        "FlightNumber": "SJ 272",
+        "Origin": "CGK",
+        "DepartDate": "2016-11-11",
+        "DepartTime": "04:10",
+        "Destination": "SUB",
+        "ArriveDate": "2016-11-11",
+        "ArriveTime": "05:40",
+        "ClassCode": "O",
+        "FlightId": "020013007387797086758969758275778875766965857687-SJ 272-25072018-25072018",
+        "Num": 0,
+        "Seq": 0
+      },
+      { 
+        "ClassId": "7445855:E:S][CGK|DPS|SJ 272|2018-07-25 06:15|2018-07-25 09:05|E",
+        "Airline": 3,
+        "FlightNumber": "QG 642",
+        "Origin": "SUB",
+        "DepartDate": "2016-11-11",
+        "DepartTime": "08:00",
+        "Destination": "DPS",
+        "ArriveDate": "2016-11-11",
+        "ArriveTime": "09:50",
+        "ClassCode": "O",
+        "FlightId": "020013007387797086758969758275778875766965857687-SJ 272-25072018-25072018",
+        "Num": 0,
+        "Seq": 1
+      },
+      { 
+        "ClassId": "7445855:E:S][CGK|DPS|SJ 272|2018-07-25 06:15|2018-07-25 09:05|E",
+        "Airline": 4,
+        "FlightNumber": "AB 123",
+        "Origin": "ABC",
+        "DepartDate": "2018-01-24",
+        "DepartTime": "08:00",
+        "Destination": "ABC",
+        "ArriveDate": "2018-01-26",
+        "ArriveTime": "10:50",
+        "ClassCode": "O",
+        "FlightId": "020013007387797086758969758275778875766965857687-SJ 272-25072018-25072018",
+        "Num": 1,
+        "Seq": 0
+      }
+    ],
+    "CallbackUri": "https://x.com/api/CallbackClient"
+  },
+  "response": {
+    "PnrId" : "098c7e8f-21c4-4424-a2dd-f2bf436edf96"
+  }
+}

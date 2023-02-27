@@ -1,0 +1,221 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/autoDebetListMobileController",
+  "requestBody": {
+    "ipassport": "SMP-3347851491041311642"
+  },
+  "response": {
+    "result": {
+      "autoDebetList": [
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5286",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132128",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5288",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132130",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5289",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132131",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5290",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132132",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5291",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132133",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5292",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132134",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5293",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132135",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5294",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132136",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5295",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132137",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5296",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132138",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5297",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132139",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5298",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132140",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5299",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132141",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5300",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132142",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5301",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132143",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5304",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132146",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5305",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132147",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "250,000",
+          "listUniqueCode": "5306",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132148",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "300,000",
+          "listUniqueCode": "5307",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132149",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "350,000",
+          "listUniqueCode": "5308",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132150",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "350,000",
+          "listUniqueCode": "5309",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132151",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "350,000",
+          "listUniqueCode": "5310",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132152",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        },
+        {
+          "amount": "350,000",
+          "listUniqueCode": "5311",
+          "accountName": "JIMMY SANJAYA",
+          "subscriberNumber": "08888132153",
+          "accountNumber": "0171033802",
+          "merchantName": "Smartfren Prepaid",
+          "periode": "18 Jul 2019"
+        }
+      ]
+    },
+    "responseMessage": "success",
+    "responseCode": "00"
+  }
+}

@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockList page renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+        "height": 667,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    extraHeight={120}
+    keyboardShouldPersistTaps="handled"
+    styles={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "flexGrow": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+            Object {
+              "flex": 1,
+              "justifyContent": "space-between",
+              "padding": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "roboto",
+                "fontSize": 24,
+                "fontWeight": "400",
+              }
+            }
+          >
+            Pilih kartu ATM Anda untuk diblokir
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "fontSize": 16,
+              }
+            }
+          >
+            Tidak ada Kartu ATM aktif yang dapat di blokir
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        Object {
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderColor": "#ECECEC",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 25,
+            },
+            Object {
+              "color": "#000000",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            },
+            Object {
+              "fontFamily": "simas",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1,
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "300",
+            "marginRight": 10,
+            "paddingVertical": 7,
+          }
+        }
+      >
+        Pemblokiran kartu ATM bersifat permanen, untuk permintaan penggantian kartu silahkan datang ke kantor cabang Bank Sinarmas terdekat dengan membawa :
+1. Identitas diri (eKTP / SIM) ASLI
+2. Buku tabungan (jika memiliki buku tabungan)
+3. Surat laporan kehilangan dari kepolisian
+   (jika kartu hilang)
+      </Text>
+    </View>
+  </View>
+</View>
+`;

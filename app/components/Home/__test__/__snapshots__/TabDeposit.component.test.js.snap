@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabDeposit component renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 15,
+          "height": 190,
+          "marginHorizontal": 10,
+          "marginTop": 20,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1.5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 3,
+          "width": 637.5,
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "flex": 1,
+            "height": null,
+            "justifyContent": "center",
+            "paddingLeft": 20,
+            "resizeMode": "cover",
+            "width": null,
+          }
+        }
+      >
+        <Image
+          borderRadius={15}
+          source="time-deposit-card.png"
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": null,
+                "width": null,
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          style={
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 30,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Deposito
+        </Text>
+        <Text
+          style={
+            Object {
+              "backgroundColor": "rgba(0,0,0,0)",
+              "color": "#FFFFFF",
+              "fontFamily": "roboto",
+              "fontSize": 30,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Berjangka
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2F476D",
+            "fontFamily": "roboto",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "paddingVertical": 20,
+          }
+        }
+      >
+        Deposito berjangka
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 20,
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#FF841C",
+                "paddingRight": 10,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "flexWrap": "wrap",
+              "fontFamily": "roboto",
+              "fontWeight": "300",
+            }
+          }
+        >
+          Pembukaan rekening mudah dan praktis, bisa di mana saja dan kapan saja
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 20,
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#FF841C",
+                "paddingRight": 10,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "flexWrap": "wrap",
+              "fontFamily": "roboto",
+              "fontWeight": "300",
+            }
+          }
+        >
+          Tingkat suku bunga kompetitif
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+            "flexDirection": "row",
+            "marginBottom": 20,
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#FF841C",
+                "paddingRight": 10,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "flexWrap": "wrap",
+              "fontFamily": "roboto",
+              "fontWeight": "300",
+            }
+          }
+        >
+          Nominal penempatan hanya mulai dari Rp 500.000
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 20,
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <BVLinearGradient
+          colors={
+            Array [
+              4294927618,
+              4294934296,
+              4294940460,
+            ]
+          }
+          endPoint={
+            Object {
+              "x": 1,
+              "y": 0,
+            }
+          }
+          locations={null}
+          startPoint={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 4,
+              "paddingHorizontal": 20,
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#FFFFFF",
+                "fontFamily": "roboto",
+                "fontSize": 14,
+              }
+            }
+          >
+            DEPOSITO BERJANGKA BARU
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "position": "absolute",
+                "right": 15,
+                "top": 15,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </BVLinearGradient>
+      </View>
+    </View>
+  </View>
+</View>
+`;

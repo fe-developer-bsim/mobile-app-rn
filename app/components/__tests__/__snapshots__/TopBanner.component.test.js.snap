@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBanner component renders correctly 1`] = `
+<View>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 160,
+        "width": 380,
+      }
+    }
+  />
+</View>
+`;

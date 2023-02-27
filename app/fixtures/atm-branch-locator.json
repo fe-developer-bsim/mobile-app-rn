@@ -1,0 +1,68 @@
+{
+    "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/atm-branch-locator",
+    "method": "POST",
+    "requestBody": {
+      "lang":"EN",
+      "latitudeUser": 106.784030,
+      "longitudeUser": -6.198611
+    },
+    "response": {
+      "response_code": "00",
+      "response_message": "Success",
+      "showATMList": [
+        {
+            "aTMLongitude": 106.785215,
+            "aTMLatitude": -6.196887,
+            "aTMAddress": "Jl. KH. Agus Salim No. 45 Kebon Sirih",
+            "distance": "3600",
+            "aTMCode": "15300703",
+            "atmLocatorCode": "002",
+            "aTMDescription": {
+                "operationalHour": "24 Jam",
+                "phoneNumber": "021 1500153",
+                "openStatus": "Buka"
+            }
+        },
+        {
+            "aTMLongitude": 106.789695,
+            "aTMLatitude": -6.198495,
+            "aTMAddress": "Jl. Fachrudin No. 18-20 Tanah Abang, Jak-Pus 10250",
+            "distance": "3669",
+            "aTMCode": "15300704",
+            "atmLocatorCode": "002",
+            "aTMDescription": {
+                "operationalHour": "24 Jam",
+                "phoneNumber": "",
+                "openStatus": "Tutup"
+            }
+        },
+        {
+            "aTMLongitude": 106.788336,
+            "aTMLatitude": -6.202648,
+            "aTMAddress": "Jl. Riau Pekanbaru",
+            "distance": "3000",
+            "aTMCode": "15300705",
+            "atmLocatorCode": "001",
+            "aTMDescription": {
+                "operationalHour": "08:00 - 15:00 WIB",
+                "phoneNumber": "021 1500153",
+                "openStatus": "Tutup"
+            }
+        },
+        {
+            "aTMLongitude": 106.778113,
+            "aTMLatitude": -6.200133,
+            "aTMAddress": "Jl. Kebon Jeruk",
+            "distance": "3000",
+            "aTMCode": "15300706",
+            "atmLocatorCode": "001",
+            "aTMDescription": {
+                "operationalHour": "08:00 - 15:00 WIB",
+                "phoneNumber": "021 1500153",
+                "openStatus": "Buka"
+            }
+        }
+      ]
+    }
+  }
+  

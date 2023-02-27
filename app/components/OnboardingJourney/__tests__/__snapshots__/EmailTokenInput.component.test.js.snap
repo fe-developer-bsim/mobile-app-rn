@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailTokenInput component renders correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  input={
+    Object {
+      "onChange": [Function],
+    }
+  }
+  keyboardType="numeric"
+  maxLength={6}
+  onChangeText={[Function]}
+  rejectResponderTermination={true}
+  submitHandler={[Function]}
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;

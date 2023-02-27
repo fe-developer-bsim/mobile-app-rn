@@ -1,0 +1,14 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/check-register-emoney",
+  "requestBody": {
+    "ipassport": "SMP-10907701491565133028",
+    "lang": "EN",
+    "mobileNumber":"081266666664",
+  	"email": "abraham.riada@banksinarmas.com",
+  	"name":"DONO"
+  },
+  "response": {
+    "responseMessage": "Success",
+    "responseCode": "00"
+  }
+}

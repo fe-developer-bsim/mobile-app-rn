@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickPickListSend component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ccc",
+        }
+      }
+    >
+      Belum ada data yang bisa ditampilkan
+    </Text>
+  </View>
+</View>
+`;

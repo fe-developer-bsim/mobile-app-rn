@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmallCgvInfo component EmallCgvInfo: renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+      },
+    ]
+  }
+  extraHeight={120}
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {},
+          ]
+        }
+      >
+        Price detail
+      </Text>
+    </View>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 18,
+              },
+              Object {
+                "color": "#666",
+                "paddingVertical": 5,
+              },
+            ]
+          }
+        >
+          Departure
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 3,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 3,
+              },
+              Object {
+                "marginVertical": 5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source={null}
+              style={
+                Object {
+                  "height": 40,
+                  "width": 40,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View>
+              <Text
+                style={Object {}}
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#666",
+                    "marginVertical": 2,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "700",
+                },
+                Object {
+                  "marginTop": -19,
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "height": 1,
+          "marginVertical": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 18,
+            },
+            Object {},
+          ]
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            Object {},
+          ]
+        }
+      >
+        Rp
+         
+        --
+      </Text>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

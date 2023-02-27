@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyUpgradeBenefit page renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": -10,
+    }
+  }
+  enableOnAndroid={true}
+  extraScrollHeight={100}
+  keyboardShouldPersistTaps="handled"
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "marginTop": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "roboto",
+            "fontSize": 20,
+            "marginBottom": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        Ayo upgrade akun Anda!
+      </Text>
+      <Image
+        source="upgrade-kyc-benefit.png"
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 576.9230769230769,
+            "marginTop": 10,
+            "width": 750,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginTop": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "roboto",
+              "fontSize": 14,
+              "fontWeight": "300",
+              "marginBottom": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          Dengan melakukan Upgrade to Account ini, Anda akan membuka Tabungan Simas Digi dan nikmati berbagai keuntungan, di antaranya:
+        </Text>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 5,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#FA3F70",
+                  "marginTop": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "marginLeft": 10,
+                  "width": 630,
+                }
+              }
+            >
+              Pembukaan rekening mudah dan cepat melalui SimobiPlus, mobile banking Bank Sinarmas
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 5,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#FA3F70",
+                  "marginTop": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "marginLeft": 10,
+                  "width": 630,
+                }
+              }
+            >
+              Pembukaan rekening secara online, di mana saja dan kapan saja
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 5,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#FA3F70",
+                  "marginTop": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "marginLeft": 10,
+                  "width": 630,
+                }
+              }
+            >
+              Bebas setoran awal
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 5,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#FA3F70",
+                  "marginTop": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "marginLeft": 10,
+                  "width": 630,
+                }
+              }
+            >
+              Bebas administrasi bulanan
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 5,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 15,
+                },
+                Object {
+                  "alignSelf": "center",
+                  "color": "#FA3F70",
+                  "marginTop": 3,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "fontFamily": "roboto",
+                  "fontSize": 14,
+                  "marginLeft": 10,
+                  "width": 630,
+                }
+              }
+            >
+              Gratis biaya transfer ke bank lain
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FA3F70",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+            }
+          }
+        >
+          UPGRADE NOW
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

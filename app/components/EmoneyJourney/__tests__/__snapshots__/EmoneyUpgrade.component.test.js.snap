@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmoneyUpgrade page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View>
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "height": 784.7058823529412,
+            "paddingHorizontal": 20,
+            "paddingTop": 40,
+            "width": 750,
+          }
+        }
+      >
+        <Image
+          source="emoney-bg.png"
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": 784.7058823529412,
+                "width": 750,
+              },
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source="emoney-bg-2.png"
+            style={
+              Object {
+                "height": 296.44444444444446,
+                "width": 326.0869565217392,
+              }
+            }
+          />
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 45,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "marginLeft": 20,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Upgrade
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Simas E-Money Now
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              1. 
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              Tingkatkan saldo maksimal Anda hingga Rp 10.000.000
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              2. 
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              Gratis tarik tunai di ATM
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              3. 
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontWeight": "700",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 16,
+                  },
+                ]
+              }
+            >
+              Kirim/transfer ke nomor handphone ataupun ke rekening Bank manapun
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+              }
+            }
+          >
+            Hanya dengan 3 langkah
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#000000",
+                  "borderRadius": 50,
+                  "borderWidth": 1,
+                  "height": 10,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                    "marginBottom": 5,
+                    "marginLeft": -4,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Siapkan KTP
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#000000",
+                  "borderRadius": 50,
+                  "borderWidth": 1,
+                  "height": 10,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "alignItems": "flex-start",
+                    "marginBottom": 5,
+                    "marginLeft": -4,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Isi form
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ccc",
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "borderColor": "#000000",
+                  "borderRadius": 50,
+                  "borderWidth": 1,
+                  "height": 10,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "width": 1,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 5,
+              }
+            }
+          >
+            <Image
+              source="banksinarmas2x.png"
+              style={
+                Object {
+                  "height": 35,
+                  "resizeMode": "contain",
+                  "width": 100,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "width": 730,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 5,
+                "paddingBottom": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Roboto",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Pergi ke cabang Bank Sinarmas terdekat atau bertemu dengan salah satu perwakilan kita
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            UPGRADE SEKARANG
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

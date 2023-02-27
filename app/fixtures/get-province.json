@@ -1,0 +1,155 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/listLocation",
+  "requestBody": {
+ "mode":"province",
+ "code":"367103"
+},
+  "response": {
+  "responseMessage": "success get data",
+  "responseCode": "00",
+  "data": {
+    "provinsi": [
+      {
+        "name": "D.I. YOGYAKARTA",
+        "code": "34"
+      },
+      {
+        "name": "NUSA TENGGARA TIMUR",
+        "code": "53"
+      },
+      {
+        "name": "SULAWESI UTARA",
+        "code": "71"
+      },
+      {
+        "name": "PAPUA BARAT",
+        "code": "92"
+      },
+      {
+        "name": "LAMPUNG",
+        "code": "18"
+      },
+      {
+        "name": "SUMATERA SELATAN",
+        "code": "16"
+      },
+      {
+        "name": "JAMBI",
+        "code": "15"
+      },
+      {
+        "name": "BANGKA BELITUNG",
+        "code": "19"
+      },
+      {
+        "name": "BENGKULU",
+        "code": "17"
+      },
+      {
+        "name": "PAPUA",
+        "code": "91"
+      },
+      {
+        "name": "KAB. INDRAGIRI HULU",
+        "code": "1402"
+      },
+      {
+        "name": "BANTEN",
+        "code": "36"
+      },
+      {
+        "name": "SULAWESI BARAT",
+        "code": "76"
+      },
+      {
+        "name": "NANGGROE ACEH DARUSSALAM",
+        "code": "11"
+      },
+      {
+        "name": "JAKARTA",
+        "code": "31"
+      },
+      {
+        "name": "KALIMANTAN TIMUR",
+        "code": "64"
+      },
+      {
+        "name": "SUMATERA BARAT",
+        "code": "13"
+      },
+      {
+        "name": "JAWA TIMUR",
+        "code": "35"
+      },
+      {
+        "name": "BALI",
+        "code": "51"
+      },
+      {
+        "name": "NUSA TENGGARA BARAT",
+        "code": "52"
+      },
+      {
+        "name": "SULAWESI TENGAH",
+        "code": "72"
+      },
+      {
+        "name": "GORONTALO",
+        "code": "75"
+      },
+      {
+        "name": "SUMATERA UTARA",
+        "code": "12"
+      },
+      {
+        "name": "RIAU",
+        "code": "14"
+      },
+      {
+        "name": "KEPULAUAN RIAU",
+        "code": "21"
+      },
+      {
+        "name": "KALIMANTAN BARAT",
+        "code": "61"
+      },
+      {
+        "name": "KALIMANTAN SELATAN",
+        "code": "63"
+      },
+      {
+        "name": "SULAWESI SELATAN",
+        "code": "73"
+      },
+      {
+        "name": "MALUKU",
+        "code": "81"
+      },
+      {
+        "name": "MALUKU UTARA",
+        "code": "82"
+      },
+      {
+        "name": "JAWA BARAT",
+        "code": "32"
+      },
+      {
+        "name": "JAWA TENGAH",
+        "code": "33"
+      },
+      {
+        "name": "KALIMANTAN UTARA",
+        "code": "65"
+      },
+      {
+        "name": "KALIMANTAN TENGAH",
+        "code": "62"
+      },
+      {
+        "name": "SULAWESI TENGGARA",
+        "code": "74"
+      }
+    ]
+  }
+}
+}

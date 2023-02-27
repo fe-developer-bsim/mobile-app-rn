@@ -1,0 +1,76 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/billpayment-detail",
+  "requestBody": {
+    "TXID":"1bf375e5-4513-43d7-b7cd-6dd4204af5c0",
+    "lang":"en",
+    "E2EE_RANDOM":"123456",
+    "tokenServer":"0befd03ccf35859f29e5c405211142322b1c4375069ced91a27e67bdb1f54943",
+    "tokenClient":"7ca7eeaef3f0a21fe7c6a896794f58658bf076771bfff1efa47a1d13102f4d43",
+    "subscriberNoInput":"81012805",
+    "idbillPay":1256,
+    "billerType":"6",
+    "amount":"10000",
+    "billpayMethodType":"1",
+    "denomInput":"10000",
+    "securityTypeCode":"1"
+  },
+  "response": {
+    "amountNumber": "25000",
+    "totalBankCharge": 2500,
+    "amount": 27500,
+    "displayList": [
+      [
+        "PAYMENT",
+        "Go-Pay Customer"
+      ],
+      [
+        "PAYMENT NO",
+        "81012805"
+      ],
+      [
+        "NAME",
+        "NICO"
+      ],
+      [
+        "BILLING AMT",
+        "RP. 25.000"
+      ],
+      [
+        "PAYMENT AMT",
+        "RP. 27.500"
+      ],
+      [
+        "BL/TH",
+        "19/0527"
+      ],
+      [
+        "NO REF",
+        "18092523212245581016"
+      ],
+      [
+        "TES SCREEN 2"
+      ],
+      [
+        "TES SCREEN 3"
+      ],
+      [
+        "TES SCREEN 4"
+      ],
+      [
+        "TES SCREEN 5"
+      ]
+    ],
+    "customerName": "EDI JUNAIDI",
+    "responseCode": "00",
+    "billAmount": "25000",
+    "bankCharge": 2500,
+    "totalAmountDebited": 27500,
+    "billerType": "6",
+    "subscriberNoInput": "81012805",
+    "idbillPay": 1256,
+    "lang": "en",
+    "merchantCurrency": "IDR",
+    "responseMessage": "Success",
+    "descInput": null
+  }
+}

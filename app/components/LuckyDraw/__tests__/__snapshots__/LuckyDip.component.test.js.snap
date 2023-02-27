@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LuckyDip component LuckyDip: renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#ECECEC",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 700,
+          "width": 750,
+        }
+      }
+    >
+      <Image
+        source="BackgroundLuckyDip.png"
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": 700,
+              "width": 750,
+            },
+            undefined,
+          ]
+        }
+      />
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            Anda mempunyai 
+            <Text
+              style={
+                Object {
+                  "fontWeight": "700",
+                }
+              }
+            >
+              0
+               
+              tiket
+            </Text>
+            <Text>
+               
+              untuk bermain
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <View>
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 375,
+                "justifyContent": "center",
+                "marginTop": 30,
+                "width": 375,
+              }
+            }
+          >
+            <Image
+              source="BlankBoxLuckyDip.png"
+              style={
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 375,
+                    "width": 375,
+                  },
+                  undefined,
+                ]
+              }
+            />
+            <View>
+              <View
+                accessible={true}
+                clickable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(255,255,255, 0.4)",
+                    "borderRadius": 100,
+                    "height": 130,
+                    "justifyContent": "center",
+                    "marginTop": 70,
+                    "opacity": 1,
+                    "width": 130,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "rgba(236,236,236, 0.7)",
+                      "borderRadius": 100,
+                      "height": 100,
+                      "justifyContent": "center",
+                      "width": 100,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#949494",
+                        "fontSize": 16,
+                        "fontWeight": "700",
+                        "paddingTop": 5,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    TAB DISINI
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "paddingTop": 5,
+          }
+        }
+      >
+        <Text>
+          Baca
+           
+          <Text
+            style={
+              Object {
+                "color": "#ED1D25",
+                "marginVertical": 10,
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Syarat & Ketentuan
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

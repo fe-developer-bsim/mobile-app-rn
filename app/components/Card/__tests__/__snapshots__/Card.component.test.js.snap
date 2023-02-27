@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+        "flexGrow": 1,
+        "padding": 10,
+        "paddingHorizontal": 15,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 1.5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 3,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

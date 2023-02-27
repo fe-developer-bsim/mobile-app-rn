@@ -1,0 +1,1215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyOrder component MyOrder: loading correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "paddingBottom": 20,
+      "paddingHorizontal": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</View>
+`;
+
+exports[`MyOrder component MyOrder: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "paddingBottom": 20,
+      "paddingHorizontal": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#cac6c6",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingTop": 110,
+      }
+    }
+  >
+    <Image
+      source="no-voucher.png"
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1.35,
+          "height": 170,
+          "justifyContent": "center",
+          "width": 170,
+        }
+      }
+    />
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto",
+              "paddingTop": 20,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#666",
+            },
+          ]
+        }
+      >
+        e-Voucher tidak dapat ditemukan
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#666",
+            },
+            Object {
+              "fontFamily": "Roboto",
+            },
+          ]
+        }
+      >
+        Silahkan lakukan penukaran e-Voucher sekarang!
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`MyOrder component MyOrder: searched & rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "paddingBottom": 20,
+      "paddingHorizontal": 0,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      data={Array []}
+      disableVirtualization={false}
+      enableEmptySections={true}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      enableEmptySections={true}
+      extraData={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#ECECEC",
+                    "borderRadius": 10,
+                    "marginVertical": 10,
+                    "opacity": 1,
+                    "paddingTop": 10,
+                    "width": 710,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "alignSelf": "flex-start",
+                        "borderColor": "#ECECEC",
+                        "borderRadius": 5,
+                        "borderWidth": 0.5,
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "uri": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "height": 80,
+                          "resizeMode": "contain",
+                          "width": 80,
+                        }
+                      }
+                    />
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "paddingLeft": 15,
+                          "paddingRight": 15,
+                          "width": 620,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "flex-start",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#2F476D",
+                                  "flex": 1,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            Voucher Kfc Digital Rp. 50.000 B
+                          </Text>
+                        </View>
+                        <View
+                          accessible={true}
+                          clickable={true}
+                          isTVSelectable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                              "padding": 5,
+                            }
+                          }
+                        >
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": 15,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "simas",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "borderTopColor": "#ECECEC",
+                      "borderTopWidth": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "margin": 10,
+                      "paddingTop": 10,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#F5B52B",
+                          "borderRadius": 20,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "maxWidth": "95%",
+                          "padding": 5,
+                          "paddingRight": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "color": "#FFFFFF",
+                              "marginRight": 5,
+                            },
+                            Object {
+                              "fontFamily": "simas",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#FFFFFF",
+                            "maxWidth": "95%",
+                          }
+                        }
+                      >
+                        19 Aug 2022 10:38
+                         - 
+                        11 Apr 2023 00:00
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 15,
+                          },
+                          Object {
+                            "color": "#000000",
+                            "paddingRight": 10,
+                          },
+                          Object {
+                            "fontFamily": "simas",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`MyOrder component MyOrder: searched, sorted & rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "paddingBottom": 20,
+      "paddingHorizontal": 0,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      data={Array []}
+      disableVirtualization={false}
+      enableEmptySections={true}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      enableEmptySections={true}
+      extraData={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#ECECEC",
+                    "borderRadius": 10,
+                    "marginVertical": 10,
+                    "opacity": 1,
+                    "paddingTop": 10,
+                    "width": 710,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "alignSelf": "flex-start",
+                        "borderColor": "#ECECEC",
+                        "borderRadius": 5,
+                        "borderWidth": 0.5,
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "uri": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "height": 80,
+                          "resizeMode": "contain",
+                          "width": 80,
+                        }
+                      }
+                    />
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "paddingLeft": 15,
+                          "paddingRight": 15,
+                          "width": 620,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "flex-start",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#2F476D",
+                                  "flex": 1,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            Voucher Kfc Digital Rp. 50.000 B
+                          </Text>
+                        </View>
+                        <View
+                          accessible={true}
+                          clickable={true}
+                          isTVSelectable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                              "padding": 5,
+                            }
+                          }
+                        >
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": 15,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "simas",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "borderTopColor": "#ECECEC",
+                      "borderTopWidth": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "margin": 10,
+                      "paddingTop": 10,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#F5B52B",
+                          "borderRadius": 20,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "maxWidth": "95%",
+                          "padding": 5,
+                          "paddingRight": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "color": "#FFFFFF",
+                              "marginRight": 5,
+                            },
+                            Object {
+                              "fontFamily": "simas",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#FFFFFF",
+                            "maxWidth": "95%",
+                          }
+                        }
+                      >
+                        19 Aug 2022 10:38
+                         - 
+                        11 Apr 2023 00:00
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 15,
+                          },
+                          Object {
+                            "color": "#000000",
+                            "paddingRight": 10,
+                          },
+                          Object {
+                            "fontFamily": "simas",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`MyOrder component MyOrder: sorted & rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F1F3F6",
+      "paddingBottom": 20,
+      "paddingHorizontal": 0,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      data={Array []}
+      disableVirtualization={false}
+      enableEmptySections={true}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      enableEmptySections={true}
+      extraData={
+        Array [
+          Object {
+            "agregator": "SOF",
+            "canBeArchived": "false",
+            "cifCode": "4918233",
+            "expiredDate": "2023-04-11 00:00:00",
+            "orderNumber": "POD80270950000-0",
+            "redemptionDate": "2022-08-19 10:38:01",
+            "transRefNum": "MB-49182330881341963",
+            "voucher": Object {
+              "id_voucher": "KFCD50B-20220411-000030",
+              "tgl_expired": "2023-04-11",
+            },
+            "voucherName": "Voucher Kfc Digital Rp. 50.000 B",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                clickable={true}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#ECECEC",
+                    "borderRadius": 10,
+                    "marginVertical": 10,
+                    "opacity": 1,
+                    "paddingTop": 10,
+                    "width": 710,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "alignSelf": "flex-start",
+                        "borderColor": "#ECECEC",
+                        "borderRadius": 5,
+                        "borderWidth": 0.5,
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "uri": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "height": 80,
+                          "resizeMode": "contain",
+                          "width": 80,
+                        }
+                      }
+                    />
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "paddingLeft": 15,
+                          "paddingRight": 15,
+                          "width": 620,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "flex-start",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#2F476D",
+                                  "flex": 1,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            Voucher Kfc Digital Rp. 50.000 B
+                          </Text>
+                        </View>
+                        <View
+                          accessible={true}
+                          clickable={true}
+                          isTVSelectable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                              "padding": 5,
+                            }
+                          }
+                        >
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": 15,
+                                },
+                                undefined,
+                                Object {
+                                  "fontFamily": "simas",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "borderTopColor": "#ECECEC",
+                      "borderTopWidth": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "margin": 10,
+                      "paddingTop": 10,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#F5B52B",
+                          "borderRadius": 20,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "maxWidth": "95%",
+                          "padding": 5,
+                          "paddingRight": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 20,
+                            },
+                            Object {
+                              "color": "#FFFFFF",
+                              "marginRight": 5,
+                            },
+                            Object {
+                              "fontFamily": "simas",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#FFFFFF",
+                            "maxWidth": "95%",
+                          }
+                        }
+                      >
+                        19 Aug 2022 10:38
+                         - 
+                        11 Apr 2023 00:00
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 15,
+                          },
+                          Object {
+                            "color": "#000000",
+                            "paddingRight": 10,
+                          },
+                          Object {
+                            "fontFamily": "simas",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: QRTerminalConfirmation page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "paddingBottom": 30,
+      },
+    ]
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {
+            "paddingBottom": 10,
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+              },
+              Object {},
+            ]
+          }
+        >
+          Detail Simas QR Cashier
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nama tercetak di resi
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Nomor handphone
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "marginBottom": 3,
+            }
+          }
+        >
+          Username
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 15,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            Konfirmasi
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

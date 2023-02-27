@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recurringdetail component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ECECEC",
+      "flex": 1,
+      "paddingHorizontal": 10,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingLeft": 20,
+        "paddingRight": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 10,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Transfer berkala
+          <Text
+            style={
+              Object {
+                "color": "#cac6c6",
+                "fontSize": 10,
+              }
+            }
+          >
+             / 
+          </Text>
+        </Text>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "paddingHorizontal": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "paddingHorizontal": 10,
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Jumlah Transfer
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 28,
+              "fontWeight": "700",
+            }
+          }
+        >
+           
+          
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+              "fontWeight": "300",
+            }
+          }
+        >
+          Belum termasuk biaya transfer
+           
+           
+          
+           (
+          )
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "paddingTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Transfer
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingRight": 50,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingHorizontal": 20,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#4ed07d",
+                "borderRadius": 40,
+                "borderWidth": 1,
+                "height": 10,
+                "justifyContent": "center",
+                "width": 10,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderColor": "#4ed07d",
+                "borderRightColor": "#4ed07d",
+                "borderStyle": "dashed",
+                "borderWidth": 1,
+                "height": 40,
+                "width": 0,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "borderLeftColor": "transparent",
+                "borderLeftWidth": 5,
+                "borderRightColor": "transparent",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "borderTopColor": "#4ed07d",
+                "borderTopWidth": 12,
+                "height": 0,
+                "width": 0,
+              }
+            }
+          />
+        </View>
+        <View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "fontWeight": "300",
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "fontWeight": "300",
+                }
+              }
+            >
+               - PT BANK SINARMAS
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingTop": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "fontWeight": "300",
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                  "fontWeight": "300",
+                }
+              }
+            >
+               - 
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+            "paddingRight": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Jadwal transfer
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+              "fontWeight": "300",
+            }
+          }
+        >
+           
+          Sebulan sekali
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-end",
+            "marginRight": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Catatan
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+              "fontWeight": "300",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+            "paddingRight": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Transfer berikutnya
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+              "fontWeight": "300",
+            }
+          }
+        >
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-end",
+            "marginRight": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 14,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Total berjalan
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 12,
+              "fontWeight": "300",
+            }
+          }
+        >
+           
+          dari
+           
+           
+          kali
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

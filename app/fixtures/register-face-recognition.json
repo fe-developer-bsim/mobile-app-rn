@@ -1,0 +1,11 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/register-face-recognition",
+  "requestBody" : {
+    "image":"1234567890123456",
+    "iPassport":"123456",
+    "lang": "id"
+  },
+  "response": {
+    "responseMessage": "Register Face Recognition successful",
+  }
+}

@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimasValasChooseCurrency page renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": 20,
+      },
+      Object {},
+    ]
+  }
+  extraHeight={120}
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontFamily": "roboto",
+              "fontSize": 24,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Pilih Mata Uang
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="aud.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Dolar Australia
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            AUD
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="cny.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Yuan China
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            CNY
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="usd.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Dolar Amerika Serikat
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            USD
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="eur.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Euro
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            EUR
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="sgd.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Dolar Singapura
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            SGD
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#ECECEC",
+              "flexDirection": "row",
+              "paddingVertical": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "aspectRatio": 1,
+                "marginRight": 10,
+              }
+            }
+          >
+            <Image
+              source="nzd.png"
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Array [
+                  Object {
+                    "justifyContent": "flex-start",
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "roboto",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "marginRight": 10,
+                }
+              }
+            >
+              Dolar Selandia Baru
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "flex": 1,
+                "fontFamily": "roboto",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "textAlign": "right",
+              }
+            }
+          >
+            NZD
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomWidth": 1,
+            "borderColor": "#ECECEC",
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

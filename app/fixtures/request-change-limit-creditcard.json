@@ -1,0 +1,17 @@
+{
+  "url": "http://10.32.1.13:8080/PersonalBanking/rest/v3/action/request-change-limit-creditcard",
+  "requestBody": {
+    "ipassport":"SMP-10907701496047243489",
+    "lang":"EN",
+    "transRefNum":"MB-201705291496047258772004",
+    "newLimit":"25000000",
+    "accountId":122338,
+    "mPin":"709651",
+    "cardName":"FEDRI ARIANTO",
+    "birthdate":"27/02/1988"
+  },
+  "response": {
+    "responseCode":"00",
+    "responseMessage":"Your request to change credit limit has been received. You will be confirmed within 1x24 hours by Customer Care. Please call Credit Card Customer Service directly at the number below if you need more information"
+  }
+}

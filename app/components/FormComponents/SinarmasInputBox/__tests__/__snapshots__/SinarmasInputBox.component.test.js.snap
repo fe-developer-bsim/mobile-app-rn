@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormComponent: SinarmasInputBox component renders correctly 1`] = `
+<View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "borderColor": "#949494",
+            "borderRadius": 5,
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Array [
+              Object {
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "Roboto",
+                "fontSize": 20,
+              },
+            ],
+            Object {
+              "marginLeft": 10,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        disabled={false}
+        disabledLineType="solid"
+        editable={true}
+        label=""
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 16,
+            "height": 50,
+            "width": 630,
+          }
+        }
+        tintColor="#D72F33"
+        underlineColorAndroid="transparent"
+      />
+      <View>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 25,
+              },
+              Object {
+                "color": "#000000",
+                "marginRight": 10,
+              },
+              Object {
+                "fontFamily": "simas",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

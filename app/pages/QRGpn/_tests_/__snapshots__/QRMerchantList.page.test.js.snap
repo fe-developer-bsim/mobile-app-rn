@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: QRMerchantList page renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 0,
+      }
+    }
+    extraHeight={120}
+    keyboardShouldPersistTaps="handled"
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "paddingBottom": 5,
+            "paddingHorizontal": 10,
+            "paddingTop": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        >
+          <View>
+            <View>
+              <View>
+                <Image
+                  source="qrmerchant.jpg"
+                  style={
+                    Object {
+                      "height": 342.1875,
+                      "width": 730,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 10,
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontWeight": "700",
+                      },
+                      Object {
+                        "color": "#ED1D25",
+                        "fontSize": 25,
+                        "paddingHorizontal": 10,
+                        "paddingTop": 10,
+                      },
+                    ]
+                  }
+                >
+                  Daftar Simas QR Merchant
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  undefined,
+                  Object {
+                    "color": "#ccc",
+                    "fontSize": 12,
+                    "paddingHorizontal": 10,
+                    "paddingTop": 10,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 16,
+                    "paddingHorizontal": 10,
+                  }
+                }
+              >
+                Mulai bertransaksi QR di bisnis Anda sekarang
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              }
+            }
+          >
+            TAMBAH MERCHANT BARU
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

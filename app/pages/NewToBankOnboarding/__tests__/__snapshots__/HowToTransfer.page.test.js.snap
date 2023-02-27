@@ -1,0 +1,1509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NTB Onboarding: How to transfer renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "paddingBottom": 30,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 40,
+          "paddingRight": 100,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Transfer dengan Mesin ATM
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              1
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pergi ke Mesin ATM terdekat, masukkan kartu ATM dan nomor PIN.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              2
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Transaksi Lainnya.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              3
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Kirim/Transfer Uang.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              4
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Transfer ke Bank lain/ Sinarmas Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              5
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan nomor Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              6
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan jumlah.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              7
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pastikan jumlah dan nama akun/nomor benar.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              8
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Transaksi Selesai.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+            "height": 3,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 40,
+          "paddingRight": 100,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Transfer dengan Internet Banking
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              1
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Buka Website internet banking .
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              2
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan username dan Password/PIN.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              3
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Kirim/Transfer Uang.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              4
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Transfer ke Bank lain/ Sinarmas Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              5
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan nomor Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              6
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan jumlah.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              7
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pastikan jumlah dan nama akun/nomor benar.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              8
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Transaksi Selesai.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+            "height": 3,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 40,
+          "paddingRight": 100,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+          }
+        }
+      >
+        Transfer dengan Mobile Banking
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              1
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Buka Aplikasi Mobile Banking.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              2
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masuk dengan menggunakan akun Anda.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              3
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Kirim/Transfer Uang.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              4
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pilih Transfer ke Bank lain/ Sinarmas Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              5
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan nomor Virtual Account.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              6
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Masukkan jumlah.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              7
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Pastikan jumlah dan nama akun/nomor benar.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "paddingLeft": 40,
+              "paddingRight": 30,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              8
+              .
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 9,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            >
+              Transaksi Selesai.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0, 0.09)",
+            "height": 3,
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 68.18181818181819,
+            "paddingTop": 25,
+            "position": "relative",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FA3F70",
+                  "borderRadius": 30,
+                  "flexDirection": "row",
+                  "height": 47,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 15,
+                },
+                Object {
+                  "marginTop": 5,
+                },
+                Object {},
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                }
+              }
+            >
+              SAYA TELAH MELAKUKAN PEMBAYARAN
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

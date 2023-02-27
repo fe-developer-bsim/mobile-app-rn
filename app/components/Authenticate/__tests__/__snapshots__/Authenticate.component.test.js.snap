@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authenticate component renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Array [
+      Object {
+        "backgroundColor": "#1bc276",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+        "paddingBottom": -10,
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+  extraHeight={120}
+>
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Roboto",
+                "fontSize": 24,
+              }
+            }
+          >
+            Masukkan 
+            <Text
+              style={
+                Object {
+                  "fontSize": 28,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              
+Token SMS
+            </Text>
+          </Text>
+        </View>
+        <View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 50,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "paddingLeft": 35,
+                  "paddingTop": 5,
+                },
+                Object {
+                  "fontFamily": "simas",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          Kami baru saja mengirimkan SMS 6 digit Token ke nomor +62 
+           
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View>
+          <View>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 12,
+                  "paddingRight": 20,
+                  "textDecorationLine": "underline",
+                }
+              }
+            >
+              Tidak mengenali nomor ini?
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "padding": 20,
+          },
+          Object {
+            "flex": 1,
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderBottomColor": "#FFFFFF",
+            "borderBottomWidth": 1,
+            "justifyContent": "center",
+            "paddingHorizontal": 30,
+            "paddingTop": 10,
+            "width": 255,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          input={
+            Object {
+              "name": "otp",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          keyboardType="numeric"
+          maxLength={6}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 24,
+              "height": 60,
+              "paddingVertical": 5,
+              "textAlign": "center",
+            }
+          }
+          submitHandler={[Function]}
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Roboto",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "paddingTop": 15,
+            }
+          }
+        >
+          Tidak mendapatkan SMS token? 
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Roboto",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "paddingTop": 15,
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Kirim ulang Token SMS
+             
+            30
+            s
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderColor": "#FFFFFF",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontWeight": "700",
+            "padding": 5,
+          }
+        }
+      >
+        Notes
+      </Text>
+      <View
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginHorizontal": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexDirection": "row",
+              }
+            }
+          >
+            1.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexDirection": "row",
+              }
+            }
+          >
+            Dikenakan biaya SMS, pastikan Anda memiliki cukup pulsa
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginHorizontal": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexDirection": "row",
+              }
+            }
+          >
+            2.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginRight": 30,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexDirection": "row",
+              }
+            }
+          >
+            Silahkan masukan SMS token dalam waktu 5 menit
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+              "paddingHorizontal": 15,
+            },
+            Object {
+              "borderColor": "#000000",
+            },
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 47,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+            }
+          }
+        >
+          LANJUTKAN
+        </Text>
+      </View>
+    </View>
+  </View>
+</KeyboardAwareScrollView>
+`;

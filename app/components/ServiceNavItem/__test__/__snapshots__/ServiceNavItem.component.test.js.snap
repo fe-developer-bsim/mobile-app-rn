@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceNavItem component renders correctly 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 70,
+        "marginBottom": 1,
+        "marginTop": 15,
+        "width": 177,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 30,
+          "justifyContent": "center",
+          "width": 177,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 12,
+            "textAlign": "center",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CgvMovieDetail component CgvMovieDetail: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingRight": 0,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#666",
+            "borderBottomWidth": 0.2,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "maxWidth": 504,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#ED1D25",
+                  "fontSize": 13,
+                  "fontWeight": "bold",
+                  "justifyContent": "flex-start",
+                }
+              }
+            >
+              LIHAT TRAILER
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "maxWidth": 216,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 25,
+                  },
+                  Object {
+                    "color": "#ED1D25",
+                    "justifyContent": "flex-end",
+                  },
+                  Object {
+                    "fontFamily": "simas",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#666",
+            "borderBottomWidth": 0.2,
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginHorizontal": 30,
+            "marginVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            -
+          </Text>
+        </View>
+        <View>
+          <Text>
+            
+          </Text>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#ED1D25",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Lebih lanjut
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#666",
+            "borderBottomWidth": 0.2,
+            "height": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginBottom": 50,
+            "marginHorizontal": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+              "marginVertical": 20,
+            }
+          }
+        >
+          Informasi film
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Sutradara
+          </Text>
+          <Text>
+            -
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Durasi
+          </Text>
+          <Text>
+            -
+             Min
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Bahasa
+          </Text>
+          <Text>
+            -
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Teks terjemahan
+          </Text>
+          <Text>
+            -
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Genre
+          </Text>
+          <Text>
+            -
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginBottom": 15,
+            }
+          }
+        >
+          <Text>
+            Rating
+          </Text>
+          <Text>
+            -
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 20,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "height": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginHorizontal": 30,
+          "marginVertical": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FA3F70",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 47,
+                "justifyContent": "center",
+                "paddingHorizontal": 15,
+              },
+              undefined,
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 15,
+              }
+            }
+          >
+            BELI TIKET
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
