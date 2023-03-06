@@ -542,9 +542,9 @@ class LandingTabView extends React.Component {
                         showsHorizontalScrollIndicator={false}
                         bounces={false}
                         onScroll={  categoryOffers === 'Lifestyle' ?
-                          Animated.event([{nativeEvent: {contentOffset: {x: this.scrollLS}}}])
+                          Animated.event([{nativeEvent: {contentOffset: {x: this.scrollLS}}}], {useNativeDriver: true})
                           :
-                          Animated.event([{nativeEvent: {contentOffset: {x: this.scrollX}}}])
+                          Animated.event([{nativeEvent: {contentOffset: {x: this.scrollX}}}], {useNativeDriver: true})
                         }
                         scrollEventThrottle={16}>
                         {
@@ -698,7 +698,7 @@ class LandingTabView extends React.Component {
                 <ScrollView horizontal={true}
                   pagingEnabled={true}
                   showsHorizontalScrollIndicator={false}
-                  onScroll={Animated.event([{nativeEvent: {contentOffset: {x: this.scrollProduct}}}])}
+                  onScroll={Animated.event([{nativeEvent: {contentOffset: {x: this.scrollProduct}}}], {useNativeDriver: true})}
                   scrollEventThrottle={16}>
                   {productData.map(this.renderProduct)}
                 </ScrollView>

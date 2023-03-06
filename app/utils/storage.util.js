@@ -1,5 +1,5 @@
 /** Currently using AsyncStorage , we may end up  using Realm **/
-import {AsyncStorage} from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const storageKeys = {
   SESSION_CODE: 'sessionCode',

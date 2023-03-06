@@ -191,7 +191,7 @@ class ScoreNilaiQ extends React.Component {
                     showsHorizontalScrollIndicator={false}
                     bounces={false}
                     onScroll ={
-                      Animated.event([{nativeEvent: {contentOffset: {x: this.scrollX}}}])
+                      Animated.event([{nativeEvent: {contentOffset: {x: this.scrollX}}}], {useNativeDriver: true})
                     }
                     scrollEventThrottle={16}> 
                     {

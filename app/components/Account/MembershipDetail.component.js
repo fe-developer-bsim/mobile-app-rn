@@ -182,7 +182,7 @@ class MembershipDetail extends React.Component {
               <ScrollView horizontal={true}
                 pagingEnabled={true}
                 showsHorizontalScrollIndicator={false}
-                onScroll={Animated.event([{nativeEvent: {contentOffset: {x: this.scrollProduct}}}])}
+                onScroll={Animated.event([{nativeEvent: {contentOffset: {x: this.scrollProduct}}}]), {useNativeDriver: true}}
                 scrollEventThrottle={16}>
                 {data.map(this.renderProduct)}
               </ScrollView>
