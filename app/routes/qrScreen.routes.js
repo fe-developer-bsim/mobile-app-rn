@@ -1,8 +1,8 @@
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import * as navHeaders from './navHeaders.config';
 import QRScannerScreen from '../pages/QRPayment/QRScanner.page';
 
-const QRGpnRoutes = StackNavigator({
+const QRGpnRoutes = createStackNavigator({
   QRScannerLanding: {
     screen: QRScannerScreen,
     navigationOptions: navHeaders.PayHeaderConfig

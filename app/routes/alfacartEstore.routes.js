@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import Homescreen from '../pages/Home/Dashboard.page';
@@ -15,7 +15,7 @@ import InputEmailScreen from '../pages/MerchantJourney/InputEmailCustomer.page';
 import Authenticate from '../pages/Authenticate/Authenticate.page';
 import LandingPage from '../pages/OnboardingJourney/Landing.page';
 
-const EgiftRoutes = StackNavigator({
+const EgiftRoutes = createStackNavigator({
   AlfacartCheckout: {
     screen: AlfacartCheckout,
     navigationOptions: {

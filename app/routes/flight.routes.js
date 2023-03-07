@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 
@@ -17,7 +17,7 @@ import TxTravelSeat from '../pages/FlightJourney/TxTravelSeat.page';
 import TxTravelHistory from '../pages/FlightJourney/TxTravelHistory.page';
 import TxTravelListCountryIso from '../pages/FlightJourney/TxTravelListCountryIso.page';
 
-const FlightRoutes = StackNavigator({
+const FlightRoutes = createStackNavigator({
   FlightMain: {
     screen: FlightIndex,
     navigationOptions: {

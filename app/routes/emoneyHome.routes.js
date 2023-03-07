@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import {noHeader} from './navHeaders.config';
 
 import CreditCardManagePage from '../pages/CreditCardManageJourney/CreditCardManage.page';
@@ -161,7 +161,7 @@ import EmoneyUpgradeFinalizeScreen from '../pages/EmoneyJourney/EmoneyUpgradeFin
 // alfacart
 import CartAlfacart from '../pages/Egift/CartAlfacart.page';
 
-const HomeRoutes = StackNavigator({
+const HomeRoutes = createStackNavigator({
   HomeScreen: {
     screen: Homescreen,
     path: 'index',

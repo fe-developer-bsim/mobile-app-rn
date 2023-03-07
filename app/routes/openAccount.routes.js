@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -10,7 +10,7 @@ import OpenAndromaxConfirmationPage from '../pages/OpenNewAccount/OpenAndromaxCo
 
 import Authenticate from '../pages/Authenticate/Authenticate.page';
 
-const OpenAccountRoutes = StackNavigator({
+const OpenAccountRoutes = createStackNavigator({
   OpenAndromaxScreen: {
     screen: OpenAndromaxPage,
     navigationOptions: {

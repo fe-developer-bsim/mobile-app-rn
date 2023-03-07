@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import OfferScreen from '../pages/Profile/Offers.page';
 import OfferDetailScreen from '../pages/Profile/OfferDetail.page';
@@ -8,7 +8,7 @@ import QRPromoDetailScreen from '../pages/QRPromo/QRPromoDetail.page';
 import QRMerchantLocationScreen from '../pages/QRPromo/merchantLocation.page';
 import React from 'react';
 
-const OffersRoutes = StackNavigator({
+const OffersRoutes = createStackNavigator({
   Offers: {
     screen: OfferScreen,
     navigationOptions: {

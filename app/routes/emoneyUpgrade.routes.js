@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import React from 'react';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -15,7 +15,7 @@ import EmoneyImageConfirmation from '../pages/EmoneyJourney/EmoneyImageConfirmat
 import Authenticate from '../pages/Authenticate/Authenticate.page';
 
 
-const EmoneyUpgrade = StackNavigator({
+const EmoneyUpgrade = createStackNavigator({
   KTPPassportCameraPage: {
     screen: KTPPassportCamera,
     navigationOptions: {

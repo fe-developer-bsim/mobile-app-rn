@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -12,7 +12,7 @@ import PaymentStatusScreen from '../pages/Egift/EgiftPaymentStatus.page';
 import Authenticate from '../pages/Authenticate/Authenticate.page';
 import LandingPage from '../pages/OnboardingJourney/Landing.page';
 
-const EgiftRoutes = StackNavigator({
+const EgiftRoutes = createStackNavigator({
   EgiftSrcAcc: {
     screen: EgiftSrcAcc,
     navigationOptions: {

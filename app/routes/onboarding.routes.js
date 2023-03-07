@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import Loginscreen from '../pages/OnboardingJourney/LoginWithUserPassword.page';
 import LoginWithEasyPinPage from '../pages/OnboardingJourney/LoginWithEasyPin.page';
@@ -567,7 +567,7 @@ import MembershipDetail from '../pages/Account/MembershipDetail.page';
 import LuckyDrawTnC from '../pages/LuckyDraw/LuckyDrawTnC.page.js';
 
 
-const OnboardingRoutes = StackNavigator({
+const OnboardingRoutes = createStackNavigator({
   Landing: {
     screen: LandingPage,
     path: 'index',

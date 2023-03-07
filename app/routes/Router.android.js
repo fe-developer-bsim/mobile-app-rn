@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {addNavigationHelpers} from 'react-navigation';
+// import {addNavigationHelpers} from 'react-navigation';
 import {connect} from 'react-redux';
 import {BackHandler} from 'react-native';
 import Routes from './index.routes';
@@ -60,9 +60,18 @@ class RouterWrapper extends React.Component {
     BackHandler.removeEventListener('backPress');
   }
 
-  render () {
+  render() {
     const {dispatch, nav, goToLoginWithEasyPin} = this.props;
-    return <Routes navigation={addNavigationHelpers({dispatch, state: nav, goToLoginWithEasyPin, addListener: () => {}})} />;
+    return (
+      <Routes
+        navigation={{
+          dispatch,
+          state: nav,
+          goToLoginWithEasyPin,
+          addListener: () => {},
+        }}
+      />
+    );
   }
 }
 

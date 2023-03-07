@@ -1,6 +1,6 @@
 /* eslint-disable no-dupe-keys */
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import {noHeader} from './navHeaders.config';
 
 import CreditCardManagePage from '../pages/CreditCardManageJourney/CreditCardManage.page';
@@ -352,7 +352,7 @@ import CreditCardManageConfirmPin from '../pages/CreditCardManageJourney/CreditC
 import CreditCardManageDeliveryScreen from '../pages/CreditCardManageJourney/CreditCardDelivery.page';
 
 
-const HomeRoutes = StackNavigator({
+const HomeRoutes = createStackNavigator({
   BankAccScreen: {
     screen: BankAccScreen,
     navigationOptions: navHeaders.BankAccNavConfig,

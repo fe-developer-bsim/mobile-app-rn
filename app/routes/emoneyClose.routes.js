@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -8,7 +8,7 @@ import ConfirmClosingEmoneyScreen from '../pages/Emoney/EmoneyClosingConfirmatio
 
 import Authenticate from '../pages/Authenticate/Authenticate.page';
 
-const OpenAccountRoutes = StackNavigator({
+const OpenAccountRoutes = createStackNavigator({
   ConfirmClosingEmoney: {
     screen: ConfirmClosingEmoneyScreen,
     navigationOptions: {

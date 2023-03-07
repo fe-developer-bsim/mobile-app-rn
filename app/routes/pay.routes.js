@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import Pay from '../pages/Pay/Pay.page';
 
@@ -147,7 +147,7 @@ import QRPaymentStatusRevamp from '../pages/QRGpn/QRPaymentStatusRevamp.page';
 import MyQRScreen from '../pages/Account/MyQrScreen.page';
 
 
-const PayRoutes = StackNavigator({
+const PayRoutes = createStackNavigator({
   PayScreen: {
     screen: Pay,
     navigationOptions: navHeaders.PayHeaderConfig,

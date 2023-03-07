@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import ShopScreen from '../pages/Profile/Shop.page';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -12,7 +12,7 @@ import React from 'react';
 import CartAlfacart from '../pages/Egift/CartAlfacart.page';
 
 
-const OffersRoutes = StackNavigator({
+const OffersRoutes = createStackNavigator({
   Shops: {
     screen: ShopScreen,
   },

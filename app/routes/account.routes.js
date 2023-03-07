@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import React from 'react';
 import {noHeader} from './navHeaders.config';
@@ -359,7 +359,7 @@ import ScoreNilaiQ from '../pages/Account/ScoreNilaiQ.page';
 import FAQScoreNilaiQ from '../pages/Account/FAQScoreNilaiQ.page';
 import LoginWithEasyPinPageSearch from '../pages/OnboardingJourney/LoginWithEasyPinSearch.page';
 
-const AccountRoutes = StackNavigator({
+const AccountRoutes = createStackNavigator({
   AccountMenu: {
     screen: AccountMenu,
     navigationOptions: navHeaders.LandingHeaderNew2

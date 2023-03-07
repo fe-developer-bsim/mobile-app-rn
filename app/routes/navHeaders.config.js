@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Dimensions, Text, Platform, View} from 'react-native';
-import {TabNavigator} from 'react-navigation';
+// import {TabNavigator} from 'react-navigation';
 import {result} from 'lodash';
 import {theme} from '../styles/core.styles';
 import NavLeftLogo from '../components/NavHeader/NavLeftLogo.component';
@@ -469,8 +469,9 @@ export const TrfHeaderConfig = () => {
   return options;
 };
 
-export const tabsOptions = { // TODO: move it to style file
-  ...TabNavigator.Presets.AndroidTopTabs,
+export const tabsOptions = {
+  // TODO: move it to style file
+  // ...TabNavigator.Presets.AndroidTopTabs,
   tabBarPosition: 'bottom',
   animationEnabled: false,
   lazy: true,
@@ -505,7 +506,7 @@ export const tabsOptions = { // TODO: move it to style file
       padding: 0,
       width: Dimensions.get('window').width / 5, // we know there are 5 tabs
       marginTop: 4,
-    }
+    },
   },
   backBehavior: 'initialRoute',
 };

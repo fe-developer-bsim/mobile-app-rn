@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import {noHeader} from './navHeaders.config';
 
 import FundTransfer from '../pages/FundTransferJourney/AddPayeeAccount.page';
@@ -72,7 +72,7 @@ import CameraImageConfirmation from '../pages/DigitalAccountOpening/CameraImageC
 import DigitalEFormEmailVerification from '../pages/DigitalAccountOpening/DigitalEFormEmailVerification.page';
 import DigitalEFormSuccessScreen from '../pages/DigitalAccountOpening/DigitalEFormSuccessScreen.page';
 
-const SendRoutes = StackNavigator({
+const SendRoutes = createStackNavigator({
   FundTransferRevamp: {
     screen: FundTransferRevamp,
     navigationOptions: {

@@ -1,12 +1,12 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import ProfileRoutes from './profile.routes';
 import Help from '../pages/Help/Help.page';
 import React from 'react';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import FAQform from '../pages/Help/FAQWeb.page';
 
-const HelpRoutes = StackNavigator({
+const HelpRoutes = createStackNavigator({
   HelpScreen: {
     screen: Help,
     navigationOptions: navHeaders.MainIndexPageNavConfig,

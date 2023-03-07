@@ -1,6 +1,6 @@
 import React from 'react';
 import {profileHeader, navigationOptions, HeaderTitle, HeaderWhite} from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import ProfileScreen from '../pages/Profile/Profile.page';
 import ValidatePassword from '../pages/Profile/ValidatePassword.page';
 import ChangeEasyPinNew from '../pages/Profile/ChangeEasyPinNew.page';
@@ -12,7 +12,7 @@ import * as navHeaders from './navHeaders.config';
 import CameraScreen from '../pages/Camera/Camera.page';
 import UpdateEasyPin from '../pages/Profile/UpdateEasyPin.page';
 
-const ProfileRoutes = StackNavigator({
+const ProfileRoutes = createStackNavigator({
   Profile: {
     screen: ProfileScreen,
     navigationOptions: (nav) => {

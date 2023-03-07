@@ -1,5 +1,5 @@
 import React from 'react';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import Homescreen from '../pages/Home/Dashboard.page';
 import * as navHeaders from './navHeaders.config';
@@ -39,7 +39,7 @@ import QRCustomer from '../pages/QRGpn/QRCustomer.page';
 
 import QrTcico from '../pages/Account/QrTcico.page';
 
-const qrPayment = StackNavigator({
+const qrPayment = createStackNavigator({
   QRScannerLanding: {
     screen: QRScannerScreen,
     navigationOptions: {

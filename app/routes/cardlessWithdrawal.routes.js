@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import {noHeader} from './navHeaders.config';
 import React from 'react';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -37,7 +37,7 @@ import CameraImageConfirmation from '../pages/DigitalAccountOpening/CameraImageC
 import DigitalEFormEmailVerification from '../pages/DigitalAccountOpening/DigitalEFormEmailVerification.page';
 import DigitalEFormSuccessScreen from '../pages/DigitalAccountOpening/DigitalEFormSuccessScreen.page';
 
-const cardlessWithdrawal = StackNavigator({
+const cardlessWithdrawal = createStackNavigator({
   CardLessWithdrawalIndex: {
     screen: CardLessWithdrawalIndex,
     navigationOptions: navHeaders.noHeader

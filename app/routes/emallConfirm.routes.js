@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 
 import {noHeader} from './navHeaders.config';
@@ -15,7 +15,7 @@ import EmallTx from '../pages/Emall/EmallTx.page';
 import EmallTxInfo from '../pages/Emall/EmallTxInfo.page';
 import EmallTxStatus from '../pages/Emall/EmallTxStatus.page';
 
-const EmallRoutes = StackNavigator({
+const EmallRoutes = createStackNavigator({
   EmallSourceAcc: {
     screen: EmallSourceAcc,
     navigationOptions: {

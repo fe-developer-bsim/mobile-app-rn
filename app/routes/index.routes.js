@@ -1,4 +1,4 @@
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import OnboardingRoutes from './onboarding.routes';
 import {noHeader, offersHeader, shopHeader, transactionsNavConfig} from './navHeaders.config';
 import MainRoutes from './mainTabs.routes';
@@ -19,7 +19,7 @@ import MerchantEstoreRoutes from './merchantEstore.routes';
 import alfacartEstoreRoutes from './alfacartEstore.routes';
 
 
-export default StackNavigator({
+export default createStackNavigator({
   Main: {
     screen: MainRoutes,
     navigationOptions: noHeader

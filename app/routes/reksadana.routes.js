@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
 
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
@@ -20,7 +20,7 @@ import PaymentStatusNewPage from '../pages/PaymentStatus/PaymentStatusNew.page';
 import {noHeader} from './navHeaders.config';
 
 
-const ReksadanaRoutes = StackNavigator({
+const ReksadanaRoutes = createStackNavigator({
   SimasSekuritasView: {
     screen: SimasSekuritas,
     navigationOptions: {

@@ -1,5 +1,5 @@
 import * as navHeaders from './navHeaders.config';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import React from 'react';
 
@@ -12,7 +12,7 @@ import FundTransferConfirmation from '../pages/FundTransferJourney/FundTransferC
 import FundTransferMethodScreen from '../pages/FundTransferJourney/FundTransferMethod.page';
 import FundTransferScheduleScreen from '../pages/FundTransferJourney/FundTransferSchedule.page';
 
-const splitBillRoutes = StackNavigator({
+const splitBillRoutes = createStackNavigator({
   
   AddPayee: {
     screen: AddPayee,

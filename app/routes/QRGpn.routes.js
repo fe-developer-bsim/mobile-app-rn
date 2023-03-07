@@ -1,5 +1,5 @@
 import React from 'react';
-import {StackNavigator} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import HeaderTitle from '../components/NavHeader/HeaderTitle.component';
 import Homescreen from '../pages/Home/Dashboard.page';
 import QRMerchantRegister from '../pages/QRGpn/QRMerchantRegister.page';
@@ -28,7 +28,7 @@ import QRRegisterStatusPage from '../pages/QRGpn/QRRegisterStatus.page';
 import Pay from '../pages/Pay/Pay.page';
 import QRPaymentStatusRevamp from '../pages/QRGpn/QRPaymentStatusRevamp.page';
 
-const QRGpnRoutes = StackNavigator({
+const QRGpnRoutes = createStackNavigator({
   QRMerchantList: {
     screen: QRMerchantList,
     navigationOptions: {
