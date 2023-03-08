@@ -3,23 +3,72 @@ import PropTypes from 'prop-types';
 import {Linking} from 'react-native';
 import {connect} from 'react-redux';
 import LandingView from '../../components/OnboardingJourney/Landing.component';
-import {setCurrentLanguage, checkHSMandNavigate, populateOffersPrivate, inquirySimasPoin, getMovieCgv, getShoppingList, goSimasPoinHistory, goToDiscountQREULA, goToDiscountMerchant, getEgiftMostData, getallAccbeforelogin, getCacheMenuSearch, goReferralCode, getCacheBankList} from '../../state/thunks/common.thunks';
-import {resetDevice, checkLogin, checkLoginAllsegmentFlow, checkLoginCC, checkLoginForDeeplinkPromo, checkLoginSaving, checkLoginEmoney, getBalanceEmoneyBeforeLogin, addOrder, logoutDashboard, checkLoginBiller, checkLoginAllMgm, deeplinkPromo, populateConfigCacheEFormData} from '../../state/thunks/onboarding.thunks';
+import {
+  setCurrentLanguage,
+  checkHSMandNavigate,
+  populateOffersPrivate,
+  inquirySimasPoin,
+  getMovieCgv,
+  getShoppingList,
+  goSimasPoinHistory,
+  goToDiscountQREULA,
+  goToDiscountMerchant,
+  getEgiftMostData,
+  getallAccbeforelogin,
+  getCacheMenuSearch,
+  goReferralCode,
+  getCacheBankList,
+} from '../../state/thunks/common.thunks';
+import {
+  resetDevice,
+  checkLogin,
+  checkLoginAllsegmentFlow,
+  checkLoginCC,
+  checkLoginForDeeplinkPromo,
+  checkLoginSaving,
+  checkLoginEmoney,
+  getBalanceEmoneyBeforeLogin,
+  addOrder,
+  logoutDashboard,
+  checkLoginBiller,
+  checkLoginAllMgm,
+  deeplinkPromo,
+  populateConfigCacheEFormData,
+} from '../../state/thunks/onboarding.thunks';
 import SplashScreen from 'react-native-splash-screen';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import isEmpty from 'lodash/isEmpty';
 import * as actionCreators from '../../state/actions/index.actions';
 import result from 'lodash/result';
 import DeepLinking from 'react-native-deep-linking';
-import {getAllOffersExcept, getSavingAccount, getCurrentRouteName} from '../../utils/transformer.util';
+import {
+  getAllOffersExcept,
+  getSavingAccount,
+  getCurrentRouteName,
+} from '../../utils/transformer.util';
 import find from 'lodash/find';
 import sortBy from 'lodash/sortBy';
 import noop from 'lodash/noop';
 import {goFlight} from '../../state/thunks/flight.thunks';
 import {goToGenerateMain} from '../../state/thunks/generateCode.thunks';
-import {openInbox, inboxPushCounter, finishOrder, checkPrivateOffersType, getTdConfig} from '../../state/thunks/dashboard.thunks';
-import {goToSDK as goToSDKThunk, checkEULA} from '../../state/thunks/qrpayment.thunk';
-import {setupPayment, setupPaymentGopay, getBillpayHistory, setupPaymentOther, goToSearchAlfacart} from '../../state/thunks/common.thunks';
+import {
+  openInbox,
+  inboxPushCounter,
+  finishOrder,
+  checkPrivateOffersType,
+  getTdConfig,
+} from '../../state/thunks/dashboard.thunks';
+import {
+  goToSDK as goToSDKThunk,
+  checkEULA,
+} from '../../state/thunks/qrpayment.thunk';
+import {
+  setupPayment,
+  setupPaymentGopay,
+  getBillpayHistory,
+  setupPaymentOther,
+  goToSearchAlfacart,
+} from '../../state/thunks/common.thunks';
 // import {Toast} from '../../utils/RNHelpers.util';
 // import {language} from '../../config/language';
 import {goToCart, goToDetail} from '../../state/thunks/common.thunks';
@@ -28,16 +77,30 @@ import {set, get, storageKeys} from '../../utils/storage.util';
 import AgreementEmoney from '../RegisterEmoneyJourney/AgreementEmoney.page';
 import {NetworkInfo} from 'react-native-network-info';
 import VersionNumber from 'react-native-version-number';
-import {listAllProduct, generateJwt} from '../../state/thunks/digitalStore.thunks';
+import {
+  listAllProduct,
+  generateJwt,
+} from '../../state/thunks/digitalStore.thunks';
 import {getDefaultAccount} from '../../state/thunks/fundTransfer.thunks';
 import {getDefaultAccount as getEmonneyAccount} from '../../state/thunks/genericBill.thunks';
-import {listCategoryProductAlfacart, listCategoryProduct, shouldGiveChecklist, shouldGiveChecklistSimasCatalog, goToMerchantStore, checklistUnipin} from '../../state/thunks/digitalStore.thunks';
+import {
+  listCategoryProductAlfacart,
+  listCategoryProduct,
+  shouldGiveChecklist,
+  shouldGiveChecklistSimasCatalog,
+  goToMerchantStore,
+  checklistUnipin,
+} from '../../state/thunks/digitalStore.thunks';
 import {saveTutorialProduct} from '../../state/actions/index.actions';
 import {destroy} from 'react-redux';
 import BackgroundTimer from 'react-native-background-timer';
 import {insurance} from '../../state/thunks/Insurance.thunks';
 import {goToSplitBillMenu} from '../../state/thunks/splitBill.thunks';
-import {getConfigMenuSavingValas, getCreditCardProductsItems, getListLoanProduct} from '../../state/thunks/digitalAccountOpening.thunks';
+import {
+  getConfigMenuSavingValas,
+  getCreditCardProductsItems,
+  getListLoanProduct,
+} from '../../state/thunks/digitalAccountOpening.thunks';
 import toLower from 'lodash/toLower';
 
 const totalSeconds = 300;
@@ -47,13 +110,17 @@ const totalSeconds = 300;
 //   PermissionsAndroid = require('react-native').PermissionsAndroid;
 // }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   const isStateEmpty = isEmpty(state.appInitKeys);
   const introductionTriggered = result(state, 'introductionTriggered', false);
   const allOffers = result(state, 'promos.offers', []);
   const clickedOffer = find(allOffers, {offerID: {}});
   const offers = getAllOffersExcept(clickedOffer, allOffers);
-  const billerMenuOrderRevamp = result(state, 'config.billerMenuOrderRevamp', []);
+  const billerMenuOrderRevamp = result(
+    state,
+    'config.billerMenuOrderRevamp',
+    [],
+  );
   const billerConfig = result(state, 'billerConfig', {});
   const emoney = result(state, 'emoney', {});
   const isShowTnC = result(state, 'config.versionWithTNC', '');
@@ -65,13 +132,26 @@ const mapStateToProps = (state) => {
   const inboxCounter = result(state, 'inboxCounter', []);
   const mostSoldData = result(state, 'egiftMostSold', []);
   const accounts = getSavingAccount(result(state, 'accounts', []));
-  const toogleDisableTutorial = result(state, 'config.toogleDisableTutorial', '');
-  const toggleDisableBillerNKYC = result(state, 'config.toggleDisableBillerNKYC', '');
+  const toogleDisableTutorial = result(
+    state,
+    'config.toogleDisableTutorial',
+    '',
+  );
+  const toggleDisableBillerNKYC = result(
+    state,
+    'config.toggleDisableBillerNKYC',
+    '',
+  );
   const form = result(state, 'form', {});
   const listCategoryOffers = result(state, 'config.listCategoryOffers', '');
   const lazyLogin = result(state, 'config.lazyLogin', '');
   return {
-    isLockedDevice: Boolean(state.appInitKeys && state.appInitKeys.username && state.appInitKeys.tokenClient && state.appInitKeys.tokenServer),
+    isLockedDevice: Boolean(
+      state.appInitKeys &&
+        state.appInitKeys.username &&
+        state.appInitKeys.tokenClient &&
+        state.appInitKeys.tokenServer,
+    ),
     currentLanguage: state.currentLanguage,
     nav: state.nav,
     isStateEmpty,
@@ -119,48 +199,61 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapDispatchToProps = (dispatch) => ({
-  changeCurrentLanguage: (languageId) => dispatch(setCurrentLanguage(languageId)),
+const mapDispatchToProps = dispatch => ({
+  changeCurrentLanguage: languageId => dispatch(setCurrentLanguage(languageId)),
   onButtonPress: (btnName, isProduct, data) => {
     dispatch(checkHSMandNavigate(btnName, isProduct, data));
   },
-  goToIntroduction: (nav) => {
+  goToIntroduction: nav => {
     nav.index === 0 &&
-      (dispatch(NavigationActions.reset({
-        index: 0,
-        actions: [
-          NavigationActions.navigate({routeName: 'Introduction'})
-        ]
-      }))
+      dispatch(
+        StackActions.reset({
+          index: 0,
+          actions: [NavigationActions.navigate({routeName: 'Introduction'})],
+        }),
       );
   },
-  goToRegister: () => dispatch(NavigationActions.navigate({routeName: 'ConfirmationAccount'})),
+  goToRegister: () =>
+    dispatch(NavigationActions.navigate({routeName: 'ConfirmationAccount'})),
   triggerIntroduction: () => {
     dispatch(actionCreators.triggerIntroduction(true));
   },
-  setToMigrate: (id) => {
-    dispatch(NavigationActions.reset({
-      index: 1,
-      actions: [
-        NavigationActions.navigate({routeName: 'Landing'}),
-        NavigationActions.navigate({routeName: 'MigrateLandingPage', params: {id: id}})
-      ]
-    }));
+  setToMigrate: id => {
+    dispatch(
+      StackActions.reset({
+        index: 1,
+        actions: [
+          NavigationActions.navigate({routeName: 'Landing'}),
+          NavigationActions.navigate({
+            routeName: 'MigrateLandingPage',
+            params: {id: id},
+          }),
+        ],
+      }),
+    );
   },
-  onOfferClick: (offer) => () => {
-    dispatch(NavigationActions.navigate({routeName: 'OfferDetail', params: {offer}}));
+  onOfferClick: offer => () => {
+    dispatch(
+      NavigationActions.navigate({routeName: 'OfferDetail', params: {offer}}),
+    );
   },
   cgvTab: () => {
     dispatch(getMovieCgv());
   },
   closeHandler: () => dispatch(NavigationActions.back()),
   displayOffers: () => dispatch(populateOffersPrivate()),
-  displayPrivateOffer: (tokenClient, tokenServer) => dispatch(populateOffersPrivate(tokenClient, tokenServer)),
-  menageresetDevice: (id) => dispatch(resetDevice(id)),
+  displayPrivateOffer: (tokenClient, tokenServer) =>
+    dispatch(populateOffersPrivate(tokenClient, tokenServer)),
+  menageresetDevice: id => dispatch(resetDevice(id)),
   inquirySimasPoin: () => dispatch(inquirySimasPoin()),
   getShoppingList: () => dispatch(getShoppingList()),
-  TabShopping: (category) => {
-    dispatch(NavigationActions.navigate({routeName: 'TabShopping', params: {category}}));
+  TabShopping: category => {
+    dispatch(
+      NavigationActions.navigate({
+        routeName: 'TabShopping',
+        params: {category},
+      }),
+    );
   },
   verifyEmail: (tokenEmail, typeActivation, ktp, dob, formid) => {
     dispatch(checkLoginEmoney(tokenEmail, typeActivation, ktp, dob, formid));
@@ -169,19 +262,56 @@ const mapDispatchToProps = (dispatch) => ({
   SimasPoinHistory: () => dispatch(goSimasPoinHistory()),
   goToDiscountMerchant: () => dispatch(goToDiscountMerchant()),
   goToDiscountQREULA: () => dispatch(goToDiscountQREULA()),
-  checkLogin: (tokenIdbiller, typeActivation, params) => dispatch(checkLogin(tokenIdbiller, typeActivation, params)),
-  checkLoginForDeeplinkPromo: (typeActivation) => dispatch(checkLoginForDeeplinkPromo(typeActivation)),
-  checkLoginCC: (tokenEmail, typeActivation, referralCode, ccCodereform) => dispatch(checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform)),
+  checkLogin: (tokenIdbiller, typeActivation, params) =>
+    dispatch(checkLogin(tokenIdbiller, typeActivation, params)),
+  checkLoginForDeeplinkPromo: typeActivation =>
+    dispatch(checkLoginForDeeplinkPromo(typeActivation)),
+  checkLoginCC: (tokenEmail, typeActivation, referralCode, ccCodereform) =>
+    dispatch(
+      checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform),
+    ),
   goToOffer: () => {
     dispatch(NavigationActions.navigate({routeName: 'Offers'}));
   },
   openDrawer: () => {
     dispatch(actionCreators.showDrawer());
   },
-  checkLoginAllsegment: (typeLockdownDevice, pathRouteFlow, typeActivation, typeUtm, typeCode, typereferralCode) => dispatch(checkLoginAllsegmentFlow(typeLockdownDevice, pathRouteFlow, typeActivation, typeUtm, typeCode, typereferralCode)),
+  checkLoginAllsegment: (
+    typeLockdownDevice,
+    pathRouteFlow,
+    typeActivation,
+    typeUtm,
+    typeCode,
+    typereferralCode,
+  ) =>
+    dispatch(
+      checkLoginAllsegmentFlow(
+        typeLockdownDevice,
+        pathRouteFlow,
+        typeActivation,
+        typeUtm,
+        typeCode,
+        typereferralCode,
+      ),
+    ),
   flightTab: () => dispatch(goFlight()),
-  checkLoginSaving: (referralCodeOrami, typeActivation, usernameOrami, emailUser, handphoneNumber) => dispatch(checkLoginSaving(referralCodeOrami, typeActivation, usernameOrami, emailUser, handphoneNumber)),
-  saveIpaddress: (ipData) => {
+  checkLoginSaving: (
+    referralCodeOrami,
+    typeActivation,
+    usernameOrami,
+    emailUser,
+    handphoneNumber,
+  ) =>
+    dispatch(
+      checkLoginSaving(
+        referralCodeOrami,
+        typeActivation,
+        usernameOrami,
+        emailUser,
+        handphoneNumber,
+      ),
+    ),
+  saveIpaddress: ipData => {
     dispatch(actionCreators.saveIpAddress(ipData));
   },
   saveGeolocation: (lat, lot) => {
@@ -205,12 +335,12 @@ const mapDispatchToProps = (dispatch) => ({
   checkEULAandNavigate: () => {
     dispatch(checkEULA());
   },
-  goToBiller: (biller) => {
+  goToBiller: biller => {
     // dispatch(getFavBiller());
     dispatch(getBillpayHistory());
     dispatch(setupPaymentOther(biller));
   },
-  toGenerateMain: (trxType) => () => {
+  toGenerateMain: trxType => () => {
     // dispatch(getFavBiller());
     dispatch(goToGenerateMain(trxType));
   },
@@ -220,29 +350,33 @@ const mapDispatchToProps = (dispatch) => ({
   getBalanceEmoney: () => {
     dispatch(getBalanceEmoneyBeforeLogin());
   },
-  initializeEmoneyTnc: () => get(storageKeys['TNC_LOCKDOWN']).
-    then((res) => {
+  initializeEmoneyTnc: () =>
+    get(storageKeys.TNC_LOCKDOWN).then(res => {
       if (res === null || res === undefined) {
-        set(storageKeys['TNC_LOCKDOWN'], true);
+        set(storageKeys.TNC_LOCKDOWN, true);
       } else if (res === true) {
-        set(storageKeys['TNC_LOCKDOWN'], true);
+        set(storageKeys.TNC_LOCKDOWN, true);
       } else if (res === false) {
-        set(storageKeys['TNC_LOCKDOWN'], false);
+        set(storageKeys.TNC_LOCKDOWN, false);
       }
     }),
-  getEmoneyTnc: () => get(storageKeys['TNC_LOCKDOWN']),
-  turnOffTnc: () => set(storageKeys['TNC_LOCKDOWN'], false),
+  getEmoneyTnc: () => get(storageKeys.TNC_LOCKDOWN),
+  turnOffTnc: () => set(storageKeys.TNC_LOCKDOWN, false),
   getBillpayHistory: () => dispatch(getBillpayHistory()),
-
 
   goToAlfacart: () => {
     dispatch(listAllProduct());
   },
   goToUltraVoucher: () => {
-    dispatch(generateJwt()).then((res) => {
+    dispatch(generateJwt()).then(res => {
       const jwt = result(res, 'jwt', '');
       if (!isEmpty(jwt)) {
-        dispatch(NavigationActions.navigate({routeName: 'UltraVoucherWebView', params: {jwt: jwt}}));
+        dispatch(
+          NavigationActions.navigate({
+            routeName: 'UltraVoucherWebView',
+            params: {jwt: jwt},
+          }),
+        );
       }
     });
   },
@@ -256,7 +390,12 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(getEgiftMostData());
   },
   goToEmoneyHistoryNavigate: () => {
-    dispatch(NavigationActions.navigate({routeName: 'EgiftLogin', params: {isEmoney: true}}));
+    dispatch(
+      NavigationActions.navigate({
+        routeName: 'EgiftLogin',
+        params: {isEmoney: true},
+      }),
+    );
   },
   getDefaultAccount: () => {
     dispatch(getDefaultAccount());
@@ -265,19 +404,24 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(addOrder());
   },
   emoneyHistory: () => {
-    dispatch(NavigationActions.navigate({routeName: 'EmoneyDashboard', params: {isEmoney: true}}));
+    dispatch(
+      NavigationActions.navigate({
+        routeName: 'EmoneyDashboard',
+        params: {isEmoney: true},
+      }),
+    );
   },
   gotoDasboard: () => {
     dispatch(NavigationActions.navigate({routeName: 'homeRoutes'}));
   },
-  goToDetail: (items) => dispatch(goToDetail(items)),
+  goToDetail: items => dispatch(goToDetail(items)),
   goToAlfacartNew: () => {
     dispatch(listCategoryProductAlfacart());
   },
   goToSearchAlfacart: () => {
     dispatch(goToSearchAlfacart());
   },
-  setTutorialProduct: (data) => dispatch(saveTutorialProduct(data)),
+  setTutorialProduct: data => dispatch(saveTutorialProduct(data)),
   finishOrder: () => {
     dispatch(finishOrder());
   },
@@ -286,7 +430,12 @@ const mapDispatchToProps = (dispatch) => ({
   },
   logout: () => dispatch(logoutDashboard()),
   inquiryLuckyDipCoupon: () => {
-    dispatch(NavigationActions.navigate({routeName: 'LuckyDipMainPage', params: {pathRoute: 'HomeScreen'}}));
+    dispatch(
+      NavigationActions.navigate({
+        routeName: 'LuckyDipMainPage',
+        params: {pathRoute: 'HomeScreen'},
+      }),
+    );
   },
   checkLoginBiller: () => {
     dispatch(checkLoginBiller());
@@ -297,13 +446,15 @@ const mapDispatchToProps = (dispatch) => ({
   getEmonneyAccount: () => {
     dispatch(getEmonneyAccount());
   },
-  goToMerchantStore: (merchant) => () => {
+  goToMerchantStore: merchant => () => {
     dispatch(goToMerchantStore(merchant));
   },
   showPrivateOffers: () => dispatch(checkPrivateOffersType()),
   getOffersCount: () => dispatch(actionCreators.saveLandingOffers('1')),
-  getScannerState: () => dispatch(dispatch(actionCreators.saveScannerState(true))),
-  checkLoginAllMgm: (pathRouteRaw, typereferralCode) => dispatch(checkLoginAllMgm(pathRouteRaw, typereferralCode)),
+  getScannerState: () =>
+    dispatch(dispatch(actionCreators.saveScannerState(true))),
+  checkLoginAllMgm: (pathRouteRaw, typereferralCode) =>
+    dispatch(checkLoginAllMgm(pathRouteRaw, typereferralCode)),
   deeplinkPromoFunc: (promoFix, productCode, phoneNumberFix) => {
     dispatch(deeplinkPromo(promoFix, productCode, phoneNumberFix));
   },
@@ -330,7 +481,7 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(insurance());
   },
   goToSplitBillMenu: () => {
-    set(storageKeys['NEW_SPLITBILL'], true);
+    set(storageKeys.NEW_SPLITBILL, true);
     dispatch(actionCreators.hideDrawer());
     dispatch(goToSplitBillMenu());
   },
@@ -361,7 +512,6 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(getCacheBankList());
   },
 });
-
 
 class LandingPage extends React.Component {
   static propTypes = {
@@ -453,7 +603,10 @@ class LandingPage extends React.Component {
     destroyForm: PropTypes.func,
     form: PropTypes.object,
     logout: PropTypes.object,
-    listCategoryOffers: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+    listCategoryOffers: PropTypes.oneOfType([
+      PropTypes.object,
+      PropTypes.array,
+    ]),
     luckyDipCounter: PropTypes.string,
     serverTime: PropTypes.string,
     isLuckyDipActive: PropTypes.string,
@@ -495,13 +648,13 @@ class LandingPage extends React.Component {
     goToMembership: PropTypes.func,
     chargeList: PropTypes.array,
     goToTncUnipin: PropTypes.func,
-  }
+  };
 
   onBuyMobileTopTop = () => {
     this.props.setupPaymentForNavigation('MobileTopup');
-  }
+  };
 
-  goToBiller = (billerName) => () => {
+  goToBiller = billerName => () => {
     const {accounts, isLogin, defaultAccount} = this.props;
     if (isEmpty(accounts)) {
       this.props.getDefaultAccount();
@@ -510,12 +663,14 @@ class LandingPage extends React.Component {
       this.props.getEmonneyAccount();
     }
     this.props.goToBiller(billerName);
-  }
+  };
 
   goToEmoneyHistory = () => {
     const {isLogin} = this.props;
-    isLogin ? this.props.emoneyHistory() : this.props.goToEmoneyHistoryNavigate();
-  }
+    isLogin
+      ? this.props.emoneyHistory()
+      : this.props.goToEmoneyHistoryNavigate();
+  };
 
   navigateTo = (routeName, billerTypeId) => () => {
     const {accounts, isLogin, defaultAccount} = this.props;
@@ -526,7 +681,7 @@ class LandingPage extends React.Component {
       this.props.getEmonneyAccount();
     }
     this.props.setupPaymentForNavigation(routeName, billerTypeId);
-  }
+  };
 
   goPayNavigateTo = (routeName, isGopay) => () => {
     const {accounts, isLogin, defaultAccount} = this.props;
@@ -537,23 +692,23 @@ class LandingPage extends React.Component {
       this.props.getEmonneyAccount();
     }
     this.props.setupPaymentGopayForNavigation(routeName, isGopay);
-  }
+  };
 
   handleUrl = ({url}) => {
-    Linking.canOpenURL(url).then((supported) => {
+    Linking.canOpenURL(url).then(supported => {
       if (supported) {
         DeepLinking.evaluateUrl(url);
       }
     });
-  }
+  };
 
   state = {
     value: false,
     tncLockdown: false,
     hideRegister: true,
     alreadyHit: false,
-    secondsRemaining: totalSeconds
-  }
+    secondsRemaining: totalSeconds,
+  };
 
   tick = () => {
     const {inquirySimasPoin, getBalanceEmoney} = this.props;
@@ -564,27 +719,26 @@ class LandingPage extends React.Component {
       inquirySimasPoin();
       getBalanceEmoney();
     }
-  }
+  };
 
   testsec = () => {
     this.interval = BackgroundTimer.setInterval(this.tick, 1000);
     this.setState({
       secondsRemaining: totalSeconds,
     });
-  }
+  };
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     // Linking.removeEventListener('url', this.handleUrl);
     BackgroundTimer.clearInterval(this.interval);
   }
-  componentDidUpdate () {
-  }
+  componentDidUpdate() {}
 
-  componentDidMount () {
+  componentDidMount() {
     if (this.props.lazyLogin !== 'active') {
       this.testsec();
     }
-    get(storageKeys['TOOLTIP_NEW_FEATURES']).then((res) => {
+    get(storageKeys.TOOLTIP_NEW_FEATURES).then(res => {
       if (res === true) {
         const dataSave = {
           tutorialON: false,
@@ -610,13 +764,25 @@ class LandingPage extends React.Component {
     // Linking.addEventListener('url', this.handleUrl);
 
     // Get Local IP
-    NetworkInfo.getIPV4Address().then((ipv4Address) => {
+    NetworkInfo.getIPV4Address().then(ipv4Address => {
       this.props.saveIpaddress(String(ipv4Address));
     });
   }
 
   componentWillReceiveProps = () => {
-    const {isLockedDevice, isStateEmpty, goToIntroduction, triggerIntroduction, introductionTriggered, nav, link, tokenClient, tokenServer, getOffersCount, landingOffersCount} = this.props;
+    const {
+      isLockedDevice,
+      isStateEmpty,
+      goToIntroduction,
+      triggerIntroduction,
+      introductionTriggered,
+      nav,
+      link,
+      tokenClient,
+      tokenServer,
+      getOffersCount,
+      landingOffersCount,
+    } = this.props;
     if (!isLockedDevice && !isStateEmpty && !introductionTriggered) {
       triggerIntroduction();
       return goToIntroduction(nav, link);
@@ -640,14 +806,15 @@ class LandingPage extends React.Component {
         this.props.showPrivateOffers();
       }
     }, 1000);
-  }
+  };
 
   componentWillMount = () => {
-    const {getEmoneyTnc, mostSoldData, configEForm, isLogin, bankList} = this.props;
+    const {getEmoneyTnc, mostSoldData, configEForm, isLogin, bankList} =
+      this.props;
     setTimeout(() => {
       SplashScreen.hide();
     }, 3000);
-    getEmoneyTnc().then((res) => {
+    getEmoneyTnc().then(res => {
       this.setState({
         tncLockdown: res,
       });
@@ -664,11 +831,9 @@ class LandingPage extends React.Component {
         this.props.getCacheBankList();
       }
     }
-  }
+  };
 
-  c = () => {
-
-  }
+  c = () => {};
 
   login = () => {
     const {isLogin} = this.props;
@@ -678,7 +843,7 @@ class LandingPage extends React.Component {
       this.props.onButtonPress('Login');
       this.props.turnOffTnc();
     }
-  }
+  };
 
   loginFromLuckDip = () => {
     const {isLogin} = this.props;
@@ -688,53 +853,113 @@ class LandingPage extends React.Component {
       this.props.onButtonPress('true');
       this.props.turnOffTnc();
     }
-  }
+  };
 
-  register = () => this.props.goToRegister()
+  register = () => this.props.goToRegister();
 
-  changeLanguage = (selectedLanguage) => () => {
+  changeLanguage = selectedLanguage => () => {
     const {currentLanguage, changeCurrentLanguage} = this.props;
     if (currentLanguage.id !== selectedLanguage.id) {
       changeCurrentLanguage(selectedLanguage.id);
     }
-  }
+  };
 
-  goToDetail = (product) => () => {
+  goToDetail = product => () => {
     this.props.goToDetail(product);
-  }
+  };
 
-  isSelectedLanguage = (currentId) => currentId === result(this.props, 'currentLanguage.id', '')
+  isSelectedLanguage = currentId =>
+    currentId === result(this.props, 'currentLanguage.id', '');
 
-  buttonMap = [{
-    id: 'id',
-    displayText: 'ID',
-    onPress: this.changeLanguage({id: 'id'})
-  }, {
-    id: 'en',
-    displayText: 'EN',
-    onPress: this.changeLanguage({id: 'en'})
-  }]
+  buttonMap = [
+    {
+      id: 'id',
+      displayText: 'ID',
+      onPress: this.changeLanguage({id: 'id'}),
+    },
+    {
+      id: 'en',
+      displayText: 'EN',
+      onPress: this.changeLanguage({id: 'en'}),
+    },
+  ];
 
   loginLanding = () => {
     this.props.getCacheBankList();
     this.props.onButtonPress('LoginLanding');
-  }
+  };
 
-  navgotoEasyPin = (productName) => () => {
+  navgotoEasyPin = productName => () => {
     this.props.onButtonPress('LoginProduct', '', productName);
-  }
+  };
 
-  render () {
-    const {offers = [], onOfferClick = noop, clickedOffer = {},
-      closeHandler = noop, getEgiftList, egiftList, cgvTab = noop, listCategoryOffers,
-      simasPoin, TabShopping, getShoppingList, inquirySimasPoin, toogleKoperasi,
-      nav, SimasPoinHistory, goToDiscountMerchant, goToDiscountQREULA, toogleMenuKoperasi,
-      goToOffer, flightTab, goToBillpay, goToQrPayment, billerMenuOrderRevamp, goToCart, openDrawer,
-      emoney, getBalanceEmoney, isShowTnC, goToAlfacart, openInbox, mostSoldData, toggleDisableBillerNKYC,
-      accounts, addOrder, tutorialProduct, dataDisplay, goToAlfacartNew, goToSearchAlfacart, goToTncAlfacart, finishOrder,
-      logout, isLogin, serverTime, isLuckyDipActive, luckyDipCounter, inquiryLuckyDipCoupon, luckyDipcache, lazyLogin, goToTncSimasCatalog,
-      goToMenuSearch, newProduct, getValas, getTdCreate, getInsurance, goToSplitBillMenu, goReferralCode, newProductCC, gotoProduct, hideMGM, 
-      goToLoan, goToMerchantStore, statusMember, goToMembership, goToTncUnipin} = this.props;
+  render() {
+    const {
+      offers = [],
+      onOfferClick = noop,
+      clickedOffer = {},
+      closeHandler = noop,
+      getEgiftList,
+      egiftList,
+      cgvTab = noop,
+      listCategoryOffers,
+      simasPoin,
+      TabShopping,
+      getShoppingList,
+      inquirySimasPoin,
+      toogleKoperasi,
+      nav,
+      SimasPoinHistory,
+      goToDiscountMerchant,
+      goToDiscountQREULA,
+      toogleMenuKoperasi,
+      goToOffer,
+      flightTab,
+      goToBillpay,
+      goToQrPayment,
+      billerMenuOrderRevamp,
+      goToCart,
+      openDrawer,
+      emoney,
+      getBalanceEmoney,
+      isShowTnC,
+      goToAlfacart,
+      openInbox,
+      mostSoldData,
+      toggleDisableBillerNKYC,
+      accounts,
+      addOrder,
+      tutorialProduct,
+      dataDisplay,
+      goToAlfacartNew,
+      goToSearchAlfacart,
+      goToTncAlfacart,
+      finishOrder,
+      logout,
+      isLogin,
+      serverTime,
+      isLuckyDipActive,
+      luckyDipCounter,
+      inquiryLuckyDipCoupon,
+      luckyDipcache,
+      lazyLogin,
+      goToTncSimasCatalog,
+      goToMenuSearch,
+      newProduct,
+      getValas,
+      getTdCreate,
+      getInsurance,
+      goToSplitBillMenu,
+      goReferralCode,
+      newProductCC,
+      gotoProduct,
+      hideMGM,
+      goToLoan,
+      goToMerchantStore,
+      statusMember,
+      goToMembership,
+      goToTncUnipin,
+    } = this.props;
     let {tncLockdown} = this.state;
     const currentVersion = VersionNumber.appVersion;
     const currentRouteName = getCurrentRouteName(nav);
@@ -746,22 +971,93 @@ class LandingPage extends React.Component {
       return <AgreementEmoney tncLockdown={tncLockdown} login={this.login} />;
     } else {
       return (
-        <LandingView login={this.login} register={this.register} toogleKoperasi={toogleKoperasi} listCategoryOffers={sortedCategory}
-          buttonMap={this.buttonMap} isSelectedLanguage={this.isSelectedLanguage} isLockedDevice={this.props.isLockedDevice}
-          offers={offers} onOfferClick={onOfferClick} cgvTab={cgvTab} clickedOffer={clickedOffer} closeHandler={closeHandler}
-          getEgiftList={getEgiftList} egiftList={egiftList} goToDetail={this.goToDetail} simasPoin={simasPoin} TabShopping={TabShopping}
-          getShoppingList={getShoppingList} inquirySimasPoin={inquirySimasPoin} nav={nav} SimasPoinHistory={SimasPoinHistory}
-          goToDiscountMerchant={goToDiscountMerchant} goToDiscountQREULA={goToDiscountQREULA} goToOffer={goToOffer} flightTab={flightTab} goToBillpay={goToBillpay} serviceList={this.serviceList}
-          navigateTo={this.navigateTo} onBuyMobileTopTop={this.onBuyMobileTopTop} goToQrPayment={goToQrPayment} goToTncSimasCatalog={goToTncSimasCatalog}
-          goPayNavigateTo={this.goPayNavigateTo} billerMenuOrder={billerMenuOrderRevamp} toogleMenuKoperasi={toogleMenuKoperasi} toggleDisableBillerNKYC={toggleDisableBillerNKYC} inquiryLuckyDipCoupon={inquiryLuckyDipCoupon} luckyDipCounter={luckyDipCounter} isLuckyDipActive={isLuckyDipActive} serverTime={serverTime}
-          goToBiller={this.goToBiller} goToCart={goToCart} openDrawer={openDrawer} emoney={emoney} getBalanceEmoney={getBalanceEmoney} goToAlfacart={goToAlfacart} openInbox={openInbox} mostSoldData={mostSoldData} goToEmoneyHistoryNavigate={this.goToEmoneyHistory} luckyDipcache={luckyDipcache}
-          accounts={accounts} addOrder={addOrder} tutorialProduct={tutorialProduct} dataDisplay={dataDisplay} goToAlfacartNew={goToAlfacartNew} goToSearchAlfacart={goToSearchAlfacart} goToTncAlfacart={goToTncAlfacart} finishOrder={finishOrder} logout={logout} isLogin={isLogin} loginFromLuckDip={this.loginFromLuckDip} lazyLogin={lazyLogin}
-          loginLanding={this.loginLanding} goToMenuSearch={goToMenuSearch} gotoEasyPin={this.navgotoEasyPin} newProduct={newProduct} getValas={getValas} getTdCreate={getTdCreate} getInsurance={getInsurance} goToSplitBillMenu={goToSplitBillMenu} goReferralCode={goReferralCode} newProductCC={newProductCC} gotoProduct={gotoProduct} hideMGM={hideMGM} 
-          goToLoan={goToLoan} goToMerchantStore={goToMerchantStore} goToMembership={goToMembership} statusMember={statusMember} goToTncUnipin={goToTncUnipin} />
+        <LandingView
+          login={this.login}
+          register={this.register}
+          toogleKoperasi={toogleKoperasi}
+          listCategoryOffers={sortedCategory}
+          buttonMap={this.buttonMap}
+          isSelectedLanguage={this.isSelectedLanguage}
+          isLockedDevice={this.props.isLockedDevice}
+          offers={offers}
+          onOfferClick={onOfferClick}
+          cgvTab={cgvTab}
+          clickedOffer={clickedOffer}
+          closeHandler={closeHandler}
+          getEgiftList={getEgiftList}
+          egiftList={egiftList}
+          goToDetail={this.goToDetail}
+          simasPoin={simasPoin}
+          TabShopping={TabShopping}
+          getShoppingList={getShoppingList}
+          inquirySimasPoin={inquirySimasPoin}
+          nav={nav}
+          SimasPoinHistory={SimasPoinHistory}
+          goToDiscountMerchant={goToDiscountMerchant}
+          goToDiscountQREULA={goToDiscountQREULA}
+          goToOffer={goToOffer}
+          flightTab={flightTab}
+          goToBillpay={goToBillpay}
+          serviceList={this.serviceList}
+          navigateTo={this.navigateTo}
+          onBuyMobileTopTop={this.onBuyMobileTopTop}
+          goToQrPayment={goToQrPayment}
+          goToTncSimasCatalog={goToTncSimasCatalog}
+          goPayNavigateTo={this.goPayNavigateTo}
+          billerMenuOrder={billerMenuOrderRevamp}
+          toogleMenuKoperasi={toogleMenuKoperasi}
+          toggleDisableBillerNKYC={toggleDisableBillerNKYC}
+          inquiryLuckyDipCoupon={inquiryLuckyDipCoupon}
+          luckyDipCounter={luckyDipCounter}
+          isLuckyDipActive={isLuckyDipActive}
+          serverTime={serverTime}
+          goToBiller={this.goToBiller}
+          goToCart={goToCart}
+          openDrawer={openDrawer}
+          emoney={emoney}
+          getBalanceEmoney={getBalanceEmoney}
+          goToAlfacart={goToAlfacart}
+          openInbox={openInbox}
+          mostSoldData={mostSoldData}
+          goToEmoneyHistoryNavigate={this.goToEmoneyHistory}
+          luckyDipcache={luckyDipcache}
+          accounts={accounts}
+          addOrder={addOrder}
+          tutorialProduct={tutorialProduct}
+          dataDisplay={dataDisplay}
+          goToAlfacartNew={goToAlfacartNew}
+          goToSearchAlfacart={goToSearchAlfacart}
+          goToTncAlfacart={goToTncAlfacart}
+          finishOrder={finishOrder}
+          logout={logout}
+          isLogin={isLogin}
+          loginFromLuckDip={this.loginFromLuckDip}
+          lazyLogin={lazyLogin}
+          loginLanding={this.loginLanding}
+          goToMenuSearch={goToMenuSearch}
+          gotoEasyPin={this.navgotoEasyPin}
+          newProduct={newProduct}
+          getValas={getValas}
+          getTdCreate={getTdCreate}
+          getInsurance={getInsurance}
+          goToSplitBillMenu={goToSplitBillMenu}
+          goReferralCode={goReferralCode}
+          newProductCC={newProductCC}
+          gotoProduct={gotoProduct}
+          hideMGM={hideMGM}
+          goToLoan={goToLoan}
+          goToMerchantStore={goToMerchantStore}
+          goToMembership={goToMembership}
+          statusMember={statusMember}
+          goToTncUnipin={goToTncUnipin}
+        />
       );
     }
   }
 }
 
-const ConnectedLandingPage = connect(mapStateToProps, mapDispatchToProps)(LandingPage);
+const ConnectedLandingPage = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(LandingPage);
 export default ConnectedLandingPage;

@@ -1,0 +1,52 @@
+{
+  "bodyChecksumLength": 1024.0,
+  "ck": {},
+  "dl": 0.0,
+  "enableCVM": false,
+  "id": "ios_config",
+  "kernel":";",
+  "kernelId": "A92wgi9zAQAALYY30uldH8QfebJ3t5-tCYk4dkUiccf6TlwsWYRBhzP2T62gAQogCh-Lr4YowLkAAAAAAAAAAA==",
+  "maxUpdateInterval": 28800000.0,
+  "nativeSignalHeaderPrefix": "Xa4vrhYP3Q-",
+  "storePID": false,
+  "ttl": 86400000.0,
+  "updateHeaderName": "a28f00d7e72",
+  "updateInterval": 14400000.0,
+  "updateTimeout": 60000.0,
+  "updateURL": "https://www.banksinarmas.com/v1/ios/update",
+  "updateURLMap": {
+    "default": "https://www.banksinarmas.com/v1/ios/update"
+  },
+  "uriBypass": [],
+  "uriBypass2": [],
+  "uriFilter": [
+    {
+      "domain": ".*",
+      "path": ".*",
+      "port": ".*",
+      "queryString": ".*",
+      "scheme": ".*"
+    }
+  ],
+  "uriFilter2": [
+    {
+      "domain": [
+        "ANYTHING"
+      ],
+      "path": [
+        "ANYTHING"
+      ],
+      "port": [
+        "ANYTHING"
+      ],
+      "queryString": [
+        "ANYTHING"
+      ],
+      "scheme": [
+        "ANYTHING"
+      ]
+    }
+  ],
+  "urlChecksumLength": 1024.0,
+  "version": "1.1"
+}

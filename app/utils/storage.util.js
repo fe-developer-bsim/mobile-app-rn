@@ -1,5 +1,5 @@
 /** Currently using AsyncStorage , we may end up  using Realm **/
-import {AsyncStorage} from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const storageKeys = {
   SESSION_CODE: 'sessionCode',
@@ -80,15 +80,11 @@ export const storageKeys = {
   TNC_UNIPIN: 'tncUnipin',
 };
 // methods for storing and retrieving objects
-export const set = async (key, value) => {
-  const jsonValue = JSON.stringify(value);
-  await AsyncStorage.setItem(key, jsonValue);
-};
+export const set = async (key, value) =>
+  AsyncStorage.setItem(key, JSON.stringify(value));
 
-export const get = async key => {
-  const jsonValue = await AsyncStorage.getItem(key);
-  return jsonValue != null ? JSON.parse(jsonValue) : null;
-};
+export const get = async key =>
+  AsyncStorage.getItem(key).then(value => JSON.parse(value));
 
 export const getInitKeys = () =>
   Promise.all([

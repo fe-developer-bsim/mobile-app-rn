@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-navigation/src/createNavigationContainer.js b/node_modules/react-navigation/src/createNavigationContainer.js
+index 3cfc5e3..f7dc634 100644
+--- a/node_modules/react-navigation/src/createNavigationContainer.js
++++ b/node_modules/react-navigation/src/createNavigationContainer.js
+@@ -293,7 +293,7 @@ export default function createNavigationContainer(Component) {
+ 
+     componentWillUnmount() {
+       this._isMounted = false;
+-      Linking.removeEventListener('url', this._handleOpenURL);
++      Linking.removeAllListeners('url', this._handleOpenURL);
+       this.subs && this.subs.remove();
+ 
+       if (this._isStateful()) {

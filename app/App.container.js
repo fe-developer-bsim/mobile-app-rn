@@ -1,37 +1,102 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {DeviceEventEmitter, Platform, AppState, Linking, NativeModules, NativeEventEmitter} from 'react-native';
+import {
+  DeviceEventEmitter,
+  Platform,
+  AppState,
+  Linking,
+  NativeModules,
+  NativeEventEmitter,
+} from 'react-native';
 import OverlaySpinner from './components/OverlaySpinner/OverlaySpinner.component';
-import {hidePaymentModal, setNetworkStatus, resetNetworkBar, saveTutorialProduct, saveTutorialOnboard} from './state/actions/index.actions';
+import {
+  hidePaymentModal,
+  setNetworkStatus,
+  resetNetworkBar,
+  saveTutorialProduct,
+  saveTutorialOnboard,
+} from './state/actions/index.actions';
 import {noop, isEmpty, isEqual, clone, result} from 'lodash';
 import {ConnectedRoutes} from './routes/Router';
 import OfflineBar from './components/OfflineBar/OfflineBar.component';
-import {tokenInit, checkAppVersion, navigateOnNotification, setLanguage, getLoginPreference, getLastSuccessfulLogin} from './state/thunks/appSetup.thunks.js';
-import {hsmInit, setCurrentLanguage, showTimeoutAlert, resetAndNavigate, populateOffersPrivate, goToLocator, getToogleAutoDebitAccount, getDatacacheLuckydip} from './state/thunks/common.thunks.js';
+import {
+  tokenInit,
+  checkAppVersion,
+  navigateOnNotification,
+  setLanguage,
+  getLoginPreference,
+  getLastSuccessfulLogin,
+} from './state/thunks/appSetup.thunks.js';
+import {
+  hsmInit,
+  setCurrentLanguage,
+  showTimeoutAlert,
+  resetAndNavigate,
+  populateOffersPrivate,
+  goToLocator,
+  getToogleAutoDebitAccount,
+  getDatacacheLuckydip,
+} from './state/thunks/common.thunks.js';
 import {connect} from 'react-redux';
 import {View, StatusBar} from 'react-native';
 import {get, storageKeys, clearHistory, set} from './utils/storage.util';
 import {SinarmasAlert, SinarmasInputAlert} from './components/FormComponents';
 import {language} from './config/language';
 import {Toast} from './utils/RNHelpers.util.js';
-import {lowerCase, upperCase, getErrorMessage, transformToken, transformTokenSpecialChar, transformTokenIos} from './utils/transformer.util';
+import {
+  lowerCase,
+  upperCase,
+  getErrorMessage,
+  transformToken,
+  transformTokenSpecialChar,
+  transformTokenIos,
+} from './utils/transformer.util';
 import BackgroundTimer from 'react-native-background-timer';
 import {setAppTimeout, cleanAppState} from './state/actions/index.actions';
 import moment from 'moment';
 import Drawer from 'react-native-drawer';
 import * as actionCreators from './state/actions/index.actions';
 import DrawerComponent from './components/Drawer/Drawer.component';
-import {logout, refreshDevice, clearAndResetPasswordBurgerMenu, getGenerateCode, setOfflineStorage, getGenerateCodeII, checkLoginAllsegmentFlow, checkLoginSaving, checkLoginAllMgm, deeplinkPromo, checkLogin, checkLoginCC, checkLoginForDeeplinkPromo, resetDevice, checkLoginBiller, checkLoginEmoney} from './state/thunks/onboarding.thunks';
-import {linkCreditCard, getTdConfig, redeemSmartfren, validateCloseEmoney} from './state/thunks/dashboard.thunks';
+import {
+  logout,
+  refreshDevice,
+  clearAndResetPasswordBurgerMenu,
+  getGenerateCode,
+  setOfflineStorage,
+  getGenerateCodeII,
+  checkLoginAllsegmentFlow,
+  checkLoginSaving,
+  checkLoginAllMgm,
+  deeplinkPromo,
+  checkLogin,
+  checkLoginCC,
+  checkLoginForDeeplinkPromo,
+  resetDevice,
+  checkLoginBiller,
+  checkLoginEmoney,
+} from './state/thunks/onboarding.thunks';
+import {
+  linkCreditCard,
+  getTdConfig,
+  redeemSmartfren,
+  validateCloseEmoney,
+} from './state/thunks/dashboard.thunks';
 import {insurance} from './state/thunks/Insurance.thunks';
 import {NavigationActions} from 'react-navigation';
 import {inquiryRecurringTransfer} from './state/thunks/fundTransfer.thunks';
 import {showQRTrf, QRCustomer, getQRGpn} from './state/thunks/QRGpn.thunks';
 import Pushwoosh from 'pushwoosh-react-native-plugin';
 import {theme} from './styles/core.styles';
-import {getSimasPoinHistory, inquirySimasPoin, userTagDynatrace} from './state/thunks/common.thunks';
-import {goToOfflineMain, goToGenerateMain} from './state/thunks/generateCode.thunks';
-import {goToShowQR}  from './state/thunks/qrpayment.thunk';
+import {
+  getSimasPoinHistory,
+  inquirySimasPoin,
+  userTagDynatrace,
+} from './state/thunks/common.thunks';
+import {
+  goToOfflineMain,
+  goToGenerateMain,
+} from './state/thunks/generateCode.thunks';
+import {goToShowQR} from './state/thunks/qrpayment.thunk';
 import {getSavingProductsItems} from './state/thunks/digitalAccountOpening.thunks';
 import DeepLinking from 'react-native-deep-linking';
 // import {resetDevice, checkLogin, checkLoginAllsegmentFlow, checkLoginCC, checkLoginForDeeplinkPromo, checkLoginSaving, checkLoginEmoney, getBalanceEmoneyBeforeLogin, addOrder, logoutDashboard, checkLoginBiller, checkLoginAllMgm, deeplinkPromo} from '../../state/thunks/onboarding.thunks';
@@ -43,8 +108,37 @@ if (Platform.OS === 'android') {
   adjustAndroid = require('react-native-adjust');
 }
 
-const mapStateToProps = ({showSpinner, sinarmasAlert, networkStatus, currentLanguage, highlightText, appTimeout, nav, drawer, user, appInitKeys, paydayLoan, config, accounts, showQRTrf, getQRGpn, qrCustomer, simasPoinHistory, simasPoin, generateCodeOnboard, savePicture, sinarmasInputAlert, timeoutReducer, labelNewSplitBill}) => ({
-  isLockedDevice: Boolean(appInitKeys && appInitKeys.username && appInitKeys.tokenClient && appInitKeys.tokenServer),
+const mapStateToProps = ({
+  showSpinner,
+  sinarmasAlert,
+  networkStatus,
+  currentLanguage,
+  highlightText,
+  appTimeout,
+  nav,
+  drawer,
+  user,
+  appInitKeys,
+  paydayLoan,
+  config,
+  accounts,
+  showQRTrf,
+  getQRGpn,
+  qrCustomer,
+  simasPoinHistory,
+  simasPoin,
+  generateCodeOnboard,
+  savePicture,
+  sinarmasInputAlert,
+  timeoutReducer,
+  labelNewSplitBill,
+}) => ({
+  isLockedDevice: Boolean(
+    appInitKeys &&
+      appInitKeys.username &&
+      appInitKeys.tokenClient &&
+      appInitKeys.tokenServer,
+  ),
   showSpinner,
   sinarmasAlert,
   networkStatus,
@@ -62,51 +156,72 @@ const mapStateToProps = ({showSpinner, sinarmasAlert, networkStatus, currentLang
   simasPoinHistory,
   simasPoin,
   savePicture,
-  isSmartfrenPromoEnable: result(config, 'smartfrenPromo.isSmartfrenPromoEnable', 'no') === 'yes',
-  isQrGPNEnable: lowerCase(result(config, 'qrGPNConfig.isQrGPNEnable', 'no')) === 'yes',
+  isSmartfrenPromoEnable:
+    result(config, 'smartfrenPromo.isSmartfrenPromoEnable', 'no') === 'yes',
+  isQrGPNEnable:
+    lowerCase(result(config, 'qrGPNConfig.isQrGPNEnable', 'no')) === 'yes',
   cif: result(user, 'profile.customer.cifCode', ''),
   flag: result(config, 'flag', {}),
-  link: isEmpty(result(config, 'attention.urlSimobiOnboardingTnCWithoutCheckbox', '')) ? result(config, 'attention.urlSimobiOnboardingTnC', '') : result(config, 'attention.urlSimobiOnboardingTnCWithoutCheckbox', ''),
-  showGenerateCode: (result(generateCodeOnboard, 'data.accountOffline', []).length > 0) && (!isEmpty(result(generateCodeOnboard, 'data', {}))),
-  flagLKDCashOut: upperCase(result(config, 'flag.flagLKDCashOut', 'INACTIVE')) === upperCase('ACTIVE'),
-  flagLKDPurchase: upperCase(result(config, 'flag.flagLKDPurchase', 'INACTIVE')) === upperCase('ACTIVE'),
+  link: isEmpty(
+    result(config, 'attention.urlSimobiOnboardingTnCWithoutCheckbox', ''),
+  )
+    ? result(config, 'attention.urlSimobiOnboardingTnC', '')
+    : result(config, 'attention.urlSimobiOnboardingTnCWithoutCheckbox', ''),
+  showGenerateCode:
+    result(generateCodeOnboard, 'data.accountOffline', []).length > 0 &&
+    !isEmpty(result(generateCodeOnboard, 'data', {})),
+  flagLKDCashOut:
+    upperCase(result(config, 'flag.flagLKDCashOut', 'INACTIVE')) ===
+    upperCase('ACTIVE'),
+  flagLKDPurchase:
+    upperCase(result(config, 'flag.flagLKDPurchase', 'INACTIVE')) ===
+    upperCase('ACTIVE'),
   sinarmasInputAlert,
-  flagReleaseDevice: upperCase(result(config, 'flag.flagReleaseDevice', 'INACTIVE')) === upperCase('ACTIVE'),
-  hideCloseEmoney: upperCase(result(config, 'toogleCloseEmoney', 'YES')) !== 'YES',
+  flagReleaseDevice:
+    upperCase(result(config, 'flag.flagReleaseDevice', 'INACTIVE')) ===
+    upperCase('ACTIVE'),
+  hideCloseEmoney:
+    upperCase(result(config, 'toogleCloseEmoney', 'YES')) !== 'YES',
   labelNewSplitBill,
-  timeoutReducer
+  timeoutReducer,
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  initializeSecurity: () => dispatch(tokenInit()).then(() => dispatch(hsmInit())),
-  initializeLanguage: () => get(storageKeys['LANGUAGE']).
-    then((currentLanguageId) => {
+const mapDispatchToProps = dispatch => ({
+  initializeSecurity: () =>
+    dispatch(tokenInit()).then(() => dispatch(hsmInit())),
+  initializeLanguage: () =>
+    get(storageKeys.LANGUAGE).then(currentLanguageId => {
       dispatch(setCurrentLanguage(currentLanguageId || 'en'));
     }),
-  initializeClearHistory: () => get(storageKeys['CLEAR_HISTORY']).
-    then((status) => {
+  initializeClearHistory: () =>
+    get(storageKeys.CLEAR_HISTORY).then(status => {
       if (!status) {
         clearHistory().then(() => {
           set('CLEAR_HISTORY', true);
-          set(storageKeys['CLEAR_HISTORY'], true).catch((err) => {
-            Toast.show(getErrorMessage(err, language.ERROR_MESSAGE__COULD_NOT_DELETE_HISTORY), Toast.LONG);
+          set(storageKeys.CLEAR_HISTORY, true).catch(err => {
+            Toast.show(
+              getErrorMessage(
+                err,
+                language.ERROR_MESSAGE__COULD_NOT_DELETE_HISTORY,
+              ),
+              Toast.LONG,
+            );
           });
         });
       }
     }),
   onPaymentModalClose: () => dispatch(hidePaymentModal()),
   initAppVersionCheck: () => dispatch(checkAppVersion()),
-  setNetworkStatus: (isConnected) => dispatch(setNetworkStatus(isConnected)),
+  setNetworkStatus: isConnected => dispatch(setNetworkStatus(isConnected)),
   resetNetworkBar: () => dispatch(resetNetworkBar()),
-  navigateOnNotification: (message) => dispatch(navigateOnNotification(message)),
+  navigateOnNotification: message => dispatch(navigateOnNotification(message)),
   setLanguage: () => dispatch(setLanguage()),
-  setTimeout: (timeout) => dispatch(setAppTimeout(timeout)),
+  setTimeout: timeout => dispatch(setAppTimeout(timeout)),
   timeoutAction: () => {
     dispatch(actionCreators.hideDrawer());
     dispatch(cleanAppState());
     dispatch(actionCreators.savePositionDeeplink('yes'));
-  }
-  ,
+  },
   showTimeoutAlert: () => dispatch(showTimeoutAlert()),
   hideDrawer: () => {
     dispatch(actionCreators.hideDrawer());
@@ -121,7 +236,7 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(resetAndNavigate(destinationRoute, params));
   },
   logout: () => dispatch(logout()),
-  changeCurrentLanguage: (languageId) => () => {
+  changeCurrentLanguage: languageId => () => {
     dispatch(setCurrentLanguage(languageId));
     dispatch(populateOffersPrivate());
   },
@@ -147,7 +262,9 @@ const mapDispatchToProps = (dispatch) => ({
   },
   cardLessWithdrawal: () => {
     dispatch(actionCreators.hideDrawer());
-    dispatch(NavigationActions.navigate({routeName: 'CardLessWithdrawalIndex'}));
+    dispatch(
+      NavigationActions.navigate({routeName: 'CardLessWithdrawalIndex'}),
+    );
   },
   forgotPassword: () => {
     dispatch(clearAndResetPasswordBurgerMenu());
@@ -202,7 +319,12 @@ const mapDispatchToProps = (dispatch) => ({
   },
   goToSettings: () => {
     dispatch(actionCreators.hideDrawer());
-    dispatch(NavigationActions.navigate({routeName: 'AccountSettings', params: {isSetting: true}}));
+    dispatch(
+      NavigationActions.navigate({
+        routeName: 'AccountSettings',
+        params: {isSetting: true},
+      }),
+    );
   },
   goToSimasPoinHistory: () => {
     dispatch(actionCreators.hideDrawer());
@@ -242,23 +364,23 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(actionCreators.hideDrawer());
     dispatch(NavigationActions.navigate({routeName: 'ChooseServices'}));
   },
-  initializeEmoneyTnc: () => get(storageKeys['TNC_LOCKDOWN']).
-    then((res) => {
+  initializeEmoneyTnc: () =>
+    get(storageKeys.TNC_LOCKDOWN).then(res => {
       if (res === null || res === undefined) {
-        set(storageKeys['TNC_LOCKDOWN'], true);
+        set(storageKeys.TNC_LOCKDOWN, true);
       } else if (res === true) {
-        set(storageKeys['TNC_LOCKDOWN'], true);
+        set(storageKeys.TNC_LOCKDOWN, true);
       } else if (res === false) {
-        set(storageKeys['TNC_LOCKDOWN'], false);
+        set(storageKeys.TNC_LOCKDOWN, false);
       }
     }),
-  setTutorialProduct: (data) => dispatch(saveTutorialProduct(data)),
-  checkBill: () => get(storageKeys['NEW_SPLITBILL']).
-    then((res) => {
+  setTutorialProduct: data => dispatch(saveTutorialProduct(data)),
+  checkBill: () =>
+    get(storageKeys.NEW_SPLITBILL).then(res => {
       dispatch(actionCreators.labelNewSplitBill(res));
     }),
   goToSplitBillMenu: () => {
-    set(storageKeys['NEW_SPLITBILL'], true);
+    set(storageKeys.NEW_SPLITBILL, true);
     dispatch(actionCreators.hideDrawer());
     dispatch(NavigationActions.navigate({routeName: 'SplitBillMenu'}));
   },
@@ -268,31 +390,74 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(NavigationActions.navigate({routeName: 'ValasItem'}));
   },
   getDatacacheLuckydip: () => dispatch(getDatacacheLuckydip()),
-  setTutorialOnboard: (data) => dispatch(saveTutorialOnboard(data)),
-  checkLoginAllMgm: (pathRouteRaw, typereferralCode) => dispatch(checkLoginAllMgm(pathRouteRaw, typereferralCode)),
+  setTutorialOnboard: data => dispatch(saveTutorialOnboard(data)),
+  checkLoginAllMgm: (pathRouteRaw, typereferralCode) =>
+    dispatch(checkLoginAllMgm(pathRouteRaw, typereferralCode)),
   deeplinkPromoFunc: (promoFix, productCode, phoneNumberFix) => {
     dispatch(deeplinkPromo(promoFix, productCode, phoneNumberFix));
   },
-  checkLoginAllsegment: (typeLockdownDevice, pathRouteFlow, typeActivation, typeUtm, typeCode, typereferralCode) => dispatch(checkLoginAllsegmentFlow(typeLockdownDevice, pathRouteFlow, typeActivation, typeUtm, typeCode, typereferralCode)),
-  checkLoginSaving: (referralCodeOrami, typeActivation, usernameOrami, emailUser, handphoneNumber) => dispatch(checkLoginSaving(referralCodeOrami, typeActivation, usernameOrami, emailUser, handphoneNumber)),
-  checkLogin: (tokenIdbiller, typeActivation, params) => dispatch(checkLogin(tokenIdbiller, typeActivation, params)),
-  checkLoginForDeeplinkPromo: (typeActivation) => dispatch(checkLoginForDeeplinkPromo(typeActivation)),
-  checkLoginCC: (tokenEmail, typeActivation, referralCode, ccCodereform) => dispatch(checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform)),
-  menageresetDevice: (id) => dispatch(resetDevice(id)),
+  checkLoginAllsegment: (
+    typeLockdownDevice,
+    pathRouteFlow,
+    typeActivation,
+    typeUtm,
+    typeCode,
+    typereferralCode,
+  ) =>
+    dispatch(
+      checkLoginAllsegmentFlow(
+        typeLockdownDevice,
+        pathRouteFlow,
+        typeActivation,
+        typeUtm,
+        typeCode,
+        typereferralCode,
+      ),
+    ),
+  checkLoginSaving: (
+    referralCodeOrami,
+    typeActivation,
+    usernameOrami,
+    emailUser,
+    handphoneNumber,
+  ) =>
+    dispatch(
+      checkLoginSaving(
+        referralCodeOrami,
+        typeActivation,
+        usernameOrami,
+        emailUser,
+        handphoneNumber,
+      ),
+    ),
+  checkLogin: (tokenIdbiller, typeActivation, params) =>
+    dispatch(checkLogin(tokenIdbiller, typeActivation, params)),
+  checkLoginForDeeplinkPromo: typeActivation =>
+    dispatch(checkLoginForDeeplinkPromo(typeActivation)),
+  checkLoginCC: (tokenEmail, typeActivation, referralCode, ccCodereform) =>
+    dispatch(
+      checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform),
+    ),
+  menageresetDevice: id => dispatch(resetDevice(id)),
   verifyEmail: (tokenEmail, typeActivation, ktp, dob, formid) => {
     dispatch(checkLoginEmoney(tokenEmail, typeActivation, ktp, dob, formid));
   },
   checkLoginBiller: () => {
     dispatch(checkLoginBiller());
   },
-  setToMigrate: (id) => {
-    dispatch(NavigationActions.reset({
-      index: 1,
-      actions: [
-        NavigationActions.navigate({routeName: 'Landing'}),
-        NavigationActions.navigate({routeName: 'MigrateLandingPage', params: {id: id}})
-      ]
-    }));
+  setToMigrate: id => {
+    dispatch(
+      NavigationActions.reset({
+        index: 1,
+        actions: [
+          NavigationActions.navigate({routeName: 'Landing'}),
+          NavigationActions.navigate({
+            routeName: 'MigrateLandingPage',
+            params: {id: id},
+          }),
+        ],
+      }),
+    );
   },
   userTagDynatrace: () => {
     dispatch(userTagDynatrace());
@@ -402,7 +567,7 @@ class AppComponent extends React.Component {
     deeplinkPromoFunc: PropTypes.func,
     checkLoginAllMgm: PropTypes.func,
     userTagDynatrace: PropTypes.func,
-  }
+  };
 
   state = {
     backgrounded: false,
@@ -410,13 +575,26 @@ class AppComponent extends React.Component {
     timeout: 10,
     // Environment Adjust for dev ->  adjustConfig: Platform.OS === 'android' ? new adjustAndroid.AdjustConfig('pbs61gulbojk', adjustAndroid.AdjustConfig.EnvironmentSandbox) : null,
     // Environment Adjust for prod ->  adjustConfig: Platform.OS === 'android' ? new adjustAndroid.AdjustConfig('pbs61gulbojk', adjustAndroid.AdjustConfig.EnvironmentProduction) : null,
-    adjustConfig: Platform.OS === 'android' ? new adjustAndroid.AdjustConfig('pbs61gulbojk', adjustAndroid.AdjustConfig.EnvironmentProduction) : null,
-    subscription: null
-  }
+    adjustConfig:
+      Platform.OS === 'android'
+        ? new adjustAndroid.AdjustConfig(
+            'pbs61gulbojk',
+            adjustAndroid.AdjustConfig.EnvironmentProduction,
+          )
+        : null,
+    subscription: null,
+  };
   subscription = null;
 
   tick = () => {
-    const {appTimeout, setTimeout, timeoutAction, showTimeoutAlert, user, timeoutReducer} = this.props;
+    const {
+      appTimeout,
+      setTimeout,
+      timeoutAction,
+      showTimeoutAlert,
+      user,
+      timeoutReducer,
+    } = this.props;
     const {timeout} = this.state;
     const now = new Date();
     if (!isEmpty(user)) {
@@ -424,14 +602,17 @@ class AppComponent extends React.Component {
         if (AppState.currentState === 'active') {
           if (this.state.backgrounded) {
             this.setState({backgrounded: false});
-            let diff = moment(now, 'DD/MM/YYYY').diff(moment(this.state.backgroundedTime, 'DD/MM/YYYY'));
-            let secondDifference = Math.round(moment.duration(diff).asSeconds());
+            let diff = moment(now, 'DD/MM/YYYY').diff(
+              moment(this.state.backgroundedTime, 'DD/MM/YYYY'),
+            );
+            let secondDifference = Math.round(
+              moment.duration(diff).asSeconds(),
+            );
             this.setState({timeout: timeout - secondDifference});
             setTimeout(appTimeout - secondDifference);
           } else {
             if (appTimeout === timeoutReducer) {
-              this.setState({timeout: appTimeout})
-              ;
+              this.setState({timeout: appTimeout});
               setTimeout(appTimeout - 1);
             } else {
               this.setState({timeout: timeout - 1});
@@ -443,7 +624,6 @@ class AppComponent extends React.Component {
           if (!this.state.backgrounded) {
             this.setState({backgrounded: true});
             this.setState({backgroundedTime: now});
-
           }
         }
       }
@@ -452,51 +632,54 @@ class AppComponent extends React.Component {
         showTimeoutAlert();
       }
     }
-  }
+  };
 
   getLoginPrefs = () => {
     this.props.getLoginPreference();
     this.props.resetNavigateTo('LoginPreference');
-  }
+  };
 
-  handleTween = (ratio) => ({
-    main: {opacity: (2 - ratio) / 2}
-  })
+  handleTween = ratio => ({
+    main: {opacity: (2 - ratio) / 2},
+  });
 
-  onCustomerCall = (telephone) => () => {
-    Linking.canOpenURL(telephone).then((supported) => {
-      if (supported) {
-        Linking.openURL(telephone);
-      } else {
-        Toast.show(language.ERROR_MESSAGE__CANNOT_CALL, Toast.LONG);
-      }
-    }).catch(() => Toast.show(language.ERROR_MESSAGE__CANNOT_CALL), Toast.LONG);
-  }
+  onCustomerCall = telephone => () => {
+    Linking.canOpenURL(telephone)
+      .then(supported => {
+        if (supported) {
+          Linking.openURL(telephone);
+        } else {
+          Toast.show(language.ERROR_MESSAGE__CANNOT_CALL, Toast.LONG);
+        }
+      })
+      .catch(() => Toast.show(language.ERROR_MESSAGE__CANNOT_CALL), Toast.LONG);
+  };
 
   refresh = () => {
     const {onRefresh} = this.props;
     this.setState(this.state);
     onRefresh();
-  }
+  };
 
   refreshPassEP = () => {
     const {forgotPassword} = this.props;
     forgotPassword();
-  }
+  };
 
-  componentWillMount () {
+  componentWillMount() {
     const logEmitter = new NativeEventEmitter(NativeModules.APIGuard);
-    this.subscription = logEmitter.addListener(
-      'APIGuardLogEvent'
-    );
+    this.subscription = logEmitter.addListener('APIGuardLogEvent');
     NativeModules.APIGuard.initialize('config', 'default');
     this.props.initializeLanguage();
     this.props.initializeClearHistory();
     this.props.initAppVersionCheck();
     this.props.initializeSecurity();
-    this.pushListener = DeviceEventEmitter.addListener('pushOpened', (message = {}) => {
-      this.props.navigateOnNotification(message);
-    });
+    this.pushListener = DeviceEventEmitter.addListener(
+      'pushOpened',
+      (message = {}) => {
+        this.props.navigateOnNotification(message);
+      },
+    );
     this.props.setLanguage();
     this.props.getLoginPreference();
     this.props.getLastSuccessfulLogin();
@@ -508,14 +691,14 @@ class AppComponent extends React.Component {
   }
 
   handleUrl = ({url}) => {
-    Linking.canOpenURL(url).then((supported) => {
+    Linking.canOpenURL(url).then(supported => {
       if (supported) {
         DeepLinking.evaluateUrl(url);
       }
     });
-  }
-  
-  componentDidMount () {
+  };
+
+  componentDidMount() {
     this.interval = BackgroundTimer.setInterval(this.tick, 1000);
     this.props.checkBill();
     if (Platform.OS === 'android') {
@@ -532,71 +715,93 @@ class AppComponent extends React.Component {
 
     Dynatrace.setDataCollectionLevel(DataCollectionLevel.User);
     Dynatrace.setCrashReportingOptedIn(true);
-    
+
     Linking.addEventListener('url', this.handleUrl);
 
-
-    Linking.getInitialURL().then((url) => {
-      if (url) {
-        this.handleUrl({url});
-      }
-    }).catch((err) => err);
+    Linking.getInitialURL()
+      .then(url => {
+        if (url) {
+          this.handleUrl({url});
+        }
+      })
+      .catch(err => err);
     DeepLinking.addScheme('https://');
     DeepLinking.addScheme('http://');
     DeepLinking.addScheme('smbplus://');
     DeepLinking.addScheme('simobiplus://');
 
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/:activation/:token', ({activation, token}) => {
-      const tokenEmail = transformToken(token);
-      const typeActivation = transformToken(activation);
-      if (typeActivation === 'splitBill') {
-        this.props.checkLogin(token, 'splitBill');
-      } else if (typeActivation === 'splitBill-NKYC') {
-        this.props.checkLogin(token, 'splitBill-NKYC');
-      } else if (typeActivation === 'Tokenpayment') {
-        this.props.checkLogin(token, 'tokenPayment');
-      } else if (typeActivation === 'fundTransfer-SplitBill') {
-        this.props.checkLogin(token, 'fundTransfer-SplitBill');
-      } else if (typeActivation === 'rejectSplitBill') {
-        this.props.checkLogin(token, 'rejectSplitBill');
-      } else if (typeActivation === 'rejectSplitBill-NKYC') {
-        this.props.checkLogin(token, 'rejectSplitBill-NKYC');
-      } else if (typeActivation === 'Alfacart') {
-        this.props.checkLoginBiller();
-      } else {
-        this.props.verifyEmail(tokenEmail, typeActivation);
-      }
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/:activation/:token',
+      ({activation, token}) => {
+        const tokenEmail = transformToken(token);
+        const typeActivation = transformToken(activation);
+        if (typeActivation === 'splitBill') {
+          this.props.checkLogin(token, 'splitBill');
+        } else if (typeActivation === 'splitBill-NKYC') {
+          this.props.checkLogin(token, 'splitBill-NKYC');
+        } else if (typeActivation === 'Tokenpayment') {
+          this.props.checkLogin(token, 'tokenPayment');
+        } else if (typeActivation === 'fundTransfer-SplitBill') {
+          this.props.checkLogin(token, 'fundTransfer-SplitBill');
+        } else if (typeActivation === 'rejectSplitBill') {
+          this.props.checkLogin(token, 'rejectSplitBill');
+        } else if (typeActivation === 'rejectSplitBill-NKYC') {
+          this.props.checkLogin(token, 'rejectSplitBill-NKYC');
+        } else if (typeActivation === 'Alfacart') {
+          this.props.checkLoginBiller();
+        } else {
+          this.props.verifyEmail(tokenEmail, typeActivation);
+        }
+      },
+    );
 
-
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/Billpayment/:idbiller', ({idbiller}) => {
-      const tokenIdbiller = transformToken(idbiller);
-      this.props.checkLogin(tokenIdbiller);
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/Billpayment/:idbiller',
+      ({idbiller}) => {
+        const tokenIdbiller = transformToken(idbiller);
+        this.props.checkLogin(tokenIdbiller);
+      },
+    );
     // deeplink with some parameter 'params' method ex = /?email=example@gmail.com|name=BSIM|phoneNumber=01234
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/Billpayment/:params/:idbiller', ({params, idbiller}) => {
-      const tokenIdbiller = transformToken(idbiller);
-      const paramsDeeplink = transformTokenSpecialChar(params);
-      this.props.checkLogin(tokenIdbiller, null, paramsDeeplink);
-    });
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/AllSegment/:typeLockdown/:pathRoute', ({typeLockdown, pathRoute}) => {
-      const typeLockdownDevice = transformToken(typeLockdown);
-      const pathRouteFlow = transformToken(pathRoute);
-      this.props.checkLoginAllsegment(typeLockdownDevice, pathRouteFlow);
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/Billpayment/:params/:idbiller',
+      ({params, idbiller}) => {
+        const tokenIdbiller = transformToken(idbiller);
+        const paramsDeeplink = transformTokenSpecialChar(params);
+        this.props.checkLogin(tokenIdbiller, null, paramsDeeplink);
+      },
+    );
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/AllSegment/:typeLockdown/:pathRoute',
+      ({typeLockdown, pathRoute}) => {
+        const typeLockdownDevice = transformToken(typeLockdown);
+        const pathRouteFlow = transformToken(pathRoute);
+        this.props.checkLoginAllsegment(typeLockdownDevice, pathRouteFlow);
+      },
+    );
     DeepLinking.addRoute('/www.simobi.com/migrate/:id', ({id}) => {
       this.props.setToMigrate(id);
     });
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/:activation/:token/:referral/:cccode', ({activation, token, referral, cccode}) => {
-      const tokenEmail = transformToken(token);
-      const typeActivation = transformToken(activation);
-      const referralCode = transformToken(referral);
-      const ccCodereform = transformToken(cccode);
-      if (typeActivation === '011') {
-        this.props.checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform);
-      }
-    });
-    DeepLinking.addRoute('/migrate/:id', ({id}) => this.props.menageresetDevice(id));
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/:activation/:token/:referral/:cccode',
+      ({activation, token, referral, cccode}) => {
+        const tokenEmail = transformToken(token);
+        const typeActivation = transformToken(activation);
+        const referralCode = transformToken(referral);
+        const ccCodereform = transformToken(cccode);
+        if (typeActivation === '011') {
+          this.props.checkLoginCC(
+            tokenEmail,
+            typeActivation,
+            referralCode,
+            ccCodereform,
+          );
+        }
+      },
+    );
+    DeepLinking.addRoute('/migrate/:id', ({id}) =>
+      this.props.menageresetDevice(id),
+    );
     setTimeout(() => {
       // const {offers = []} = this.props;
       // if (isEmpty(offers)) {
@@ -604,84 +809,175 @@ class AppComponent extends React.Component {
       // }
     }, 500);
     // deeplink orami saving with referral code, code orami saving '021'
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/:activation/:username/:referralCode/:emailOrami/:hpNumber', ({activation, username, referralCode, emailOrami, hpNumber}) => {
-      const referralCodeOrami = transformToken(referralCode);
-      const typeActivation = transformToken(activation);
-      const usernameOrami = transformToken(username);
-      const emailUser = transformToken(emailOrami);
-      const handphoneNumber = transformToken(hpNumber);
-      if (typeActivation === '021') {
-        this.props.checkLoginSaving(referralCodeOrami, typeActivation, usernameOrami, emailUser, handphoneNumber);
-      }
-    });
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/AllSegment/:typeLockdown/:pathRoute/:utm/:code/:referralCode/:activation', ({typeLockdown, pathRoute, utm, code, referralCode, activation}) => {
-      const rawtypeActivation = transformToken(activation);
-      const typeActivation = transformTokenIos(rawtypeActivation);
-      const typeUtm = transformToken(utm);
-      const typeCode = transformToken(code);
-      const typereferralCode = transformToken(referralCode);
-      const typeLockdownDevice = transformToken(typeLockdown);
-      const pathRouteFlow = transformToken(pathRoute);
-      this.props.checkLoginAllsegment(typeLockdownDevice, pathRouteFlow, typeActivation, typeUtm, typeCode, typereferralCode);
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/:activation/:username/:referralCode/:emailOrami/:hpNumber',
+      ({activation, username, referralCode, emailOrami, hpNumber}) => {
+        const referralCodeOrami = transformToken(referralCode);
+        const typeActivation = transformToken(activation);
+        const usernameOrami = transformToken(username);
+        const emailUser = transformToken(emailOrami);
+        const handphoneNumber = transformToken(hpNumber);
+        if (typeActivation === '021') {
+          this.props.checkLoginSaving(
+            referralCodeOrami,
+            typeActivation,
+            usernameOrami,
+            emailUser,
+            handphoneNumber,
+          );
+        }
+      },
+    );
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/AllSegment/:typeLockdown/:pathRoute/:utm/:code/:referralCode/:activation',
+      ({typeLockdown, pathRoute, utm, code, referralCode, activation}) => {
+        const rawtypeActivation = transformToken(activation);
+        const typeActivation = transformTokenIos(rawtypeActivation);
+        const typeUtm = transformToken(utm);
+        const typeCode = transformToken(code);
+        const typereferralCode = transformToken(referralCode);
+        const typeLockdownDevice = transformToken(typeLockdown);
+        const pathRouteFlow = transformToken(pathRoute);
+        this.props.checkLoginAllsegment(
+          typeLockdownDevice,
+          pathRouteFlow,
+          typeActivation,
+          typeUtm,
+          typeCode,
+          typereferralCode,
+        );
+      },
+    );
     DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/:utm', () => {
       // const tokenEmail = transformTokenIos(utm);
       // Analytics.logEvent('URL_FROM', {utm: String(tokenEmail)});
     });
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/ShareCodeMgm/:pathRoute/:referralCode', ({pathRoute, referralCode}) => {
-      const typereferralCode = transformToken(referralCode);
-      const pathRouteFlow = transformToken(pathRoute);
-      this.props.checkLoginAllMgm(pathRouteFlow, typereferralCode);
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/ShareCodeMgm/:pathRoute/:referralCode',
+      ({pathRoute, referralCode}) => {
+        const typereferralCode = transformToken(referralCode);
+        const pathRouteFlow = transformToken(pathRoute);
+        this.props.checkLoginAllMgm(pathRouteFlow, typereferralCode);
+      },
+    );
 
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/Promo/:utmPromo/:destinationProduct/:phoneNumber', ({utmPromo, destinationProduct, phoneNumber}) => {
-      const promoFix = transformToken(utmPromo);
-      const phoneNumberFix = transformToken(phoneNumber);
-      const productCode = transformToken(destinationProduct);
-      this.props.deeplinkPromoFunc(promoFix, productCode, phoneNumberFix);
-    });
-    DeepLinking.addRoute('/www.banksinarmas.com/PersonalBanking/PromoCC/:utmPromo/:destinationProduct/:phoneNumber', ({utmPromo, destinationProduct, phoneNumber}) => {
-      const promoFix = transformToken(utmPromo);
-      const phoneNumberFix = transformToken(phoneNumber);
-      const productCode = transformToken(destinationProduct);
-      this.props.deeplinkPromoFunc(promoFix, productCode, phoneNumberFix);
-    });
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/Promo/:utmPromo/:destinationProduct/:phoneNumber',
+      ({utmPromo, destinationProduct, phoneNumber}) => {
+        const promoFix = transformToken(utmPromo);
+        const phoneNumberFix = transformToken(phoneNumber);
+        const productCode = transformToken(destinationProduct);
+        this.props.deeplinkPromoFunc(promoFix, productCode, phoneNumberFix);
+      },
+    );
+    DeepLinking.addRoute(
+      '/www.banksinarmas.com/PersonalBanking/PromoCC/:utmPromo/:destinationProduct/:phoneNumber',
+      ({utmPromo, destinationProduct, phoneNumber}) => {
+        const promoFix = transformToken(utmPromo);
+        const phoneNumberFix = transformToken(phoneNumber);
+        const productCode = transformToken(destinationProduct);
+        this.props.deeplinkPromoFunc(promoFix, productCode, phoneNumberFix);
+      },
+    );
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     BackgroundTimer.clearInterval(this.interval);
     this.pushListener.remove();
     if (Platform.OS === 'android') {
       adjustAndroid.Adjust.componentWillUnmount();
     }
-    Linking.removeEventListener('url', this.handleUrl);
+    Linking.removeAllListeners('url', this.handleUrl);
     this.subscription.remove();
   }
 
-  shouldComponentUpdate (nextProps, nextState) {
+  shouldComponentUpdate(nextProps, nextState) {
     let nextStateContainer = clone(nextState);
     let stateContainer = clone(this.state);
     nextStateContainer.timeout = 0;
     stateContainer.timeout = 0;
-    return !isEqual(nextProps, this.props) || !isEqual(nextStateContainer, stateContainer);
+    return (
+      !isEqual(nextProps, this.props) ||
+      !isEqual(nextStateContainer, stateContainer)
+    );
   }
 
-  render () {
-    const {showSpinner, currentLanguage, highlightText, resetNetworkBar = noop, sinarmasAlert, networkStatus,
-      setNetworkStatus, drawer, hideDrawer, showDrawer, resetAndNavigateTo, user, logout, changeCurrentLanguage, linkCreditCard,
-      getTdCreate, isLockedDevice, getInsurance, cardLessWithdrawal, paydayLoan, goToPaydayLoanAgreement, redeemSmartfren,
-      isSmartfrenPromoEnable, goToinquiryRecurringTransfer, accounts, validateClosingEmoney, cif, newProduct,
-      goToLocator, goToOffers, showQRTrf, link, nav, getQRGpn, qrCustomer, isQrGPNEnable, simasPoin, simasPoinHistory, inquirySimasPoin, goToProfile,
-      goToSettings, goToSimasPoinHistory, generateCode, showGenerateCode, toOfflineMain, flagLKDCashOut, flagLKDPurchase, getGenerateCodeII, savePicture,
-      sinarmasInputAlert, flagReleaseDevice, getSavingProducts, hideCloseEmoney, openDrawer, toGenerateMain, showQR, chooseServices, getValas, goToSplitBillMenu, labelNewSplitBill} = this.props;
+  render() {
+    const {
+      showSpinner,
+      currentLanguage,
+      highlightText,
+      resetNetworkBar = noop,
+      sinarmasAlert,
+      networkStatus,
+      setNetworkStatus,
+      drawer,
+      hideDrawer,
+      showDrawer,
+      resetAndNavigateTo,
+      user,
+      logout,
+      changeCurrentLanguage,
+      linkCreditCard,
+      getTdCreate,
+      isLockedDevice,
+      getInsurance,
+      cardLessWithdrawal,
+      paydayLoan,
+      goToPaydayLoanAgreement,
+      redeemSmartfren,
+      isSmartfrenPromoEnable,
+      goToinquiryRecurringTransfer,
+      accounts,
+      validateClosingEmoney,
+      cif,
+      newProduct,
+      goToLocator,
+      goToOffers,
+      showQRTrf,
+      link,
+      nav,
+      getQRGpn,
+      qrCustomer,
+      isQrGPNEnable,
+      simasPoin,
+      simasPoinHistory,
+      inquirySimasPoin,
+      goToProfile,
+      goToSettings,
+      goToSimasPoinHistory,
+      generateCode,
+      showGenerateCode,
+      toOfflineMain,
+      flagLKDCashOut,
+      flagLKDPurchase,
+      getGenerateCodeII,
+      savePicture,
+      sinarmasInputAlert,
+      flagReleaseDevice,
+      getSavingProducts,
+      hideCloseEmoney,
+      openDrawer,
+      toGenerateMain,
+      showQR,
+      chooseServices,
+      getValas,
+      goToSplitBillMenu,
+      labelNewSplitBill,
+    } = this.props;
     const showLkdMenu = (flagLKDCashOut || flagLKDPurchase) && showGenerateCode;
     const loginRoute = result(nav, 'routes.0.routeName', 'Onboarding');
-    const isLogin = !isEmpty(user) && (result(nav, 'index', 0) > 0 || loginRoute === 'Main');
+    const isLogin =
+      !isEmpty(user) && (result(nav, 'index', 0) > 0 || loginRoute === 'Main');
     const drawerOpenStyles = {
-      mainOverlay: {backgroundColor: theme.lightGrey, opacity: 0.5}
+      mainOverlay: {backgroundColor: theme.lightGrey, opacity: 0.5},
     };
     const drawerStyles = {
-      drawer: {borderRightWidth: 1, borderColor: theme.borderGrey, borderRadius: 3}
+      drawer: {
+        borderRightWidth: 1,
+        borderColor: theme.borderGrey,
+        borderRadius: 3,
+      },
     };
     return (
       <View style={{flexGrow: 1}}>
@@ -695,70 +991,83 @@ class AppComponent extends React.Component {
           type={'overlay'}
           tweenDuration={300}
           styles={drawer ? drawerOpenStyles : drawerStyles}
-          content={<DrawerComponent
-            resetAndNavigate={resetAndNavigateTo}
-            user={result(user, 'profile', {})}
-            logout={logout}
-            paydayLoanEligible={lowerCase(result(paydayLoan, 'data.eligible_status', ''))}
-            changeCurrentLanguage={changeCurrentLanguage}
-            currentLanguage={currentLanguage}
-            linkCreditCard={linkCreditCard}
-            getTdCreate={getTdCreate}
-            getLoginPrefs={this.getLoginPrefs}
-            onPrimaryCustomerCall={this.onCustomerCall('tel:1500153')}
-            onSecondaryCustomerCall={this.onCustomerCall('tel:50188888')}
-            onRefresh={this.refresh}
-            isLockedDevice={isLockedDevice}
-            getInsurance={getInsurance}
-            cardLessWithdrawal={cardLessWithdrawal}
-            forgotPassword={this.refreshPassEP}
-            redeemSmartfren={redeemSmartfren}
-            isSmartfrenPromoEnable={isSmartfrenPromoEnable}
-            goToPaydayLoanAgreement={goToPaydayLoanAgreement}
-            goToinquiryRecurringTransfer={goToinquiryRecurringTransfer}
-            showQRTrf={showQRTrf}
-            accounts={accounts}
-            validateClosingEmoney={validateClosingEmoney}
-            cif={cif}
-            newProduct={newProduct}
-            goToLocator={goToLocator}
-            goToOffers={goToOffers}
-            link={link}
-            isLogin={isLogin}
-            getQRGpn={getQRGpn}
-            qrCustomer={qrCustomer}
-            isQrGPNEnable={isQrGPNEnable}
-            simasPoinHistory={simasPoinHistory}
-            simasPoin={simasPoin}
-            inquirySimasPoin={inquirySimasPoin}
-            goToProfile={goToProfile}
-            goToSettings={goToSettings}
-            goToSimasPoinHistory={goToSimasPoinHistory}
-            generateCode={generateCode}
-            showGenerateCode={showGenerateCode}
-            toOfflineMain={toOfflineMain}
-            showLkdMenu={showLkdMenu}
-            getGenerateCodeII={getGenerateCodeII}
-            profilePicture={savePicture}
-            toGenerateMain={toGenerateMain}
-            flagReleaseDevice={flagReleaseDevice}
-            getSavingProducts={getSavingProducts}
-            goToSplitBillMenu={goToSplitBillMenu}
-            showQR={showQR}
-            openDrawer={openDrawer}
-            hideCloseEmoney={hideCloseEmoney}
-            labelNewSplitBill={labelNewSplitBill}
-            chooseServices={chooseServices}
-            getValas={getValas}
-          />}
-          tweenHandler={this.handleTween}
-        >
-          <OfflineBar highlightText={highlightText} resetNetworkBar={resetNetworkBar} setNetworkStatus={setNetworkStatus} networkStatus={networkStatus}/>
-          <StatusBar barStyle={Platform.OS === 'ios' ? 'dark-content' : 'light-content'}/>
+          content={
+            <DrawerComponent
+              resetAndNavigate={resetAndNavigateTo}
+              user={result(user, 'profile', {})}
+              logout={logout}
+              paydayLoanEligible={lowerCase(
+                result(paydayLoan, 'data.eligible_status', ''),
+              )}
+              changeCurrentLanguage={changeCurrentLanguage}
+              currentLanguage={currentLanguage}
+              linkCreditCard={linkCreditCard}
+              getTdCreate={getTdCreate}
+              getLoginPrefs={this.getLoginPrefs}
+              onPrimaryCustomerCall={this.onCustomerCall('tel:1500153')}
+              onSecondaryCustomerCall={this.onCustomerCall('tel:50188888')}
+              onRefresh={this.refresh}
+              isLockedDevice={isLockedDevice}
+              getInsurance={getInsurance}
+              cardLessWithdrawal={cardLessWithdrawal}
+              forgotPassword={this.refreshPassEP}
+              redeemSmartfren={redeemSmartfren}
+              isSmartfrenPromoEnable={isSmartfrenPromoEnable}
+              goToPaydayLoanAgreement={goToPaydayLoanAgreement}
+              goToinquiryRecurringTransfer={goToinquiryRecurringTransfer}
+              showQRTrf={showQRTrf}
+              accounts={accounts}
+              validateClosingEmoney={validateClosingEmoney}
+              cif={cif}
+              newProduct={newProduct}
+              goToLocator={goToLocator}
+              goToOffers={goToOffers}
+              link={link}
+              isLogin={isLogin}
+              getQRGpn={getQRGpn}
+              qrCustomer={qrCustomer}
+              isQrGPNEnable={isQrGPNEnable}
+              simasPoinHistory={simasPoinHistory}
+              simasPoin={simasPoin}
+              inquirySimasPoin={inquirySimasPoin}
+              goToProfile={goToProfile}
+              goToSettings={goToSettings}
+              goToSimasPoinHistory={goToSimasPoinHistory}
+              generateCode={generateCode}
+              showGenerateCode={showGenerateCode}
+              toOfflineMain={toOfflineMain}
+              showLkdMenu={showLkdMenu}
+              getGenerateCodeII={getGenerateCodeII}
+              profilePicture={savePicture}
+              toGenerateMain={toGenerateMain}
+              flagReleaseDevice={flagReleaseDevice}
+              getSavingProducts={getSavingProducts}
+              goToSplitBillMenu={goToSplitBillMenu}
+              showQR={showQR}
+              openDrawer={openDrawer}
+              hideCloseEmoney={hideCloseEmoney}
+              labelNewSplitBill={labelNewSplitBill}
+              chooseServices={chooseServices}
+              getValas={getValas}
+            />
+          }
+          tweenHandler={this.handleTween}>
+          <OfflineBar
+            highlightText={highlightText}
+            resetNetworkBar={resetNetworkBar}
+            setNetworkStatus={setNetworkStatus}
+            networkStatus={networkStatus}
+          />
+          <StatusBar
+            barStyle={Platform.OS === 'ios' ? 'dark-content' : 'light-content'}
+          />
           <ConnectedRoutes />
-          <OverlaySpinner showSpinner={showSpinner}/>
-          <SinarmasAlert {...sinarmasAlert} currentLanguage={currentLanguage}/>
-          <SinarmasInputAlert {...sinarmasInputAlert} currentLanguage={currentLanguage}/>
+          <OverlaySpinner showSpinner={showSpinner} />
+          <SinarmasAlert {...sinarmasAlert} currentLanguage={currentLanguage} />
+          <SinarmasInputAlert
+            {...sinarmasInputAlert}
+            currentLanguage={currentLanguage}
+          />
         </Drawer>
       </View>
     );
