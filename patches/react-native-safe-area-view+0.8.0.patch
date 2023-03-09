@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-native-safe-area-view/index.js b/node_modules/react-native-safe-area-view/index.js
+index 1c32552..959fd06 100644
+--- a/node_modules/react-native-safe-area-view/index.js
++++ b/node_modules/react-native-safe-area-view/index.js
+@@ -149,7 +149,7 @@ class SafeView extends Component {
+     const WIDTH = isLandscape ? X_HEIGHT : X_WIDTH;
+     const HEIGHT = isLandscape ? X_WIDTH : X_HEIGHT;
+ 
+-    this.view._component.measureInWindow((winX, winY, winWidth, winHeight) => {
++    this.view.measureInWindow((winX, winY, winWidth, winHeight) => {
+       if (!this.view) {
+         return;
+       }
+diff --git a/node_modules/react-native-safe-area-view/withOrientation.js b/node_modules/react-native-safe-area-view/withOrientation.js
+index d1f4c1a..882761f 100644
+--- a/node_modules/react-native-safe-area-view/withOrientation.js
++++ b/node_modules/react-native-safe-area-view/withOrientation.js
+@@ -37,9 +37,9 @@ export default function<T: {}>(
+       Dimensions.addEventListener('change', this.handleOrientationChange);
+     }
+ 
+-    componentWillUnmount() {
+-      Dimensions.removeEventListener('change', this.handleOrientationChange);
+-    }
++    // componentWillUnmount() {
++    //   Dimensions.removeEventListener('change', this.handleOrientationChange);
++    // }
+ 
+     handleOrientationChange = ({ window }: { window: WindowDimensions }) => {
+       const isLandscape = isOrientationLandscape(window);

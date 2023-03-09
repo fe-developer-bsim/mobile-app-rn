@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-navigation/src/createNavigationContainer.js b/node_modules/react-navigation/src/createNavigationContainer.js
+index 5cbbb59..077a94d 100644
+--- a/node_modules/react-navigation/src/createNavigationContainer.js
++++ b/node_modules/react-navigation/src/createNavigationContainer.js
+@@ -300,7 +300,7 @@ export default function createNavigationContainer(Component) {
+ 
+     componentWillUnmount() {
+       this._isMounted = false;
+-      Linking.removeEventListener('url', this._handleOpenURL);
++      Linking.removeAllListeners('url', this._handleOpenURL);
+       this.subs && this.subs.remove();
+ 
+       if (this._isStateful()) {
+diff --git a/node_modules/react-navigation/src/views/withOrientation.js b/node_modules/react-navigation/src/views/withOrientation.js
+index 80a7c09..45ef2fc 100644
+--- a/node_modules/react-navigation/src/views/withOrientation.js
++++ b/node_modules/react-navigation/src/views/withOrientation.js
+@@ -17,9 +17,9 @@ export default function(WrappedComponent) {
+       Dimensions.addEventListener('change', this.handleOrientationChange);
+     }
+ 
+-    componentWillUnmount() {
+-      Dimensions.removeEventListener('change', this.handleOrientationChange);
+-    }
++    // componentWillUnmount() {
++    //   Dimensions.removeEventListener('change', this.handleOrientationChange);
++    // }
+ 
+     handleOrientationChange = ({ window }) => {
+       const isLandscape = isOrientationLandscape(window);

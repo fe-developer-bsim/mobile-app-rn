@@ -1,7 +1,7 @@
 import * as actionCreators from '../actions/index.actions.js';
 import api from '../../utils/api.util';
 import {result, filter, size, sortBy, forEach, startsWith, slice, uniq, map, find, ceil, isEmpty, toUpper} from 'lodash';
-import {NavigationActions} from 'react-navigation';
+import {NavigationActions, StackActions} from 'react-navigation';
 import {set, storageKeys, get} from '../../utils/storage.util.js';
 import {Toast, Alert} from '../../utils/RNHelpers.util.js';
 import moment from 'moment';
@@ -3266,7 +3266,7 @@ export function shouldGiveChecklist (isFromTnc = false, navigation = {}) {
           const merchant = 'ALFACART';
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
-              dispatch(NavigationActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
+              dispatch(StackActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
             } else {
               dispatch(NavigationActions.navigate({routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
             }
@@ -3869,7 +3869,7 @@ export function shouldGiveChecklistSimasCatalog (isFromTnc = false, navigation =
           const jwt = result(res, 'jwt', '');
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
-              dispatch(NavigationActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt}}));
+              dispatch(StackActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt}}));
             } else {
               dispatch(NavigationActions.navigate({routeName: 'UltraVoucherWebView', params: {jwt: jwt}}));
             }
@@ -3896,7 +3896,7 @@ export function checklistUnipin (isFromTnc = false, navigation = {}) {
           const merchant = 'UNIPIN';
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
-              dispatch(NavigationActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
+              dispatch(StackActions.replace({key: navKey, routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
             } else {
               dispatch(NavigationActions.navigate({routeName: 'UltraVoucherWebView', params: {jwt: jwt, merchant: merchant}}));
             }
