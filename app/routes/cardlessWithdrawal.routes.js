@@ -40,125 +40,125 @@ import DigitalEFormSuccessScreen from '../pages/DigitalAccountOpening/DigitalEFo
 const cardlessWithdrawal = StackNavigator({
   CardLessWithdrawalIndex: {
     screen: CardLessWithdrawalIndex,
-    navigationOptions: navHeaders.noHeader
+    navigationOptions: navHeaders.noHeader,
   },
   CardLessWithdrawalAccount: {
     screen: CardLessWithdrawalAccount,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CARDLESSWITHDRAWAL__TITLE'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   CardLessWithdrawalPayment: {
     screen: CardLessWithdrawalPayment,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CARDLESSWITHDRAWAL__TITLE'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   CardLessWithdrawalConfirmation: {
     screen: CardLessWithdrawalConfirmation,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CARDLESSWITHDRAWAL__TITLE_CONFIRMATION'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   AuthTransfer: {
     screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
+    navigationOptions: navHeaders.AuthenticateHeader,
   },
   TransferScreen: {
     screen: FundTransfer,
-    navigationOptions: navHeaders.noHeader
+    navigationOptions: navHeaders.noHeader,
   },
   CardLessWithdrawalSourceAcc: {
     screen: CardLessWithdrawalSourceAccScreen,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CARDLESSWITHDRAWAL__TITLE'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     },
   },
   CardLessWithdrawalSourceAccLKD: {
     screen: CardLessWithdrawalSourceAccScreenLKD,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CARDLESSWITHDRAWAL__TITLE'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     },
   },
   MainGenerateCode1: {
     screen: MainGenerateCode,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_FORM_MERCHANT'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   GenerateForm1: {
     screen: GenerateForm,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE__WITHDRAW'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   feedbackPage: {
     screen: feedbackPage,
     navigationOptions: {
       ...navHeaders.noHeader,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   GenerateForm: {
     screen: GenerateForm,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE__WITHDRAW'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   SourceMerchant: {
     screen: SourceMerchant,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_FORM_MERCHANT'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   GenerateCodeOnline: {
     screen: GenerateCodeOnline,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE__WITHDRAW'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   TapGenerateCode: {
     screen: TapGenerateCode,
     navigationOptions: {
       ...navHeaders.noHeader, headerTitle: <HeaderTitle titleBlack={''} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   TapGenerateCodeNumber: {
     screen: TapGenerateCodeNumber,
     navigationOptions: {
       ...navHeaders.noHeader, headerTitle: <HeaderTitle titleBlack={''} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   GenerateCodeTnc: {
     screen: GenerateCodeTnc,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_TNC'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   EmoneyUpgrade: {
     screen: EmoneyUpgrade,
     navigationOptions: {
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   GenerateConfirmation: {
     screen: GenerateConfirmation,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CONFIRMATION_HEADER'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
 
@@ -166,70 +166,70 @@ const cardlessWithdrawal = StackNavigator({
     screen: QRConfirmPage,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='QR_GPN' />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   PaymentStatusNewPage: {
     screen: PaymentStatusNewPage,
     navigationOptions: {
       header: null,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   SimasPoinLogin: {
     screen: SimasPoinLogin,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
+      tabBarVisible: false,
     },
   },
   PaymentStatusRevampPage: {
     screen: PaymentStatusRevampPage,
     navigationOptions: {
       header: null,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   Introduction: {
     screen: IntroductionPage,
     navigationOptions: {
       ...noHeader,
-      tabBarVisible: false
+      tabBarVisible: false,
     },
   },
   ValidatePassword: {
     screen: ValidatePassword,
     navigationOptions: {
       ...noHeader,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   ProductsListUpgradeEmoney: {
     screen: ProductsList,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'UPGRADE__EMONEY'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   ChooseProductsItem: {
     screen: ChooseProductsItem,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'PRODUCTS__SELECTIONS'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   ProductsTnC: {
     screen: ProductsTnC,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'GENERIC__TERM_AND_CONDITION'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   CurrentSection: {
     screen: CurrentSection,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'EFORM__NAVBAR'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   DigitalEForm: {
@@ -240,23 +240,42 @@ const cardlessWithdrawal = StackNavigator({
     screen: CameraImageConfirmation,
     navigationOptions: {
       ...noHeader,
-      tabBarVisible: false
+      tabBarVisible: false,
     },
   },
   DigitalEFormEmailVerification: {
     screen: DigitalEFormEmailVerification,
     navigationOptions: {
       ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EFORM__NAVBAR'} />,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
   DigitalEFormSuccessScreen: {
     screen: DigitalEFormSuccessScreen,
     navigationOptions: {
       ...noHeader,
-      tabBarVisible: false
+      tabBarVisible: false,
     }
   },
 });
+
+cardlessWithdrawal.navigationOptions = ({navigation}) => {
+  let tabBarVisible;
+  navigation.state.routes.map(route => {
+    if (
+      route.routeName === 'CardLessWithdrawalIndex' ||
+      route.routeName === 'TransferScreen'
+    ) {
+      tabBarVisible = true;
+    } else {
+      tabBarVisible = false;
+    }
+  });
+
+  return {
+    tabBarVisible,
+    backBehavior: 'history',
+  };
+};
 
 export default cardlessWithdrawal;

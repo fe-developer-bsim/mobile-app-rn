@@ -39,200 +39,258 @@ import QRCustomer from '../pages/QRGpn/QRCustomer.page';
 
 import QrTcico from '../pages/Account/QrTcico.page';
 
-const qrPayment = StackNavigator({
-  QRScannerLanding: {
-    screen: QRScannerScreen,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
+const qrPayment = StackNavigator(
+  {
+    QRScannerLanding: {
+      screen: QRScannerScreen,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRInvoiceDetail: {
+      screen: QRInvoiceDetailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    QRInputAmount: {
+      screen: QRInputAmountScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    QRConfirmation: {
+      screen: QRInputConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="QR_GPN_ISSUER_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    Onboarding: {
+      screen: OnboardingRoutes,
+      navigationOptions: noHeader,
+    },
+    Auth: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    HomeScreen: {
+      screen: Homescreen,
+      navigationOptions: navHeaders.DashboardNavConfig,
+    },
+    QRInvoice: {
+      screen: QRInvoicePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="GENERATE_CODE_MAIN_OFFLINE_PAY" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRScanScreen: {
+      screen: QRCustomer,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="QR_GPN_ISSUER_SIMAS" />,
+        tabBarVisible: false,
+      },
+    },
+    QRInvoiceTcicoCashout: {
+      screen: QRInvoiceTcicoPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf={'QR_CASHOUT_TITLE'} headerQR={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRInvoiceTcico: {
+      screen: QRInvoiceTcicoPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf={'QR_TRANSFER_TITLE'} headerQR={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRInvoiceCashout: {
+      screen: QRInvoiceCashout,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle
+            titleWhiteTrf={'QRTCICO_CASHOUT_TITLE'}
+            headerQR={true}
+          />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    PaymentStatusNewOnboarding: {
+      screen: PaymentStatusNewPage,
+      navigationOptions: noHeader,
+    },
+    PaymentStatusRevampOnboarding: {
+      screen: PaymentStatusRevampPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    NewPaymentStatusRevampOnboarding: {
+      screen: NewPaymentStatusRevampPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandPaymentStatus,
+        headerTitle: (
+          <HeaderTitle titlePaymentStatus="QR_TCICO_TRANSACTION_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRConfirm: {
+      screen: QRConfirmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="QR_GPN_ISSUER_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    QRTcicoConfirm: {
+      screen: QRTcicoConfirmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle
+            titleWhiteTrf="TITLE__TRANSFER_CONFIRMATION"
+            headerQR={true}
+          />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRPaymentStatus: {
+      screen: QRPaymentStatus,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRTerminalDelStatus: {
+      screen: QRTerminalDelStatusPage,
+      navigationOptions: {
+        headerVisible: false,
+        tabBarVisible: false,
+      },
+    },
+    QRRegisterStatus: {
+      screen: QRRegisterStatusPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusNewOnboarding: {
+      screen: QRpaymentStatusPage,
+      navigationOptions: noHeader,
+    },
+    PayScreenNew: {
+      screen: Pay,
+      navigationOptions: navHeaders.PayHeaderConfig,
+    },
+    QRPaymentStatusRevamp: {
+      screen: QRPaymentStatusRevamp,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusOnboarding: {
+      screen: QRpaymentStatusRevampPage,
+      navigationOptions: noHeader,
+    },
+    QRPayment: {
+      screen: QRPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PAY_QRPAYMENT__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    CouponList: {
+      screen: CouponList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__COUPON" />,
+        tabBarVisible: false,
+      },
+    },
+    DetailCouponList: {
+      screen: DetailCouponList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__COUPON" />,
+        tabBarVisible: false,
+      },
+    },
+    MyQRScreen: {
+      screen: MyQRScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="QRTICO_HEADER_TITLE" headerQR={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QrTcico: {
+      screen: QrTcico,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf={'QRTICO_HEADER_TITLE'} headerQR={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusOnboardingRevamp: {
+      screen: NewQrStatusRevamp,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="PAYMENT_STATUS__QR_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+  },
+  {
+    cardStyle: {
+      backgroundColor: 'white',
+    },
+  },
+);
+
+qrPayment.navigationOptions = ({navigation}) => {
+  let tabBarVisible;
+  navigation.state.routes.map(route => {
+    if (route.routeName === 'Onboarding' || route.routeName === 'HomeScreen') {
+      tabBarVisible = true;
+    } else {
+      tabBarVisible = false;
     }
-  },
-  QRInvoiceDetail: {
-    screen: QRInvoiceDetailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  QRInputAmount: {
-    screen: QRInputAmountScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  QRConfirmation: {
-    screen: QRInputConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QR_GPN_ISSUER_CONFIRM'/>,
-      tabBarVisible: false
-    }
-  },
-  Onboarding: {
-    screen: OnboardingRoutes,
-    navigationOptions: noHeader
-  },
-  Auth: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  HomeScreen: {
-    screen: Homescreen,
-    navigationOptions: navHeaders.DashboardNavConfig
-  },
-  QRInvoice: {
-    screen: QRInvoicePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='GENERATE_CODE_MAIN_OFFLINE_PAY'/>,
-      tabBarVisible: false
-    }
-  },
-  QRScanScreen: {
-    screen: QRCustomer,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='QR_GPN_ISSUER_SIMAS' />,
-      tabBarVisible: false
-    }
-  },
-  QRInvoiceTcicoCashout: {
-    screen: QRInvoiceTcicoPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf={'QR_CASHOUT_TITLE'} headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  QRInvoiceTcico: {
-    screen: QRInvoiceTcicoPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf={'QR_TRANSFER_TITLE'} headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  QRInvoiceCashout: {
-    screen: QRInvoiceCashout,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf={'QRTCICO_CASHOUT_TITLE'} headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  PaymentStatusNewOnboarding: {
-    screen: PaymentStatusNewPage,
-    navigationOptions: noHeader
-  },
-  PaymentStatusRevampOnboarding: {
-    screen: PaymentStatusRevampPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  NewPaymentStatusRevampOnboarding: {
-    screen: NewPaymentStatusRevampPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandPaymentStatus, headerTitle: <HeaderTitle titlePaymentStatus='QR_TCICO_TRANSACTION_TITLE' />,
-      tabBarVisible: false
-    }
-  },
-  QRConfirm: {
-    screen: QRConfirmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QR_GPN_ISSUER_CONFIRM'/>,
-      tabBarVisible: false
-    }
-  },
-  QRTcicoConfirm: {
-    screen: QRTcicoConfirmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='TITLE__TRANSFER_CONFIRMATION' headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  QRPaymentStatus: {
-    screen: QRPaymentStatus,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRTerminalDelStatus: {
-    screen: QRTerminalDelStatusPage,
-    navigationOptions: {
-      headerVisible: false,
-      tabBarVisible: false
-    }
-  },
-  QRRegisterStatus: {
-    screen: QRRegisterStatusPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusNewOnboarding: {
-    screen: QRpaymentStatusPage,
-    navigationOptions: noHeader
-  },
-  PayScreenNew: {
-    screen: Pay,
-    navigationOptions: navHeaders.PayHeaderConfig,
-  },
-  QRPaymentStatusRevamp: {
-    screen: QRPaymentStatusRevamp,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusOnboarding: {
-    screen: QRpaymentStatusRevampPage,
-    navigationOptions: noHeader
-  },
-  QRPayment: {
-    screen: QRPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PAY_QRPAYMENT__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  CouponList: {
-    screen: CouponList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__COUPON' />,
-      tabBarVisible: false
-    }
-  },
-  DetailCouponList: {
-    screen: DetailCouponList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__COUPON' />,
-      tabBarVisible: false
-    }
-  },
-  MyQRScreen: {
-    screen: MyQRScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QRTICO_HEADER_TITLE' headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  QrTcico: {
-    screen: QrTcico,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf={'QRTICO_HEADER_TITLE'} headerQR={true}/>,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusOnboardingRevamp: {
-    screen: NewQrStatusRevamp,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='PAYMENT_STATUS__QR_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-}, {
-  cardStyle: {
-    backgroundColor: 'white'
-  },
-});
+  });
+
+  return {
+    tabBarVisible,
+    backBehavior: 'history',
+  };
+};
 
 export default qrPayment;
