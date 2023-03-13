@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import EmoneySuccessRegistrationComp from '../../components/DigitalAccountOpening/EmoneySuccessRegistration.component';
 import {connect} from 'react-redux';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {result} from 'lodash';
 import {getCurrentSection} from '../../state/thunks/digitalAccountOpening.thunks';
 import {saveNewOnboarding} from '../../state/actions/index.actions';
@@ -13,26 +13,31 @@ if (Platform.OS === 'android') {
   adjustAndroid = require('react-native-adjust');
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   productCode: result(state, 'productCode', ''),
   creditCardType: result(state, 'productData.creditCardType', ''),
-  newSavingNTB: result(state, 'config.flag.flagNewSavingNTB', 'INACTIVE') === 'ACTIVE',
+  newSavingNTB:
+    result(state, 'config.flag.flagNewSavingNTB', 'INACTIVE') === 'ACTIVE',
   isNewOnboarding: result(state, 'newOnboarding', ''),
-  cif: result(state, 'user.profile.customer.cifCode', '')
+  cif: result(state, 'user.profile.customer.cifCode', ''),
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  goToCreditCardFormNkyc: () => dispatch(NavigationActions.navigate({routeName: 'CreditCardKTPCamera'})),
+const mapDispatchToProps = dispatch => ({
+  goToCreditCardFormNkyc: () =>
+    dispatch(NavigationActions.navigate({routeName: 'CreditCardKTPCamera'})),
   goToSectionPage: () => dispatch(getCurrentSection(true)),
-  goToLoanFormNkyc: () => dispatch(NavigationActions.navigate({routeName: 'CreditCardForm1'})),
-  goToSavingAccountFormNkyc: () => dispatch(NavigationActions.navigate({routeName: 'SavingKTPCamera'})),
+  goToLoanFormNkyc: () =>
+    dispatch(NavigationActions.navigate({routeName: 'CreditCardForm1'})),
+  goToSavingAccountFormNkyc: () =>
+    dispatch(NavigationActions.navigate({routeName: 'SavingKTPCamera'})),
   clearOnboardingFlag: () => dispatch(saveNewOnboarding('no')),
-  goToLanding: () => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [
-      NavigationActions.navigate({routeName: 'Landing'})
-    ]
-  }))
+  goToLanding: () =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'Landing'})],
+      }),
+    ),
 });
 
 class EmoneySuccessRegistration extends Component {
@@ -50,8 +55,8 @@ class EmoneySuccessRegistration extends Component {
     clearOnboardingFlag: PropTypes.func,
     isNewOnboarding: PropTypes.string,
     goToLanding: PropTypes.func,
-    cif: PropTypes.string
-  }
+    cif: PropTypes.string,
+  };
 
   nextpage = () => {
     const {productCode, creditCardType, newSavingNTB} = this.props;
@@ -76,9 +81,9 @@ class EmoneySuccessRegistration extends Component {
     } else {
       this.props.goToLanding();
     }
-  }
+  };
 
-  componentWillMount () {
+  componentWillMount() {
     const {isNewOnboarding, clearOnboardingFlag} = this.props;
     if (isNewOnboarding === 'yes') {
       clearOnboardingFlag();
@@ -98,18 +103,19 @@ class EmoneySuccessRegistration extends Component {
     } else if (productCode.includes('CC')) {
       if (Platform.OS === 'android') {
         adjustEvent = new adjustAndroid.AdjustEvent('geq1m6');
-        adjustEvent.addCallbackParameter('page_id', 'ak-daocc-4'); 
+        adjustEvent.addCallbackParameter('page_id', 'ak-daocc-4');
         adjustEvent.addCallbackParameter('cif', cif);
         adjustAndroid.Adjust.trackEvent(adjustEvent);
       }
     }
-  }
+  };
 
-  render () {
-    return (
-      <EmoneySuccessRegistrationComp nextpage={this.nextpage}/>
-    );
+  render() {
+    return <EmoneySuccessRegistrationComp nextpage={this.nextpage} />;
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(EmoneySuccessRegistration);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(EmoneySuccessRegistration);

@@ -3,34 +3,35 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import result from 'lodash/result';
 import SuccessVerification from '../../components/Account/SuccessVerification.component';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 
-const mapStateToProps = (state) => ({
-  orderId: result(state, 'confirmFields', '')
+const mapStateToProps = state => ({
+  orderId: result(state, 'confirmFields', ''),
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   AccountMenu: () => {
-    dispatch(NavigationActions.reset({
-      index: 0,
-      actions: [
-        NavigationActions.navigate({routeName: 'AccountMenu'})
-      ]
-    }));
-  }
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'AccountMenu'})],
+      }),
+    );
+  },
 });
 
 class SuccessVerificationPage extends React.Component {
-  static propTypes={
+  static propTypes = {
     AccountMenu: PropTypes.func,
-    orderId: PropTypes.object
-  }
-  render () {
+    orderId: PropTypes.object,
+  };
+  render() {
     const {AccountMenu, orderId} = this.props;
-    return (
-      <SuccessVerification AccountMenu={AccountMenu} orderId={orderId} />
-    );
+    return <SuccessVerification AccountMenu={AccountMenu} orderId={orderId} />;
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SuccessVerificationPage);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(SuccessVerificationPage);

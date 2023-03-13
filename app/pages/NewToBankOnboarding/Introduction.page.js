@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import IntroductionComponent from '../../components/NewToBankOnboarding/Introduction.component';
 import {connect} from 'react-redux';
 import {refreshDevice} from '../../state/thunks/onboarding.thunks';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import SplashScreen from 'react-native-splash-screen';
 import {Linking} from 'react-native';
 import {result, isEmpty, find} from 'lodash';
@@ -26,7 +26,7 @@ import noop from 'lodash/noop';
 // import {Platform} from 'react-native';
 import {clearUTM} from '../../state/actions/index.actions';
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   const isStateEmpty = isEmpty(state.appInitKeys);
   if (!isStateEmpty) {
     SplashScreen.hide();
@@ -40,7 +40,7 @@ const mapStateToProps = (state) => {
       state.appInitKeys &&
         state.appInitKeys.username &&
         state.appInitKeys.tokenClient &&
-        state.appInitKeys.tokenServer
+        state.appInitKeys.tokenServer,
     ),
     currentLanguage: state.currentLanguage,
     state,
@@ -48,36 +48,36 @@ const mapStateToProps = (state) => {
       result(
         state,
         'config.attention.urlSimobiOnboardingTnCWithoutCheckbox',
-        ''
-      )
+        '',
+      ),
     )
       ? result(state, 'config.attention.urlSimobiOnboardingTnC', '')
       : result(
-        state,
-        'config.attention.urlSimobiOnboardingTnCWithoutCheckbox',
-        ''
-      ),
+          state,
+          'config.attention.urlSimobiOnboardingTnCWithoutCheckbox',
+          '',
+        ),
     link2: result(state, 'config.attention.urlSimobiPrivacyPolicy', ''),
     tutorialProduct: tutorialProduct,
     isDeeplinkExist: state.isDeeplinkExist,
     offers,
-    utmState: result(state, 'utmCode', {})
+    utmState: result(state, 'utmCode', {}),
   };
 };
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onButtonPress: () => {
     dispatch(clearUTM());
     dispatch(
-      NavigationActions.reset({
+      StackActions.reset({
         index: 0,
         actions: [
           NavigationActions.navigate({
             routeName: 'Login',
             params: {disableEasyPinLogin: true},
-          })
-        ]
-      })
+          }),
+        ],
+      }),
     );
   },
   onLinkPressTnC: (link, singleBilingual) => () => {
@@ -85,7 +85,7 @@ const mapDispatchToProps = (dispatch) => ({
       NavigationActions.navigate({
         routeName: 'TnCPageAccount',
         params: {urlLink: link, singleBilingual},
-      })
+      }),
     );
   },
   onLinkPressPrivacy: (link2, singleBilingual) => () => {
@@ -94,11 +94,11 @@ const mapDispatchToProps = (dispatch) => ({
       NavigationActions.navigate({
         routeName: 'PrivacyPageAccount',
         params: {urlLink: link2, singleBilingual},
-      })
+      }),
     );
   },
   onRefresh: () => dispatch(refreshDevice()),
-  onButtonProductPress: (tutorialProduct) => {
+  onButtonProductPress: tutorialProduct => {
     // const codeDestination = result(utmState, 'productCode', '');
     // if (codeDestination === 'Emoney') {
     //   dispatch(NavigationActions.navigate({routeName: 'EmoneyRegistration'}));
@@ -113,12 +113,12 @@ const mapDispatchToProps = (dispatch) => ({
         routeName: 'ChooseRegistration',
         // params: {firebaseEmoney, tutorialProduct},
         params: {tutorialProduct},
-      })
+      }),
     );
   },
   getEmoneyTnc: () => get(storageKeys.TNC_LOCKDOWN),
   initializeEmoneyTnc: () =>
-    get(storageKeys.TNC_LOCKDOWN).then((res) => {
+    get(storageKeys.TNC_LOCKDOWN).then(res => {
       if (res === null || res === undefined) {
         set(storageKeys.TNC_LOCKDOWN, true);
       } else if (res === true) {
@@ -129,11 +129,11 @@ const mapDispatchToProps = (dispatch) => ({
     }),
   checkLogin: (tokenIdbiller, typeActivation, params) =>
     dispatch(checkLogin(tokenIdbiller, typeActivation, params)),
-  checkLoginForDeeplinkPromo: (typeActivation) =>
+  checkLoginForDeeplinkPromo: typeActivation =>
     dispatch(checkLoginForDeeplinkPromo(typeActivation)),
   checkLoginCC: (tokenEmail, typeActivation, referralCode, ccCodereform) =>
     dispatch(
-      checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform)
+      checkLoginCC(tokenEmail, typeActivation, referralCode, ccCodereform),
     ),
   checkLoginAllsegment: (
     typeLockdownDevice,
@@ -141,7 +141,7 @@ const mapDispatchToProps = (dispatch) => ({
     typeActivation,
     typeUtm,
     typeCode,
-    typereferralCode
+    typereferralCode,
   ) =>
     dispatch(
       checkLoginAllsegmentFlow(
@@ -150,21 +150,21 @@ const mapDispatchToProps = (dispatch) => ({
         typeActivation,
         typeUtm,
         typeCode,
-        typereferralCode
-      )
+        typereferralCode,
+      ),
     ),
-  setToMigrate: (id) => {
+  setToMigrate: id => {
     dispatch(
-      NavigationActions.reset({
+      StackActions.reset({
         index: 1,
         actions: [
           NavigationActions.navigate({routeName: 'Landing'}),
           NavigationActions.navigate({
             routeName: 'MigrateLandingPage',
             params: {id: id},
-          })
-        ]
-      })
+          }),
+        ],
+      }),
     );
   },
   displayOffers: () => dispatch(populateOffersPrivate()),
@@ -176,7 +176,7 @@ const mapDispatchToProps = (dispatch) => ({
     typeActivation,
     usernameOrami,
     emailUser,
-    handphoneNumber
+    handphoneNumber,
   ) =>
     dispatch(
       checkLoginSaving(
@@ -184,10 +184,10 @@ const mapDispatchToProps = (dispatch) => ({
         typeActivation,
         usernameOrami,
         emailUser,
-        handphoneNumber
-      )
+        handphoneNumber,
+      ),
     ),
-  menageresetDevice: (id) => dispatch(resetDevice(id)),
+  menageresetDevice: id => dispatch(resetDevice(id)),
 });
 
 class IntroductionPage extends React.Component {
@@ -217,25 +217,25 @@ class IntroductionPage extends React.Component {
     displayOffers: PropTypes.func,
     checkLoginSaving: PropTypes.func,
     menageresetDevice: PropTypes.func,
-    utmState: PropTypes.object
+    utmState: PropTypes.object,
   };
 
   state = {
-    tncLockdown: false
+    tncLockdown: false,
   };
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     // Linking.removeEventListener('url', this.handleUrl);
   }
 
   handleUrl = ({url}) => {
-    Linking.canOpenURL(url).then((supported) => {
+    Linking.canOpenURL(url).then(supported => {
       if (supported) {
         // DeepLinking.evaluateUrl(url);
       }
     });
   };
-  componentDidMount () {
+  componentDidMount() {
     // Linking.addEventListener('url', this.handleUrl);
     // Linking.getInitialURL().then((url) => {
     //   if (url && this.props.isDeeplinkExist !== 'yes') {
@@ -321,11 +321,11 @@ class IntroductionPage extends React.Component {
     onRefresh();
   };
 
-  componentWillMount () {
+  componentWillMount() {
     const {getEmoneyTnc} = this.props;
     SplashScreen.hide();
     set(storageKeys.WELCOME_EMONEY, true);
-    getEmoneyTnc().then((res) => {
+    getEmoneyTnc().then(res => {
       this.setState({
         tncLockdown: res,
       });
@@ -337,7 +337,7 @@ class IntroductionPage extends React.Component {
     onButtonProductPress(tutorialProduct);
   };
 
-  render () {
+  render() {
     const {
       onButtonPress,
       onRegistrationEmoney,
@@ -366,5 +366,8 @@ class IntroductionPage extends React.Component {
   }
 }
 
-const ConnectedIntroductionPage = connect(mapStateToProps, mapDispatchToProps)(IntroductionPage);
+const ConnectedIntroductionPage = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(IntroductionPage);
 export default ConnectedIntroductionPage;

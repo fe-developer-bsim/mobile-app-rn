@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import DigitalEFormSuccessScreenComp from '../../components/DigitalAccountOpening/DigitalEFormSuccessScreen.component';
 import {connect} from 'react-redux';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {isEmpty, result} from 'lodash';
 import {Platform} from 'react-native';
 let adjustAndroid;
@@ -11,20 +11,21 @@ if (Platform.OS === 'android') {
   adjustAndroid = require('react-native-adjust');
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   isLogin: !isEmpty(result(state, 'user', {})),
   currentLanguage: result(state, 'currentLanguage.id', 'id'),
   cif: result(state, 'user.profile.customer.cifCode', ''),
-  productCode: result(state, 'productCode', '')
+  productCode: result(state, 'productCode', ''),
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  backToHome: () => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [
-      NavigationActions.navigate({routeName: 'Landing'})
-    ]
-  }))
+const mapDispatchToProps = dispatch => ({
+  backToHome: () =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'Landing'})],
+      }),
+    ),
 });
 
 class DigitalEFormSuccessScreen extends Component {
@@ -35,8 +36,8 @@ class DigitalEFormSuccessScreen extends Component {
     backToHome: PropTypes.func,
     currentLanguage: PropTypes.string,
     cif: PropTypes.string,
-    productCode: PropTypes.string
-  }
+    productCode: PropTypes.string,
+  };
 
   componentDidMount = () => {
     const {cif, productCode} = this.props;
@@ -63,9 +64,9 @@ class DigitalEFormSuccessScreen extends Component {
         adjustAndroid.Adjust.trackEvent(adjustEvent);
       }
     }
-  }
+  };
 
-  render () {
+  render() {
     const {backToHome, navigation, currentLanguage} = this.props;
     const data = result(navigation, 'state.params.data', {});
     return (
@@ -78,4 +79,7 @@ class DigitalEFormSuccessScreen extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(DigitalEFormSuccessScreen);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(DigitalEFormSuccessScreen);

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Text} from 'react-native';
 import Touchable from './../../components/Touchable.component';
 import styles from './NavHeader.styles';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {language} from '../../config/language';
 
 export default class LoginSwitch extends Component {
@@ -19,33 +19,51 @@ export default class LoginSwitch extends Component {
     resetLoginOrCreate: PropTypes.bool,
     isLogin: PropTypes.bool,
     text2: PropTypes.string,
-    isCreate: PropTypes.bool
-  }
+    isCreate: PropTypes.bool,
+  };
 
   onPress = () => {
-    const {dispatch, navigateTo, resetToLanding = false, withParams = false, resetLoginOrCreate = false} = this.props;
+    const {
+      dispatch,
+      navigateTo,
+      resetToLanding = false,
+      withParams = false,
+      resetLoginOrCreate = false,
+    } = this.props;
     if (resetToLanding) {
-      dispatch(NavigationActions.reset({
-        index: 1,
-        actions: [
-          NavigationActions.navigate({routeName: 'Login'}),
-          NavigationActions.navigate({routeName: navigateTo})
-        ]
-      }));
+      dispatch(
+        StackActions.reset({
+          index: 1,
+          actions: [
+            NavigationActions.navigate({routeName: 'Login'}),
+            NavigationActions.navigate({routeName: navigateTo}),
+          ],
+        }),
+      );
     } else if (resetLoginOrCreate) {
       dispatch(NavigationActions.navigate({routeName: 'ChooseRegistration'}));
     } else if (withParams) {
-      dispatch(NavigationActions.navigate({routeName: navigateTo, params: {regisATM: true}}));
+      dispatch(
+        NavigationActions.navigate({
+          routeName: navigateTo,
+          params: {regisATM: true},
+        }),
+      );
     } else {
       dispatch(NavigationActions.navigate({routeName: navigateTo}));
     }
-  }
+  };
 
-  render () {
-    const {text, isBrandColor = true, isCreate = false, isLogin = false} = this.props;
+  render() {
+    const {
+      text,
+      isBrandColor = true,
+      isCreate = false,
+      isLogin = false,
+    } = this.props;
     return (
-      <Touchable style={styles.navContainer} onPress={this.onPress} >
-        {isCreate ?
+      <Touchable style={styles.navContainer} onPress={this.onPress}>
+        {isCreate ? (
           <Text>
             <Text style={styles.blackColor}>
               {language.LOGIN__DONT_HAVE_ACCOUNT}
@@ -54,20 +72,21 @@ export default class LoginSwitch extends Component {
               {language.INTRODUCTION__REVAMP_REGISTER}
             </Text>
           </Text>
-          : isLogin ?
-            <Text>
-              <Text style={styles.blackColor}>
-                {language.IDENTITYFORM__HAVE_AN_ACCOUNT}
-              </Text>
-              <Text style={styles.primaryColor}>
-                {language.IDENTITYFORM__HAVE_AN_ACCOUNT_LOG_IN}
-              </Text>
+        ) : isLogin ? (
+          <Text>
+            <Text style={styles.blackColor}>
+              {language.IDENTITYFORM__HAVE_AN_ACCOUNT}
             </Text>
-            :
-            <Text style={isBrandColor ? styles.primaryColor : styles.contrastColor}>
-              {text}
+            <Text style={styles.primaryColor}>
+              {language.IDENTITYFORM__HAVE_AN_ACCOUNT_LOG_IN}
             </Text>
-        }
+          </Text>
+        ) : (
+          <Text
+            style={isBrandColor ? styles.primaryColor : styles.contrastColor}>
+            {text}
+          </Text>
+        )}
       </Touchable>
     );
   }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import ConfirmEmail from '../../components/RegisterEmoneyJourney/ConfirmationEmail.component';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {connect} from 'react-redux';
 import {result, find} from 'lodash';
 import DeepLinking from 'react-native-deep-linking';
@@ -10,20 +10,19 @@ import {getAllOffersExcept} from '../../utils/transformer.util';
 import {deeplinkCatcher} from '../../state/thunks/common.thunks';
 import SplashScreen from 'react-native-splash-screen';
 
-
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   returnToLogin: () => {
-    dispatch(NavigationActions.reset({
-      index: 0,
-      actions: [
-        NavigationActions.navigate({routeName: 'Login'}),
-      ]
-    }));
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'Login'})],
+      }),
+    );
   },
   deeplinkCatcher: () => dispatch(deeplinkCatcher()),
 });
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   const allOffers = result(state, 'promos.offers', []);
   const clickedOffer = find(allOffers, {offerID: {}});
   return {
@@ -44,33 +43,37 @@ class FinalizePaydayLoan extends Component {
     displayOffers: PropTypes.func,
     checkLoginSaving: PropTypes.func,
     offers: PropTypes.array,
-    deeplinkCatcher: PropTypes.func
-  }
+    deeplinkCatcher: PropTypes.func,
+  };
 
   handleUrl = ({url}) => {
-    Linking.canOpenURL(url).then((supported) => {
+    Linking.canOpenURL(url).then(supported => {
       if (supported) {
         DeepLinking.evaluateUrl(url);
       }
     });
-  }
-  componentWillUnmount () {
+  };
+  componentWillUnmount() {
     // Linking.removeEventListener('url', this.handleUrl);
   }
-  componentWillMount () {
+  componentWillMount() {
     setTimeout(() => {
       SplashScreen.hide();
     }, 2000);
   }
-  componentDidMount () {
+  componentDidMount() {
     // Linking.addEventListener('url', this.handleUrl);
     // this.props.deeplinkCatcher();
   }
-  render () {
+  render() {
     const {navigation, returnToLogin} = this.props;
     const email = result(navigation, 'state.params.email', '');
     return (
-      <ConfirmEmail navigation={navigation} returnToLogin={returnToLogin} email={email}/>
+      <ConfirmEmail
+        navigation={navigation}
+        returnToLogin={returnToLogin}
+        email={email}
+      />
     );
   }
 }

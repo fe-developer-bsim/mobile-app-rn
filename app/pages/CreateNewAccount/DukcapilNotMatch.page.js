@@ -3,16 +3,19 @@ import PropTypes from 'prop-types';
 import DukcapilNotMatch from '../../components/CreateNewAccount/DukcapilNotMatch.component';
 import {result, isEmpty} from 'lodash';
 import {connect} from 'react-redux';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 
-const mapDispatchToProps = (dispatch) => ({
-  onButtonPress: (rootName) => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [NavigationActions.navigate({routeName: rootName})]
-  }))
+const mapDispatchToProps = dispatch => ({
+  onButtonPress: rootName =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: rootName})],
+      }),
+    ),
 });
-const mapStateToProps = (state) => ({
-  isLogin: !isEmpty(result(state, 'user', {}))
+const mapStateToProps = state => ({
+  isLogin: !isEmpty(result(state, 'user', {})),
 });
 
 class DukcapilNotMatchPage extends Component {
@@ -21,20 +24,21 @@ class DukcapilNotMatchPage extends Component {
     onButtonPress: PropTypes.func,
     onBackPress: PropTypes.func,
     isLogin: PropTypes.bool,
-  }
+  };
 
   backToHome = () => {
     const {isLogin, onButtonPress} = this.props;
     onButtonPress(isLogin ? 'Landing' : 'ChooseProductsIntroduction');
-  }
+  };
 
-  render () {
+  render() {
     const {navigation} = this.props;
     const navParams = result(navigation, 'state.params', {});
-    return (
-      <DukcapilNotMatch backToHome={this.backToHome} {...navParams}/>
-    );
+    return <DukcapilNotMatch backToHome={this.backToHome} {...navParams} />;
   }
 }
-const ConnectedIntroductionPage = connect(mapStateToProps, mapDispatchToProps)(DukcapilNotMatchPage);
+const ConnectedIntroductionPage = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(DukcapilNotMatchPage);
 export default ConnectedIntroductionPage;

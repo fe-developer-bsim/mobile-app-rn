@@ -314,7 +314,6 @@ import TransactionDetailEmoney from '../pages/TransactionsEmoney/TransactionDeta
 import BankAccScreen from '../pages/Home/NewBankAcc.page';
 import PaymentStatusNew from '../pages/PaymentStatus/PaymentStatusNew.page';
 
-
 // upgrade emoney
 import EmoneyUpgradeBenefit from '../pages/EmoneyJourney/EmoneyUpgradeBenefit.page';
 import EmoneyUpgradeCamera from '../pages/EmoneyJourney/EmoneyUpgradeCamera.page';
@@ -468,7 +467,7 @@ import EtaxPaymentType from '../pages/ETaxJourney/EtaxPaymentType.page';
 import EtaxHistoryFilter from '../pages/ETaxJourney/EtaxHistoryFilter.page';
 import EtaxHistoryList from '../pages/ETaxJourney/EtaxHistoryList.page';
 
-// liveness 
+// liveness
 import LivenessSection from '../pages/AAILiveness/AAIIOSLivenessView.page';
 
 import LegalPageAccount from '../pages/Account/LegalPage.page';
@@ -566,3190 +565,3702 @@ import SimasValasChooseCurrency from '../pages/SimasValas/SimasValasChooseCurren
 import MembershipDetail from '../pages/Account/MembershipDetail.page';
 import LuckyDrawTnC from '../pages/LuckyDraw/LuckyDrawTnC.page.js';
 
-
-const OnboardingRoutes = StackNavigator({
-  Landing: {
-    screen: LandingPage,
-    path: 'index',
-    navigationOptions: navHeaders.noHeader
-  },
-  LuckyDip: {
-    screen: LuckyDip,
-    navigationOptions: navHeaders.LuckyDipRightHeader
-  },
-  LuckyDipInformationPage: {
-    screen: LuckyDipInformation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  LuckyDipHistoryPage: {
-    screen: LuckyDipHistory,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  LuckyDipInformationDetailPage: {
-    screen: LuckyDipInformationDetail,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  Login: {
-    screen: Loginscreen,
-    navigationOptions: navHeaders.LandingHeaderNewOnboarding
-  },
-  VerifyEmailEmoney: {
-    screen: VerifyEmailEmoney,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneyActivationOTP: {
-    screen: EmoneyActivationOTP,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreen,
-      tabBarVisible: false
-    }
-  },
-  ActivationForm: {
-    screen: ActivationForm,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  CouponList: {
-    screen: CouponList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__COUPON' />,
-      tabBarVisible: false
-    }
-  },
-  DetailCouponList: {
-    screen: DetailCouponList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__COUPON' />,
-      tabBarVisible: false
-    }
-  },
-  MerchantDashboard: {
-    screen: MerchantDashboard,
-    navigationOptions: navHeaders.merchantHeader
-  },
-  MerchantShippingMethod: {
-    screen: MerchantShippingMethod,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE'/>,
-      tabBarVisible: false
+const OnboardingRoutes = StackNavigator(
+  {
+    Landing: {
+      screen: LandingPage,
+      path: 'index',
+      navigationOptions: navHeaders.noHeader,
     },
-  },
-  MerchantCart: {
-    screen: MerchantCart,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE'/>,
-      tabBarVisible: false
+    LuckyDip: {
+      screen: LuckyDip,
+      navigationOptions: navHeaders.LuckyDipRightHeader,
     },
-  },
-  DetailProductMerchant: {
-    screen: DetailProductMerchant,
-    navigationOptions: navHeaders.merchantHeader
-  },
-  FailedPageActivation: {
-    screen: FailedPageActivation,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  ActivationSuccess: {
-    screen: ActivationSuccess,
-    navigationOptions: navHeaders.noHeader
-  },
-  // ChooseProductsIntroduction: {
-  //   screen: ChooseProducts,
-  //   navigationOptions: navHeaders.chooseProduct
-  // },
-  RegisterWithATMReceipt: {
-    screen: Loginscreen,
-    navigationOptions: navHeaders.EasyPinInHeader
-  },
-  Introduction: {
-    screen: IntroductionPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
+    LuckyDipInformationPage: {
+      screen: LuckyDipInformation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  ConfirmationAccount: {
-    screen: ConfirmationAccountPage,
-  },
-  IdentityForm: {
-    screen: IdentityPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='IDENTITYFIFTHFORM__TITLE_HEADER_BAR'/>,
-    }
-  },
-  IdentitySecondForm: {
-    screen: IdentitySecondPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='IDENTITYFIFTHFORM__TITLE_HEADER_BAR'/>,
-    }
-  },
-  IdentityThirdForm: {
-    screen: IdentityThirdPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='IDENTITYFIFTHFORM__TITLE_HEADER_BAR'/>,
-    }
-  },
-  IdentityFourthForm: {
-    screen: IdentityFourthPage,
-  },
-  IdentityFifthForm: {
-    screen: IdentityFifthPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='IDENTITYFIFTHFORM__TITLE_HEADER'/>,
-    }
-  },
-  LearnMoreProductPage: {
-    screen: LearnMoreProductPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='IDENTITYTHIRDFORM__LEARN_ABOUT_PRODUCT_WEB_PAGE'/>,
-    }
-  },
-  HowToTransferPage: {
-    screen: HowToTransferPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HOWTOTRANSFER__TITLE'/>,
-    }
-  },
-  LoginWithEasyPin: {
-    screen: LoginWithEasyPinPage,
-    navigationOptions: navHeaders.LoginPasswordInHeader
-  },
-  LoginWithEasyPinRevamp: {
-    screen: LoginWithEasyPinPageRevamp,
-    navigationOptions: navHeaders.LoginPasswordInHeaderRevamp
-  },
-  RegisterAtm: {
-    screen: RegisterAtmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={''} />,
-      tabBarVisible: false
-    }
-  },
-  RegisterByPhone: {
-    screen: ResetByPhoneNumberForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={''} />,
-      tabBarVisible: false
-    }
-  },
-  RegisterByPhoneLastForm: {
-    screen: ResetByPhoneNumberLastForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={''} />,
-      tabBarVisible: false
-    }
-  },
-  ResetPasswordEmailToken: {
-    screen: ResetPasswordEmailToken,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={''} />,
-      tabBarVisible: false
-    }
-  },
-  RegisterPin: {
-    screen: RegisterPinPage,
-    navigationOptions: {
-      ...navHeaders.RegisterInHeader,
-      tabBarVisible: false
-    }
-  },
-  OTP: {
-    screen: OnboardingOTP,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreen,
-      tabBarVisible: false
-    }
-  },
-  TermsEmoney: {
-    screen: TermsEmoney,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='TERMS_AND_CONDITION' />,
-    }
-  },
-  LoginAccount: {
-    screen: LoginAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      tabBarVisible: false
-    }
-  },
-  EasyPin: {
-    screen: EasyPin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    }
-  },
-  EasyPinConfirm: {
-    screen: EasyPinConfirm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    }
-  },
-  EasyPinVerify: {
-    screen: EasyPinVerify,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    }
-  },
-  CompletedOnboarding: {
-    screen: CompletedOnboarding,
-    navigationOptions: {
-      tabBarVisible: false
-    }
-  },
-  CameraPage: {
-    screen: CameraScreen,
-    navigationOptions: navHeaders.FaceRecognitionLoginTitle
-  },
-  NewAccountCameraPage: {
-    screen: NewAccountCameraScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='OPEN_NEW_ACCOUNT__TITLE'/>,
-    }
-  },
-  KTPCameraPage: {
-    screen: KTPCameraScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='OPEN_NEW_ACCOUNT__TITLE'/>,
-    }
-  },
-  SignaturePage: {
-    screen: SignatureScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='OPEN_NEW_ACCOUNT__TITLE'/>,
-    }
-  },
-  MigrateLandingPage: {
-    screen: MigrateLandingPage,
-    navigationOptions: noHeader
-  },
-  MigrateEnded: {
-    screen: MigrateEnded,
-    navigationOptions: noHeader
-  },
-  MigrateError: {
-    screen: MigrateError,
-    navigationOptions: noHeader
-  },
-  AlfacartTnc: {
-    screen: AlfacartTnc,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  OfferDetail: {
-    screen: OfferDetailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'OFFERS__OFFER_DETAIL'} />,
-      tabBarVisible: false
-    }
-  },
-  FAQform: {
-    screen: FAQform,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HELP__FREQUENTLY_ASKED_QUESTIONS' />,
-      tabBarVisible: false
-    }
-  },
-  WebForm: {
-    screen: FAQform,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DRAWER__TERM_CONDITION_LINK' />,
-      tabBarVisible: false
-    }
-  },
-  Offers: {
-    screen: OfferScreen,
-    navigationOptions: navHeaders.offerSeeall,
-  },
-  QRGpnScreen: {
-    screen: QRGpnRoutes,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_GPN'} />,
-      tabBarVisible: false
-    }
-  },
-  SmartPromoAbout: {
-    screen: SmartPromoAbout,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: (<HeaderTitle titleBlack='IDENTITYTHIRDFORM__LEARN_ABOUT_PRODUCT_WEB_PAGE'/>)
-    }
-  },
-  AgreementScreen: {
-    screen: AgreementScreen,
-    navigationOptions: noHeader
-  },
-  RegisterEmoneyScreen: {
-    screen: RegisterEmoneyScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='EMONEY__REGISTER'/>,
+    LuckyDipHistoryPage: {
+      screen: LuckyDipHistory,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    LuckyDipInformationDetailPage: {
+      screen: LuckyDipInformationDetail,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    Login: {
+      screen: Loginscreen,
+      navigationOptions: navHeaders.LandingHeaderNewOnboarding,
+    },
+    VerifyEmailEmoney: {
+      screen: VerifyEmailEmoney,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyActivationOTP: {
+      screen: EmoneyActivationOTP,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreen,
+        tabBarVisible: false,
+      },
+    },
+    ActivationForm: {
+      screen: ActivationForm,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    CouponList: {
+      screen: CouponList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__COUPON" />,
+        tabBarVisible: false,
+      },
+    },
+    DetailCouponList: {
+      screen: DetailCouponList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__COUPON" />,
+        tabBarVisible: false,
+      },
+    },
+    MerchantDashboard: {
+      screen: MerchantDashboard,
+      navigationOptions: navHeaders.merchantHeader,
+    },
+    MerchantShippingMethod: {
+      screen: MerchantShippingMethod,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    MerchantCart: {
+      screen: MerchantCart,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    DetailProductMerchant: {
+      screen: DetailProductMerchant,
+      navigationOptions: navHeaders.merchantHeader,
+    },
+    FailedPageActivation: {
+      screen: FailedPageActivation,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ActivationSuccess: {
+      screen: ActivationSuccess,
+      navigationOptions: navHeaders.noHeader,
+    },
+    // ChooseProductsIntroduction: {
+    //   screen: ChooseProducts,
+    //   navigationOptions: navHeaders.chooseProduct
+    // },
+    RegisterWithATMReceipt: {
+      screen: Loginscreen,
+      navigationOptions: navHeaders.EasyPinInHeader,
+    },
+    Introduction: {
+      screen: IntroductionPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationAccount: {
+      screen: ConfirmationAccountPage,
+    },
+    IdentityForm: {
+      screen: IdentityPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYFIFTHFORM__TITLE_HEADER_BAR" />
+        ),
+      },
+    },
+    IdentitySecondForm: {
+      screen: IdentitySecondPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYFIFTHFORM__TITLE_HEADER_BAR" />
+        ),
+      },
+    },
+    IdentityThirdForm: {
+      screen: IdentityThirdPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYFIFTHFORM__TITLE_HEADER_BAR" />
+        ),
+      },
+    },
+    IdentityFourthForm: {
+      screen: IdentityFourthPage,
+    },
+    IdentityFifthForm: {
+      screen: IdentityFifthPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYFIFTHFORM__TITLE_HEADER" />
+        ),
+      },
+    },
+    LearnMoreProductPage: {
+      screen: LearnMoreProductPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYTHIRDFORM__LEARN_ABOUT_PRODUCT_WEB_PAGE" />
+        ),
+      },
+    },
+    HowToTransferPage: {
+      screen: HowToTransferPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HOWTOTRANSFER__TITLE" />,
+      },
+    },
+    LoginWithEasyPin: {
+      screen: LoginWithEasyPinPage,
+      navigationOptions: navHeaders.LoginPasswordInHeader,
+    },
+    LoginWithEasyPinRevamp: {
+      screen: LoginWithEasyPinPageRevamp,
+      navigationOptions: navHeaders.LoginPasswordInHeaderRevamp,
+    },
+    RegisterAtm: {
+      screen: RegisterAtmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={''} />,
+        tabBarVisible: false,
+      },
+    },
+    RegisterByPhone: {
+      screen: ResetByPhoneNumberForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={''} />,
+        tabBarVisible: false,
+      },
+    },
+    RegisterByPhoneLastForm: {
+      screen: ResetByPhoneNumberLastForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={''} />,
+        tabBarVisible: false,
+      },
+    },
+    ResetPasswordEmailToken: {
+      screen: ResetPasswordEmailToken,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={''} />,
+        tabBarVisible: false,
+      },
+    },
+    RegisterPin: {
+      screen: RegisterPinPage,
+      navigationOptions: {
+        ...navHeaders.RegisterInHeader,
+        tabBarVisible: false,
+      },
+    },
+    OTP: {
+      screen: OnboardingOTP,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreen,
+        tabBarVisible: false,
+      },
+    },
+    TermsEmoney: {
+      screen: TermsEmoney,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="TERMS_AND_CONDITION" />,
+      },
+    },
+    LoginAccount: {
+      screen: LoginAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        tabBarVisible: false,
+      },
+    },
+    EasyPin: {
+      screen: EasyPin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    EasyPinConfirm: {
+      screen: EasyPinConfirm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    EasyPinVerify: {
+      screen: EasyPinVerify,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    CompletedOnboarding: {
+      screen: CompletedOnboarding,
+      navigationOptions: {
+        tabBarVisible: false,
+      },
+    },
+    CameraPage: {
+      screen: CameraScreen,
+      navigationOptions: navHeaders.FaceRecognitionLoginTitle,
+    },
+    NewAccountCameraPage: {
+      screen: NewAccountCameraScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="OPEN_NEW_ACCOUNT__TITLE" />,
+      },
+    },
+    KTPCameraPage: {
+      screen: KTPCameraScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="OPEN_NEW_ACCOUNT__TITLE" />,
+      },
+    },
+    SignaturePage: {
+      screen: SignatureScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="OPEN_NEW_ACCOUNT__TITLE" />,
+      },
+    },
+    MigrateLandingPage: {
+      screen: MigrateLandingPage,
+      navigationOptions: noHeader,
+    },
+    MigrateEnded: {
+      screen: MigrateEnded,
+      navigationOptions: noHeader,
+    },
+    MigrateError: {
+      screen: MigrateError,
+      navigationOptions: noHeader,
+    },
+    AlfacartTnc: {
+      screen: AlfacartTnc,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    OfferDetail: {
+      screen: OfferDetailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'OFFERS__OFFER_DETAIL'} />,
+        tabBarVisible: false,
+      },
+    },
+    FAQform: {
+      screen: FAQform,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="HELP__FREQUENTLY_ASKED_QUESTIONS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    WebForm: {
+      screen: FAQform,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DRAWER__TERM_CONDITION_LINK" />,
+        tabBarVisible: false,
+      },
+    },
+    Offers: {
+      screen: OfferScreen,
+      navigationOptions: navHeaders.offerSeeall,
+    },
+    QRGpnScreen: {
+      screen: QRGpnRoutes,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_GPN'} />,
+        tabBarVisible: false,
+      },
+    },
+    SmartPromoAbout: {
+      screen: SmartPromoAbout,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="IDENTITYTHIRDFORM__LEARN_ABOUT_PRODUCT_WEB_PAGE" />
+        ),
+      },
+    },
+    AgreementScreen: {
+      screen: AgreementScreen,
+      navigationOptions: noHeader,
+    },
+    RegisterEmoneyScreen: {
+      screen: RegisterEmoneyScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="EMONEY__REGISTER" />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmEmailScreen: {
+      screen: ConfirmationEmail,
+      navigationOptions: noHeader,
+    },
+    ChooseProducts: {
+      screen: ChooseProducts,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="PRODUCTS__SELECTIONS" />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseCreditCard: {
+      screen: ChooseCreditCard,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__CREDITCARD_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseSavingAccount: {
+      screen: ChooseSavingAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SAVING_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    IndigoTnC: {
+      screen: IndigoTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__CREDITCARD_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    ProductDetail: {
+      screen: ProductDetailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EGIFT__REDEEM_SIMAS_POIN'} />,
+        tabBarVisible: false,
+      },
+    },
+    EgiftCart: {
+      screen: CartScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EGIFT__CART_HEADER'} />,
+        tabBarVisible: false,
+      },
+    },
+    TabShopping: {
+      screen: TabShopping,
+      navigationOptions: navHeaders.offersShopHeader,
+    },
+    CreateCCAccount: {
+      screen: CreateCCAccountScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    CreateAccountOTP: {
+      screen: CreateAccountOTPScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreen,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardKTPCamera: {
+      screen: CreditCardKTPCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    MissingForm: {
+      screen: MissingForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm1: {
+      screen: CreditCardForm1,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    Checkpoint: {
+      screen: CcCheckpoint,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    AuthCCForm: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    AuthDashboard: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    CreditCardForm2: {
+      screen: CreditCardForm2,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm3: {
+      screen: CreditCardForm3,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm4: {
+      screen: CreditCardForm4,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm5: {
+      screen: CreditCardForm5,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm6: {
+      screen: CreditCardForm6,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm7: {
+      screen: CreditCardForm7,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm8: {
+      screen: CreditCardForm8,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardForm9: {
+      screen: CreditCardForm9,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardNPWPCamera: {
+      screen: CreditCardNPWPCameraScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardDelivery: {
+      screen: CreditCardDeliveryScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardFinalize: {
+      screen: CreditCardFinalizeScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    DukcapilNotMatch: {
+      screen: DukcapilNotMatch,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ImageConfirmation: {
+      screen: ImageConfirmationScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SelectSeat: {
+      screen: SelectSeatScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CGV__SELECT_SEAT" />,
+        headerRight: <HeaderCgv />,
+        tabBarVisible: false,
+      },
+    },
+    CgvTab: {
+      screen: CgvTabScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CGV_TAB_OFFER'} />,
+        headerRight: <HeaderCgv />,
+        tabBarVisible: false,
+      },
+    },
+    EmallLogin: {
+      screen: EmallLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
       tabBarVisible: false,
-    }
-  },
-  ConfirmEmailScreen: {
-    screen: ConfirmationEmail,
-    navigationOptions: noHeader
-  },
-  ChooseProducts: {
-    screen: ChooseProducts,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='PRODUCTS__SELECTIONS'/>,
+    },
+    GeneralLogin: {
+      screen: GeneralLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+      },
       tabBarVisible: false,
-    }
-  },
-  ChooseCreditCard: {
-    screen: ChooseCreditCard,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__CREDITCARD_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  ChooseSavingAccount: {
-    screen: ChooseSavingAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SAVING_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  IndigoTnC: {
-    screen: IndigoTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__CREDITCARD_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  ProductDetail: {
-    screen: ProductDetailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EGIFT__REDEEM_SIMAS_POIN'} />,
-      tabBarVisible: false
-    }
-  },
-  EgiftCart: {
-    screen: CartScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EGIFT__CART_HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  TabShopping: {
-    screen: TabShopping,
-    navigationOptions: navHeaders.offersShopHeader
-  },
-  CreateCCAccount: {
-    screen: CreateCCAccountScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  CreateAccountOTP: {
-    screen: CreateAccountOTPScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreen,
-      tabBarVisible: false
-    }
-  },
-  CreditCardKTPCamera: {
-    screen: CreditCardKTPCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
     },
-  },
-  MissingForm: {
-    screen: MissingForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm1: {
-    screen: CreditCardForm1,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  Checkpoint: {
-    screen: CcCheckpoint,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  AuthCCForm: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  AuthDashboard: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  CreditCardForm2: {
-    screen: CreditCardForm2,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm3: {
-    screen: CreditCardForm3,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm4: {
-    screen: CreditCardForm4,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm5: {
-    screen: CreditCardForm5,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm6: {
-    screen: CreditCardForm6,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm7: {
-    screen: CreditCardForm7,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm8: {
-    screen: CreditCardForm8,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardForm9: {
-    screen: CreditCardForm9,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardNPWPCamera: {
-    screen: CreditCardNPWPCameraScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    CgvMovieDetail: {
+      screen: CgvMovieDetail,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CGV_TAB_MOVIE_DETAIL'} />,
+        headerRight: <HeaderCgv />,
+      },
     },
-  },
-  CreditCardDelivery: {
-    screen: CreditCardDeliveryScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardFinalize: {
-    screen: CreditCardFinalizeScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    CgvSchedule: {
+      screen: CgvSchedule,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CGV_TAB_SCHEDULE_TITTLE'} />,
+        headerRight: <HeaderCgv />,
+      },
     },
-  },
-  DukcapilNotMatch: {
-    screen: DukcapilNotMatch,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    SimasPoinHistory: {
+      screen: SimasPoinHistory,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="SIMAS_POIN__HISTORY" />,
+        tabBarVisible: false,
+      },
     },
-  },
-  ImageConfirmation: {
-    screen: ImageConfirmationScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    SimasPoinLogin: {
+      screen: SimasPoinLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
     },
-  },
-  SelectSeat: {
-    screen: SelectSeatScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack='CGV__SELECT_SEAT'/>,
-      headerRight: <HeaderCgv />,
-      tabBarVisible: false
-    }
-  },
-  CgvTab: {
-    screen: CgvTabScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'CGV_TAB_OFFER'} />,
-      headerRight: <HeaderCgv />,
-      tabBarVisible: false
-    }
-  },
-  EmallLogin: {
-    screen: EmallLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
+    QRScannerDiscount: {
+      screen: QRScannerDiscountScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__SCANNER_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-    tabBarVisible: false
-  },
-  GeneralLogin: {
-    screen: GeneralLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand
+    QRDiscountEULA: {
+      screen: QRDiscountEULAScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__SCANNER_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-    tabBarVisible: false
-  },
-  CgvMovieDetail: {
-    screen: CgvMovieDetail,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'CGV_TAB_MOVIE_DETAIL'} />,
-      headerRight: <HeaderCgv />
-    }
-  },
-  CgvSchedule: {
-    screen: CgvSchedule,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'CGV_TAB_SCHEDULE_TITTLE'} />,
-      headerRight: <HeaderCgv />
+    QRInvoiceData: {
+      screen: QRInvoiceDataScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__INVOICE_TITLE'} />,
+        headerLeft: null,
+        tabBarVisible: false,
+      },
     },
-  },
-  SimasPoinHistory: {
-    screen: SimasPoinHistory,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='SIMAS_POIN__HISTORY'/>,
-      tabBarVisible: false
-    }
-  },
-  SimasPoinLogin: {
-    screen: SimasPoinLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
+    QRMerchantDeals: {
+      screen: QRMerchantDealScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  QRScannerDiscount: {
-    screen: QRScannerDiscountScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__SCANNER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  QRDiscountEULA: {
-    screen: QRDiscountEULAScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__SCANNER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  QRInvoiceData: {
-    screen: QRInvoiceDataScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__INVOICE_TITLE'} />,
-      headerLeft: null,
-      tabBarVisible: false
-    }
-  },
-  QRMerchantDeals: {
-    screen: QRMerchantDealScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  QRDealDetail: {
-    screen: QRDealDetailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  FlightMain: {
-    screen: FlightRoutes,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'FLIGHT__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  MerchantListScreen: {
-    screen: MerchantListScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  EgiftLogin: {
-    screen: EgiftLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
+    QRDealDetail: {
+      screen: QRDealDetailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  MerchantLogin: {
-    screen: MerchantLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
+    FlightMain: {
+      screen: FlightRoutes,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'FLIGHT__TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  SavingTnC: {
-    screen: SavingTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SAVING_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  CreateSavingAccount: {
-    screen: CreateSavingAccountScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountOTP: {
-    screen: CreateSavingAccountOTPScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreen,
-      tabBarVisible: false
-    }
-  },
-  SavingKTPCamera: {
-    screen: SavingKTPCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    MerchantListScreen: {
+      screen: MerchantListScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'QR_DISCOUNT__DEALS_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  SavingImageConfirmation: {
-    screen: SavingImageConfirmationScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    EgiftLogin: {
+      screen: EgiftLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
     },
-  },
-  SavingEmailForm: {
-    screen: SavingEmailFormScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountConfirmation: {
-    screen: SavingAccountConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingSourceAccount: {
-    screen: SavingSourceAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountEasyPIN: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  SavingAccountForm1: {
-    screen: SavingAccountForm1,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountForm2: {
-    screen: SavingAccountForm2,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountForm3: {
-    screen: SavingAccountForm3,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountForm4: {
-    screen: SavingAccountForm4,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountForm5: {
-    screen: SavingAccountForm5,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountForm7: {
-    screen: SavingAccountForm7,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingNPWPCamera: {
-    screen: SavingNPWPCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    MerchantLogin: {
+      screen: MerchantLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
     },
-  },
-  SavingCheckpoint: {
-    screen: SavingCheckpoint,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingMissingForm: {
-    screen: SavingMissingForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDITCARD__NAVBAR'/>,
-      tabBarVisible: false
-    }
-  },
-  SavingAccountFinalize: {
-    screen: SavingAccountFinalizeScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    SavingTnC: {
+      screen: SavingTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SAVING_TITLE'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  SavingDukcapilNotMatch: {
-    screen: SavingDukcapilNotMatch,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
+    CreateSavingAccount: {
+      screen: CreateSavingAccountScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
+        tabBarVisible: false,
+      },
     },
-  },
-  Locator: {
-    screen: Locator,
-    navigationOptions: navHeaders.atmLocator,
-  },
-  SearchATMBranch: {
-    screen: SearchATMBranch,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ATM_LOCATOR__SEARCHBYLOC'} />,
-      tabBarVisible: false
-    }
-  },
-  AccountSettings: {
-    screen: AccountSettings,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack='ACCOUNT__SETTING_TITLE' />,
-      tabBarVisible: false
-    }
-  },
-  LanguageSetting: {
-    screen: LanguageSettingScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__SELECT_LANGUAGE'} />,
-      tabBarVisible: false
-    }
-  },
-  InternetBankingSettings: {
-    screen: InternetBankingSettingsScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE_INTERNET_BANKING'} />,
-      tabBarVisible: false
-    }
-  },
-  MainGenerateCodeOffline: {
-    screen: GenerateCodeOfflineMain,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_MAIN_MENU_OFFLINE'} />,
-      tabBarVisible: false
-    }
-  },
-  GenerateCodeTnc: {
-    screen: GenerateCodeTnc,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_TNC'} />,
-      tabBarVisible: false
-    }
-  },
-  MainGenerateCode: {
-    screen: MainGenerateCode,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_FORM_MERCHANT'} />,
-      tabBarVisible: true
-    }
-  },
-  GenerateForm: {
-    screen: GenerateForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_FORM'} />,
-      tabBarVisible: false
-    }
-  },
-  GenerateCodeOffLine: {
-    screen: GenerateCode,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_OFFLINE'} />,
-      tabBarVisible: false
-    }
-  },
-  GenerateCodeTimeout: {
-    screen: GenerateCodeTimeout,
-    navigationOptions: navHeaders.noHeader,
-  },
-  TapGenerateCode: {
-    screen: TapGenerateCode,
-    navigationOptions: navHeaders.noHeader,
-  },
-  TapGenerateCodeNumber: {
-    screen: TapGenerateCodeNumber,
-    navigationOptions: navHeaders.noHeader,
-  },
-  GenerateCode: {
-    screen: GenerateCode,
-    navigationOptions: navHeaders.noHeader,
-  },
-  LoginChangeDevice: {
-    screen: LoginChangeDevice,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'RELEASE__DEVICE__QR'} />,
-      tabBarVisible: false
-    }
-  },
-  LoginChangeDeviceResult: {
-    screen: LoginChangeDeviceResult,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'RELEASE__DEVICE__QR'} />,
-      tabBarVisible: false
-    }
-  },
-  OTPchangeDevice: {
-    screen: OTPchangeDevice,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreen,
-      tabBarVisible: false
-    }
-  },
-  EasyPinChangeDevice: {
-    screen: EasyPinChangeDevice,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    }
-  },
-  PayScreenOnboard: {
-    screen: Pay,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'DETAIL_TRANSACTION__TITLE_BILL_PAYMENT'} />,
-      tabBarVisible: false
-    }
-  },
-  QRPayment: {
-    screen: QRPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PAY_QRPAYMENT__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  Profile: {
-    screen: ProfileRoutes,
-    navigationOptions: {
-      tabBarVisible: false
-    }
-  },
-  CreditCard: {
-    screen: CreditCardScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardAccountInput: {
-    screen: CreditCardAccountInputScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardPayment: {
-    screen: CreditCardPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardConfirmation: {
-    screen: CreditCardConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardSelectBank: {
-    screen: CreditCardSelectBankScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
+    SavingAccountOTP: {
+      screen: CreateSavingAccountOTPScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreen,
+        tabBarVisible: false,
+      },
+    },
+    SavingKTPCamera: {
+      screen: SavingKTPCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SavingImageConfirmation: {
+      screen: SavingImageConfirmationScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SavingEmailForm: {
+      screen: SavingEmailFormScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountConfirmation: {
+      screen: SavingAccountConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingSourceAccount: {
+      screen: SavingSourceAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountEasyPIN: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    SavingAccountForm1: {
+      screen: SavingAccountForm1,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountForm2: {
+      screen: SavingAccountForm2,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountForm3: {
+      screen: SavingAccountForm3,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountForm4: {
+      screen: SavingAccountForm4,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountForm5: {
+      screen: SavingAccountForm5,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountForm7: {
+      screen: SavingAccountForm7,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingNPWPCamera: {
+      screen: SavingNPWPCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SavingCheckpoint: {
+      screen: SavingCheckpoint,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingMissingForm: {
+      screen: SavingMissingForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="CREDITCARD__NAVBAR" />,
+        tabBarVisible: false,
+      },
+    },
+    SavingAccountFinalize: {
+      screen: SavingAccountFinalizeScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SavingDukcapilNotMatch: {
+      screen: SavingDukcapilNotMatch,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    Locator: {
+      screen: Locator,
+      navigationOptions: navHeaders.atmLocator,
+    },
+    SearchATMBranch: {
+      screen: SearchATMBranch,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'ATM_LOCATOR__SEARCHBYLOC'} />,
+        tabBarVisible: false,
+      },
+    },
+    AccountSettings: {
+      screen: AccountSettings,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="ACCOUNT__SETTING_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    LanguageSetting: {
+      screen: LanguageSettingScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__SELECT_LANGUAGE'} />,
+        tabBarVisible: false,
+      },
+    },
+    InternetBankingSettings: {
+      screen: InternetBankingSettingsScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE_INTERNET_BANKING'} />,
+        tabBarVisible: false,
+      },
+    },
+    MainGenerateCodeOffline: {
+      screen: GenerateCodeOfflineMain,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'GENERATE_CODE_MAIN_MENU_OFFLINE'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    GenerateCodeTnc: {
+      screen: GenerateCodeTnc,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_TNC'} />,
+        tabBarVisible: false,
+      },
+    },
+    MainGenerateCode: {
+      screen: MainGenerateCode,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'GENERATE_FORM_MERCHANT'} />,
+        tabBarVisible: true,
+      },
+    },
+    GenerateForm: {
+      screen: GenerateForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_FORM'} />,
+        tabBarVisible: false,
+      },
+    },
+    GenerateCodeOffLine: {
+      screen: GenerateCode,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_OFFLINE'} />,
+        tabBarVisible: false,
+      },
+    },
+    GenerateCodeTimeout: {
+      screen: GenerateCodeTimeout,
+      navigationOptions: navHeaders.noHeader,
+    },
+    TapGenerateCode: {
+      screen: TapGenerateCode,
+      navigationOptions: navHeaders.noHeader,
+    },
+    TapGenerateCodeNumber: {
+      screen: TapGenerateCodeNumber,
+      navigationOptions: navHeaders.noHeader,
+    },
+    GenerateCode: {
+      screen: GenerateCode,
+      navigationOptions: navHeaders.noHeader,
+    },
+    LoginChangeDevice: {
+      screen: LoginChangeDevice,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'RELEASE__DEVICE__QR'} />,
+        tabBarVisible: false,
+      },
+    },
+    LoginChangeDeviceResult: {
+      screen: LoginChangeDeviceResult,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'RELEASE__DEVICE__QR'} />,
+        tabBarVisible: false,
+      },
+    },
+    OTPchangeDevice: {
+      screen: OTPchangeDevice,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreen,
+        tabBarVisible: false,
+      },
+    },
+    EasyPinChangeDevice: {
+      screen: EasyPinChangeDevice,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    PayScreenOnboard: {
+      screen: Pay,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'DETAIL_TRANSACTION__TITLE_BILL_PAYMENT'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRPayment: {
+      screen: QRPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PAY_QRPAYMENT__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    Profile: {
+      screen: ProfileRoutes,
+      navigationOptions: {
+        tabBarVisible: false,
+      },
+    },
+    CreditCard: {
+      screen: CreditCardScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardAccountInput: {
+      screen: CreditCardAccountInputScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardPayment: {
+      screen: CreditCardPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardConfirmation: {
+      screen: CreditCardConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_CONFIRMATION'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardSelectBank: {
+      screen: CreditCardSelectBankScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__CREDIT_CARD_BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  GenericBiller: {
-    screen: GenericBillerListScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
+    GenericBiller: {
+      screen: GenericBillerListScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE ONE
-  BillerTypeOne: {
-    screen: BillerTypeOneIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeOnePayment: {
-    screen: BillerTypeOnePaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeOneConfirmation: {
-    screen: BillerTypeOneConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE ONE
+    BillerTypeOne: {
+      screen: BillerTypeOneIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeOnePayment: {
+      screen: BillerTypeOnePaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeOneConfirmation: {
+      screen: BillerTypeOneConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE TWO
-  BillerTypeTwo: {
-    screen: BillerTypeTwoIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTwoPayment: {
-    screen: BillerTypeTwoPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTwoConfirmation: {
-    screen: BillerTypeTwoConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE TWO
+    BillerTypeTwo: {
+      screen: BillerTypeTwoIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTwoPayment: {
+      screen: BillerTypeTwoPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTwoConfirmation: {
+      screen: BillerTypeTwoConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE THREE
-  BillerTypeThree: {
-    screen: BillerTypeThreeIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeThreePayment: {
-    screen: BillerTypeThreePaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeThreeConfirmation: {
-    screen: BillerTypeThreeConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE THREE
+    BillerTypeThree: {
+      screen: BillerTypeThreeIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeThreePayment: {
+      screen: BillerTypeThreePaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeThreeConfirmation: {
+      screen: BillerTypeThreeConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE SIX
-  BillerTypeSix: {
-    screen: BillerTypeSixIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeSixPayment: {
-    screen: BillerTypeSixPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeSixConfirmation: {
-    screen: BillerTypeSixConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE SIX
+    BillerTypeSix: {
+      screen: BillerTypeSixIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeSixPayment: {
+      screen: BillerTypeSixPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeSixConfirmation: {
+      screen: BillerTypeSixConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE SEVEN
-  BillerTypeSeven: {
-    screen: BillerTypeSevenIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeSevenPayment: {
-    screen: BillerTypeSevenPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeSevenConfirmation: {
-    screen: BillerTypeSevenConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE SEVEN
+    BillerTypeSeven: {
+      screen: BillerTypeSevenIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeSevenPayment: {
+      screen: BillerTypeSevenPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeSevenConfirmation: {
+      screen: BillerTypeSevenConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE EIGHT
-  BillerTypeEight: {
-    screen: BillerTypeEightIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeEightPayment: {
-    screen: BillerTypeEightPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeEightConfirmation: {
-    screen: BillerTypeEightConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE EIGHT
+    BillerTypeEight: {
+      screen: BillerTypeEightIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeEightPayment: {
+      screen: BillerTypeEightPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeEightConfirmation: {
+      screen: BillerTypeEightConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE NINE
-  BillerTypeNine: {
-    screen: BillerTypeNineIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeNinePayment: {
-    screen: BillerTypeNinePaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeNineConfirmation: {
-    screen: BillerTypeNineConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
+    // TYPE NINE
+    BillerTypeNine: {
+      screen: BillerTypeNineIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeNinePayment: {
+      screen: BillerTypeNinePaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeNineConfirmation: {
+      screen: BillerTypeNineConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
 
-  // TYPE TEN
-  BillerTypeTen: {
-    screen: BillerTypeTenIndexScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTenForm: {
-    screen: BillerTypeTenFormScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTenPayment: {
-    screen: BillerTypeTenPaymentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTenConfirmation: {
-    screen: BillerTypeTenConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  BillerTypeTeSearchAreaName: {
-    screen: BillerTypeTeSearchAreaName,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERIC_BILLER__INPUT_AREA__HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  QRInvoiceDetail: {
-    screen: QRInvoiceDetailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  QRInputAmount: {
-    screen: QRInputAmountScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  QRConfirmation: {
-    screen: QRInputConfirmationScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  Auth: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  HomeScreen: {
-    screen: Homescreen,
-    navigationOptions: navHeaders.DashboardNavConfig
-  },
-  PaymentStatusNewOnboarding: {
-    screen: PaymentStatusNewPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  NewPaymentStatusNewOnboarding: {
-    screen: NewPaymentStatusRevampPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='EMONEY_TOPUP_SIMAS_SP_7__WORD_1' />,
-      tabBarVisible: false
-    }
-  },
-  QRConfirm: {
-    screen: QRConfirmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QR_GPN_ISSUER_CONFIRM'/>,
-      tabBarVisible: false
-    }
-  },
-  WithdrawalForm: {
-    screen: WithdrawalForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='QR_GPN_ISSUER_CONFIRM' />,
-      tabBarVisible: false
-    }
-  },
-  BillerAccount: {
-    screen: BillerAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
-      tabBarVisible: false
-    }
-  },
-  Insurance: {
-    screen: InsurancePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  resultPA: {
-    screen: ResultPAPage,
-    navigationOptions: {
-      headerLeft: null,
-      tabBarVisible: false
-    }
-  },
-  MainGenerateCode0: {
-    screen: MainGenerateCode,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_MAIN_MENU'} />,
-      tabBarVisible: false
-    }
-  },
-  GenerateCodeOnline: {
-    screen: GenerateCodeOnline,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'OFFLINE_TRX_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  PremiPA: {
-    screen: PremiPAPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  formDataPA: {
-    screen: FormDataPAPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  FormDataBeneficiaryPA: {
-    screen: FormDataBeneficiaryPAPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  confirmationPA: {
-    screen: ConfirmationPAPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  DetailPA: {
-    screen: DetailPAPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE_DETAIL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelDetail: {
-    screen: TravelDetailPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelCustomerForm: {
-    screen: TravelCustomerFormPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelConfirm: {
-    screen: TravelConfirmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  PlanTravel: {
-    screen: PlanTravelPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelCustomer: {
-    screen: TravelCustomerPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelInsurance: {
-    screen: TravelInsurancePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelInsuranceTnC: {
-    screen: TravelInsuranceTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'TERMS_AND_CONDITION__HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelBeneficiary: {
-    screen: TravelBeneficiaryPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
-      tabBarVisible: false
-    }
-  },
-  TravelResult: {
-    screen: TravelResultPage,
-    navigationOptions: {
+    // TYPE TEN
+    BillerTypeTen: {
+      screen: BillerTypeTenIndexScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTenForm: {
+      screen: BillerTypeTenFormScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTenPayment: {
+      screen: BillerTypeTenPaymentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTenConfirmation: {
+      screen: BillerTypeTenConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILLER_CONFIRMATION'} />,
+        tabBarVisible: false,
+      },
+    },
+    BillerTypeTeSearchAreaName: {
+      screen: BillerTypeTeSearchAreaName,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'GENERIC_BILLER__INPUT_AREA__HEADER'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRInvoiceDetail: {
+      screen: QRInvoiceDetailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    QRInputAmount: {
+      screen: QRInputAmountScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    QRConfirmation: {
+      screen: QRInputConfirmationScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    Auth: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    HomeScreen: {
+      screen: Homescreen,
+      navigationOptions: navHeaders.DashboardNavConfig,
+    },
+    PaymentStatusNewOnboarding: {
+      screen: PaymentStatusNewPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    NewPaymentStatusNewOnboarding: {
+      screen: NewPaymentStatusRevampPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="EMONEY_TOPUP_SIMAS_SP_7__WORD_1" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QRConfirm: {
+      screen: QRConfirmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="QR_GPN_ISSUER_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    WithdrawalForm: {
+      screen: WithdrawalForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="QR_GPN_ISSUER_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    BillerAccount: {
+      screen: BillerAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__BILL_PAY'} />,
+        tabBarVisible: false,
+      },
+    },
+    Insurance: {
+      screen: InsurancePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    resultPA: {
+      screen: ResultPAPage,
+      navigationOptions: {
+        headerLeft: null,
+        tabBarVisible: false,
+      },
+    },
+    MainGenerateCode0: {
+      screen: MainGenerateCode,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'GENERATE_CODE_MAIN_MENU'} />,
+        tabBarVisible: false,
+      },
+    },
+    GenerateCodeOnline: {
+      screen: GenerateCodeOnline,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'OFFLINE_TRX_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    PremiPA: {
+      screen: PremiPAPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    formDataPA: {
+      screen: FormDataPAPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    FormDataBeneficiaryPA: {
+      screen: FormDataBeneficiaryPAPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    confirmationPA: {
+      screen: ConfirmationPAPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    DetailPA: {
+      screen: DetailPAPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE_DETAIL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelDetail: {
+      screen: TravelDetailPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelCustomerForm: {
+      screen: TravelCustomerFormPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelConfirm: {
+      screen: TravelConfirmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    PlanTravel: {
+      screen: PlanTravelPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelCustomer: {
+      screen: TravelCustomerPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelInsurance: {
+      screen: TravelInsurancePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelInsuranceTnC: {
+      screen: TravelInsuranceTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TERMS_AND_CONDITION__HEADER'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelBeneficiary: {
+      screen: TravelBeneficiaryPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__INSURANCE__TRAVEL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TravelResult: {
+      screen: TravelResultPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    // ChooseProductsEmoney: {
+    //   screen: ChooseProducts,
+    //   navigationOptions: navHeaders.LandingChooseProductEmoney
+    // },
+    EForm: {
+      screen: EForm,
+      navigationOptions: navHeaders.eformHeaderPGO,
+    },
+    SourceAccount: {
+      screen: SourceAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseLoanAccount: {
+      screen: LoanProductsPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__LOAN_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    NewEForm: {
+      screen: NewEForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__LOAN_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    LoanSourceAccount: {
+      screen: LoanSourceAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    EFormLoanTnC: {
+      screen: EFormLoanTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PGO__TITLE_LOAN'} />,
+        tabBarVisible: false,
+      },
+    },
+    EFormLoanSuccess: {
+      screen: EFormLoanSuccess,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PGO__TITLE_LOAN'} />,
+      },
+    },
+
+    QrPaymentStatusNewOnboarding: {
+      screen: QRpaymentStatusPage,
+      navigationOptions: noHeader,
+    },
+
+    AlfacartDashboard: {
+      screen: AlfacartDashboard,
+      navigationOptions: navHeaders.digitalStoreHeader,
+    },
+
+    WishlistAlfacart: {
+      screen: WishlistAlfacart,
+      navigationOptions: navHeaders.wishlistAlfacartCartHeader,
+    },
+    AlfacartCart: {
+      screen: AlfacartCart,
+      navigationOptions: navHeaders.alfacartCartHeader,
+    },
+
+    AlfacartCheckout: {
+      screen: AlfacartCheckout,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'ALFACART__HEADER_TITTLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    AlfacartShippingMethod: {
+      screen: AlfacartShippingMethod,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+
+    CategoryAlfacart: {
+      screen: CategoryAlfacart,
+      navigationOptions: navHeaders.digitalStoreHeader,
+    },
+
+    DetailProductAlfacart: {
+      screen: DetailProductAlfacart,
+      navigationOptions: navHeaders.digitalStoreHeader,
+    },
+    DetailProduct: {
+      screen: DetailProduct,
+      navigationOptions: navHeaders.alfacartHeaderReal,
+    },
+
+    ValidatePassword: {
+      screen: ValidatePassword,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    feedbackPage: {
+      screen: feedbackPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    PaymentStatusRevampOnboarding: {
+      screen: PaymentStatusRevampPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    Transactions: {
+      screen: Transactions,
+      navigationOptions: navHeaders.transactionsNavConfig,
+    },
+    QrPaymentStatusOnboarding: {
+      screen: QRpaymentStatusRevampPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusOnboardingRevamp: {
+      screen: NewQrStatusRevamp,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusOnboardingRevampSuccess: {
+      screen: NewQrStatusRevamp,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="QRCROSSBORDER_PAYMENT_HEADER_SUCCESS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    QrPaymentStatusOnboardingRevampPending: {
+      screen: NewQrStatusRevamp,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="QRCROSSBORDER_PAYMENT_HEADER_PENDING" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SearchAlfacartPage: {
+      screen: searchAlfacartPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'ALFACART_SEARCH_PRODUCT_HEADER'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    ObmMigrate: {
+      screen: ObmMigrate,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+
+    // simas catalog
+    UltraVoucherWebView: {
+      screen: UltraVoucherWebView,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+
+    UltraVoucherPaymentStatus: {
+      screen: UltraVoucherPaymentStatus,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    UltraVoucherTnc: {
+      screen: UltraVoucherTnc,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+
+    UnipinTnc: {
+      screen: UnipinTnc,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    // New Onboarding E-Money
+    ChooseRegistration: {
+      screen: ChooseRegistration,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'EMONEY__REGISTER'} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyDashboard: {
+      screen: EmoneyDashboard,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'EMONEY__BRAND'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransactionEmoneyScreen: {
+      screen: TransactionEmoney,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'DASHBOARD__TRANSACTION_HEADER'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransactionFilterEmoneyScreen: {
+      screen: TransactionFilterEmoney,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="TRANSACTION_FILTER_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    TransactionDetailEmoneyScreen: {
+      screen: TransactionDetailEmoney,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DETAIL_TRANSACTION__HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    homeRoutes: {
+      screen: BankAccScreen,
+      navigationOptions: {
+        ...noHeader,
+        // ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'DASHBOARD__NEW_BANK_ACC'} />,
+      },
+    },
+    PaymentStatusNew: {
+      screen: PaymentStatusNew,
+      navigationOptions: {
+        header: null,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyUpgradeBenefit: {
+      screen: EmoneyUpgradeBenefit,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'UPGRADE__EMONEY'} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyUpgradeCamera: {
+      screen: EmoneyUpgradeCamera,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyUpgradeEmailForm: {
+      screen: EmoneyUpgradeEmailForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyUpgradeEmailVerification: {
+      screen: EmoneyUpgradeEmailVerification,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyKTPCamera: {
+      screen: EmoneyKTPCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyKTPSelfieCamera: {
+      screen: EmoneyKTPSelfieCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneySelfieCamera: {
+      screen: EmoneySelfieCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyImageConfirmation: {
+      screen: EmoneyImageConfirmation,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyUpgradeAuth: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    EmoneyUpgradeSuccessScreen: {
+      screen: EmoneyUpgradeSuccessScreen,
+      navigationOptions: navHeaders.closeHeader,
+    },
+    QRPaymentStatusRevamp: {
+      screen: QRpaymentStatusRevampPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyTopUpATM: {
+      screen: EmoneyTopUpATMScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EMONEY_TOPUP__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransactionsFilter: {
+      screen: TransactionsFilter,
+      navigationOptions: navHeaders.transactionsFilterHeader,
+    },
+    InvestmentView: {
+      screen: InvestmentViewScreen,
+      navigationOptions: navHeaders.investmentHeader,
+    },
+    InquiryBuyPolis: {
+      screen: InquiryBuyPolis,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SINARMAS_ASJ" />,
+        tabBarVisible: false,
+      },
+    },
+    InquirySILScreen: {
+      screen: InquirySIL,
+      navigationOptions: navHeaders.InquirySil,
+    },
+    SmartInvestaLinkIDR: {
+      screen: SmartInvestaLinkIDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkUSD: {
+      screen: SmartInvestaLinkUSD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkBuyPolis: {
+      screen: SmartInvestaLinkBuyPolis,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SINARMAS__BUY_POLIS" />,
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkBuyPolisTnCIDR: {
+      screen: SmartInvestaLinkBuyPolisTnCIDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkBuyPolisTnCUSD: {
+      screen: SmartInvestaLinkBuyPolisTnCUSD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkIDRProduct: {
+      screen: SmartInvestaLinkIDRProduct,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkUSDProduct: {
+      screen: SmartInvestaLinkUSDProduct,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkIDRPolis: {
+      screen: SmartInvestaLinkIDRPolis,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkUSDPolis: {
+      screen: SmartInvestaLinkUSDPolis,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm2IDR: {
+      screen: SmartInvestaLinkPolisForm2IDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm2USD: {
+      screen: SmartInvestaLinkPolisForm2USD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm3IDR: {
+      screen: SmartInvestaLinkPolisForm3IDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm3USD: {
+      screen: SmartInvestaLinkPolisForm3USD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm4IDR: {
+      screen: SmartInvestaLinkPolisForm4IDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisForm4USD: {
+      screen: SmartInvestaLinkPolisForm4USD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkRiskQuestionIdr: {
+      screen: SmartInvestaLinkRiskQuestionIdr,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkRiskQuestionUsd: {
+      screen: SmartInvestaLinkRiskQuestionUsd,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkHealthIdr: {
+      screen: SmartInvestaLinkHealthIdr,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkHealthUsd: {
+      screen: SmartInvestaLinkHealthUsd,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    PaymentBuyPolisSIL: {
+      screen: PaymentBuyPolisSIL,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="PAYMENT_BUY_POLIS" />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationPaymentBuyPolisSILIDR: {
+      screen: ConfirmationPaymentBuyPolisSILIDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SIL__HEADER_PAYMENT_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationPaymentBuyPolisSILUSD: {
+      screen: ConfirmationPaymentBuyPolisSILUSD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SIL__HEADER_PAYMENT_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    ESigning: {
+      screen: ESigning,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={''} />,
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisInformasiTnCIDR: {
+      screen: SmartInvestaLinkPolisInformasiTnCIDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SmartInvestaLinkPolisInformasiTnCUSD: {
+      screen: SmartInvestaLinkPolisInformasiTnCUSD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationBuyPolisSILIDR: {
+      screen: ConfirmationBuyPolisSILIDR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_IDR" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationBuyPolisSILUSD: {
+      screen: ConfirmationBuyPolisSILUSD,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="SIL__SMART__INVESMENT_LINK_USD" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SILSearchableList: {
+      screen: SILSearchableList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SMART__INVESMENT_LINK_IDR" />,
+        tabBarVisible: false,
+      },
+    },
+    InquirySilEmFundScreen: {
+      screen: InquirySilEmFund,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="INQUIRY__SIL_EMERGENCY_FUND_HEADER" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    InquirySilEmFundConfirmScreen: {
+      screen: InquirySilEmFundConfirm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="INQUIRY__SIL_EM_FUND_CONFIRM_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    InquirySilTopUpScreen: {
+      screen: InquirySilTopUp,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="INQUIRY__SIL_TOP_UP_HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    TransferAccountSIL: {
+      screen: TransferAccountSIL,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'AUTODEBIT__LIST_ACCOUNT'} />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationTransferSILScreen: {
+      screen: ConfirmationTransferSIL,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SIL__HEADER_PAYMENT_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    DetailTransactionPage: {
+      screen: DetailTransactionScreen,
+      navigationOptions: navHeaders.detailTransactionHeader,
+    },
+    ValasItem: {
+      screen: ValasItem,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DRAWER__EXCHANGE_RATES" />,
+        tabBarVisible: false,
+      },
+    },
+    TdForm: {
+      screen: TdRoutes,
+      navigationOptions: {
+        tabBarVisible: false,
+      },
+    },
+    Investment: {
+      screen: InvestmentScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle
+            titleWhiteTrf="INVESTMENT__NAV_HEADER"
+            headerMSIG={true}
+          />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SplitBillMenu: {
+      screen: SplitBillMenu,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
+        tabBarVisible: false,
+      },
+    },
+    SplitBillIndex: {
+      screen: SplitBillIndex,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'SPLITBILL__INDEX_HEADER'} />,
+        tabBarVisible: false,
+      },
+    },
+    SplitBillConfirmation: {
+      screen: SplitBillConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
+        tabBarVisible: false,
+      },
+    },
+    AddNewParticipants: {
+      screen: AddNewParticipants,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'SPLITBILL__INDEX_HEADER'} />,
+        tabBarVisible: false,
+      },
+    },
+    DetailSplitBillMenu: {
+      screen: DetailSplitBillMenu,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
+        tabBarVisible: false,
+      },
+    },
+    DetailSplitBillMenuOwe: {
+      screen: DetailSplitBillMenuOwe,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransferSourceAccountSplitBill: {
+      screen: TransferAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    // // Masih Error disini nih transfernya
+    FundTransferPaymentSplitBill: {
+      screen: FundTransferPayment,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle titleWhiteTrf={'PAY_BILLS__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmScreenSplitBill: {
+      screen: FundTransferConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf={'TITLE__TRANSFER_CONFIRMATION'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    AuthTransferBill: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    TransferScreenBill: {
+      screen: LandingPage,
+      navigationOptions: navHeaders.LandingHeaderNew,
+    },
+    HomeScreenSplitBill: {
+      screen: LandingPage,
+      navigationOptions: navHeaders.LandingHeaderNew,
+    },
+
+    MMQGetDetailsPage: {
+      screen: MMQGetDetails,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__MMQ_CERTIFICATE" />,
+        tabBarVisible: false,
+      },
+    },
+    AuthCC: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    LoanSummaryPage: {
+      screen: LoanSummary,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    CreateSignWebViewPage: {
+      screen: CreateSignWebView,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DIGI_SIGN_HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    SigningWebViewPage: {
+      screen: SigningWebView,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DIGI_SIGN_HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    RetakeSelfiePage: {
+      screen: RetakeSelfie,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmRetakeSelfiePage: {
+      screen: ConfirmRetakeSelfie,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    AddPayee: {
+      screen: AddPayee,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_PAYEE'} />,
+        tabBarVisible: false,
+      },
+    },
+    AddPayeeAccount: {
+      screen: AddPayeeAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_PAYEE_ACCOUNT'} />,
+        tabBarVisible: false,
+      },
+    },
+    AddPayeeBank: {
+      screen: AddPayeeBank,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_BANK'} />,
+        tabBarVisible: false,
+      },
+    },
+    PaymentStatusRemittanceOnboarding: {
+      screen: PaymentStatusRemittancePage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    InquiryStarInvestamaScreen: {
+      screen: InquiryStarInvestama,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SINARMAS_AJSI" />,
+        tabBarVisible: false,
+      },
+    },
+    InquiryStarInvestamaTopUpScreen: {
+      screen: InquiryStarInvestamaTopUp,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="INQUIRY__SIL_TOP_UP_HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    TransferAccountStarInvestama: {
+      screen: TransferAccountStarInvestama,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'OPEN_NEW_ACCOUNT__SOURCE_ACCOUNT'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationTransferStarInvestamaScreen: {
+      screen: ConfirmationTransferStarInvestama,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="SIL__HEADER_PAYMENT_CONFIRM" />,
+        tabBarVisible: false,
+      },
+    },
+    SimasSekuritasView: {
+      screen: SimasSekuritas,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'SINARMAS__HEADER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    BuyReksadanaView: {
+      screen: BuyReksadana,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'REKSADANA_TOP_UP_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    BuyReksadanaConfirmation: {
+      screen: BuyReksadanaConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SellReksadanaView: {
+      screen: SellReksadana,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'REKSADANA_REDEMPTION_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    SellReksadanaConfirmation: {
+      screen: SellReksadanaConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SourceAccountReksadana: {
+      screen: SourceAccountReksadana,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManage: {
+      screen: CreditCardManagePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageInput: {
+      screen: CreditCardManageInputPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardConvertInstallment: {
+      screen: CreditCardConvertInstallmentPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_CONVERT_SELECT" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageSetInstallment: {
+      screen: CreditCardManageSetInstallmentPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_CONVERT_SET" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageConfirmation: {
+      screen: CreditCardManageConfirmationPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardConfirmInstallment: {
+      screen: CreditCardConfirmInstallmentPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="CREDIT_CARD_MANAGE__CONFIRMATION_CREDIT_CARD_BUTTON" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardTransactionManagement: {
+      screen: CreditCardTransactionManagementPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_MANAGEMENT" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardTransactionDetail: {
+      screen: CreditCardTransactionDetailPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_TRANSACTION_DETAIL" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardTransactionSuccess: {
+      screen: CreditCardTransactionSuccessPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_TRANSACTION_SUCCESS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CcHistory: {
+      screen: CcHistory,
+      navigationOptions: navHeaders.ccHistoryNavConfig,
+    },
+    CcDownloadOptions: {
+      screen: CcDownloadScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="CREDIT_CARD__DOWNLOAD_BILLING_STATEMENTS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CcHistoryFund: {
+      screen: CcHistory,
+      navigationOptions: navHeaders.ccHistoryNavConfig,
+    },
+    NewPaymentStatusRevampOnboarding: {
+      screen: NewPaymentStatusRevampPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="QR_TCICO_TRANSACTION_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardCashAdvance: {
+      screen: CreditCardCashAdvancePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="CREDITCARD__CASH_ADVANCE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardCashAdvanceConfirm: {
+      screen: CashAdvanceConfirmPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="TITLE__BILLER_CONFIRMATION" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardCashAdvanceSuccess: {
+      screen: CashAdvanceSuccessPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardNotificationSettings: {
+      screen: CreditCardNotificationSettingsPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__CREDIT_CARD_NOTIFICATION" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    PushNotifInbox: {
+      screen: PushNotifInbox,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        headerTitle: <HeaderTitle titleBold="LOGIN__APPNAME" />,
+        tabBarVisible: false,
+      },
+    },
+    SilForexHours: {
+      screen: SilForexHours,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={''} />,
+        tabBarVisible: false,
+      },
+    },
+    EmoneyRegistration: {
+      screen: EmoneyRegistration,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'EFORM__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    ProductsListOnboarding: {
+      screen: ProductsList,
+      navigationOptions: navHeaders.chooseProduct,
+    },
+    ProductsListUpgradeEmoney: {
+      screen: ProductsList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'UPGRADE__EMONEY'} />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseProductsItem: {
+      screen: ChooseProductsItem,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'PRODUCTS__SELECTIONS'} />,
+        tabBarVisible: false,
+      },
+    },
+    ProductsTnC: {
+      screen: ProductsTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'GENERIC__TERM_AND_CONDITION'} />,
+        tabBarVisible: false,
+      },
+    },
+    CurrentSection: {
+      screen: CurrentSection,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'EFORM__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    DigitalEForm: {
+      screen: DigitalEForm,
+      navigationOptions: navHeaders.eformHeader,
+    },
+    CameraImageConfirmation: {
+      screen: CameraImageConfirmation,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    DigitalEFormEmailVerification: {
+      screen: DigitalEFormEmailVerification,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EFORM__NAVBAR'} />,
+        tabBarVisible: false,
+      },
+    },
+    DigitalEFormSuccessScreen: {
+      screen: DigitalEFormSuccessScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ApproveAplicationPage: {
+      screen: ApproveScreenOpening,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={''} />,
+        tabBarVisible: false,
+      },
+    },
+    ActivationAccountPage: {
+      screen: AccountActivationOpening,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="" />,
+        tabBarVisible: false,
+      },
+    },
+    SigningWebViewAccountOpeningPage: {
+      screen: AccountSignDocumentOpening,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="" />,
+        tabBarVisible: false,
+      },
+    },
+    RetakeCameraOpeningAccountPage: {
+      screen: RetakeCameraOpeningAccount,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationImageOpeningAccountPage: {
+      screen: ConfirmationImageOpeningAccount,
+      navigationOptions: {
+        ...noHeader,
+      },
+    },
+    SetDefaultAutoDebitScreen: {
+      screen: SetDefaultAutoDebit,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        headerTitle: <HeaderTitle langKey={'SET_AUTODEBIT_TITTLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    DigitalStorePaymentStatus: {
+      screen: DigitalStorePaymentStatus,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    MerchantCheckout: {
+      screen: MerchantCheckout,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="ALFACART_CHECKOUT_TITTLE" />,
+        tabBarVisible: false,
+      },
+    },
+    AlfacartShippingMethodReal: {
+      screen: AlfacartShippingMethodReal,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    AlfaSourceAccount: {
+      screen: TransferAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    FormFillAlfaAddress: {
+      screen: FormFillAlfaAddress,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    FormFillAlfaNewStore: {
+      screen: FormFillAlfaNewStore,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="ALFACART_SHIPPING_METHOD__TITTLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    MerchantInputCustomerEmail: {
+      screen: InputEmailScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'EGIFT__TITLE_PAYMENT'} />,
+        tabBarVisible: false,
+      },
+    },
+    AlfaAuthenticate: {
+      screen: Authenticate,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    TnCPageAccount: {
+      screen: LegalPageAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'LEGAL_MENU_TERMS'} />,
+        tabBarVisible: false,
+      },
+    },
+    PrivacyPageAccount: {
+      screen: LegalPageAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={'LEGAL_MENU_PRIVACY'} />,
+        tabBarVisible: false,
+      },
+    },
+
+    ETax: {
+      screen: ETax,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="E_TAX_HEADER" headerEtax={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    EtaxPaymentType: {
+      screen: EtaxPaymentType,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="E_TAX_HEADER_PAYMENT_TYPE_HEADER" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    EtaxHistoryFilter: {
+      screen: EtaxHistoryFilter,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EtaxHistoryList: {
+      screen: EtaxHistoryList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="DASHBOARD__TRANSACTION_HEADER" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    IdBillingFormOne: {
+      screen: IdBillingFormOne,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="E_TAX_HEADER" headerEtax={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+
+    IdBillingFormConfirmation: {
+      screen: IdBillingFormConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="E_TAX_HEADER" headerEtax={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    IdBillingFormPayment: {
+      screen: IdBillingFormPayment,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf="E_TAX_HEADER" headerEtax={true} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    IdBillingFormPaymentConfirmation: {
+      screen: IdBillingFormPaymentConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf="QR_GPN_CONFIRM_BTN" />,
+        tabBarVisible: false,
+      },
+    },
+    CreditCardTrxManage: {
+      screen: CreditCardTrxManagePage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+
+    CreditCardManageDetail: {
+      screen: CreditCardManageDetail,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageCreatePin: {
+      screen: CreditCardManageCreatePin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageConfirmPin: {
+      screen: CreditCardManageConfirmPin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CreditCardManageDeliveryScreen: {
+      screen: CreditCardManageDeliveryScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="DASHBOARD__CREDIT_CARD_MANAGE_TITLE" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    MenuHeaderSearch: {
+      screen: MenuHeaderSearch,
+      navigationOptions: navHeaders.HomeMenuSearch,
+    },
+    Offer: {
+      screen: OfferScreens,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__OPTION_OFFERS'} />,
+        tabBarVisible: false,
+      },
+    },
+    SimasTaraSimulationPage: {
+      screen: SimasTaraSimulation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__SIMAS_TARA_SIMULATION" />,
+        tabBarVisible: false,
+      },
+    },
+    SimasTaraSummaryPage: {
+      screen: SimasTaraSummary,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="HEADER__SIMAS_TARA_SUMMARY" />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseServices: {
+      screen: ChooseServices,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'SERVICES__SELECTIONS'} />,
+        tabBarVisible: false,
+      },
+    },
+    ActiveList: {
+      screen: ActiveList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'HEADER__ACTIVATE_ATM_CARD'} />,
+        tabBarVisible: false,
+      },
+    },
+    BlockList: {
+      screen: BlockList,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'HEADER__BLOCKED_ATM_CARD'} />,
+        tabBarVisible: false,
+      },
+    },
+    ListAutodebit: {
+      screen: AutodebitList,
+      navigationOptions: navHeaders.listAutoDebitHeader,
+    },
+    SearchAutodebit: {
+      screen: AutodebitSearch,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'AUTODEBIT__LIST_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    Shops: {
+      screen: ShopScreen,
+      navigationOptions: navHeaders.EVoucherHeader,
+    },
+    LuckyDrawScreen: {
+      screen: LuckyDrawScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    LuckyDipMainPage: {
+      screen: LuckyDipMain,
+      navigationOptions: navHeaders.LuckyDipRightHeader,
+    },
+    TokenHistory: {
+      screen: TokenHistory,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TOKEN_HISTORY'} />,
+        tabBarVisible: false,
+      },
+    },
+    FavBiller: {
+      screen: FavBiller,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'FAVORITE_TRANSACTION'} />,
+        tabBarVisible: false,
+      },
+    },
+    RecurringEditing: {
+      screen: RecurringEditingPage,
+      navigationOptions: navHeaders.EditTransferHeader,
+    },
+    RecurringDetailList: {
+      screen: RecurringDetailListPage,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="RECURRING__HEADER_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    AccountMenu: {
+      screen: LandingPage,
+      navigationOptions: navHeaders.LandingHeaderNew,
+    },
+    ValidatePasswordBoarding: {
+      screen: ValidatePassword,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="PROFILE__PASSWORD_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    CreateNewPassword: {
+      screen: CreateNewPassword,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CHANGE_PASSWORD__TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    UpdateEasyPin: {
+      screen: UpdateEasyPin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="PROFILE__EASYPIN_TITLE" />,
+        tabBarVisible: false,
+      },
+    },
+    ReleaseDeviceQR: {
+      screen: ReleaseDeviceQR,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="RELEASE__DEVICE__QR" />,
+        tabBarVisible: false,
+      },
+    },
+    LoginPreference: {
+      screen: LoginPreferenceScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PROFILE__LOGIN_PREFERENCES'} />,
+        tabBarVisible: false,
+      },
+    },
+    FaceRecogEULA: {
+      screen: FaceRecogEULAScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'DISCLAIMER_FACE_RECOGNITION_TITLE'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    FingerPrintEULA: {
+      screen: FingerPrintEULAScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'DISCLAIMER_FINGER_PRINT_TITLE'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    PaymentStatusRevamp: {
+      screen: PaymentStatusRevamp,
+      navigationOptions: {
+        header: null,
+        tabBarVisible: false,
+      },
+    },
+    EmoneySuccessRegistration: {
+      screen: EmoneySuccessRegistration,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ShareReferralCode: {
+      screen: ShareReferralCode,
+      navigationOptions: navHeaders.mgmReferFriend,
+    },
+    HowReferralWorks: {
+      screen: HowReferralWorks,
+      navigationOptions: navHeaders.mgmHowReferral,
+    },
+    MyHistoryReward: {
+      screen: MyHistoryReward,
+      navigationOptions: navHeaders.mgmHistoryReward,
+    },
+    MyInvitingRecord: {
+      screen: MyInvitingRecord,
+      navigationOptions: navHeaders.mgmInvitingRecord,
+    },
+    FilterCalendarPicker: {
+      screen: FilterCalendarPicker,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    DetailTransactionMgm: {
+      screen: DetailTransactionMgm,
+      navigationOptions: navHeaders.mgmDetailTrans,
+    },
+    MgmTncReferFriend: {
+      screen: MgmTncReferFriend,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    LuckyDipEvoucherDetailPage: {
+      screen: LuckyDipEvoucherDetail,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerGreySoft,
+        headerTitle: <HeaderTitle titleBlack={'LUCKY__DIP_TITLE_EVOUCHER'} />,
+        tabBarVisible: false,
+      },
+    },
+    LoginWithEasyPinSearch: {
+      screen: LoginWithEasyPinPageSearch,
+      navigationOptions: navHeaders.LoginPasswordInHeader,
+    },
+    ResetPassNoCardForm: {
+      screen: ResetPassNoCardForm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerNewBrand,
+        headerTitle: <HeaderTitle langKey={''} />,
+        tabBarVisible: false,
+      },
+    },
+    QRRegisterStatus: {
+      screen: QRRegisterStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRTerminalStatus: {
+      screen: QRTerminalStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRTerminalEditStatus: {
+      screen: QRTerminalEditStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRRefundStatus: {
+      screen: QRRefundStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRTerminalResetStatus: {
+      screen: QRTerminalResetStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    QRTerminalDelStatus: {
+      screen: QRTerminalDelStatusPage,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    showQRTrf: {
+      screen: QRTrfShow,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DETAIL_TRANSACTION__HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    QRTrfConfirm: {
+      screen: QRTrfConfirm,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack="DETAIL_TRANSACTION__HEADER" />,
+        tabBarVisible: false,
+      },
+    },
+    EmallEasyPin: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    SpecialDealsLogin: {
+      screen: SpecialDealsLogin,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    CcDownloadScreens: {
+      screen: CcDownloadToScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="CREDIT_CARD__DOWNLOAD_BILLING_STATEMENTS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    LivenessSection: {
+      screen: LivenessSection,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={''} />,
+      },
+    },
+    ProductSeall: {
+      screen: ProductAll,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        headerTitle: (
+          <HeaderTitle titleWhiteTrf={'ACCOUNT_MENU_PRODUCT_SERVICES'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    SimasValasProductTypeSelections: {
+      screen: SimasValasProductTypeSelections,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SELECTIONS'} />,
+        tabBarVisible: false,
+      },
+    },
+    SimasValasChooseCurrency: {
+      screen: SimasValasChooseCurrency,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack="HEADER_OPEN_SAVING_SIMAS_VALAS" />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    FundTransferPayment: {
+      screen: FundTransferPayment,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransferSourceAccount: {
+      screen: TransferAccount,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    FundTransferMethod: {
+      screen: FundTransferMethodScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    FundTransferConfirmation: {
+      screen: FundTransferConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    FundTransferSchedule: {
+      screen: FundTransferScheduleScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
+        tabBarVisible: false,
+      },
+    },
+    TransferScreen: {
+      screen: LandingPage,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+      },
+    },
+    AuthTransfer: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    MembershipDetail: {
+      screen: MembershipDetail,
+      navigationOptions: navHeaders.membershipHeader,
+    },
+    LuckyDrawTnC: {
+      screen: LuckyDrawTnC,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'HELP__FREQUENTLY_ASKED_QUESTIONS'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    CloseCard: {
+      screen: CloseCard,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CLOSE__SAVING_ACCOUNT'} />,
+        tabBarVisible: false,
+      },
+    },
+    ChooseCloseCard: {
+      screen: ChooseCloseCard,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'CLOSE__SAVING_ACCOUNT'} />,
+        tabBarVisible: false,
+      },
+    },
+    ClosingTnc: {
+      screen: ClosingTnc,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'GENERIC__TERMS_AND_CONDITIONS'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    ClosingAccAuth: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    AccountEditProfile: {
+      screen: AccountEditProfile,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhite="EDIT__PROFILE" />,
+        tabBarVisible: false,
+      },
+    },
+    SuccessVerification: {
+      screen: SuccessVerification,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmEditProfile: {
+      screen: ConfirmEditProfile,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhite="REQUEST__DATA_CHANGE" />,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmEditProfileSelfieCamera: {
+      screen: ConfirmEditProfileSelfieCamera,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmImageEditProfile: {
+      screen: ConfirmImageEditProfile,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    ConfirmationAuth: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    ManageBIFast: {
+      screen: ManageBIFast,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    AddProxyBIFast: {
+      screen: AddProxyBIFast,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    EditProxyBIFast: {
+      screen: EditProxyBIFast,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    UnlinkProxyBIFast: {
+      screen: UnlinkProxyBIFast,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    SelectProxyBIFast: {
+      screen: SelectProxyBIFast,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    NewProxyConfirmationBIFast: {
+      screen: NewProxyConfirmationBIFast,
+      navigationOptions: navHeaders.confirmTransferProxy,
+    },
+    EasyPinBiFast: {
+      screen: EasyPinBiFast,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrand,
+        tabBarVisible: false,
+      },
+    },
+    AuthBiFast: {
+      screen: Authenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    EmailAuth: {
+      screen: EmailAuthenticate,
+      navigationOptions: navHeaders.AuthenticateHeader,
+    },
+    EditProxyConfirmationBIFast: {
+      screen: EditProxyConfirmationBIFast,
+      navigationOptions: navHeaders.confirmTransferProxy,
+    },
+    FAQformBiFast: {
+      screen: FAQformBiFast,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: (
+          <HeaderTitle titleBlack={'HELP__FREQUENTLY_ASKED_QUESTIONS'} />
+        ),
+        tabBarVisible: false,
+      },
+    },
+    AddNewAtmChooseSavings: {
+      screen: AddNewAtmChooseSavings,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerBrandRevamp,
+        headerTitle: <HeaderTitle titleWhiteTrf={'HEADER__ADD_NEW_ATM_CARD'} />,
+        tabBarVisible: false,
+      },
+    },
+    AddNewAtmCardChooseAddress: {
+      screen: AddNewAtmCardChooseAddress,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        tabBarVisible: false,
+      },
+    },
+    AddNewAtmSuccessScreen: {
+      screen: AddNewAtmSuccessScreen,
+      navigationOptions: {
+        ...noHeader,
+        tabBarVisible: false,
+      },
+    },
+    AddNewAtmCardConfirmation: {
+      screen: AddNewAtmCardConfirmation,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        tabBarVisible: false,
+      },
+    },
+    RemittanceSwiftCode: {
+      screen: RemittanceSwiftCode,
+      navigationOptions: navHeaders.remittanceHeader,
+    },
+    RemittanceBankInformation: {
+      screen: RemittanceBankInformation,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    RemittanceRecipientData: {
+      screen: RemittanceRecipientData,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    RemittanceSenderData: {
+      screen: RemittanceSenderData,
+      navigationOptions: {
+        ...navHeaders.noHeader,
+        tabBarVisible: false,
+      },
+    },
+    RemittanceTransferPayment: {
+      screen: RemittanceTransferPayment,
+      navigationOptions: navHeaders.remittanceHeader,
+    },
+    RemittanceTransferConfirmation: {
+      screen: RemittanceTransferConfirmation,
+      navigationOptions: navHeaders.remittanceConfirmHeader,
+    },
+    PaymentStatusRemittance: {
+      screen: PaymentStatusRemittance,
       ...navHeaders.noHeader,
       tabBarVisible: false,
-    }
-  },
-  // ChooseProductsEmoney: {
-  //   screen: ChooseProducts,
-  //   navigationOptions: navHeaders.LandingChooseProductEmoney
-  // },
-  EForm: {
-    screen: EForm,
-    navigationOptions: navHeaders.eformHeaderPGO,
-  },
-  SourceAccount: {
-    screen: SourceAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  ChooseLoanAccount: {
-    screen: LoanProductsPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__LOAN_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  NewEForm: {
-    screen: NewEForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__LOAN_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  LoanSourceAccount: {
-    screen: LoanSourceAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CREDITCARD__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  EFormLoanTnC: {
-    screen: EFormLoanTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PGO__TITLE_LOAN'} />,
-      tabBarVisible: false
-    }
-  },
-  EFormLoanSuccess: {
-    screen: EFormLoanSuccess,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PGO__TITLE_LOAN'} />,
-    }
-  },
-
-  QrPaymentStatusNewOnboarding: {
-    screen: QRpaymentStatusPage,
-    navigationOptions: noHeader
-  },
-
-  AlfacartDashboard: {
-    screen: AlfacartDashboard,
-    navigationOptions: navHeaders.digitalStoreHeader
-  },
-
-  WishlistAlfacart: {
-    screen: WishlistAlfacart,
-    navigationOptions: navHeaders.wishlistAlfacartCartHeader
-  },
-  AlfacartCart: {
-    screen: AlfacartCart,
-    navigationOptions: navHeaders.alfacartCartHeader
-  },
-
-  AlfacartCheckout: {
-    screen: AlfacartCheckout,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ALFACART__HEADER_TITTLE'} />,
-      tabBarVisible: false
-    }
-  },
-  AlfacartShippingMethod: {
-    screen: AlfacartShippingMethod,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE'/>,
-      tabBarVisible: false
+    },
+    FundTransferMethodRemittance: {
+      screen: FundTransferMethodRemittance,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__REMITTANCE'} />,
+        tabBarVisible: false,
+      },
+    },
+    FundTransferRemittanceSchedule: {
+      screen: FundTransferRemittanceScheduleScreen,
+      navigationOptions: {
+        ...navHeaders.navigationOptions.headerWhite,
+        headerTitle: <HeaderTitle titleBlack={'TITLE__REMITTANCE'} />,
+        tabBarVisible: false,
+      },
     },
   },
-
-  CategoryAlfacart: {
-    screen: CategoryAlfacart,
-    navigationOptions: navHeaders.digitalStoreHeader
-  },
-
-
-  DetailProductAlfacart: {
-    screen: DetailProductAlfacart,
-    navigationOptions: navHeaders.digitalStoreHeader
-  },
-  DetailProduct: {
-    screen: DetailProduct,
-    navigationOptions: navHeaders.alfacartHeaderReal
-  },
-
-  ValidatePassword: {
-    screen: ValidatePassword,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  feedbackPage: {
-    screen: feedbackPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  PaymentStatusRevampOnboarding: {
-    screen: PaymentStatusRevampPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  Transactions: {
-    screen: Transactions,
-    navigationOptions: navHeaders.transactionsNavConfig,
-  },
-  QrPaymentStatusOnboarding: {
-    screen: QRpaymentStatusRevampPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusOnboardingRevamp: {
-    screen: NewQrStatusRevamp,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusOnboardingRevampSuccess: {
-    screen: NewQrStatusRevamp,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QRCROSSBORDER_PAYMENT_HEADER_SUCCESS' />,
-      tabBarVisible: false
-    }
-  },
-  QrPaymentStatusOnboardingRevampPending: {
-    screen: NewQrStatusRevamp,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QRCROSSBORDER_PAYMENT_HEADER_PENDING' />,
-      tabBarVisible: false
-    }
-  },
-  SearchAlfacartPage: {
-    screen: searchAlfacartPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ALFACART_SEARCH_PRODUCT_HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  ObmMigrate: {
-    screen: ObmMigrate,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-
-  // simas catalog
-  UltraVoucherWebView: {
-    screen: UltraVoucherWebView,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-
-  UltraVoucherPaymentStatus: {
-    screen: UltraVoucherPaymentStatus,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  UltraVoucherTnc: {
-    screen: UltraVoucherTnc,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-
-  UnipinTnc: {
-    screen: UnipinTnc,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'ALFACART_TEXT_TNC_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  // New Onboarding E-Money
-  ChooseRegistration: {
-    screen: ChooseRegistration,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'EMONEY__REGISTER'} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyDashboard: {
-    screen: EmoneyDashboard,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'EMONEY__BRAND'} />,
-      tabBarVisible: false
-    }
-  },
-  TransactionEmoneyScreen: {
-    screen: TransactionEmoney,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'DASHBOARD__TRANSACTION_HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  TransactionFilterEmoneyScreen: {
-    screen: TransactionFilterEmoney,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='TRANSACTION_FILTER_TITLE' />,
-      tabBarVisible: false
-    }
-  },
-  TransactionDetailEmoneyScreen: {
-    screen: TransactionDetailEmoney,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DETAIL_TRANSACTION__HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  homeRoutes: {
-    screen: BankAccScreen,
-    navigationOptions: {
-      ...noHeader,
-      // ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'DASHBOARD__NEW_BANK_ACC'} />,
-    }
-  },
-  PaymentStatusNew: {
-    screen: PaymentStatusNew,
-    navigationOptions: {
-      header: null,
-      tabBarVisible: false
-    }
-  },
-  EmoneyUpgradeBenefit: {
-    screen: EmoneyUpgradeBenefit,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'UPGRADE__EMONEY'} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyUpgradeCamera: {
-    screen: EmoneyUpgradeCamera,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyUpgradeEmailForm: {
-    screen: EmoneyUpgradeEmailForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyUpgradeEmailVerification: {
-    screen: EmoneyUpgradeEmailVerification,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EMONEY__UPGRADE'} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyKTPCamera: {
-    screen: EmoneyKTPCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneyKTPSelfieCamera: {
-    screen: EmoneyKTPSelfieCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneySelfieCamera: {
-    screen: EmoneySelfieCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneyImageConfirmation: {
-    screen: EmoneyImageConfirmation,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneyUpgradeAuth: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  EmoneyUpgradeSuccessScreen: {
-    screen: EmoneyUpgradeSuccessScreen,
-    navigationOptions: navHeaders.closeHeader
-  },
-  QRPaymentStatusRevamp: {
-    screen: QRpaymentStatusRevampPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  EmoneyTopUpATM: {
-    screen: EmoneyTopUpATMScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EMONEY_TOPUP__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  TransactionsFilter: {
-    screen: TransactionsFilter,
-    navigationOptions: navHeaders.transactionsFilterHeader,
-  },
-  InvestmentView: {
-    screen: InvestmentViewScreen,
-    navigationOptions: navHeaders.investmentHeader
-  },
-  InquiryBuyPolis: {
-    screen: InquiryBuyPolis,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SINARMAS_ASJ'/>,
-      tabBarVisible: false
-    }
-  },
-  InquirySILScreen: {
-    screen: InquirySIL,
-    navigationOptions: navHeaders.InquirySil
-  },
-  SmartInvestaLinkIDR: {
-    screen: SmartInvestaLinkIDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkUSD: {
-    screen: SmartInvestaLinkUSD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkBuyPolis: {
-    screen: SmartInvestaLinkBuyPolis,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SINARMAS__BUY_POLIS'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkBuyPolisTnCIDR: {
-    screen: SmartInvestaLinkBuyPolisTnCIDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkBuyPolisTnCUSD: {
-    screen: SmartInvestaLinkBuyPolisTnCUSD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkIDRProduct: {
-    screen: SmartInvestaLinkIDRProduct,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkUSDProduct: {
-    screen: SmartInvestaLinkUSDProduct,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkIDRPolis: {
-    screen: SmartInvestaLinkIDRPolis,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkUSDPolis: {
-    screen: SmartInvestaLinkUSDPolis,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm2IDR: {
-    screen: SmartInvestaLinkPolisForm2IDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm2USD: {
-    screen: SmartInvestaLinkPolisForm2USD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm3IDR: {
-    screen: SmartInvestaLinkPolisForm3IDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm3USD: {
-    screen: SmartInvestaLinkPolisForm3USD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm4IDR: {
-    screen: SmartInvestaLinkPolisForm4IDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisForm4USD: {
-    screen: SmartInvestaLinkPolisForm4USD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkRiskQuestionIdr: {
-    screen: SmartInvestaLinkRiskQuestionIdr,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkRiskQuestionUsd: {
-    screen: SmartInvestaLinkRiskQuestionUsd,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkHealthIdr: {
-    screen: SmartInvestaLinkHealthIdr,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkHealthUsd: {
-    screen: SmartInvestaLinkHealthUsd,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  PaymentBuyPolisSIL: {
-    screen: PaymentBuyPolisSIL,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='PAYMENT_BUY_POLIS'/>,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationPaymentBuyPolisSILIDR: {
-    screen: ConfirmationPaymentBuyPolisSILIDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__HEADER_PAYMENT_CONFIRM'/>,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationPaymentBuyPolisSILUSD: {
-    screen: ConfirmationPaymentBuyPolisSILUSD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__HEADER_PAYMENT_CONFIRM'/>,
-      tabBarVisible: false
-    }
-  },
-  ESigning: {
-    screen: ESigning,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={''} />,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisInformasiTnCIDR: {
-    screen: SmartInvestaLinkPolisInformasiTnCIDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  SmartInvestaLinkPolisInformasiTnCUSD: {
-    screen: SmartInvestaLinkPolisInformasiTnCUSD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationBuyPolisSILIDR: {
-    screen: ConfirmationBuyPolisSILIDR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationBuyPolisSILUSD: {
-    screen: ConfirmationBuyPolisSILUSD,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__SMART__INVESMENT_LINK_USD'/>,
-      tabBarVisible: false
-    }
-  },
-  SILSearchableList: {
-    screen: SILSearchableList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SMART__INVESMENT_LINK_IDR'/>,
-      tabBarVisible: false
+  {
+    // navigationOptions: {
+    //   ...navHeaders.navigationOptions,
+    //   ...navHeaders.chooseProduct
+    // },
+    cardStyle: {
+      backgroundColor: 'white',
     },
+    headerMode: 'screen',
   },
-  InquirySilEmFundScreen: {
-    screen: InquirySilEmFund,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='INQUIRY__SIL_EMERGENCY_FUND_HEADER'/>,
-      tabBarVisible: false
-    }
-  },
-  InquirySilEmFundConfirmScreen: {
-    screen: InquirySilEmFundConfirm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='INQUIRY__SIL_EM_FUND_CONFIRM_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  InquirySilTopUpScreen: {
-    screen: InquirySilTopUp,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='INQUIRY__SIL_TOP_UP_HEADER'/>,
-      tabBarVisible: false
-    }
-  },
-  TransferAccountSIL: {
-    screen: TransferAccountSIL,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'AUTODEBIT__LIST_ACCOUNT'} />,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationTransferSILScreen: {
-    screen: ConfirmationTransferSIL,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__HEADER_PAYMENT_CONFIRM' />,
-      tabBarVisible: false
-    }
-  },
-  DetailTransactionPage: {
-    screen: DetailTransactionScreen,
-    navigationOptions: navHeaders.detailTransactionHeader,
-  },
-  ValasItem: {
-    screen: ValasItem,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DRAWER__EXCHANGE_RATES'/>,
-      tabBarVisible: false
-    }
-  },
-  TdForm: {
-    screen: TdRoutes,
-    navigationOptions: {
-      tabBarVisible: false
-    }
-  },
-  Investment: {
-    screen: InvestmentScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='INVESTMENT__NAV_HEADER' headerMSIG={true}/>,
-      tabBarVisible: false
-    }
-  },
-  SplitBillMenu: {
-    screen: SplitBillMenu,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
-      tabBarVisible: false
-    }
-  },
-  SplitBillIndex: {
-    screen: SplitBillIndex,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'SPLITBILL__INDEX_HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  SplitBillConfirmation: {
-    screen: SplitBillConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
-      tabBarVisible: false
-    }
-  },
-  AddNewParticipants: {
-    screen: AddNewParticipants,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'SPLITBILL__INDEX_HEADER'} />,
-      tabBarVisible: false
-    }
-  },
-  DetailSplitBillMenu: {
-    screen: DetailSplitBillMenu,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
-      tabBarVisible: false
-    }
-  },
-  DetailSplitBillMenuOwe: {
-    screen: DetailSplitBillMenuOwe,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'BURGER_MENU__SPLITBILL'} />,
-      tabBarVisible: false
-    }
-  },
-  TransferSourceAccountSplitBill: {
-    screen: TransferAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  // // Masih Error disini nih transfernya
-  FundTransferPaymentSplitBill: {
-    screen: FundTransferPayment,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'PAY_BILLS__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  ConfirmScreenSplitBill: {
-    screen: FundTransferConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle titleWhiteTrf={'TITLE__TRANSFER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  AuthTransferBill: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  TransferScreenBill: {
-    screen: LandingPage,
-    navigationOptions: navHeaders.LandingHeaderNew
-  },
-  HomeScreenSplitBill: {
-    screen: LandingPage,
-    navigationOptions: navHeaders.LandingHeaderNew
-  },
-
-  MMQGetDetailsPage: {
-    screen: MMQGetDetails,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__MMQ_CERTIFICATE' />,
-      tabBarVisible: false
-    }
-  },
-  AuthCC: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  LoanSummaryPage: {
-    screen: LoanSummary,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  CreateSignWebViewPage: {
-    screen: CreateSignWebView,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DIGI_SIGN_HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  SigningWebViewPage: {
-    screen: SigningWebView,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DIGI_SIGN_HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  RetakeSelfiePage: {
-    screen: RetakeSelfie,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ConfirmRetakeSelfiePage: {
-    screen: ConfirmRetakeSelfie,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  AddPayee: {
-    screen: AddPayee,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_PAYEE'} />,
-      tabBarVisible: false
-    }
-  },
-  AddPayeeAccount: {
-    screen: AddPayeeAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_PAYEE_ACCOUNT'} />,
-      tabBarVisible: false
-    }
-  },
-  AddPayeeBank: {
-    screen: AddPayeeBank,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__SELECT_BANK'} />,
-      tabBarVisible: false
-    }
-  },
-  PaymentStatusRemittanceOnboarding: {
-    screen: PaymentStatusRemittancePage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  InquiryStarInvestamaScreen: {
-    screen: InquiryStarInvestama,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SINARMAS_AJSI'/>,
-      tabBarVisible: false
-    }
-  },
-  InquiryStarInvestamaTopUpScreen: {
-    screen: InquiryStarInvestamaTopUp,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='INQUIRY__SIL_TOP_UP_HEADER'/>,
-      tabBarVisible: false
-    }
-  },
-  TransferAccountStarInvestama: {
-    screen: TransferAccountStarInvestama,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'OPEN_NEW_ACCOUNT__SOURCE_ACCOUNT'} />,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationTransferStarInvestamaScreen: {
-    screen: ConfirmationTransferStarInvestama,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='SIL__HEADER_PAYMENT_CONFIRM' />,
-      tabBarVisible: false
-    }
-  },
-  SimasSekuritasView: {
-    screen: SimasSekuritas,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'SINARMAS__HEADER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  BuyReksadanaView: {
-    screen: BuyReksadana,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'REKSADANA_TOP_UP_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  BuyReksadanaConfirmation: {
-    screen: BuyReksadanaConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  SellReksadanaView: {
-    screen: SellReksadana,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'REKSADANA_REDEMPTION_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  SellReksadanaConfirmation: {
-    screen: SellReksadanaConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  SourceAccountReksadana: {
-    screen: SourceAccountReksadana,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManage: {
-    screen: CreditCardManagePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageInput: {
-    screen: CreditCardManageInputPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardConvertInstallment: {
-    screen: CreditCardConvertInstallmentPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_CONVERT_SELECT'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageSetInstallment: {
-    screen: CreditCardManageSetInstallmentPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_CONVERT_SET'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageConfirmation: {
-    screen: CreditCardManageConfirmationPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardConfirmInstallment: {
-    screen: CreditCardConfirmInstallmentPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='CREDIT_CARD_MANAGE__CONFIRMATION_CREDIT_CARD_BUTTON'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardTransactionManagement: {
-    screen: CreditCardTransactionManagementPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_MANAGEMENT'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardTransactionDetail: {
-    screen: CreditCardTransactionDetailPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_TRANSACTION_DETAIL'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardTransactionSuccess: {
-    screen: CreditCardTransactionSuccessPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_TRANSACTION_SUCCESS'/>,
-      tabBarVisible: false
-    }
-  },
-  CcHistory: {
-    screen: CcHistory,
-    navigationOptions: navHeaders.ccHistoryNavConfig,
-  },
-  CcDownloadOptions: {
-    screen: CcDownloadScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDIT_CARD__DOWNLOAD_BILLING_STATEMENTS' />,
-      tabBarVisible: false
-    }
-  },
-  CcHistoryFund: {
-    screen: CcHistory,
-    navigationOptions: navHeaders.ccHistoryNavConfig,
-  },
-  NewPaymentStatusRevampOnboarding: {
-    screen: NewPaymentStatusRevampPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QR_TCICO_TRANSACTION_TITLE' />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardCashAdvance: {
-    screen: CreditCardCashAdvancePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='CREDITCARD__CASH_ADVANCE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardCashAdvanceConfirm: {
-    screen: CashAdvanceConfirmPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='TITLE__BILLER_CONFIRMATION'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardCashAdvanceSuccess: {
-    screen: CashAdvanceSuccessPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  CreditCardNotificationSettings: {
-    screen: CreditCardNotificationSettingsPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__CREDIT_CARD_NOTIFICATION'/>,
-      tabBarVisible: false
-    }
-  },
-  PushNotifInbox: {
-    screen: PushNotifInbox,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand, headerTitle: <HeaderTitle titleBold='LOGIN__APPNAME'/>,
-      tabBarVisible: false
-    }
-  },
-  SilForexHours: {
-    screen: SilForexHours,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={''} />,
-      tabBarVisible: false
-    }
-  },
-  EmoneyRegistration: {
-    screen: EmoneyRegistration,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'EFORM__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  ProductsListOnboarding: {
-    screen: ProductsList,
-    navigationOptions: navHeaders.chooseProduct
-  },
-  ProductsListUpgradeEmoney: {
-    screen: ProductsList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'UPGRADE__EMONEY'} />,
-      tabBarVisible: false
-    }
-  },
-  ChooseProductsItem: {
-    screen: ChooseProductsItem,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'PRODUCTS__SELECTIONS'} />,
-      tabBarVisible: false
-    }
-  },
-  ProductsTnC: {
-    screen: ProductsTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'GENERIC__TERM_AND_CONDITION'} />,
-      tabBarVisible: false
-    }
-  },
-  CurrentSection: {
-    screen: CurrentSection,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'EFORM__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  DigitalEForm: {
-    screen: DigitalEForm,
-    navigationOptions: navHeaders.eformHeader,
-  },
-  CameraImageConfirmation: {
-    screen: CameraImageConfirmation,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    },
-  },
-  DigitalEFormEmailVerification: {
-    screen: DigitalEFormEmailVerification,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EFORM__NAVBAR'} />,
-      tabBarVisible: false
-    }
-  },
-  DigitalEFormSuccessScreen: {
-    screen: DigitalEFormSuccessScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ApproveAplicationPage: {
-    screen: ApproveScreenOpening,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={''} />,
-      tabBarVisible: false
-    }
-  },
-  ActivationAccountPage: {
-    screen: AccountActivationOpening,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='' />,
-      tabBarVisible: false
-    }
-  },
-  SigningWebViewAccountOpeningPage: {
-    screen: AccountSignDocumentOpening,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='' />,
-      tabBarVisible: false
-    }
-  },
-  RetakeCameraOpeningAccountPage: {
-    screen: RetakeCameraOpeningAccount,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationImageOpeningAccountPage: {
-    screen: ConfirmationImageOpeningAccount,
-    navigationOptions: {
-      ...noHeader,
-    }
-  },
-  SetDefaultAutoDebitScreen: {
-    screen: SetDefaultAutoDebit,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand, headerTitle: <HeaderTitle langKey={'SET_AUTODEBIT_TITTLE'} />,
-      tabBarVisible: false
-    }
-  },
-  DigitalStorePaymentStatus: {
-    screen: DigitalStorePaymentStatus,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  MerchantCheckout: {
-    screen: MerchantCheckout,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_CHECKOUT_TITTLE'/>,
-      tabBarVisible: false
-    }
-  },
-  AlfacartShippingMethodReal: {
-    screen: AlfacartShippingMethodReal,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE'/>,
-      tabBarVisible: false
-    },
-  },
-  AlfaSourceAccount: {
-    screen: TransferAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  FormFillAlfaAddress: {
-    screen: FormFillAlfaAddress,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE' />,
-      tabBarVisible: false
-    }
-  },
-  FormFillAlfaNewStore: {
-    screen: FormFillAlfaNewStore,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='ALFACART_SHIPPING_METHOD__TITTLE' />,
-      tabBarVisible: false
-    }
-  },
-  MerchantInputCustomerEmail: {
-    screen: InputEmailScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'EGIFT__TITLE_PAYMENT'} />,
-      tabBarVisible: false
-    }
-  },
-  AlfaAuthenticate: {
-    screen: Authenticate,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    }
-  },
-  TnCPageAccount: {
-    screen: LegalPageAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'LEGAL_MENU_TERMS'} />,
-      tabBarVisible: false
-    }
-  },
-  PrivacyPageAccount: {
-    screen: LegalPageAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={'LEGAL_MENU_PRIVACY'} />,
-      tabBarVisible: false
-    }
-  },
-  
-  ETax: {
-    screen: ETax,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='E_TAX_HEADER' headerEtax={true}/>,
-      tabBarVisible: false
-    }
-  },
-  EtaxPaymentType: {
-    screen: EtaxPaymentType,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='E_TAX_HEADER_PAYMENT_TYPE_HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  EtaxHistoryFilter: {
-    screen: EtaxHistoryFilter,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  EtaxHistoryList: {
-    screen: EtaxHistoryList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='DASHBOARD__TRANSACTION_HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  IdBillingFormOne: {
-    screen: IdBillingFormOne,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='E_TAX_HEADER'  headerEtax={true}/>,
-      tabBarVisible: false
-    }
-  },
-
-  IdBillingFormConfirmation: {
-    screen: IdBillingFormConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='E_TAX_HEADER'  headerEtax={true}/>,
-      tabBarVisible: false
-    }
-  },
-  IdBillingFormPayment: {
-    screen: IdBillingFormPayment,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='E_TAX_HEADER'  headerEtax={true}/>,
-      tabBarVisible: false
-    }
-  },
-  IdBillingFormPaymentConfirmation: {
-    screen: IdBillingFormPaymentConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf='QR_GPN_CONFIRM_BTN' />,
-      tabBarVisible: false
-    }
-  },
-  CreditCardTrxManage: {
-    screen: CreditCardTrxManagePage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-
-  CreditCardManageDetail: {
-    screen: CreditCardManageDetail,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageCreatePin: {
-    screen: CreditCardManageCreatePin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageConfirmPin: {
-    screen: CreditCardManageConfirmPin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreditCardManageDeliveryScreen: {
-    screen: CreditCardManageDeliveryScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DASHBOARD__CREDIT_CARD_MANAGE_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  MenuHeaderSearch: {
-    screen: MenuHeaderSearch,
-    navigationOptions: navHeaders.HomeMenuSearch
-  },
-  Offer: {
-    screen: OfferScreens,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__OPTION_OFFERS'} />,
-      tabBarVisible: false
-    }
-  },
-  SimasTaraSimulationPage: {
-    screen: SimasTaraSimulation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__SIMAS_TARA_SIMULATION' />,
-      tabBarVisible: false
-    }
-  },
-  SimasTaraSummaryPage: {
-    screen: SimasTaraSummary,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER__SIMAS_TARA_SUMMARY' />,
-      tabBarVisible: false
-    }
-  },
-  ChooseServices: {
-    screen: ChooseServices,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'SERVICES__SELECTIONS'} />,
-      tabBarVisible: false
-    }
-  },
-  ActiveList: {
-    screen: ActiveList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'HEADER__ACTIVATE_ATM_CARD'} />,
-      tabBarVisible: false
-    }
-  },
-  BlockList: {
-    screen: BlockList,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'HEADER__BLOCKED_ATM_CARD'} />,
-      tabBarVisible: false
-    }
-  },
-  ListAutodebit: {
-    screen: AutodebitList,
-    navigationOptions: navHeaders.listAutoDebitHeader
-  },
-  SearchAutodebit: {
-    screen: AutodebitSearch,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'AUTODEBIT__LIST_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  Shops: {
-    screen: ShopScreen,
-    navigationOptions: navHeaders.EVoucherHeader,
-  },
-  LuckyDrawScreen: {
-    screen: LuckyDrawScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'LUCKYDRAW__TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  LuckyDipMainPage: {
-    screen: LuckyDipMain,
-    navigationOptions: navHeaders.LuckyDipRightHeader
-  },
-  TokenHistory: {
-    screen: TokenHistory,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      headerTitle: (<HeaderTitle titleBlack={'TOKEN_HISTORY'} />),
-      tabBarVisible: false
-    }
-  },
-  FavBiller: {
-    screen: FavBiller,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'FAVORITE_TRANSACTION'} />,
-      tabBarVisible: false
-    }
-  },
-  RecurringEditing: {
-    screen: RecurringEditingPage,
-    navigationOptions: navHeaders.EditTransferHeader,
-  },
-  RecurringDetailList: {
-    screen: RecurringDetailListPage,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='RECURRING__HEADER_TITLE' />,
-      tabBarVisible: false
-    }
-  },
-  AccountMenu: {
-    screen: LandingPage,
-    navigationOptions: navHeaders.LandingHeaderNew
-  },
-  ValidatePasswordBoarding: {
-    screen: ValidatePassword,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='PROFILE__PASSWORD_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  CreateNewPassword: {
-    screen: CreateNewPassword,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CHANGE_PASSWORD__TITLE'} />,
-      tabBarVisible: false
-    },
-  },
-  UpdateEasyPin: {
-    screen: UpdateEasyPin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='PROFILE__EASYPIN_TITLE'/>,
-      tabBarVisible: false
-    }
-  },
-  ReleaseDeviceQR: {
-    screen: ReleaseDeviceQR,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='RELEASE__DEVICE__QR'/>,
-      tabBarVisible: false
-    }
-  },
-  LoginPreference: {
-    screen: LoginPreferenceScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PROFILE__LOGIN_PREFERENCES'} />,
-      tabBarVisible: false
-    }
-  },
-  FaceRecogEULA: {
-    screen: FaceRecogEULAScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'DISCLAIMER_FACE_RECOGNITION_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  FingerPrintEULA: {
-    screen: FingerPrintEULAScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'DISCLAIMER_FINGER_PRINT_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  PaymentStatusRevamp: {
-    screen: PaymentStatusRevamp,
-    navigationOptions: {
-      header: null,
-      tabBarVisible: false
-    }
-  },
-  EmoneySuccessRegistration: {
-    screen: EmoneySuccessRegistration,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ShareReferralCode: {
-    screen: ShareReferralCode,
-    navigationOptions: navHeaders.mgmReferFriend,
-  },
-  HowReferralWorks: {
-    screen: HowReferralWorks,
-    navigationOptions: navHeaders.mgmHowReferral,
-  },
-  MyHistoryReward: {
-    screen: MyHistoryReward,
-    navigationOptions: navHeaders.mgmHistoryReward,
-  },
-  MyInvitingRecord: {
-    screen: MyInvitingRecord,
-    navigationOptions: navHeaders.mgmInvitingRecord,
-  },
-  FilterCalendarPicker: {
-    screen: FilterCalendarPicker,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  DetailTransactionMgm: {
-    screen: DetailTransactionMgm,
-    navigationOptions: navHeaders.mgmDetailTrans,
-  },
-  MgmTncReferFriend: {
-    screen: MgmTncReferFriend,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  LuckyDipEvoucherDetailPage: {
-    screen: LuckyDipEvoucherDetail,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerGreySoft, headerTitle: <HeaderTitle titleBlack={'LUCKY__DIP_TITLE_EVOUCHER'} />,
-      tabBarVisible: false
-    }
-  },
-  LoginWithEasyPinSearch: {
-    screen: LoginWithEasyPinPageSearch,
-    navigationOptions: navHeaders.LoginPasswordInHeader
-  },
-  ResetPassNoCardForm: {
-    screen: ResetPassNoCardForm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerNewBrand, headerTitle: <HeaderTitle langKey={''} />,
-      tabBarVisible: false
-    }
-  },
-  QRRegisterStatus: {
-    screen: QRRegisterStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRTerminalStatus: {
-    screen: QRTerminalStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRTerminalEditStatus: {
-    screen: QRTerminalEditStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRRefundStatus: {
-    screen: QRRefundStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRTerminalResetStatus: {
-    screen: QRTerminalResetStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  QRTerminalDelStatus: {
-    screen: QRTerminalDelStatusPage,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    },
-  },
-  showQRTrf: {
-    screen: QRTrfShow,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DETAIL_TRANSACTION__HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  QRTrfConfirm: {
-    screen: QRTrfConfirm,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='DETAIL_TRANSACTION__HEADER' />,
-      tabBarVisible: false
-    }
-  },
-  EmallEasyPin: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  SpecialDealsLogin: {
-    screen: SpecialDealsLogin,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false
-    },
-  },
-  CcDownloadScreens: {
-    screen: CcDownloadToScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='CREDIT_CARD__DOWNLOAD_BILLING_STATEMENTS' />,
-      tabBarVisible: false
-    }
-  },
-  LivenessSection: {
-    screen: LivenessSection,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={''} />,
-    }
-  },
-  ProductSeall: {
-    screen: ProductAll,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand, headerTitle: <HeaderTitle titleWhiteTrf={'ACCOUNT_MENU_PRODUCT_SERVICES'} />,
-      tabBarVisible: false
-    }
-  },
-  SimasValasProductTypeSelections: {
-    screen: SimasValasProductTypeSelections,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'PRODUCTS__SELECTIONS'} />,
-      tabBarVisible: false
-    }
-  },
-  SimasValasChooseCurrency: {
-    screen: SimasValasChooseCurrency,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack='HEADER_OPEN_SAVING_SIMAS_VALAS' />,
-      tabBarVisible: false
-    }
-  },
-  FundTransferPayment: {
-    screen: FundTransferPayment,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  TransferSourceAccount: {
-    screen: TransferAccount,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  FundTransferMethod: {
-    screen: FundTransferMethodScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  FundTransferConfirmation: {
-    screen: FundTransferConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_CONFIRMATION'} />,
-      tabBarVisible: false
-    }
-  },
-  FundTransferSchedule: {
-    screen: FundTransferScheduleScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__TRANSFER_TITLE'} />,
-      tabBarVisible: false
-    }
-  },
-  TransferScreen: {
-    screen: LandingPage,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-    }
-  },
-  AuthTransfer: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  MembershipDetail: {
-    screen: MembershipDetail,
-    navigationOptions: navHeaders.membershipHeader
-  },
-  LuckyDrawTnC: {
-    screen: LuckyDrawTnC,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'HELP__FREQUENTLY_ASKED_QUESTIONS'} />,
-      tabBarVisible: false
-    }
-  },
-  CloseCard: {
-    screen: CloseCard,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'CLOSE__SAVING_ACCOUNT'} />,
-      tabBarVisible: false
-    }
-  },
-  ChooseCloseCard: {
-    screen: ChooseCloseCard,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, 
-      headerTitle: <HeaderTitle titleBlack={'CLOSE__SAVING_ACCOUNT'} />,
-      tabBarVisible: false
-    }
-  },
-  ClosingTnc: {
-    screen: ClosingTnc,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'GENERIC__TERMS_AND_CONDITIONS'}/>,
-      tabBarVisible: false
-    }
-  },
-  ClosingAccAuth: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  AccountEditProfile: {
-    screen: AccountEditProfile,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp,
-      headerTitle: <HeaderTitle titleWhite='EDIT__PROFILE'/>,
-      tabBarVisible: false
-    }
-  },
-  SuccessVerification: {
-    screen: SuccessVerification,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ConfirmEditProfile: {
-    screen: ConfirmEditProfile,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp,
-      headerTitle: <HeaderTitle titleWhite='REQUEST__DATA_CHANGE'/>,
-      tabBarVisible: false
-    }
-  },
-  ConfirmEditProfileSelfieCamera: {
-    screen: ConfirmEditProfileSelfieCamera,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ConfirmImageEditProfile: {
-    screen: ConfirmImageEditProfile,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  ConfirmationAuth: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  ManageBIFast: {
-    screen: ManageBIFast,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  AddProxyBIFast: {
-    screen: AddProxyBIFast,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  EditProxyBIFast: {
-    screen: EditProxyBIFast,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  UnlinkProxyBIFast: {
-    screen: UnlinkProxyBIFast,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  SelectProxyBIFast: {
-    screen: SelectProxyBIFast,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  NewProxyConfirmationBIFast: {
-    screen: NewProxyConfirmationBIFast,
-    navigationOptions: navHeaders.confirmTransferProxy
-  },
-  EasyPinBiFast: {
-    screen: EasyPinBiFast,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrand,
-      tabBarVisible: false}
-  },
-  AuthBiFast: {
-    screen: Authenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  EmailAuth: {
-    screen: EmailAuthenticate,
-    navigationOptions: navHeaders.AuthenticateHeader
-  },
-  EditProxyConfirmationBIFast: {
-    screen: EditProxyConfirmationBIFast,
-    navigationOptions: navHeaders.confirmTransferProxy
-  },
-  FAQformBiFast: {
-    screen: FAQformBiFast,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'HELP__FREQUENTLY_ASKED_QUESTIONS'} />,
-      tabBarVisible: false
-    }
-  },
-  AddNewAtmChooseSavings: {
-    screen: AddNewAtmChooseSavings,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerBrandRevamp, headerTitle: <HeaderTitle titleWhiteTrf={'HEADER__ADD_NEW_ATM_CARD'}/>,
-      tabBarVisible: false
-    }
-  },
-  AddNewAtmCardChooseAddress: {
-    screen: AddNewAtmCardChooseAddress,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      tabBarVisible: false
-    }
-  },
-  AddNewAtmSuccessScreen: {
-    screen: AddNewAtmSuccessScreen,
-    navigationOptions: {
-      ...noHeader,
-      tabBarVisible: false
-    }
-  },
-  AddNewAtmCardConfirmation: {
-    screen: AddNewAtmCardConfirmation,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite,
-      tabBarVisible: false
-    }
-  },
-  RemittanceSwiftCode: {
-    screen: RemittanceSwiftCode,
-    navigationOptions: navHeaders.remittanceHeader
-  },
-  RemittanceBankInformation: {
-    screen: RemittanceBankInformation,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  RemittanceRecipientData: {
-    screen: RemittanceRecipientData,
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  RemittanceSenderData: {
-    screen: RemittanceSenderData, 
-    navigationOptions: {
-      ...navHeaders.noHeader,
-      tabBarVisible: false
-    }
-  },
-  RemittanceTransferPayment: {
-    screen: RemittanceTransferPayment,
-    navigationOptions: navHeaders.remittanceHeader
-  },
-  RemittanceTransferConfirmation: {
-    screen: RemittanceTransferConfirmation,
-    navigationOptions: navHeaders.remittanceConfirmHeader
-  },
-  PaymentStatusRemittance: {
-    screen: PaymentStatusRemittance,
-    ...navHeaders.noHeader,
-    tabBarVisible: false
-  },
-  FundTransferMethodRemittance: {
-    screen: FundTransferMethodRemittance,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__REMITTANCE'} />,
-      tabBarVisible: false
-    }
-  },
-  FundTransferRemittanceSchedule: {
-    screen: FundTransferRemittanceScheduleScreen,
-    navigationOptions: {
-      ...navHeaders.navigationOptions.headerWhite, headerTitle: <HeaderTitle titleBlack={'TITLE__REMITTANCE'} />,
-      tabBarVisible: false
-    }
-  },
-}, {
-  // navigationOptions: {
-  //   ...navHeaders.navigationOptions,
-  //   ...navHeaders.chooseProduct
-  // },
-  cardStyle: {
-    backgroundColor: 'white'
-  },
-  headerMode: 'screen'
-},
 );
+
+OnboardingRoutes.navigationOptions = ({navigation}) => {
+  let tabBarVisible;
+  navigation.state.routes.map(route => {
+    if (
+      route.routeName === 'Landing' ||
+      route.routeName === 'LivenessSection' ||
+      route.routeName === 'AccountMenu' ||
+      route.routeName === 'HomeScreenSplitBill' ||
+      route.routeName === 'TransferScreenBill' ||
+      route.routeName === 'homeRoutes' ||
+      route.routeName === 'QrPaymentStatusNewOnboarding' ||
+      route.routeName === 'EFormLoanSuccess' ||
+      route.routeName === 'HomeScreen' ||
+      route.routeName === '' ||
+      route.routeName === 'GenerateCode' ||
+      route.routeName === 'TapGenerateCodeNumber' ||
+      route.routeName === 'TapGenerateCode' ||
+      route.routeName === 'GenerateCodeTimeout' ||
+      route.routeName === 'CgvMovieDetail' ||
+      route.routeName === 'CgvSchedule' ||
+      route.routeName === 'TabShopping' ||
+      route.routeName === 'ConfirmEmailScreen' ||
+      route.routeName === 'AgreementScreen' ||
+      route.routeName === 'SmartPromoAbout' ||
+      route.routeName === 'MigrateLandingPage' ||
+      route.routeName === 'MigrateEnded' ||
+      route.routeName === 'MigrateError' ||
+      route.routeName === 'CameraPage' ||
+      route.routeName === 'TermsEmoney' ||
+      route.routeName === 'HowToTransferPage' ||
+      route.routeName === 'LearnMoreProductPage' ||
+      route.routeName === 'IdentityFifthForm' ||
+      route.routeName === 'IdentityFourthForm' ||
+      route.routeName === 'IdentityThirdForm' ||
+      route.routeName === 'IdentitySecondForm' ||
+      route.routeName === 'IdentityForm' ||
+      route.routeName === 'ConfirmationAccount' ||
+      route.routeName === 'RegisterWithATMReceipt' ||
+      route.routeName === 'ActivationSuccess' ||
+      route.routeName === 'MerchantDashboard' ||
+      route.routeName === 'BankAccScreen'
+    ) {
+      tabBarVisible = true;
+    } else {
+      tabBarVisible = false;
+    }
+  });
+
+  return {
+    tabBarVisible,
+    backBehavior: 'history',
+  };
+};
 
 export default OnboardingRoutes;

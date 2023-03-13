@@ -7,7 +7,7 @@ import {language} from '../../config/language';
 import {destroy, reset} from 'redux-form';
 import {resetToDashboardFrom, errorResponseResult} from './common.thunks';
 import result from 'lodash/result';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import find from 'lodash/find';
 import isEmpty from 'lodash/isEmpty';
 import groupBy from 'lodash/groupBy';
@@ -85,7 +85,7 @@ export function qrPayment (request) {
         dispatch(actionCreators.showPaymentModal({...modalOptions, type: 'FAILED'}));
         if (isEmpty(result(err, 'data.responseMessage', ''))) {
           const goToHistory = () => {
-            dispatch(NavigationActions.reset({
+            dispatch(StackActions.reset({
               index: 1,
               actions: [
                 NavigationActions.navigate({routeName: 'Landing'}),
@@ -170,7 +170,7 @@ export function getInvoiceDetail (qrData) {
     const amount = result(qrData, 'amount', 0);
     const invoiceId = last(split(url, '/'));
     dispatch(actionCreators.showSpinner());
-    dispatch(NavigationActions.reset({
+    dispatch(StackActions.reset({
       index: 1,
       actions: [
         NavigationActions.navigate({routeName: 'PayScreen'}),
@@ -184,7 +184,7 @@ export function getInvoiceDetail (qrData) {
         dispatch(actionCreators.hideSpinner());
       } else {
         dispatch(actionCreators.hideSpinner());
-        dispatch(NavigationActions.reset({
+        dispatch(StackActions.reset({
           index: 0,
           actions: [
             NavigationActions.navigate({routeName: 'PayScreen'})
@@ -194,7 +194,7 @@ export function getInvoiceDetail (qrData) {
       }
     }).catch((err) => {
       dispatch(actionCreators.hideSpinner());
-      dispatch(NavigationActions.reset({
+      dispatch(StackActions.reset({
         index: 0,
         actions: [
           NavigationActions.navigate({routeName: 'PayScreen'})
@@ -301,7 +301,7 @@ export function qrInvoicePayment (request) {
         dispatch(actionCreators.showPaymentModal({...modalOptions, type: 'FAILED'}));
         if (isEmpty(result(res, 'data.responseMessage', ''))) {
           const goToHistory = () => {
-            dispatch(NavigationActions.reset({
+            dispatch(StackActions.reset({
               index: 1,
               actions: [
                 NavigationActions.navigate({routeName: 'Landing'}),
@@ -337,7 +337,7 @@ export function qrInvoicePayment (request) {
         dispatch(actionCreators.showPaymentModal({...modalOptions, type: 'FAILED'}));
         if (isEmpty(result(err, 'data.responseMessage', ''))) {
           const goToHistory = () => {
-            dispatch(NavigationActions.reset({
+            dispatch(StackActions.reset({
               index: 1,
               actions: [
                 NavigationActions.navigate({routeName: 'Landing'}),
@@ -576,7 +576,7 @@ export function goToShowQR (dataQR) {
       const timeGenerated = new Date();
       dispatch(actionCreators.hideSpinner());
       dispatch(actionCreators.saveQRTag63({data, dataQR, isNewQR, isGenerated, addGeneartedTotal, timeGenerated}));
-      dispatch(NavigationActions.reset({
+      dispatch(StackActions.reset({
         index: 1,
         actions: [
           NavigationActions.navigate({routeName: 'QRScannerLanding'}),
@@ -728,7 +728,7 @@ export function goToShowQRTcico (savedQRData, newQRData, isFromMenu, depositType
         dispatch(destroy('MyQRForm'));
         // if (isNewQR === true) {
         //   dispatch(NavigationActions.back());
-        //   dispatch(NavigationActions.reset({
+        //   dispatch(StackActions.reset({
         //     index: 1,
         //     actions: [
         //       NavigationActions.navigate({routeName: 'AccountMenu'}),

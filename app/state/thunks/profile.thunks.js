@@ -4,7 +4,7 @@ import {result, forEach} from 'lodash';
 import * as middlewareUtils from '../../utils/middleware.util';
 import {Toast, Alert} from '../../utils/RNHelpers.util.js';
 import {getErrorMessage, wrapMethodInFunction, getCurrentRouteName, getFilteredCgv, generateCgvLabel} from '../../utils/transformer.util';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {destroy} from 'redux-form';
 import {language} from '../../config/language';
 import {checkHSMandNavigate, checkCameraPermissionAndNavigate, populateConfigData, prepareGoSimasPoinHistory} from './common.thunks';
@@ -95,7 +95,7 @@ export function changePassword (values, isSearch) {
         dispatch(destroy('CreateNewPassword'));
         Alert.alert(language.PROFILE__CHANGE_PW_MODAL_TITLE, language.PROFILE__CHANGE_PW_MODAL_MSG, [{
           text: language.PROFILE__EASYPIN_MODAL_OK,
-          onPress: wrapMethodInFunction(dispatch, NavigationActions.reset({
+          onPress: wrapMethodInFunction(dispatch, StackActions.reset({
             index: 0,
             actions: [NavigationActions.navigate({routeName: isSearch ? 'Landing' : 'HomeScreen'})]
           }))
@@ -162,7 +162,7 @@ export function changeEasyPin (values, isSearch) {
           text: language.PROFILE__EASYPIN_MODAL_OK,
           onPress: () => {
             dispatch(destroy('UpdateEasyPin'));
-            dispatch(NavigationActions.reset({
+            dispatch(StackActions.reset({
               index: 0,
               actions: [NavigationActions.navigate({routeName: isSearch ? 'Landing' : 'HomeScreen'})]
             }));

@@ -4,7 +4,7 @@ import {result, map, omit, isEmpty, find} from 'lodash';
 import * as middlewareUtils from '../../utils/middleware.util';
 import {Toast} from '../../utils/RNHelpers.util.js';
 import {getErrorMessage, getPPAUrl} from '../../utils/transformer.util';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {language} from '../../config/language';
 import {getUserLoanList} from '../../state/thunks/loan.thunks';
 import {Linking} from 'react-native';
@@ -181,7 +181,7 @@ export function directToNextSTep (data) {
           dispatch(actionCreators.hideSpinner());
         });
       } else {
-        dispatch(NavigationActions.reset({
+        dispatch(StackActions.reset({
           index: 0,
           actions: [
             NavigationActions.navigate({routeName: 'Landing'}),

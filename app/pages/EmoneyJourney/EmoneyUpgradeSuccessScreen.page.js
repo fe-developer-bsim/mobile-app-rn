@@ -2,22 +2,25 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import EmoneyUpgradeSuccessScreenComp from '../../components/EmoneyJourney/EmoneyUpgradeSuccessScreen.component';
 import {connect} from 'react-redux';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {isEmpty, result} from 'lodash';
 import {prepareGoDashboard} from '../../state/thunks/onboarding.thunks';
 // import firebase from 'react-native-firebase';
 // import {Platform} from 'react-native';
 // let Analytics = firebase.analytics();
 
-const mapStateToProps = (state) => ({
-  isLogin: !isEmpty(result(state, 'user', {}))
+const mapStateToProps = state => ({
+  isLogin: !isEmpty(result(state, 'user', {})),
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  onButtonPress: (rootName) => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [NavigationActions.navigate({routeName: rootName})]
-  })),
+const mapDispatchToProps = dispatch => ({
+  onButtonPress: rootName =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: rootName})],
+      }),
+    ),
   backToHome: () => dispatch(prepareGoDashboard()),
 });
 
@@ -26,13 +29,12 @@ class EmoneyUpgradeSuccessScreen extends Component {
     navigation: PropTypes.object,
     config: PropTypes.object,
     isLogin: PropTypes.object,
-    onButtonPress: PropTypes.func
-  }
+    onButtonPress: PropTypes.func,
+  };
 
-  componentDidMount () {
+  componentDidMount() {
     // const {navigation} = this.props;
     // const firebaseEmoney = result(navigation, 'state.params.firebaseEmoney', false);
-
     // if (firebaseEmoney === true) {
     //   const os = Platform.OS;
     //   Analytics.logEvent('UPGRADE_EMONEY', {device: os, step_route: '10'});
@@ -42,15 +44,14 @@ class EmoneyUpgradeSuccessScreen extends Component {
   backToHome = () => {
     const {isLogin, onButtonPress} = this.props;
     onButtonPress(isLogin ? 'Landing' : 'Login');
-  }
+  };
 
-  render () {
-    return (
-      <EmoneyUpgradeSuccessScreenComp
-        backToHome={this.backToHome}
-      />
-    );
+  render() {
+    return <EmoneyUpgradeSuccessScreenComp backToHome={this.backToHome} />;
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(EmoneyUpgradeSuccessScreen);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(EmoneyUpgradeSuccessScreen);

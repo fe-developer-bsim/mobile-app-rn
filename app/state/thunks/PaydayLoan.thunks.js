@@ -2,7 +2,7 @@ import api from '../../utils/api.util';
 import {getErrorMessage} from '../../utils/transformer.util';
 import result from 'lodash/result';
 import {formatFieldAmount, lowerCase} from '../../utils/transformer.util';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {Toast} from '../../utils/RNHelpers.util.js';
 import {destroy} from 'redux-form';
 import {language} from '../../config/language';
@@ -144,7 +144,7 @@ export function paydayLoanDisburse (values) {
         const serverTime = result(state, 'config.serverTime', '');
         const timeRedeemLoan = serverTime.substring(5, 7);
         set(storageKeys['PAYDAYLOANREDEEM'], {monthRedeem: timeRedeemLoan});
-        dispatch(NavigationActions.reset({
+        dispatch(StackActions.reset({
           index: 1,
           actions: [
             NavigationActions.navigate({routeName: 'HomeScreen'}),
@@ -159,7 +159,7 @@ export function paydayLoanDisburse (values) {
         dispatch(actionCreators.hideSpinner());
       }).
       catch(() => {
-        dispatch(NavigationActions.reset({
+        dispatch(StackActions.reset({
           index: 0,
           actions: [
             NavigationActions.navigate({routeName: 'ErrorPagePayday', params: {isPaydayLoan: 'true'}})

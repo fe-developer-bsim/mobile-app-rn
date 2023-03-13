@@ -1,4 +1,4 @@
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import * as actionCreators from '../actions/index.actions.js';
 import {language} from '../../config/language';
 import result from 'lodash/result';
@@ -49,14 +49,14 @@ export function getQRGpnReopen (value) {
     const storeState = getState();
     const isSearch = result(storeState, 'valueOpenMerchantSearch', false);
     if (isSearch) {
-      dispatch(NavigationActions.reset({
+      dispatch(StackActions.reset({
         index: 0,
         actions: [
           NavigationActions.navigate({routeName: 'Landing'}),
         ]
       }));
     } else {
-      dispatch(NavigationActions.reset({
+      dispatch(StackActions.reset({
         index: 0,
         actions: [
           NavigationActions.navigate({routeName: 'HomeScreen'}),
@@ -219,7 +219,7 @@ export function getTerminalEditResult (detailData) {
 
     };
     const payload = middlewareUtils.prepareTerminalEdit(transRefNum, smsOtp, simasToken, data);
-    dispatch(NavigationActions.reset({
+    dispatch(StackActions.reset({
       index: 0,
       actions: [
         NavigationActions.navigate({routeName: 'HomeScreen'}),
@@ -808,7 +808,7 @@ export function QRTerminalResult (merchantId, merchant_criteria, terminalList) {
       }
     }
     const payload = middlewareUtils.prepareGpnTerminal(transRefNum, smsOtp, simasToken, data);
-    dispatch(NavigationActions.reset({
+    dispatch(StackActions.reset({
       index: 0,
       actions: [
         NavigationActions.navigate({routeName: 'HomeScreen'}),
@@ -1764,7 +1764,7 @@ export function invoiceGPN (res) {
         heading1: language.QR_GPN_NOT_REGISTERED_QR
       };
       dispatch(actionCreators.showSinarmasAlert({...modalOptions}));
-      dispatch(NavigationActions.reset({
+      dispatch(StackActions.reset({
         index: 0,
         actions: [
           NavigationActions.navigate({routeName: 'HomeScreen'}),
