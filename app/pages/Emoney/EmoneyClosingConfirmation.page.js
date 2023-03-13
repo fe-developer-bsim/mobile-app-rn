@@ -6,27 +6,31 @@ import {connect} from 'react-redux';
 import {closeEmoneyAcc} from '../../state/thunks/dashboard.thunks';
 import result from 'lodash/result';
 import find from 'lodash/find';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   currentLanguage: result(state, 'currentLanguage.id', ''),
   accounts: result(state, 'accounts', []),
 });
 
-
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   closeEmoney: () => dispatch(closeEmoneyAcc()),
-  backToDashboard: (accounts) => {
-    if (find(accounts, {accountType: 'emoneyAccount'}) && accounts.length === 1) {
-      dispatch(NavigationActions.reset({
-        index: 0,
-        actions: [
-          NavigationActions.navigate({routeName: 'ConfirmClosingEmoney'}),
-        ]
-      }));
+  backToDashboard: accounts => {
+    if (
+      find(accounts, {accountType: 'emoneyAccount'}) &&
+      accounts.length === 1
+    ) {
+      dispatch(
+        StackActions.reset({
+          index: 0,
+          actions: [
+            NavigationActions.navigate({routeName: 'ConfirmClosingEmoney'}),
+          ],
+        }),
+      );
     }
     dispatch(NavigationActions.navigate({routeName: 'HomeScreen'}));
-  }
+  },
 });
 
 class EmoneyClosingConfirmationPage extends React.Component {
@@ -37,37 +41,45 @@ class EmoneyClosingConfirmationPage extends React.Component {
     backToDashboard: PropTypes.func,
     emoneyBalance: PropTypes.string,
     showServices: PropTypes.bool,
-  }
+  };
 
   goToDashboard = () => {
     const {backToDashboard, accounts} = this.props;
     backToDashboard(accounts);
-  }
+  };
 
   goCloseEmoney = () => {
     const {closeEmoney} = this.props;
     closeEmoney();
-  }
+  };
 
-  render () {
+  render() {
     const {currentLanguage, accounts} = this.props;
     const emoney = find(accounts, {accountType: 'emoneyAccount'});
     const emoneyBalance = result(emoney, 'balances.availableBalance');
     if (emoneyBalance === 0.0 || emoneyBalance === 0) {
-      return <EmoneyClosingConfirmationNoBalance
-        goCloseEmoney={this.goCloseEmoney}
-        restartApp={this.restartApp}
-        currentLanguage={currentLanguage}
-        {...this.props}/>;
+      return (
+        <EmoneyClosingConfirmationNoBalance
+          goCloseEmoney={this.goCloseEmoney}
+          restartApp={this.restartApp}
+          currentLanguage={currentLanguage}
+          {...this.props}
+        />
+      );
     } else {
-      return <EmoneyClosingConfirmationWithBalance
-        goToDashboard={this.goToDashboard}
-        restartApp={this.restartApp}
-        currentLanguage={currentLanguage}
-        {...this.props}/>;
+      return (
+        <EmoneyClosingConfirmationWithBalance
+          goToDashboard={this.goToDashboard}
+          restartApp={this.restartApp}
+          currentLanguage={currentLanguage}
+          {...this.props}
+        />
+      );
     }
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(EmoneyClosingConfirmationPage);
-
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(EmoneyClosingConfirmationPage);

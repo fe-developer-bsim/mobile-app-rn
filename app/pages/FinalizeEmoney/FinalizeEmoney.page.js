@@ -5,18 +5,19 @@ import result from 'lodash/result';
 import {connect} from 'react-redux';
 import {logout} from '../../state/thunks/onboarding.thunks';
 import capitalize from 'lodash/capitalize';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 
-
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onButtonPress: () => dispatch(logout()),
-  onBackPress: () => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [NavigationActions.navigate({routeName: 'Dashboard'})]
-  })),
-
+  onBackPress: () =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'Dashboard'})],
+      }),
+    ),
 });
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   name: capitalize(result(state, 'user.profile.name', '')),
 });
 
@@ -28,15 +29,21 @@ class FinalizeEmoneyPageForm extends Component {
     onButtonPress: PropTypes.func,
     name: PropTypes.string,
     onBackPress: PropTypes.func,
+  };
 
-  }
-
-  render () {
+  render() {
     const {onButtonPress, name, onBackPress} = this.props;
     return (
-      <FinalizeEmoney name={name}  onButtonPress={onButtonPress}  onBackPress={onBackPress}  />
+      <FinalizeEmoney
+        name={name}
+        onButtonPress={onButtonPress}
+        onBackPress={onBackPress}
+      />
     );
   }
 }
-const ConnectedIntroductionPage = connect(mapStateToProps, mapDispatchToProps)(FinalizeEmoneyPageForm);
+const ConnectedIntroductionPage = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(FinalizeEmoneyPageForm);
 export default ConnectedIntroductionPage;

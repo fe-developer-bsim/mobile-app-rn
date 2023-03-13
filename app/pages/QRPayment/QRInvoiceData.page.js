@@ -2,14 +2,17 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import result from 'lodash/result';
 import QRInvoiceDetail from '../../components/QRPayment/QRInvoiceData.component';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {connect} from 'react-redux';
 
-const mapDispatchToProps = (dispatch) => ({
-  goToLanding: () => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [NavigationActions.navigate({routeName: 'Landing'})]
-  })),
+const mapDispatchToProps = dispatch => ({
+  goToLanding: () =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: 'Landing'})],
+      }),
+    ),
 });
 
 class QRInvoiceDetailPage extends Component {
@@ -18,10 +21,15 @@ class QRInvoiceDetailPage extends Component {
     goToLanding: PropTypes.func,
   };
 
-  render () {
+  render() {
     const {navigation, goToLanding} = this.props;
     const QRVoucherData = result(navigation, 'state.params.QRVoucherData', {});
-    return <QRInvoiceDetail QRVoucherData={QRVoucherData} goToLanding={goToLanding}/>;
+    return (
+      <QRInvoiceDetail
+        QRVoucherData={QRVoucherData}
+        goToLanding={goToLanding}
+      />
+    );
   }
 }
 

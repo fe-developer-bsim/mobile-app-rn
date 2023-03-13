@@ -82,7 +82,7 @@ import {
   validateCloseEmoney,
 } from './state/thunks/dashboard.thunks';
 import {insurance} from './state/thunks/Insurance.thunks';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {inquiryRecurringTransfer} from './state/thunks/fundTransfer.thunks';
 import {showQRTrf, QRCustomer, getQRGpn} from './state/thunks/QRGpn.thunks';
 import Pushwoosh from 'pushwoosh-react-native-plugin';
@@ -447,7 +447,7 @@ const mapDispatchToProps = dispatch => ({
   },
   setToMigrate: id => {
     dispatch(
-      NavigationActions.reset({
+      StackActions.reset({
         index: 1,
         actions: [
           NavigationActions.navigate({routeName: 'Landing'}),

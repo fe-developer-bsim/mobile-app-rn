@@ -6,7 +6,7 @@ import GenerateCodeTimeout from '../../components/GenerateCodeJourney/GenerateCo
 import {generateCode} from '../../state/thunks/generateCode.thunks';
 import {result} from 'lodash';
 import {triggerAuthNavigate} from '../../state/thunks/common.thunks';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 
 const formConfig = {
   form: 'GenerateCodeTimeout',
@@ -20,15 +20,15 @@ const formConfig = {
     const params = {
       onSubmit: genCode('text', code, isLogin, payload),
       amount: amount,
-      isOtp: false
+      isOtp: false,
     };
     if (isLogin) {
-      dispatch(NavigationActions.reset({
-        index: 0,
-        actions: [
-          NavigationActions.navigate({routeName: 'Landing'}),
-        ]
-      }));
+      dispatch(
+        StackActions.reset({
+          index: 0,
+          actions: [NavigationActions.navigate({routeName: 'Landing'})],
+        }),
+      );
       triggerAuth(params, amount);
     } else {
       if (tipeCode) {
@@ -37,18 +37,19 @@ const formConfig = {
         dispatch(genCode('', code, isLogin));
       }
     }
-  }
+  },
 };
 
-const mapStateToProps = () => ({
-});
+const mapStateToProps = () => ({});
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   generateNewCode: (title, val, status) => () => {
     dispatch(generateCode(title, val, status));
   },
-  triggerAuth: (params, amount) => dispatch(triggerAuthNavigate('lkd', amount, true, 'AuthDashboard', params)),
-  genCode: (title, val, status, payload, tipeCode) => () => dispatch(generateCode(title, val, status, payload, tipeCode)),
+  triggerAuth: (params, amount) =>
+    dispatch(triggerAuthNavigate('lkd', amount, true, 'AuthDashboard', params)),
+  genCode: (title, val, status, payload, tipeCode) => () =>
+    dispatch(generateCode(title, val, status, payload, tipeCode)),
   finish: () => {
     dispatch(NavigationActions.back());
   },
@@ -65,17 +66,24 @@ class GenerateCodePage extends React.Component {
     finish: PropTypes.func,
   };
 
-  render () {
-    const {navigation = {}, generateNewCode, triggerAuth, genCode, finish} = this.props;
-    return <DecoratedForm
-      navigation = {navigation}
-      generateNewCode= {generateNewCode}
-      triggerAuth= {triggerAuth}
-      genCode= {genCode}
-      finish={finish}
-    />;
+  render() {
+    const {
+      navigation = {},
+      generateNewCode,
+      triggerAuth,
+      genCode,
+      finish,
+    } = this.props;
+    return (
+      <DecoratedForm
+        navigation={navigation}
+        generateNewCode={generateNewCode}
+        triggerAuth={triggerAuth}
+        genCode={genCode}
+        finish={finish}
+      />
+    );
   }
-
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(GenerateCodePage);

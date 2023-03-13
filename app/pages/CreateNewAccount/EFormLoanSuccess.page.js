@@ -2,19 +2,22 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import EFormLoanSuccessComp from '../../components/CreateNewAccount/EFormLoanSuccess.component';
 import {connect} from 'react-redux';
-import {NavigationActions} from 'react-navigation';
+import {StackActions, NavigationActions} from 'react-navigation';
 import {isEmpty, result} from 'lodash';
 import {prepareGoDashboard} from '../../state/thunks/onboarding.thunks';
 
-const mapStateToProps = (state) => ({
-  isLogin: !isEmpty(result(state, 'user', {}))
+const mapStateToProps = state => ({
+  isLogin: !isEmpty(result(state, 'user', {})),
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  onButtonPress: (rootName) => dispatch(NavigationActions.reset({
-    index: 0,
-    actions: [NavigationActions.navigate({routeName: rootName})]
-  })),
+const mapDispatchToProps = dispatch => ({
+  onButtonPress: rootName =>
+    dispatch(
+      StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({routeName: rootName})],
+      }),
+    ),
   backToHome: () => dispatch(prepareGoDashboard()),
 });
 
@@ -23,20 +26,16 @@ class EFormLoanSuccess extends Component {
     navigation: PropTypes.object,
     config: PropTypes.object,
     isLogin: PropTypes.object,
-    onButtonPress: PropTypes.func
-  }
+    onButtonPress: PropTypes.func,
+  };
 
   backToHome = () => {
     const {isLogin, onButtonPress} = this.props;
     onButtonPress(isLogin ? 'Landing' : 'Login');
-  }
+  };
 
-  render () {
-    return (
-      <EFormLoanSuccessComp
-        backToHome={this.backToHome}
-      />
-    );
+  render() {
+    return <EFormLoanSuccessComp backToHome={this.backToHome} />;
   }
 }
 
