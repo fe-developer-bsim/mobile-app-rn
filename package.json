@@ -12,6 +12,7 @@
 		"coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
 		"lint": "echo 'Running lint...' && eslint app/",
 		"lint:fix": "eslint app/ --fix",
+		"prepush": "npm run lint && npm run test",
 		"postinstall": "rm -rf .git/hooks/pre-push && node node_modules/husky/bin/install.js && rm -rf .git/hooks/pre-commit && patch-package"
 	},
 	"dependencies": {
