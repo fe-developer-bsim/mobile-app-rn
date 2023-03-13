@@ -11,6 +11,28 @@ index 5cbbb59..077a94d 100644
        this.subs && this.subs.remove();
  
        if (this._isStateful()) {
+diff --git a/node_modules/react-navigation/src/navigators/createKeyboardAwareNavigator.js b/node_modules/react-navigation/src/navigators/createKeyboardAwareNavigator.js
+index 5b76a5a..3ed6a16 100644
+--- a/node_modules/react-navigation/src/navigators/createKeyboardAwareNavigator.js
++++ b/node_modules/react-navigation/src/navigators/createKeyboardAwareNavigator.js
+@@ -19,7 +19,7 @@ export default Navigator =>
+     }
+ 
+     _handleGestureBegin = () => {
+-      this._previouslyFocusedTextInput = TextInput.State.currentlyFocusedField();
++      this._previouslyFocusedTextInput = TextInput.State.currentlyFocusedInput();
+       if (this._previouslyFocusedTextInput) {
+         TextInput.State.blurTextInput(this._previouslyFocusedTextInput);
+       }
+@@ -43,7 +43,7 @@ export default Navigator =>
+       // in the case where the index did not change, I believe. We
+       // should revisit this after 2.0 release.
+       if (transitionProps.index !== prevTransitionProps.index) {
+-        const currentField = TextInput.State.currentlyFocusedField();
++        const currentField = TextInput.State.currentlyFocusedInput();
+         if (currentField) {
+           TextInput.State.blurTextInput(currentField);
+         }
 diff --git a/node_modules/react-navigation/src/views/withOrientation.js b/node_modules/react-navigation/src/views/withOrientation.js
 index 80a7c09..45ef2fc 100644
 --- a/node_modules/react-navigation/src/views/withOrientation.js

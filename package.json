@@ -12,7 +12,6 @@
 		"coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
 		"lint": "echo 'Running lint...' && eslint app/",
 		"lint:fix": "eslint app/ --fix",
-		"prepush": "npm run lint && npm run test",
 		"postinstall": "rm -rf .git/hooks/pre-push && node node_modules/husky/bin/install.js && rm -rf .git/hooks/pre-commit && patch-package"
 	},
 	"dependencies": {
@@ -84,7 +83,7 @@
 		"react-native-image-picker": "https://github.com/banksinarmas/react-native-image-picker.git",
 		"react-native-image-progress": "^1.0.1",
 		"react-native-image-resizer": "1.1.0",
-		"react-native-keyboard-aware-scroll-view": "^0.8.0",
+		"react-native-keyboard-aware-scroll-view": "^0.9.5",
 		"react-native-linear-gradient": "^2.5.6",
 		"react-native-maps": "^0.26.1",
 		"react-native-material-textfield": "https://github.com/javarahulsharma/react-native-material-textfield.git",
