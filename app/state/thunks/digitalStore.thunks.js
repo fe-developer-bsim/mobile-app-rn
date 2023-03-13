@@ -15,7 +15,7 @@ import {
   isEmpty,
   toUpper,
 } from 'lodash';
-import {StackActions, NavigationActions} from 'react-navigation';
+import {NavigationActions, StackActions} from 'react-navigation';
 import {set, storageKeys, get} from '../../utils/storage.util.js';
 import {Toast, Alert} from '../../utils/RNHelpers.util.js';
 import moment from 'moment';
@@ -4257,7 +4257,7 @@ export function shouldGiveChecklist(isFromTnc = false, navigation = {}) {
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
               dispatch(
-                NavigationActions.replace({
+                StackActions.replace({
                   key: navKey,
                   routeName: 'UltraVoucherWebView',
                   params: {jwt: jwt, merchant: merchant},
@@ -5094,7 +5094,7 @@ export function shouldGiveChecklistSimasCatalog(
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
               dispatch(
-                NavigationActions.replace({
+                StackActions.replace({
                   key: navKey,
                   routeName: 'UltraVoucherWebView',
                   params: {jwt: jwt},
@@ -5137,7 +5137,7 @@ export function checklistUnipin(isFromTnc = false, navigation = {}) {
           if (!isEmpty(jwt)) {
             if (!isEmpty(navKey) && isFromTnc) {
               dispatch(
-                NavigationActions.replace({
+                StackActions.replace({
                   key: navKey,
                   routeName: 'UltraVoucherWebView',
                   params: {jwt: jwt, merchant: merchant},

@@ -4249,7 +4249,7 @@ OnboardingRoutes.navigationOptions = ({navigation}) => {
       route.routeName === 'RegisterWithATMReceipt' ||
       route.routeName === 'ActivationSuccess' ||
       route.routeName === 'MerchantDashboard' ||
-      route.routeName === 'BankAccScreen'
+      route.routeName === 'MainGenerateCode'
     ) {
       tabBarVisible = true;
     } else {
